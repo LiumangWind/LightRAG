@@ -302,9 +302,9 @@
     },
     {
       "id": "ISA/IEC 62443",
-      "entity_type": "CONCEPT",
-      "description": "\"A security standard for industrial automation and control systems.\"<SEP>\"ISA/IEC 62443 is a cybersecurity standard designed to protect industrial automation and control systems from cyber threats, addressing aspects such as communication security, device security, access security, integrity, etc.\"",
-      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc<SEP>chunk-e75a1595db4670470ac4e28b2363c830"
+      "entity_type": "EVENT",
+      "description": "\"A security standard for industrial automation and control systems.\"<SEP>\"ISA/IEC 62443 is a cybersecurity standard designed to protect industrial automation and control systems from cyber threats, addressing aspects such as communication security, device security, access security, integrity, etc.\"<SEP>\"An international standard focusing on cybersecurity for industrial automation and control systems, relevant to the product's trustworthiness assessment.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830<SEP>chunk-dfea1ff7079412dcff07a4544a0d3385<SEP>chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
     },
     {
       "id": "INSECURE DEFAULT PERMISSIONS",
@@ -465,8 +465,8 @@
     {
       "id": "ATTACKER",
       "entity_type": "PERSON",
-      "description": "\"An attacker who exploits the unintended proxy functionality of a product by sending requests through it to bypass security measures such as firewalls and hide their identity.\"<SEP>\"The Attacker exploits vulnerabilities in the system to cause unauthorized changes or access, impacting security configurations.\"",
-      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486<SEP>chunk-654843afa7d21ff70e90b3e1ef92c37f"
+      "description": "\"An attacker who exploits the reuse of public keys to gain unauthorized access or control over systems.\"<SEP>\"An attacker who exploits the unintended proxy functionality of a product by sending requests through it to bypass security measures such as firewalls and hide their identity.\"<SEP>\"The Attacker exploits vulnerabilities in the system to cause unauthorized changes or access, impacting security configurations.\"<SEP>\"An individual who gains unauthorized access to persistent storage and modifies the IP's state configurations, compromising its integrity.\"",
+      "source_id": "chunk-ed3445a110526a6af4f61d6e1b22cceb<SEP>chunk-07545bddfae4ac96da0bbd2d994dc44e<SEP>chunk-654843afa7d21ff70e90b3e1ef92c37f<SEP>chunk-cf2bb615b405ec5f79b3729ede5b6486"
     },
     {
       "id": "PRODUCT",
@@ -608,15 +608,15 @@
     },
     {
       "id": "CVE-2019-6260",
-      "entity_type": "EVENT",
-      "description": "\"A Common Vulnerabilities and Exposures entry indicating that the Baseboard Management Controller (BMC) device does not require authentication for arbitrary read/write access to its physical address space, posing a security risk.\"",
-      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+      "entity_type": "CONCEPT",
+      "description": "\"A Common Vulnerabilities and Exposures entry indicating that the Baseboard Management Controller (BMC) device does not require authentication for arbitrary read/write access to its physical address space, posing a security risk.\"<SEP>\"CVE-2019-6260 refers to a vulnerability where Baseboard Management Controller (BMC) devices' AHB bridges lack authentication for arbitrary read and write access, posing security risks.\"",
+      "source_id": "chunk-97104f16a9dfd7b73ef0673737266ea0<SEP>chunk-155e5cca5e90d88780b67dd7b487829a"
     },
     {
       "id": "BASEBOARD MANAGEMENT CONTROLLER (BMC)",
       "entity_type": "TECHNOLOGY",
-      "description": "\"The Baseboard Management Controller is responsible for managing system hardware and can be exploited if it lacks proper security measures like authentication checks.\"",
-      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+      "description": "\"BMC is a device used for managing server systems and is vulnerable to attacks if its AHB bridges lack proper access control mechanisms.\"<SEP>\"The Baseboard Management Controller is responsible for managing system hardware and can be exploited if it lacks proper security measures like authentication checks.\"",
+      "source_id": "chunk-97104f16a9dfd7b73ef0673737266ea0<SEP>chunk-155e5cca5e90d88780b67dd7b487829a"
     },
     {
       "id": "ADVANCED HIGH-PERFORMANCE BUS (AHB) BRIDGES",
@@ -633,8 +633,8 @@
     {
       "id": "PHASE:ARCHITECTURE AND DESIGN",
       "entity_type": "EVENT",
-      "description": "\"The Architecture and Design phase involves reviewing and ensuring proper security measures are in place during the initial design stages of a system.\"",
-      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+      "description": "\"During the Architecture and Design phase, decisions are made about how security identifiers should be decoded.\"<SEP>\"The Architecture and Design phase involves ensuring that security features such as access control are properly included in the design of on-chip fabrics or buses.\"<SEP>\"The Architecture and Design phase involves reviewing and ensuring proper security measures are in place during the initial design stages of a system.\"",
+      "source_id": "chunk-97104f16a9dfd7b73ef0673737266ea0<SEP>chunk-07545bddfae4ac96da0bbd2d994dc44e<SEP>chunk-b2db9bd0b7df158579fa4f955ca5f332"
     },
     {
       "id": "ON-CHIP DEBUG AND TEST INTERFACE WITH IMPROPER ACCESS CONTROL",
@@ -651,8 +651,8 @@
     {
       "id": "SYSTEM-ON-CHIP (SOC)",
       "entity_type": "TECHNOLOGY",
-      "description": "\"A System-on-Chip (SoC) is a single integrated circuit that contains all components needed for a computer or other electronic system, such as processors, memory, and input/output devices.\"<SEP>\"A System-on-Chip (SoC) is an integrated circuit that integrates all components of a computer or other electronic system on a single chip, including memory and fabric access controls.\"",
-      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf<SEP>chunk-656361cef4ab97aa6bcd9340210f5920"
+      "description": "\"A System-On-Chip integrates various hardware components into a single chip, which can generate transactions that need to be secured with identifiers.\"<SEP>\"A System-On-Chip integrates various hardware components such as integrated circuits and engines onto a single chip for efficient processing of transactions and actions.\"<SEP>\"A System-on-Chip (SoC) implements secure boot or verified boot mechanisms to prevent firmware downgrades. It supports a security version number that helps in preventing roll-back attacks by securing the storage of this number.\"<SEP>\"A System-on-Chip (SoC) is a single integrated circuit that contains all components needed for a computer or other electronic system, such as processors, memory, and input/output devices.\"<SEP>\"A System-on-Chip (SoC) is an integrated circuit that integrates all components of a computer or other electronic system on a single chip, including memory and fabric access controls.\"<SEP>\"A single integrated circuit that integrates all components of a computer or other electronic system, including processors, memory, and interfaces.\"<SEP>\"The System-on-Chip is a critical component in electronic devices that integrates all necessary electronic systems onto a single chip, including processors and specialized hardware. It is central to the discussion of trace data protection and secure boot mechanisms.\"",
+      "source_id": "chunk-07545bddfae4ac96da0bbd2d994dc44e<SEP>chunk-0e7e0a03ef0aaa003fbaeb20b6671acf<SEP>chunk-656361cef4ab97aa6bcd9340210f5920<SEP>chunk-a1dac6b82d08fba15a68388d8daec56a<SEP>chunk-ed3445a110526a6af4f61d6e1b22cceb<SEP>chunk-3b2d278b7f0bba9b563f446d414822b2<SEP>chunk-c27030c4b6abf1ec516a0549fe25867b"
     },
     {
       "id": "TRUSTED FIRMWARE ",
@@ -711,8 +711,8 @@
     {
       "id": "UNTRUSTED AGENTS",
       "entity_type": "CONCEPT",
-      "description": "\"Individuals or entities that do not have trusted status and can exploit memory regions due to inconsistent read/write permissions enforced by the hardware.\"<SEP>\"Untrusted agents represent entities that may attempt to access security-sensitive assets, posing risks of leaking sensitive information or altering device configurations.\"",
-      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a<SEP>chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+      "description": "\"Components or entities without secure permissions, potentially leading to unauthorized access if incorrectly mapped as trusted agents.\"<SEP>\"Individuals or entities that do not have trusted status and can exploit memory regions due to inconsistent read/write permissions enforced by the hardware.\"<SEP>\"Untrusted agents represent entities that may attempt to access security-sensitive assets, posing risks of leaking sensitive information or altering device configurations.\"<SEP>\"Untrusted agents refer to entities or processes within a computing system that do not have verified trustworthiness, posing potential risks such as unauthorized access or modification of sensitive data.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a<SEP>chunk-b27238ad308de7f1360b8b7dd7f2e7ea<SEP>chunk-0f1339a1fe7a6f1e0feebb426140abf0<SEP>chunk-c27030c4b6abf1ec516a0549fe25867b"
     },
     {
       "id": "ACCESS-CONTROL POLICY",
@@ -813,8 +813,8 @@
     {
       "id": "ADVERSARY",
       "entity_type": "PERSON",
-      "description": "\"An Adversary seeks to exploit weaknesses in hardware protection mechanisms, such as improperly set lock bits, to gain unauthorized access or modify protected configurations.\"",
-      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+      "description": "\"An Adversary seeks to exploit weaknesses in hardware protection mechanisms, such as improperly set lock bits, to gain unauthorized access or modify protected configurations.\"<SEP>\"An adversary exploits weaknesses in the system, such as roll-back attacks on SoCs or vulnerabilities in unpatchable components, causing security breaches.\"<SEP>\"An entity or individual attempting to bypass secure-boot processes and execute malicious code on the device.\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d<SEP>chunk-2ccff7f000ca8ceb65b49c7c3183348d<SEP>chunk-a1dac6b82d08fba15a68388d8daec56a"
     },
     {
       "id": "BIOS/BOOTLOADER",
@@ -939,8 +939,8 @@
     {
       "id": "ATTACKERS",
       "entity_type": "PERSON",
-      "description": "\"Attackers are individuals or groups capable of using new mathematical techniques or brute force methods to exploit weaknesses in cryptographic primitives such as DES.\"",
-      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+      "description": "\"Attackers are individuals or groups capable of using new mathematical techniques or brute force methods to exploit weaknesses in cryptographic primitives such as DES.\"<SEP>\"Individuals or groups attempting to exploit vulnerabilities in products, particularly those without update mechanisms.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c<SEP>chunk-54b4175e2b43edd926e7fe9dab85c135"
     },
     {
       "id": "NIST (NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY)",
@@ -1220,15 +1220,15 @@
     },
     {
       "id": "PRODUCT DEVELOPERS",
-      "entity_type": "ORGANIZATION",
-      "description": "\"Developers who create products that use comparison logic across a series of steps rather than in one operation, potentially leaving their systems vulnerable to timing attacks.\"",
-      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315"
+      "entity_type": "PERSON",
+      "description": "\"Developers who create products that use comparison logic across a series of steps rather than in one operation, potentially leaving their systems vulnerable to timing attacks.\"<SEP>\"Individuals within organizations responsible for developing products, facing pressures that lead them to omit update capabilities.\"",
+      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315<SEP>chunk-54b4175e2b43edd926e7fe9dab85c135"
     },
     {
       "id": "HARDWARE DESIGNER",
       "entity_type": "PERSON",
-      "description": "\"A hardware designer responsible for ensuring that the comparison logic is implemented securely so as to compare objects in one operation instead of smaller chunks.\"",
-      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315"
+      "description": "\"A hardware designer responsible for ensuring that the comparison logic is implemented securely so as to compare objects in one operation instead of smaller chunks.\"<SEP>\"A person responsible for designing hardware components that may be affected by security weaknesses under cold temperature conditions.\"",
+      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315<SEP>chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
     },
     {
       "id": "SMARTPHONE OS DEVELOPERS",
@@ -1557,14 +1557,14 @@
     {
       "id": "UNTRUSTED AGENT",
       "entity_type": "PERSON",
-      "description": "\"An entity or agent that is not properly authorized to access or modify resources controlled by trusted firmware or software modules.\"",
-      "source_id": "chunk-5af9a5672caa3f4e4835e08a5744ac17"
+      "description": "\"An entity or agent that is not properly authorized to access or modify resources controlled by trusted firmware or software modules.\"<SEP>\"An untrusted agent refers to an entity or individual who does not have authorized access but can gain such access through weaknesses in the system.\"",
+      "source_id": "chunk-07545bddfae4ac96da0bbd2d994dc44e<SEP>chunk-5af9a5672caa3f4e4835e08a5744ac17"
     },
     {
       "id": "BIOS",
-      "entity_type": "ORGANIZATION",
-      "description": "\"A component setting up trusted firmware or software modules for secure boot processes.\"",
-      "source_id": "chunk-5af9a5672caa3f4e4835e08a5744ac17"
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A component setting up trusted firmware or software modules for secure boot processes.\"<SEP>\"The BIOS (Basic Input/Output System) is used by users to disable microarchitectural features that allow transient access to architecturally restricted data.\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe<SEP>chunk-5af9a5672caa3f4e4835e08a5744ac17"
     },
     {
       "id": "BOOTLOADER",
@@ -1673,6 +1673,1260 @@
       "entity_type": "UNKNOWN",
       "description": "\"Anti-tampering measures are part of the design and implementation phases that aim to prevent or detect tampering with physical components, thereby mitigating risks associated with improper physical access control.\"",
       "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "id": "CWE-ID 1269",
+      "entity_type": "EVENT",
+      "description": "\"Product Released in Non-Release Configuration is an event where products are released with pre-production or manufacturing configurations, exposing them to vulnerabilities due to debug hooks and capabilities.\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "id": "CHIPMAKER",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A chipmaker refers to a company involved in the fabrication of chips for use by OEMs.\"<SEP>\"The organization responsible for manufacturing chips and ensuring secure communication between OSAT facilities.\"",
+      "source_id": "chunk-4b1439544e5eeae2efd8c27d7051f838<SEP>chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "id": "ORIGINAL EQUIPMENT MANUFACTURER (OEM)",
+      "entity_type": "ORGANIZATION",
+      "description": "\"An Original Equipment Manufacturer (OEM) is an organization that uses components manufactured by other companies, often referred to as original component manufacturers (OCMs), and builds complete products with its own brand name.\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "id": "MANUFACTURING COMPLETE FUSE",
+      "entity_type": "CONCEPT",
+      "description": "\"The Manufacturing Complete fuse is a marker used in the manufacturing process of chips and systems to denote completion of manufacturing activities and secure transition into production-ready state.\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "id": "SIMATIC S7-1200 CPU FAMILY (INCL. SIPLUS VARIANTS)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"This technology refers to specific hardware components from Siemens for industrial automation, including CPUs with additional robustness features like the SIPLUS version.\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "id": "PRODUCT RELEASED IN NON-RELEASE CONFIGURATION - RELATED WEAKNESSES",
+      "entity_type": "CONCEPT",
+      "description": "\"This concept refers to various weaknesses associated with products being released before they are fully configured for production use.\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "id": "MANUFACTURING MODE ",
+      "entity_type": "CONCEPT",
+      "description": "\"A state during the manufacturing process where devices have additional debug capabilities that should be disabled or removed before release.\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "id": "SECURITY TOKENS ",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Security Tokens are mechanisms used to differentiate and control access based on trust levels and privileges within systems-on-a-chip (SoC).\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "id": "LAPTOPS WITH INTEL CHIPSETS ",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"These refer to specific devices where the issue of running in Manufacturing Mode has been identified and addressed.\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "id": "SIMATIC S7-200 SMART CPU FAMILY ",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"This technology refers to another set of hardware components from Siemens for industrial automation, similar to SIMATIC S7-1200 but potentially with different configurations or use cases.\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "id": "SECURITY TOKENS",
+      "entity_type": "CONCEPT",
+      "description": "\"Security Tokens are used for authentication purposes based on trust levels or privileges and could lead to vulnerabilities like DoS attacks if incorrectly generated.\"",
+      "source_id": "chunk-81316c00436b6b93031ffe0fd69f3fd9"
+    },
+    {
+      "id": "DOS ATTACK",
+      "entity_type": "EVENT",
+      "description": "\"A Denial-of-Service attack is a potential consequence of security token generation issues leading to unintended access or privilege escalation.\"",
+      "source_id": "chunk-81316c00436b6b93031ffe0fd69f3fd9"
+    },
+    {
+      "id": "SENSITIVE INFORMATION UNCLEARED BEFORE DEBUG/POWER STATE TRANSITION",
+      "entity_type": "EVENT",
+      "description": "\"An event where sensitive information is not cleared before a state transition, leading to potential data leakage and security risks.\"",
+      "source_id": "chunk-81316c00436b6b93031ffe0fd69f3fd9"
+    },
+    {
+      "id": "CHIP DESIGNER COMPANY",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Company responsible for designing the chip, potentially working separately from the manufacturing and assembly companies.\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "id": "CHIP MANUFACTURER (FOUNDRY)",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Organization that manufactures the chips based on designs provided by another company. Engaged in state transitions testing to verify correct device function.\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "id": "ASSEMBLY AND TESTING COMPANY",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Company responsible for assembling and testing the devices, potentially sharing unlock keys with others involved in manufacturing.\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "id": "UNLOCK CREDENTIALS SHARING PROCESS",
+      "entity_type": "EVENT",
+      "description": "\"Process of sharing sensitive unlocking credentials among multiple parties to ensure correct device functionality during testing.\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "id": "CHIP DESIGNER COMPANY (INTERNAL)",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Company responsible for designing the chip and also manufacturing, assembling, and testing internally. This reduces risk compared to external collaboration.\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "id": "SECURE BOOT PROCESS",
+      "entity_type": "EVENT",
+      "description": "\"Process that transfers bootloader code from Non-Volatile Memory (NVM) into Volatile Memory (VM), where it is authenticated by SoC's ROM code.\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "id": "ROM CODE",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Code responsible for fetching bootloader code from Non-Volatile Memory (NVM) and storing it in Volatile Memory (VM).\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "id": "VOLATILE MEMORY (VM)",
+      "entity_type": "LOCATION",
+      "description": "\"Memory region within a SoC where boot code is temporarily stored during the secure-boot process.\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "id": "NON-VOLATILE MEMORY (NVM)",
+      "entity_type": "LOCATION",
+      "description": "\"External memory that holds bootloader code before it is transferred to Volatile Memory (VM) for execution.\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "id": "TPM SPECIFICATIONS",
+      "entity_type": "CONCEPT",
+      "description": "\"Standards and guidelines provided by Trusted Platform Module (TPM) defining secure mechanisms, including flag settings during power loss scenarios.\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "id": "SECURITY RESEARCHERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Security researchers who identify and document security weaknesses within hardware systems.\"",
+      "source_id": "chunk-7c84224f8692cb440e2575c08bcee968"
+    },
+    {
+      "id": "HARDWARE MANUFACTURERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Companies that design and manufacture hardware systems, potentially dealing with the issues mentioned in the text.\"",
+      "source_id": "chunk-7c84224f8692cb440e2575c08bcee968"
+    },
+    {
+      "id": "HARDWARE SMART LOCK WEAKNESS",
+      "entity_type": "EVENT",
+      "description": "\"A hardware smart lock with weak key generation, allowing attackers to steal keys via BLE sniffing due to an unpatchable firmware vulnerability.\"",
+      "source_id": "chunk-5a598cec83537a5eff84d77c2f69e08b"
+    },
+    {
+      "id": "NETWORK-ATTACHED STORAGE (NAS)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"An example of a device that can have critical vulnerabilities leading to exploitation and botnet formation.\"",
+      "source_id": "chunk-5a598cec83537a5eff84d77c2f69e08b"
+    },
+    {
+      "id": "HARDWARE REVERSE ENGINEERING",
+      "entity_type": "EVENT",
+      "description": "\"The process of using IC imaging techniques such as scanning electron microscopy to recover secret information from hardware, posing significant security risks.\"",
+      "source_id": "chunk-5a598cec83537a5eff84d77c2f69e08b"
+    },
+    {
+      "id": "IC IMAGING TECHNIQUES",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Techniques used for reverse engineering hardware, including x-ray microscopy and scanning electron microscopy.\"",
+      "source_id": "chunk-5a598cec83537a5eff84d77c2f69e08b"
+    },
+    {
+      "id": "CWE ID:691",
+      "entity_type": "EVENT",
+      "description": "\"An event related to performing cryptographic operations without ensuring that supporting inputs are ready, which may compromise the cryptographic result.\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e"
+    },
+    {
+      "id": "CWE ID:665",
+      "entity_type": "EVENT",
+      "description": "\"An event concerning a product's hardware-based access control check occurring after an asset has been accessed.\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e"
+    },
+    {
+      "id": "CWE ID:696",
+      "entity_type": "EVENT",
+      "description": "\"An event regarding unexpected behavior from specific combinations of processor instructions that can negatively impact security.\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e"
+    },
+    {
+      "id": "CWE ID:284",
+      "entity_type": "EVENT",
+      "description": "\"An event related to access control checks being implemented after an asset has been accessed, potentially compromising system security.\"<SEP>\"CWE ID 284 refers to a specific weakness in software and hardware systems where sensitive trace data is improperly managed or stored without proper protection.\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e<SEP>chunk-c27030c4b6abf1ec516a0549fe25867b"
+    },
+    {
+      "id": "IC",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Integrated circuits (IC) are part of hardware systems for cryptographic operations and security checks.\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e"
+    },
+    {
+      "id": "RNG UNIT",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"External random-number generator (RNG) unit supplies essential entropy for secure cryptographic processes.\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e"
+    },
+    {
+      "id": "FUSE UNIT",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Specialized component managing and supplying private encryption keys to cryptographic units.\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e"
+    },
+    {
+      "id": "PROCESSOR HARDWARE",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Processor Hardware can share microarchitectural predictor states between different components or hardware threads, potentially allowing an attacker to influence transient execution and infer private data from a victim software component.\"<SEP>\"Underlying hardware executing instructions and handling cryptographic operations securely.\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e<SEP>chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "id": "ISA",
+      "entity_type": "CONCEPT",
+      "description": "\"Instruction Set Architecture defining the set of instructions a processor can execute, influencing security behavior.\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e"
+    },
+    {
+      "id": "AMD CPU'S CORE LOGIC",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A component of AMD CPUs where a specific x86 instruction sequence can cause a DoS (hang) condition due to a bug.\"|",
+      "source_id": "chunk-01da90edf5b6cea8aff6cde300eed35f"
+    },
+    {
+      "id": "PRODUCT IMPLEMENTERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"The product implementers are responsible for the implementation of decoding mechanisms and security identifier mappings, which if incorrectly configured can lead to unauthorized access.\"",
+      "source_id": "chunk-07545bddfae4ac96da0bbd2d994dc44e"
+    },
+    {
+      "id": "COMPANY",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A company that develops and manufactures hardware with firmware and public key cryptography for ensuring system integrity.\"",
+      "source_id": "chunk-07545bddfae4ac96da0bbd2d994dc44e"
+    },
+    {
+      "id": "PHASE:IMPLEMENTATION",
+      "entity_type": "EVENT",
+      "description": "\"During the Implementation phase, actual coding and testing take place to ensure that the design phase decisions are correctly implemented.\"<SEP>\"The Implementation phase focuses on enforcing security measures like implementing proper access-control checks during the construction of hardware components.\"",
+      "source_id": "chunk-97104f16a9dfd7b73ef0673737266ea0<SEP>chunk-07545bddfae4ac96da0bbd2d994dc44e"
+    },
+    {
+      "id": "SECURITY IDENTIFIER DECODER",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"The Security Identifier Decoder is a component responsible for mapping security identifiers into necessary access controls/protections.\"",
+      "source_id": "chunk-07545bddfae4ac96da0bbd2d994dc44e"
+    },
+    {
+      "id": "DEBUG FIRMWARE",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Debug firmware provides additional capabilities for testing purposes but can also provide significant views about the firmware's capability and internal system access.\"",
+      "source_id": "chunk-07545bddfae4ac96da0bbd2d994dc44e"
+    },
+    {
+      "id": "SOC (SYSTEM-ON-CHIP)",
+      "entity_type": "GEO",
+      "description": "\"A System-on-Chip is an integrated circuit that integrates all components of a computer or other electronic system onto a single chip, including various integrated circuits and hardware engines.\"",
+      "source_id": "chunk-2c2d7f6cfcd3cdd12cba628a74a4c93c"
+    },
+    {
+      "id": "ADVANCED HIGH-PERFORMANCE BUS (AHB)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"AHB is a bus protocol used in SoCs to facilitate communication between leader agents and follower agents within the system.\"<SEP>\"AHB is a bus protocol used in high-speed communication between components of a system, and it includes bridges that can be vulnerable to unauthorized access if not properly secured.\"",
+      "source_id": "chunk-97104f16a9dfd7b73ef0673737266ea0<SEP>chunk-2c2d7f6cfcd3cdd12cba628a74a4c93c"
+    },
+    {
+      "id": "OPEN-CORE PROTOCOL (OCP)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"OCP is another bus protocol utilized in SoC systems, different from AHB, which can require conversion mechanisms for seamless integration with other protocols.\"",
+      "source_id": "chunk-2c2d7f6cfcd3cdd12cba628a74a4c93c"
+    },
+    {
+      "id": "BRIDGE AHB-TO-OCP",
+      "entity_type": "GEO",
+      "description": "\"A bridge that translates transactions between the Advanced High-performance Bus (AHB) and the Open-Core Protocol (OCP), facilitating communication between different bus protocols within a SoC.\"",
+      "source_id": "chunk-2c2d7f6cfcd3cdd12cba628a74a4c93c"
+    },
+    {
+      "id": "HARDWARE DESIGN TEAM",
+      "entity_type": "ORGANIZATION",
+      "description": "\"The Hardware Design Team is responsible for the architecture and implementation phases of hardware development.\"",
+      "source_id": "chunk-00af356422c436a05c6d275775637214"
+    },
+    {
+      "id": "CHIPMAKERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Chipmakers are companies or teams that design and manufacture integrated circuits (chips), potentially including custom methods to observe internal components during debugging.\"",
+      "source_id": "chunk-00af356422c436a05c6d275775637214"
+    },
+    {
+      "id": "TEST ACCESS PORTS (TAPS)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Test Access Ports (TAPs) allow boundary scan commands to be executed for testing purposes in hardware designs.\"",
+      "source_id": "chunk-00af356422c436a05c6d275775637214"
+    },
+    {
+      "id": "SCAN CELLS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Scan cells are components within a chip that enable the chip to act as a stimulus and response mechanism during debugging, allowing internal components to be scanned and tested.\"",
+      "source_id": "chunk-00af356422c436a05c6d275775637214"
+    },
+    {
+      "id": "CVE-2017-18347",
+      "entity_type": "EVENT",
+      "description": "\"CVE-2017-18347 is a security incident involving incorrect access control in RDP Level 1 on STMicroelectronics' STM32F0 series devices, allowing physically present attackers to extract protected firmware.\"",
+      "source_id": "chunk-5b8c70c8598d8249771d721bc1f3e06d"
+    },
+    {
+      "id": "CVE-2020-1791",
+      "entity_type": "EVENT",
+      "description": "\"CVE-2020-1791 is a security incident involving improper authorization vulnerabilities in several smartphones, enabling attackers to switch to third desktops after a series of operations in ADB mode.\"",
+      "source_id": "chunk-5b8c70c8598d8249771d721bc1f3e06d"
+    },
+    {
+      "id": "OSAT VENDOR",
+      "entity_type": "ORGANIZATION",
+      "description": "\"An organization that is allowed to access test interfaces necessary for preproduction and returned parts, but must only pull minimal information necessary.\"",
+      "source_id": "chunk-4b1439544e5eeae2efd8c27d7051f838"
+    },
+    {
+      "id": "RACE CONDITION IN HARDWARE LOGIC",
+      "entity_type": "EVENT",
+      "description": "\"A timing error or glitch that occurs due to different signal paths affecting access control logic, potentially allowing attackers to circumvent existing protections.\"",
+      "source_id": "chunk-4b1439544e5eeae2efd8c27d7051f838"
+    },
+    {
+      "id": "ALTERNATE HARDWARE INTERFACE PROTECTION MECHANISM FAILURE",
+      "entity_type": "EVENT",
+      "description": "\"The lack of protection on alternate hardware interfaces allows unauthorized access to assets protected through the primary path, compromising system security.\"",
+      "source_id": "chunk-4b1439544e5eeae2efd8c27d7051f838"
+    },
+    {
+      "id": "CONFIDENTIAL INFORMATION",
+      "entity_type": "CONCEPT",
+      "description": "\"Sensitive data or keys that, if leaked, could severely impact the security of systems and operations.\"",
+      "source_id": "chunk-4b1439544e5eeae2efd8c27d7051f838"
+    },
+    {
+      "id": "CVE-2022-35888",
+      "entity_type": "EVENT",
+      "description": "\"A vulnerability that allows secret information to be leaked from processors through power side-channels.\"|",
+      "source_id": "chunk-4ab646ca8d70cb01e7dd1bb9e1252c5c"
+    },
+    {
+      "id": "POST-SILICON PHASE",
+      "entity_type": "EVENT",
+      "description": "\"The stage after fabrication where full side-channel attacks are conducted to detect vulnerabilities.\"|",
+      "source_id": "chunk-4ab646ca8d70cb01e7dd1bb9e1252c5c"
+    },
+    {
+      "id": "HARDWARE STRUCTURES SHARED ACROSS EXECUTION CONTEXTS",
+      "entity_type": "CONCEPT",
+      "description": "\"These structures include caches and branch predictors, which can lead to security vulnerabilities due to the sharing of resources across supposedly isolated contexts.\"",
+      "source_id": "chunk-3b2d278b7f0bba9b563f446d414822b2"
+    },
+    {
+      "id": "MODERN PROCESSORS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Modern processors use techniques such as out-of-order execution, speculation, prefetching, data forwarding, and caching to enhance performance, but these techniques can inadvertently introduce security risks when hardware implementations result in resource sharing between contexts.\"",
+      "source_id": "chunk-3b2d278b7f0bba9b563f446d414822b2"
+    },
+    {
+      "id": "MITRE CORPORATION",
+      "entity_type": "ORGANIZATION",
+      "description": "\"MITRE Corporation is responsible for managing the Common Vulnerabilities and Exposures (CVE) database, which includes entries like CVE-2019-8575.\"",
+      "source_id": "chunk-3b2d278b7f0bba9b563f446d414822b2"
+    },
+    {
+      "id": "INTELLECTUAL PROPERTY (IP)",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Refers to proprietary hardware or software design blocks used in semiconductor chips, which can be licensed from third-party suppliers.\"<SEP>\"The IP is a system that saves current state to persistent storage before powering down, potentially leading to security vulnerabilities if an attacker alters the saved configuration.\"",
+      "source_id": "chunk-ed3445a110526a6af4f61d6e1b22cceb<SEP>chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
+    },
+    {
+      "id": "ROOT-OF-TRUST (ROT)",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A security mechanism utilized by systems or SoCs during boot processes to establish a trusted starting point for operations and secure execution environments.\"",
+      "source_id": "chunk-ed3445a110526a6af4f61d6e1b22cceb"
+    },
+    {
+      "id": "TRUSTED AGENT",
+      "entity_type": "PERSON",
+      "description": "\"An entity responsible for performing integrity checks on the configuration state before and after power save/restore operations to ensure that it has not been tampered with by unauthorized entities.\"",
+      "source_id": "chunk-ed3445a110526a6af4f61d6e1b22cceb"
+    },
+    {
+      "id": "READ-ONLY-MEMORY (ROM)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A type of memory in a system or SoC where data can be stored but cannot be modified, which poses challenges for patching security vulnerabilities once the system is shipped.\"",
+      "source_id": "chunk-ed3445a110526a6af4f61d6e1b22cceb"
+    },
+    {
+      "id": "CONFIGURATION STATE",
+      "entity_type": "CONCEPT",
+      "description": "\"The state that defines the settings and parameters of a system or SoC during operation, critical for maintaining proper functionality and integrity across power cycles.\"",
+      "source_id": "chunk-ed3445a110526a6af4f61d6e1b22cceb"
+    },
+    {
+      "id": "PROTECTED ENVIRONMENT",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A secure environment established to prevent undetected modification of the configuration state by untrusted agents before and after system operation.\"",
+      "source_id": "chunk-ed3445a110526a6af4f61d6e1b22cceb"
+    },
+    {
+      "id": "FABRIC BRIDGE",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A fabric bridge is used in hardware designs to connect different IP blocks through interconnect-bus fabrics and maintain proper access control checks during transactions.\"<SEP>\"The Fabric Bridge is an IP block that incorrectly translates security attributes when converting between fabric protocols.\"",
+      "source_id": "chunk-b27238ad308de7f1360b8b7dd7f2e7ea<SEP>chunk-432c431cce96482dcc75e717fbb40e1c"
+    },
+    {
+      "id": "ON-CHIP FABRIC FIREWALL",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"The On-Chip Fabric Firewall protects the main addressed region but fails to protect mirrored regions, leading to potential security vulnerabilities.\"",
+      "source_id": "chunk-b27238ad308de7f1360b8b7dd7f2e7ea"
+    },
+    {
+      "id": "IP BLOCKS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"IP blocks supporting different fabric protocols are integrated into a system by using bridges and firewalls for secure communication.\"",
+      "source_id": "chunk-b27238ad308de7f1360b8b7dd7f2e7ea"
+    },
+    {
+      "id": "FABRIC PROTOCOLS",
+      "entity_type": "CONCEPT",
+      "description": "\"Fabric protocols like AHB (Advanced High-performance Bus), AXI (Advanced eXtensible Interface), OCP (Open Core Protocol) are used to facilitate communication between IP blocks.\"",
+      "source_id": "chunk-b27238ad308de7f1360b8b7dd7f2e7ea"
+    },
+    {
+      "id": "SECURITY ATTRIBUTES",
+      "entity_type": "CONCEPT",
+      "description": "\"Signals such as HPROT in AHB, AxPROT in AXI, and MReqInfo/SRespInfo in OCP are used to indicate security attributes of transactions.\"",
+      "source_id": "chunk-b27238ad308de7f1360b8b7dd7f2e7ea"
+    },
+    {
+      "id": "TRUSTED AGENTS",
+      "entity_type": "CONCEPT",
+      "description": "\"Agents or components within a system that have secure permissions based on their identity and role.\"",
+      "source_id": "chunk-b27238ad308de7f1360b8b7dd7f2e7ea"
+    },
+    {
+      "id": "MIRRORED MEMORY REGIONS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Redundant memory regions that contain copies of original data used for fault tolerance and reliability in on-chip systems.\"",
+      "source_id": "chunk-b27238ad308de7f1360b8b7dd7f2e7ea"
+    },
+    {
+      "id": "CWE ID 284",
+      "entity_type": "CONCEPT",
+      "description": "\"A weakness that allows test or debug logic to be activated during runtime, enabling unauthorized modification of system behavior and potential data leakage.\"",
+      "source_id": "chunk-dee0276a6a06ecacf727eafe73832d3e"
+    },
+    {
+      "id": "CVE-2021-33150",
+      "entity_type": "EVENT",
+      "description": "\"An event indicating a vulnerability where hardware processors allow activation of test or debug logic at runtime, which could lead to various security issues.\"",
+      "source_id": "chunk-dee0276a6a06ecacf727eafe73832d3e"
+    },
+    {
+      "id": "CVE-2021-0146",
+      "entity_type": "EVENT",
+      "description": "\"Another event highlighting a similar vulnerability allowing the activation of test or debug logic at runtime, potentially leading to privilege escalation.\"",
+      "source_id": "chunk-dee0276a6a06ecacf727eafe73832d3e"
+    },
+    {
+      "id": "SECURITY TEAM",
+      "entity_type": "ORGANIZATION",
+      "description": "\"The Security Team analyzes and mitigates security weaknesses and vulnerabilities such as those described by CWE ID 284 and CVE-2021-33150.\"",
+      "source_id": "chunk-dee0276a6a06ecacf727eafe73832d3e"
+    },
+    {
+      "id": "SYSTEM ON CHIP (SOC)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A System on Chip is a device that integrates all components of a computer or other electronic system onto a single integrated circuit, including memory, processors, and interconnects.\"<SEP>\"System on Chip integrates various components such as processor and memory onto a single chip, potentially sharing microarchitectural predictor states between different execution contexts or threads.\"",
+      "source_id": "chunk-432c431cce96482dcc75e717fbb40e1c<SEP>chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "id": "INTELLECTUAL PROPERTY BLOCKS (IP BLOCKS)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"IP blocks are distinct parts of an SoC design that can be reused in multiple products. They include components such as processors or controllers.\"",
+      "source_id": "chunk-432c431cce96482dcc75e717fbb40e1c"
+    },
+    {
+      "id": "INTERCONNECT-BUS FABRICS (E.G., AHB AND OCP)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Interconnect-bus fabrics provide the communication pathways between IP blocks within a System on Chip, allowing for protocol translation when necessary.\"",
+      "source_id": "chunk-432c431cce96482dcc75e717fbb40e1c"
+    },
+    {
+      "id": "ADDRESS MAP OVERLAP ISSUE",
+      "entity_type": "EVENT",
+      "description": "\"An issue where protected and unprotected regions of an on-chip fabric's address map overlap, potentially allowing attackers to bypass security measures.\"",
+      "source_id": "chunk-432c431cce96482dcc75e717fbb40e1c"
+    },
+    {
+      "id": "IMPROPER ACCESS CONTROL IN FABRIC BRIDGE",
+      "entity_type": "EVENT",
+      "description": "\"A vulnerability where a bridge used for transactions between IP blocks does not properly perform access control checks, leading to potential security risks.\"",
+      "source_id": "chunk-432c431cce96482dcc75e717fbb40e1c"
+    },
+    {
+      "id": "RANGE REGISTERS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Range registers are special hardware components that define the base address and size of ranges within an SoC's memory or MMIO space.\"",
+      "source_id": "chunk-432c431cce96482dcc75e717fbb40e1c"
+    },
+    {
+      "id": "ACCESS CONTROL PROTECTION",
+      "entity_type": "CONCEPT",
+      "description": "\"A mechanism in SoCs to protect sensitive data by restricting access to certain regions, ensuring that only authorized transactions can read or write data from these regions.\"",
+      "source_id": "chunk-432c431cce96482dcc75e717fbb40e1c"
+    },
+    {
+      "id": "ADDRESS DECODING",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"The process of determining the destination range for an incoming transaction within a System on Chip's address map.\"",
+      "source_id": "chunk-432c431cce96482dcc75e717fbb40e1c"
+    },
+    {
+      "id": "RTL SIMULATION",
+      "entity_type": "EVENT",
+      "description": "\"RTL simulation is used to ensure the proper implementation of bridge-access controls in hardware design.\"",
+      "source_id": "chunk-97104f16a9dfd7b73ef0673737266ea0"
+    },
+    {
+      "id": "FORMAL VERIFICATION",
+      "entity_type": "EVENT",
+      "description": "\"Formal verification involves the use of formal methods to ensure that access control mechanisms cannot be bypassed, enhancing security in hardware components.\"",
+      "source_id": "chunk-97104f16a9dfd7b73ef0673737266ea0"
+    },
+    {
+      "id": "ELECTROMAGNETIC FAULT INJECTION (EM-FI)",
+      "entity_type": "CONCEPT",
+      "description": "\"EM-FI is an attack method where an attacker induces faults in integrated circuits by applying a transient magnetic field, compromising security mechanisms.\"",
+      "source_id": "chunk-97104f16a9dfd7b73ef0673737266ea0"
+    },
+    {
+      "id": "CVE-2020-27211",
+      "entity_type": "EVENT",
+      "description": "\"CVE-2020-27211 indicates a specific vulnerability affecting the initialization of memory bus security on microcontroller systems due to lack of protection against fault injection.\"",
+      "source_id": "chunk-e95c98bdc729551a93b3a25db478b932"
+    },
+    {
+      "id": "CWE-1319",
+      "entity_type": "EVENT",
+      "description": "\"CWE-786 (Corrected from CWE-1319) refers to a weakness in design where protection against fault injection is not implemented properly for microcontroller systems.\"",
+      "source_id": "chunk-e95c98bdc729551a93b3a25db478b932"
+    },
+    {
+      "id": "GAY, MAEL, ET AL.",
+      "entity_type": "PERSON",
+      "description": "\"Gay, Mael, and colleagues proposed a scheme for detecting and correcting single nibble/byte errors introduced by low-multiplicity faults in microcontroller systems.\"",
+      "source_id": "chunk-e95c98bdc729551a93b3a25db478b932"
+    },
+    {
+      "id": "ENCE",
+      "entity_type": "ORGANIZATION",
+      "description": "\"ENCE is the entity reference code or identifier used within the text to denote a specific technical classification or context related to microcontroller hardware and security measures.\"",
+      "source_id": "chunk-e95c98bdc729551a93b3a25db478b932"
+    },
+    {
+      "id": "SECURE BOOT",
+      "entity_type": "CONCEPT",
+      "description": "\"Secure Boot refers to the process by which a computer's operating system loader is checked for validity as part of the boot process through the use of embedded security mechanisms, ensuring that all subsequent software (including the operating system) is trusted and signed.\"",
+      "source_id": "chunk-c27030c4b6abf1ec516a0549fe25867b"
+    },
+    {
+      "id": "ROOT OF TRUST (ROT)",
+      "entity_type": "CONCEPT",
+      "description": "\"The Root of Trust is a foundational element in secure systems, providing an anchor for trust from which other parts of the system can verify their security properties. It includes initial hardware components that are immutable to ensure ongoing security and integrity.\"",
+      "source_id": "chunk-c27030c4b6abf1ec516a0549fe25867b"
+    },
+    {
+      "id": "CWE ID:693",
+      "entity_type": "CONCEPT",
+      "description": "\"CWE ID 693 refers to another specific weakness related to the lack of an immutable root of trust in hardware, leading to potential security vulnerabilities.\"",
+      "source_id": "chunk-c27030c4b6abf1ec516a0549fe25867b"
+    },
+    {
+      "id": "ROT MEMORY LOCATION",
+      "entity_type": "CONCEPT",
+      "description": "\"RoT memory location is designated for storing security version numbers in a way that prevents further programming or writes, ensuring the integrity and persistence of this data across power-on resets.\"",
+      "source_id": "chunk-a1dac6b82d08fba15a68388d8daec56a"
+    },
+    {
+      "id": "COMPONENT UPDATE ISSUE",
+      "entity_type": "CONCEPT",
+      "description": "\"The inability to update or patch certain components within a product, such as ROMs or legacy devices, leaves them vulnerable to exploitation and operational failures. This issue is particularly problematic for industries like healthcare that rely on long-operational equipment.\"",
+      "source_id": "chunk-a1dac6b82d08fba15a68388d8daec56a"
+    },
+    {
+      "id": "SECURITY VERSION NUMBER",
+      "entity_type": "CONCEPT",
+      "description": "\"The Security Version Number is a critical data element that prevents firmware from being downgraded to older versions. It must be stored securely and persistently across resets.\"",
+      "source_id": "chunk-a1dac6b82d08fba15a68388d8daec56a"
+    },
+    {
+      "id": "ARCHITECTURE AND DESIGN REVIEW",
+      "entity_type": "EVENT",
+      "description": "\"An architecture and design review phase in which security measures such as RoT memory storage are discussed and implemented.\"",
+      "source_id": "chunk-a1dac6b82d08fba15a68388d8daec56a"
+    },
+    {
+      "id": "AUTOMATED TESTING",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A method used to test the mutability of stored security version numbers and ensure that older firmware images do not allow roll-back attacks.\"",
+      "source_id": "chunk-a1dac6b82d08fba15a68388d8daec56a"
+    },
+    {
+      "id": "PRODUCT DEVELOPER ORGANIZATIONS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Organizations responsible for developing products that may or may not support update capabilities throughout their lifecycle due to various pressures such as cost constraints.\"",
+      "source_id": "chunk-54b4175e2b43edd926e7fe9dab85c135"
+    },
+    {
+      "id": "CONSUMERS AND MAINTAINERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Entities responsible for using and maintaining the developed products.\"",
+      "source_id": "chunk-54b4175e2b43edd926e7fe9dab85c135"
+    },
+    {
+      "id": "EXTERNAL PRESSURES (SPEED TO MARKET)",
+      "entity_type": "CONCEPT",
+      "description": "\"Concept representing external factors influencing product development timelines, often resulting in prioritizing release over long-term maintainability.\"",
+      "source_id": "chunk-54b4175e2b43edd926e7fe9dab85c135"
+    },
+    {
+      "id": "EXPLOITABLE VULNERABILITIES",
+      "entity_type": "EVENT",
+      "description": "\"Security weaknesses present in products that can be exploited by attackers.\"",
+      "source_id": "chunk-54b4175e2b43edd926e7fe9dab85c135"
+    },
+    {
+      "id": "UPDATES OVER LIFETIME OF PRODUCT",
+      "entity_type": "CONCEPT",
+      "description": "\"The necessity for product updates over time to fix vulnerabilities or improve features.\"",
+      "source_id": "chunk-54b4175e2b43edd926e7fe9dab85c135"
+    },
+    {
+      "id": "REGULATORY BODIES",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Bodies that might impose or oversee standards and regulations affecting product development and updates.\"",
+      "source_id": "chunk-54b4175e2b43edd926e7fe9dab85c135"
+    },
+    {
+      "id": "CVE-2019-8575",
+      "entity_type": "EVENT",
+      "description": "\"CVE-2019-8575 is a firmware data deletion vulnerability where factory resets might not completely erase all user information, potentially allowing new owners to retrieve previous owner's network details and security keys.\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "id": "BASE STATION FACTORY RESET",
+      "entity_type": "EVENT",
+      "description": "\"Base Station Factory Reset refers to the process of resetting a base station to its default settings, which in some cases may fail to properly delete all sensitive data.\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "id": "IMPROPER ISOLATION OF SHARED RESOURCES IN NETWORK ON CHIP (NOC)",
+      "entity_type": "CONCEPT",
+      "description": "\"This concept describes security vulnerabilities arising from improper isolation of shared resources within Network on Chips (NoCs), leading to potential timing channel attacks and compromised performance.\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "id": "NETWORK-ON-CHIP (NOC)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Network-on-Chip (NoC) is a hardware interconnect fabric used in multicore Systems-on-Chip, facilitating packet-based communication with improved efficiency over traditional bus architectures.\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "id": "FAULT INJECTION TECHNIQUES",
+      "entity_type": "CONCEPT",
+      "description": "\"Fault injection techniques are methods used by attackers to alter the operating conditions of hardware to cause unexpected behavior such as skipping security-critical CPU instructions.\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "id": "SECURE-ERASE COMMANDS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Support for secure-erase commands that apply multiple cycles of overwriting memory with known patterns and erasing actual content is an important feature in mitigating data deletion vulnerabilities.\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "id": "CRYPTOGRAPHIC ERASE",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Cryptographic erase is a security mechanism used in self-encrypting devices to ensure data is securely deleted by applying encryption during the erase process.\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "id": "ULTRAVIOLET RAYS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A physical tool for erasing memory, such as ultraviolet-rays-based erase of EEPROMs, is often utilized for clearing specific types of non-volatile memory.\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "id": "EEPROM (ELECTRICALLY ERASABLE, PROGRAMMABLE READ-ONLY MEMORY)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"EEPROM is a type of non-volatile memory that can be erased by applying ultraviolet light, which is then reprogrammed electrically.\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "id": "SELF-ENCRYPTING MEMORY DEVICES",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Self-encrypting devices are storage systems designed to automatically encrypt data upon writing and decrypt it on reading, enhancing security through mechanisms like cryptographic erase.\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "id": "PHYSICAL DESTRUCTION OF MEDIA DEVICE",
+      "entity_type": "EVENT",
+      "description": "\"Destruction of a media device is the final method for erasing data from repurposed or scrapped devices that are no longer in use.\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "id": "HARDWARE DESIGNERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Hardware designers scrutinize instruction set architectures for undefined behavior and design systems to prevent transient execution from causing observable discrepancies in covert channels.\"<SEP>\"Hardware designers work on preventing transient execution from causing observable discrepancies in covert channels through architectural design decisions.\"<SEP>\"Organizations responsible for designing and implementing hardware architecture to mitigate security vulnerabilities such as predictor state sanitization during context transitions.\"<SEP>\"The group responsible for designing hardware that includes countermeasures against fault injection attacks.\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583<SEP>chunk-0b9956c8ddc5d44928a812dc9f83893b<SEP>chunk-121b2dda25da2a4859d7a01532fd0901<SEP>chunk-8730d68eb19f163b9cabddd31ff34480"
+    },
+    {
+      "id": "HARDWARE DEVICE",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A hardware device missing or inadequately protected from overheating, which can lead to denial of service attacks, safety hazards, and reliability issues.\"",
+      "source_id": "chunk-5a4d040c252f7964a695264d510831aa"
+    },
+    {
+      "id": "THERMAL SENSORS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Thermal sensors are used to detect temperature limits in hardware devices for safety purposes.\"",
+      "source_id": "chunk-5a4d040c252f7964a695264d510831aa"
+    },
+    {
+      "id": "FANS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Cooling fans modulated based on device-operation needs help maintain stable temperatures in hardware platforms.\"",
+      "source_id": "chunk-5a4d040c252f7964a695264d510831aa"
+    },
+    {
+      "id": "PLATFORM COOLING SOLUTIONS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A set of mechanisms, including fans and other cooling methods, designed to manage the temperature of a hardware platform during normal operation.\"",
+      "source_id": "chunk-5a4d040c252f7964a695264d510831aa"
+    },
+    {
+      "id": "MICROARCHITECTURAL STATE",
+      "entity_type": "CONCEPT",
+      "description": "\"The state within microarchitecture that persists even after transient execution exceptions, potentially exposing sensitive information via side-channel analysis.\"",
+      "source_id": "chunk-5a4d040c252f7964a695264d510831aa"
+    },
+    {
+      "id": "LOAD VALUE INJECTION (LVI)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A type of attack exploiting direct injection of erroneous values into intermediate load and store buffers during speculative execution.\"",
+      "source_id": "chunk-5a4d040c252f7964a695264d510831aa"
+    },
+    {
+      "id": "MICROCODE ASSISTS",
+      "entity_type": "CONCEPT",
+      "description": "\"Functions in microprocessors designed to assist with specific operations, which can be exploited if not properly managed post-execution.\"",
+      "source_id": "chunk-5a4d040c252f7964a695264d510831aa"
+    },
+    {
+      "id": "CWE-1342",
+      "entity_type": "CONCEPT",
+      "description": "\"A hardware weakness related to improper handling of illegal data flows in microarchitectural elements.\"",
+      "source_id": "chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
+    },
+    {
+      "id": "SPECTRE AND MELTDOWN ATTACKS",
+      "entity_type": "EVENT",
+      "description": "\"Security vulnerabilities that exploit speculative execution weaknesses in processors, leading to information disclosure via side-channels.\"",
+      "source_id": "chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
+    },
+    {
+      "id": "PUF (PHYSICAL UNCLONABLE FUNCTION)",
+      "entity_type": "CONCEPT",
+      "description": "\"A security primitive designed to enhance the confidentiality, authenticity, and integrity guarantees of a system when used correctly with appropriate entropy sources.\"",
+      "source_id": "chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
+    },
+    {
+      "id": "DRAM AND SRAM",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Dynamic Random Access Memory and Static Random Access Memory are volatile memory types that may exhibit unexpected behavior under exceptionally cold temperatures.\"",
+      "source_id": "chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
+    },
+    {
+      "id": "CWE-1303",
+      "entity_type": "CONCEPT",
+      "description": "\"A hardware weakness related to misprediction and biasing microarchitectural components.\"",
+      "source_id": "chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
+    },
+    {
+      "id": "THIRD-PARTY SUPPLIER",
+      "entity_type": "ORGANIZATION",
+      "description": "\"An organization that provides components or intellectual property for the construction of larger systems.\"",
+      "source_id": "chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
+    },
+    {
+      "id": "SECURITY PRIMITIVE",
+      "entity_type": "CONCEPT",
+      "description": "\"A fundamental security component designed to provide basic security services such as confidentiality, integrity, and authenticity.\"",
+      "source_id": "chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
+    },
+    {
+      "id": "COLD BOOT ATTACK",
+      "entity_type": "EVENT",
+      "description": "\"An attack where an adversary cools down memory chips to recover data that would normally be lost when the power is turned off.\"",
+      "source_id": "chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
+    },
+    {
+      "id": "PRODUCT VENDOR",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A vendor organization responsible for the production and maintenance of a product, ensuring its components meet security standards.\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "id": "COMPONENT SUPPLIER",
+      "entity_type": "ORGANIZATION",
+      "description": "\"An organization that supplies individual parts or software components to the main product vendor, potentially affecting overall product trustworthiness.\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "id": "SUB-TIER SUPPLIER",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Organizations providing secondary components to the primary component supplier, critical for maintaining a well-controlled supply chain.\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "id": "DEVELOPERS",
+      "entity_type": "PERSON",
+      "description": "\"Individuals responsible for building and maintaining software or hardware components, whose expertise is crucial for ensuring product security.\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "id": "CWE-710",
+      "entity_type": "EVENT",
+      "description": "\"An event related to the potential risk associated with using insufficiently trusted components in a product's design phase.\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "id": "CVE-2020-9054",
+      "entity_type": "EVENT",
+      "description": "\"A specific security vulnerability involving a network-attached storage (NAS) device that leads to OS command injection, exploited within IoT devices for malicious purposes.\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "id": "PRODUCT OWNER",
+      "entity_type": "PERSON",
+      "description": "\"The individual or entity responsible for overseeing the product's lifecycle, including security assessments.\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "id": "CUSTOMER",
+      "entity_type": "PERSON",
+      "description": "\"A stakeholder who uses the product and expects it to be secure and reliable.\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "id": "GOVERNMENT AGENCY",
+      "entity_type": "ORGANIZATION",
+      "description": "\"An organization that may have regulatory oversight over product trustworthiness and security compliance.\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "id": "ISO 27001",
+      "entity_type": "EVENT",
+      "description": "\"A set of international best practices for information security management, which can influence how products are designed and managed.\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "id": "HW SIG",
+      "entity_type": "ORGANIZATION",
+      "description": "\"HW SIG is a group involved in discussions regarding hardware security issues, particularly concerning the entry CWE 4.10.\"",
+      "source_id": "chunk-272921add9df3a07039ed1b3c747ef84"
+    },
+    {
+      "id": "CWE 4.10",
+      "entity_type": "EVENT",
+      "description": "\"CWE 4.10 is an entry in a database of software weaknesses that has undergone significant changes.\"",
+      "source_id": "chunk-272921add9df3a07039ed1b3c747ef84"
+    },
+    {
+      "id": "CVE-2019-17391",
+      "entity_type": "EVENT",
+      "description": "\"CVE-2019-17391 refers to a specific vulnerability where lack of anti-glitch protections allows an attacker to bypass secure boot and read protected eFuses.\"",
+      "source_id": "chunk-272921add9df3a07039ed1b3c747ef84"
+    },
+    {
+      "id": "ENTITYNAME1",
+      "entity_type": "ENTITYTYPE1",
+      "description": "\"EntityDescription1\"",
+      "source_id": "chunk-a4d92c4f2f0780ace5f71226f48ebd50"
+    },
+    {
+      "id": "PROCESSOR DESIGNERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Processor designers are involved in the creation and design of processors, which may include features that allow transient access to architecturally restricted data.\"<SEP>\"Processor designers are responsible for creating and modifying processors to include or exclude features that mitigate security weaknesses.\"<SEP>\"Processor designers are responsible for creating hardware architectures that mitigate transient execution attacks.\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe<SEP>chunk-a4d92c4f2f0780ace5f71226f48ebd50<SEP>chunk-0b9956c8ddc5d44928a812dc9f83893b"
+    },
+    {
+      "id": "SOFTWARE VENDORS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Software vendors develop and release tools to detect the presence of known hardware weaknesses after discovery.\"<SEP>\"Software vendors develop tools and software techniques aimed at detecting and mitigating processor vulnerabilities such as transient execution weaknesses.\"<SEP>\"Software vendors provide tools and systems to detect and manage vulnerabilities in processors.\"",
+      "source_id": "chunk-a4d92c4f2f0780ace5f71226f48ebd50<SEP>chunk-0b9956c8ddc5d44928a812dc9f83893b<SEP>chunk-121b2dda25da2a4859d7a01532fd0901"
+    },
+    {
+      "id": "HARDWARE VENDORS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Hardware vendors supply the physical components of computing devices, which can be prone to security issues like transient execution attacks.\"",
+      "source_id": "chunk-a4d92c4f2f0780ace5f71226f48ebd50"
+    },
+    {
+      "id": "TRANSIENT EXECUTION VULNERABILITY",
+      "entity_type": "EVENT",
+      "description": "\"A vulnerability in processors where transient operations can access data stored in shared microarchitectural structures, potentially exposing sensitive information over covert channels.\"",
+      "source_id": "chunk-dfe2a55d98dfc3e4506a964293313f33"
+    },
+    {
+      "id": "ACADEMIC RESEARCHERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Academic researchers are involved in discovering new hardware weaknesses by examining publicly available patent filings and demonstrating detection methods using software fuzzing tools.\"",
+      "source_id": "chunk-121b2dda25da2a4859d7a01532fd0901"
+    },
+    {
+      "id": "LINUX KERNEL DEVELOPERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Developers who maintain Linux kernel support for checks on commodity processors, such as those that report CPU vulnerabilities like Meltdown, Spectre, etc.\"",
+      "source_id": "chunk-121b2dda25da2a4859d7a01532fd0901"
+    },
+    {
+      "id": "COMPILER TEAMS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Teams responsible for configuring compilers to prevent generation of instructions affected by hardware weaknesses and generating alternate sequences.\"",
+      "source_id": "chunk-121b2dda25da2a4859d7a01532fd0901"
+    },
+    {
+      "id": "SYSTEM SOFTWARE DEVELOPERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Developers of system software that implement mitigations, such as invoking predictor-state-sanitizing operations when switching contexts according to vendor recommendations.\"<SEP>\"Developers who create system software that invokes state-sanitizing operations when switching contexts, according to hardware vendor recommendations.\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583<SEP>chunk-121b2dda25da2a4859d7a01532fd0901"
+    },
+    {
+      "id": "HARDWARE VENDOR",
+      "entity_type": "ORGANIZATION",
+      "description": "\"The hardware vendor provides patches to sanitize shared microarchitectural state when transitioning contexts but faces limitations in implementing these for all processors or weaknesses.\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "id": "SYSTEM SOFTWARE VENDORS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"These entities might choose to limit unprivileged software's access to high-resolution timers used in monitoring covert channels, enhancing security measures.\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "id": "SOFTWARE",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Software can employ various techniques such as memory safety and type safety to prevent the exposure of private data through transient execution vulnerabilities.\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "id": "HIGH-LEVEL PROGRAMMING LANGUAGES",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Programming languages with properties like memory safety and type safety help prevent software from exposing private data, enhancing security in processor contexts.\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "id": "INSTRUCTION SET ARCHITECTURE (ISA)",
+      "entity_type": "CONCEPT",
+      "description": "\"ISA defines the behavior of a processor, including aspects that can permit one user's software to access another's data within shared address spaces.\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "id": "COVERT CHANNEL",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A Covert Channel is a communication path that allows information to be leaked between processes, often undetected due to its low-level nature. It can be exploited through microarchitectural predictor state sharing.\"<SEP>\"A covert channel is an unintended communication pathway that allows sensitive information to be transmitted from a higher security level to a lower one.\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe<SEP>chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "id": "CWE-1420",
+      "entity_type": "EVENT",
+      "description": "\"CWE-1420 is a security weakness related to incorrect data forwarding during transient execution, which can be introduced through processor design and software vulnerabilities.\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "id": "CVE-2017-5715",
+      "entity_type": "EVENT",
+      "description": "\"CVE-2017-5715 refers to a fault that allows transient user-mode operations to access kernel data cached in the L1D, potentially exposing it over a covert channel.\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "id": "CVE-2018-3615",
+      "entity_type": "EVENT",
+      "description": "\"CVE-2018-3615 involves transient non-enclave operations accessing SGX enclave data cached in the L1D, potentially exposing the data via a covert channel.\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "id": "CVE-2019-1135",
+      "entity_type": "EVENT",
+      "description": "\"CVE-2019-1135 describes a TSX Asynchronous Abort that allows transient operations to access architecturally restricted data, which could be exposed over a covert channel.\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "id": "CWE-1422",
+      "entity_type": "EVENT",
+      "description": "\"CWE-1422 is related to the exposure of sensitive information caused by incorrect data forwarding during transient execution.\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "id": "LINUX",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Linux is an operating system that supports checks for processor vulnerabilities through the /proc/cpuinfo interface.\"",
+      "source_id": "chunk-0b9956c8ddc5d44928a812dc9f83893b"
+    },
+    {
+      "id": "COMMODITY PROCESSORS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Commodity processors are standard computer processors found in many devices, which may be vulnerable to weaknesses such as Meltdown and Spectre variants.\"",
+      "source_id": "chunk-0b9956c8ddc5d44928a812dc9f83893b"
+    },
+    {
+      "id": "MICROARCHITECTURAL PREDICTOR STATE",
+      "entity_type": "CONCEPT",
+      "description": "\"Microarchitectural predictor state is a hardware feature that can influence transient execution across software boundaries, potentially exposing data through covert channels.\"",
+      "source_id": "chunk-0b9956c8ddc5d44928a812dc9f83893b"
+    },
+    {
+      "id": "TRANSIENT EXECUTION WEAKNESSES",
+      "entity_type": "EVENT",
+      "description": "\"Transient Execution Weaknesses are security vulnerabilities where shared microarchitectural states can cause incorrect or stale data to be forwarded during transient operations.\"",
+      "source_id": "chunk-0b9956c8ddc5d44928a812dc9f83893b"
+    },
+    {
+      "id": "COVERT CHANNELS",
+      "entity_type": "CONCEPT",
+      "description": "\"Covert Channels are communication pathways that allow data leakage without direct data transfer, often through side-channel attacks.\"",
+      "source_id": "chunk-0b9956c8ddc5d44928a812dc9f83893b"
+    },
+    {
+      "id": "INTEL X86",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Intel x86 includes features such as indirect branch prediction barriers that help mitigate predictor state sharing vulnerabilities.\"<SEP>\"Intel x86 is a technology that includes features like the indirect branch prediction barrier, which can help in mitigating predictor state sharing vulnerabilities.\"",
+      "source_id": "chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "id": "MICROCONTROLLER HARDWARE",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Microcontroller Hardware is part of the technology that shares microarchitectural predictor state across hardware boundaries, which can lead to security vulnerabilities.\"",
+      "source_id": "chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "id": "USER MODE",
+      "entity_type": "ROLE",
+      "description": "\"User Mode is an execution context in the system where software typically runs with limited privileges. Predictor state can be shared across boundaries to Kernel Mode.\"",
+      "source_id": "chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "id": "KERNEL MODE",
+      "entity_type": "ROLE",
+      "description": "\"Kernel Mode is a privileged execution context within the operating system that allows access to hardware resources and system configuration. It shares predictor states with User Mode.\"",
+      "source_id": "chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "id": "SIMULTANEOUS MULTITHREADING (SMT)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"SMT technology allows multiple threads to run concurrently on a single core, sharing microarchitectural predictors which can lead to security vulnerabilities if not properly isolated.\"",
+      "source_id": "chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "id": "HARDWARE THREADS",
+      "entity_type": "ROLE",
+      "description": "\"Hardware Threads are execution contexts within SMT that share microarchitectural predictor states. They may expose vulnerabilities when one thread is malicious and another is a victim.\"",
+      "source_id": "chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "id": "MICROARCHITECTURAL PREDICTORS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Microarchitectural Predictors, such as branch predictors in CPUs, can predict future instruction paths leading to performance improvements but also potential security risks if not isolated properly.\"",
+      "source_id": "chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "id": "TRANSIENT EXECUTION ATTACK (CWE-203)",
+      "entity_type": "EVENT",
+      "description": "\"A Transient Execution Attack occurs when an attacker influences transient execution via shared microarchitectural predictor states and infers private data from the victim by monitoring discrepancies in a covert channel.\"",
+      "source_id": "chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "id": "COMPILER AND JIT DEVELOPERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Teams responsible for configuring compilers or Just-In-Time (JIT) compilers to prevent the generation of instructions that can expose vulnerabilities like retpoline mitigation.\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583"
+    },
+    {
+      "id": "OPERATING SYSTEM SOFTWARE",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Software responsible for managing system resources, including invoking predictor-state-sanitizing operations during context switches according to hardware recommendations.\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583"
+    },
+    {
+      "id": "BIOS AND MSR CONFIGURATION",
+      "entity_type": "EVENT",
+      "description": "\"Configurations in BIOS or model-specific registers (MSRs) that control predictor sharing features, which can mitigate vulnerabilities such as Spectre v2, BHI, and Retbleed.\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583"
+    },
+    {
+      "id": "PROCESSOR TRANSITION EVENTS",
+      "entity_type": "EVENT",
+      "description": "\"Events such as system calls or context switches that trigger changes in processor state.\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583"
+    },
+    {
+      "id": "INDIRECT BRANCH PREDICTION BARRIER",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"An instruction provided by hardware vendors like Intel x86 to sanitize predictor states during context transitions.\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583"
+    },
+    {
+      "id": "CONTROL-FLOW INTEGRITY (CFI)",
+      "entity_type": "CONCEPT",
+      "description": "\"A software technique used to constrain the behavior of instructions that redirect control flow, such as indirect branches.\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583"
+    },
+    {
+      "id": "SERIALIZATION INSTRUCTIONS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Instructions intended to reduce transient execution after a processor event or misprediction.\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583"
+    },
+    {
+      "id": "HIGH-RESOLUTION TIMERS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Timers commonly used in monitoring covert channels that may be restricted by software vendors to prevent data exposure.\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583"
+    },
+    {
+      "id": "OEM",
+      "entity_type": "UNKNOWN",
+      "description": "\"A chipmaker fabricates chips which are then delivered to an OEM for further testing and integration before final release.\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "id": "PRODUCT RELEASED IN NON-RELEASE CONFIGURATION",
+      "entity_type": "UNKNOWN",
+      "description": "\"Failure to properly blow the Manufacturing Complete fuse can result in products being released with non-release configurations, leaving them vulnerable.\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "id": "GENERATION OF INCORRECT SECURITY TOKENS ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Incorrect generation of Security Tokens can lead to privilege escalation or denial-of-service attacks within systems-on-a-chip (SoC).\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "id": "MANUFACTURING COMPLETE FUSE ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Ensuring the proper blowing of the Manufacturing Complete fuse is crucial to prevent vulnerabilities in SIMATIC S7-1200 CPUs.\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "id": "PRODUCT RELEASED IN NON-RELEASE CONFIGURATION - RELATED WEAKNESSES ",
+      "entity_type": "UNKNOWN",
+      "description": "\"The issues related to manufacturing and non-release configurations extend to SIMATIC S7-200 SMART CPUs as well, indicating broader systemic risks.\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "id": "INCORRECT DECODING OF SECURITY IDENTIFIERS",
+      "entity_type": "UNKNOWN",
+      "description": "\"The Product Implementers are involved in implementing a decoding mechanism that may suffer from incorrect decoding, allowing untrusted agents unauthorized access.\"",
+      "source_id": "chunk-07545bddfae4ac96da0bbd2d994dc44e"
+    },
+    {
+      "id": "PUBLIC KEY RE-USE FOR SIGNING BOTH DEBUG AND PRODUCTION CODE",
+      "entity_type": "UNKNOWN",
+      "description": "\"The company is responsible for signing firmware binaries, often using different keys for debug and production phases.\"",
+      "source_id": "chunk-07545bddfae4ac96da0bbd2d994dc44e"
+    },
+    {
+      "id": "POST-SILICON (POST-SI) TESTING",
+      "entity_type": "UNKNOWN",
+      "description": "\"The chipmaker carries out Post-Silicon testing to ensure no residual confidential information is left on parts before handing them over to an OSAT vendor.\"",
+      "source_id": "chunk-4b1439544e5eeae2efd8c27d7051f838"
+    },
+    {
+      "id": "BLINDING OR MASKING TECHNIQUES",
+      "entity_type": "UNKNOWN",
+      "description": "\"Using blinding techniques can prevent the leakage of secret information like RSA keys as described in CVE-2013-4576.\"",
+      "source_id": "chunk-4ab646ca8d70cb01e7dd1bb9e1252c5c"
+    },
+    {
+      "id": "CVE-2013-4576",
+      "entity_type": "UNKNOWN",
+      "description": "\"Using blinding techniques can prevent the leakage of secret information like RSA keys as described in CVE-2013-4576.\"",
+      "source_id": "chunk-4ab646ca8d70cb01e7dd1bb9e1252c5c"
+    },
+    {
+      "id": "MISSING ABILITY TO PATCH ROM CODE",
+      "entity_type": "UNKNOWN",
+      "description": "\"The Intellectual Property (IP) may be left in a vulnerable state due to missing ability to patch ROM code, which is critical for addressing certain security issues.\"",
+      "source_id": "chunk-ed3445a110526a6af4f61d6e1b22cceb"
+    },
+    {
+      "id": "TRACE DATA",
+      "entity_type": "UNKNOWN",
+      "description": "\"Untrusted agents can access trace data stored in unprotected memory or transported insecurely, leading to potential confidentiality breaches.\"",
+      "source_id": "chunk-c27030c4b6abf1ec516a0549fe25867b"
+    },
+    {
+      "id": "IMPROPER HANDLING OF FAULTS THAT LEAD TO INSTRUCTION SKIPS",
+      "entity_type": "UNKNOWN",
+      "description": "\"Attackers use fault injection techniques to exploit improperly handled faults in devices, leading to instruction skips and potential security breaches.\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "id": "SOURCEENTITYNAME1",
+      "entity_type": "UNKNOWN",
+      "description": "\"RelationshipDescription1\"",
+      "source_id": "chunk-a4d92c4f2f0780ace5f71226f48ebd50"
+    },
+    {
+      "id": "TARGETENTITYNAME1",
+      "entity_type": "UNKNOWN",
+      "description": "\"RelationshipDescription1\"",
+      "source_id": "chunk-a4d92c4f2f0780ace5f71226f48ebd50"
+    },
+    {
+      "id": "HARDWARE WEAKNESSES",
+      "entity_type": "UNKNOWN",
+      "description": "\"Academic researchers discover and demonstrate the presence of new hardware weaknesses through analysis and testing.\"",
+      "source_id": "chunk-121b2dda25da2a4859d7a01532fd0901"
+    },
+    {
+      "id": "KNOWN HARDWARE WEAKNESSES",
+      "entity_type": "UNKNOWN",
+      "description": "\"Software vendors create tools to detect known hardware weaknesses on processors after discovery by others.\"",
+      "source_id": "chunk-121b2dda25da2a4859d7a01532fd0901"
+    },
+    {
+      "id": "PROCESSOR VULNERABILITIES",
+      "entity_type": "UNKNOWN",
+      "description": "\"Developers maintain Linux kernel support for reporting processor vulnerabilities like Meltdown and Spectre through /proc/cpuinfo.\"",
+      "source_id": "chunk-121b2dda25da2a4859d7a01532fd0901"
+    },
+    {
+      "id": "TRANSIENT EXECUTION ATTACK (CWE-023)",
+      "entity_type": "UNKNOWN",
+      "description": "\"Microarchitectural Predictors can be exploited in Transient Execution Attacks by allowing attackers to influence transient execution and infer private data.\"",
+      "source_id": "chunk-1b2fbc0c5b54ea23250a243f477da811"
     }
   ],
   "edges": [
@@ -2069,6 +3323,22 @@
       "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
     },
     {
+      "source": "ATTACKER",
+      "target": "PUBLIC KEY RE-USE FOR SIGNING BOTH DEBUG AND PRODUCTION CODE",
+      "weight": 18.0,
+      "description": "\"If debug and production codes use the same key, an attacker can exploit this weakness to take full control of a system.\"",
+      "keywords": "\"security breach, key misuse\"",
+      "source_id": "chunk-07545bddfae4ac96da0bbd2d994dc44e"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "CONFIGURATION STATE",
+      "weight": 9.0,
+      "description": "\"The attacker alters the configuration state stored in persistent memory to compromise system integrity.\"",
+      "keywords": "\"security breach, unauthorized access\"",
+      "source_id": "chunk-ed3445a110526a6af4f61d6e1b22cceb"
+    },
+    {
       "source": "PRODUCT",
       "target": "UPSTREAM COMPONENT",
       "weight": 7.0,
@@ -2181,6 +3451,38 @@
       "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
     },
     {
+      "source": "CVE-2019-6260",
+      "target": "PHASE:ARCHITECTURE AND DESIGN",
+      "weight": 16.0,
+      "description": "\"The Architecture and Design phase addresses vulnerabilities like CVE-2019-6260 by incorporating security measures such as access control checks.\"",
+      "keywords": "\"vulnerability mitigation, design enhancement\"",
+      "source_id": "chunk-97104f16a9dfd7b73ef0673737266ea0"
+    },
+    {
+      "source": "CVE-2019-6260",
+      "target": "PHASE:IMPLEMENTATION",
+      "weight": 16.0,
+      "description": "\"The Implementation phase focuses on preventing vulnerabilities like CVE-2019-6260 by ensuring access control mechanisms are in place.\"",
+      "keywords": "\"vulnerability prevention, implementation standards\"",
+      "source_id": "chunk-97104f16a9dfd7b73ef0673737266ea0"
+    },
+    {
+      "source": "CVE-2019-6260",
+      "target": "RTL SIMULATION",
+      "weight": 8.0,
+      "description": "\"RTL simulation ensures that the implementation of bridge-access controls, which are critical in mitigating vulnerabilities like CVE-2019-6260, is correct.\"",
+      "keywords": "\"security testing, vulnerability mitigation\"",
+      "source_id": "chunk-97104f16a9dfd7b73ef0673737266ea0"
+    },
+    {
+      "source": "CVE-2019-6260",
+      "target": "FORMAL VERIFICATION",
+      "weight": 8.0,
+      "description": "\"Formal verification ensures that access control mechanisms cannot be bypassed, helping to prevent vulnerabilities like CVE-2019-6260.\"",
+      "keywords": "\"security validation, vulnerability prevention\"",
+      "source_id": "chunk-97104f16a9dfd7b73ef0673737266ea0"
+    },
+    {
       "source": "PHASE:ARCHITECTURE AND DESIGN",
       "target": "ON-CHIP DEBUG AND TEST INTERFACE WITH IMPROPER ACCESS CONTROL",
       "weight": 8.0,
@@ -2195,6 +3497,14 @@
       "description": "\"During the Architecture and Design phase, proper authorization and authentication should be implemented for JTAG interfaces to secure against unauthorized access.\"",
       "keywords": "\"secure design, security measures\"",
       "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "PHASE:ARCHITECTURE AND DESIGN",
+      "target": "SECURITY IDENTIFIER DECODER",
+      "weight": 8.0,
+      "description": "\"During the Architecture and Design phase, the design of the Security Identifier Decoder should be reviewed to identify common weaknesses.\"",
+      "keywords": "\"design review, vulnerability identification\"",
+      "source_id": "chunk-07545bddfae4ac96da0bbd2d994dc44e"
     },
     {
       "source": "SYSTEM-ON-CHIP (SOC)",
@@ -2229,6 +3539,70 @@
       "source_id": "chunk-656361cef4ab97aa6bcd9340210f5920"
     },
     {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "INCORRECT DECODING OF SECURITY IDENTIFIERS",
+      "weight": 18.0,
+      "description": "\"The weakness in the decoding mechanism within SoCs can allow untrusted agents unauthorized access to assets.\"",
+      "keywords": "\"hardware vulnerability, security risk\"",
+      "source_id": "chunk-07545bddfae4ac96da0bbd2d994dc44e"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "HARDWARE STRUCTURES SHARED ACROSS EXECUTION CONTEXTS",
+      "weight": 7.0,
+      "description": "\"The SoC technology is associated with the concept of shared hardware structures across execution contexts which highlights potential security weaknesses.\"",
+      "keywords": "\"security vulnerabilities, resource management\"",
+      "source_id": "chunk-3b2d278b7f0bba9b563f446d414822b2"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "ROOT-OF-TRUST (ROT)",
+      "weight": 9.0,
+      "description": "\"The RoT establishes a trusted starting point for operations and secure execution environments within the SoC.\"",
+      "keywords": "\"boot security, trust foundation\"",
+      "source_id": "chunk-ed3445a110526a6af4f61d6e1b22cceb"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "SECURE BOOT",
+      "weight": 9.0,
+      "description": "\"The System-on-Chip is discussed in the context of implementing secure boot mechanisms to verify and authenticate signed boot code.\"",
+      "keywords": "\"security measures, hardware protection\"",
+      "source_id": "chunk-c27030c4b6abf1ec516a0549fe25867b"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "CWE ID:284",
+      "weight": 9.0,
+      "description": "\"The System-on-Chip is discussed in relation to CWE ID 284, which involves improper management of sensitive trace data collected from various sources on the SoC.\"",
+      "keywords": "\"security vulnerability, trace data protection\"",
+      "source_id": "chunk-c27030c4b6abf1ec516a0549fe25867b"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "CWE ID:693",
+      "weight": 8.0,
+      "description": "\"The System-on-Chip is discussed in relation to CWE ID 693, which involves the risk of missing an immutable root of trust leading to compromised secure boot mechanisms.\"",
+      "keywords": "\"security vulnerability, secure boot protection\"",
+      "source_id": "chunk-c27030c4b6abf1ec516a0549fe25867b"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "ROT MEMORY LOCATION",
+      "weight": 16.0,
+      "description": "\"The RoT memory location within an SoC ensures the security version number is stored in a manner preventing roll-back attacks, thus securing firmware integrity.\"",
+      "keywords": "\"firmware security, anti-roll-back mechanism\"",
+      "source_id": "chunk-a1dac6b82d08fba15a68388d8daec56a"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "COMPONENT UPDATE ISSUE",
+      "weight": 14.0,
+      "description": "\"The inability to update components like SoCs can leave them vulnerable to exploitation, highlighting the importance of secure boot mechanisms and anti-rollback features.\"",
+      "keywords": "\"updateability, security vulnerability\"",
+      "source_id": "chunk-a1dac6b82d08fba15a68388d8daec56a"
+    },
+    {
       "source": "RESERVED BITS ",
       "target": "DESIGNER ",
       "weight": 7.0,
@@ -2259,6 +3633,22 @@
       "description": "\"Untrusted agents can exploit memory regions through inconsistent read/write permissions enforced by hardware.\"",
       "keywords": "\"exploitation, access control bypass\"",
       "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "source": "UNTRUSTED AGENTS",
+      "target": "SECURITY ATTRIBUTES",
+      "weight": 8.0,
+      "description": "\"Signals indicating security attributes incorrectly map untrusted agents to trusted roles, leading to vulnerabilities.\"",
+      "keywords": "\"security vulnerability, permission management\"",
+      "source_id": "chunk-b27238ad308de7f1360b8b7dd7f2e7ea"
+    },
+    {
+      "source": "UNTRUSTED AGENTS",
+      "target": "TRACE DATA",
+      "weight": 8.0,
+      "description": "\"Untrusted agents can access trace data stored in unprotected memory or transported insecurely, leading to potential confidentiality breaches.\"",
+      "keywords": "\"data security risks, unauthorized access\"",
+      "source_id": "chunk-c27030c4b6abf1ec516a0549fe25867b"
     },
     {
       "source": "SECURITY-SENSITIVE ASSETS",
@@ -2381,6 +3771,22 @@
       "source_id": "chunk-288a08707ff1741e8c5773dc48f272bf"
     },
     {
+      "source": "ADVERSARY",
+      "target": "VOLATILE MEMORY (VM)",
+      "weight": 7.0,
+      "description": "\"An adversary aims to exploit vulnerabilities in Volatile Memory (VM) during the secure-boot process.\"",
+      "keywords": "\"vulnerability exploitation, security threat\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "source": "ADVERSARY",
+      "target": "SECURITY VERSION NUMBER",
+      "weight": 6.0,
+      "description": "\"An adversary attempts to manipulate or circumvent the Security Version Number to perform roll-back attacks on SoCs.\"",
+      "keywords": "\"exploitation, security breach\"",
+      "source_id": "chunk-a1dac6b82d08fba15a68388d8daec56a"
+    },
+    {
       "source": "BIOS/BOOTLOADER",
       "target": "LOCK BIT PROTECTION SCHEME",
       "weight": 9.0,
@@ -2499,6 +3905,14 @@
       "description": "\"Attackers often exploit custom or private cryptographic algorithms due to their lack of public review and testing.\"",
       "keywords": "\"vulnerability risk, exploitation threat\"",
       "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "PRODUCT DEVELOPER ORGANIZATIONS",
+      "weight": 16.0,
+      "description": "\"Attackers exploit the lack of update mechanisms in products developed without considering long-term maintenance by these organizations.\"",
+      "keywords": "\"security risk, exploitation opportunity\"",
+      "source_id": "chunk-54b4175e2b43edd926e7fe9dab85c135"
     },
     {
       "source": "FIPS 140-3 CERTIFICATION",
@@ -2723,6 +4137,22 @@
       "description": "\"These developers are a subset of product developers focusing specifically on smartphone operating systems which can be prone to timing attacks if not designed securely.\"",
       "keywords": "\"subdivision of expertise, specific application focus\"",
       "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315"
+    },
+    {
+      "source": "PRODUCT DEVELOPERS",
+      "target": "EXTERNAL PRESSURES (SPEED TO MARKET)",
+      "weight": 12.0,
+      "description": "\"The pressures faced by individual developers within organizations lead them to prioritize quick releases over long-term update capabilities.\"",
+      "keywords": "\"time constraints, long-term neglect\"",
+      "source_id": "chunk-54b4175e2b43edd926e7fe9dab85c135"
+    },
+    {
+      "source": "HARDWARE DESIGNER",
+      "target": "PUF (PHYSICAL UNCLONABLE FUNCTION)",
+      "weight": 6.0,
+      "description": "\"A hardware designer needs to ensure that PUFs are properly integrated with reliable entropy sources and consider behavior in extreme conditions for secure operation.\"",
+      "keywords": "\"security primitive integration, design consideration\"",
+      "source_id": "chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
     },
     {
       "source": "SMARTPHONE OS DEVELOPERS",
@@ -3029,12 +4459,916 @@
       "source_id": "chunk-5af9a5672caa3f4e4835e08a5744ac17"
     },
     {
+      "source": "UNTRUSTED AGENT",
+      "target": "INCORRECT DECODING OF SECURITY IDENTIFIERS",
+      "weight": 18.0,
+      "description": "\"When security identifiers are incorrectly decoded, an untrusted agent may gain unauthorized access to assets.\"",
+      "keywords": "\"security breach, vulnerability exploitation\"",
+      "source_id": "chunk-07545bddfae4ac96da0bbd2d994dc44e"
+    },
+    {
+      "source": "BIOS",
+      "target": "PROCESSOR DESIGNERS",
+      "weight": 14.0,
+      "description": "\"Processor designs can be configured through BIOS settings, impacting how microarchitectural features are enabled or disabled.\"",
+      "keywords": "\"configuration control\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
       "source": "CWE-212: EXPOSURE OF SENSITIVE SYSTEM INFORMATION DUE TO UNCLEARED DEBUG INFORMATION INCIDENT",
       "target": "SOC (SYSTEM-ON-A-CHIP)",
       "weight": 8.0,
       "description": "\"The SoC is a key component in which uncleared debug information leads to security vulnerabilities.\"",
       "keywords": "\"hardware vulnerability, security breach\"",
       "source_id": "chunk-3872fc98e8f01da81fadb53fc83263c2"
+    },
+    {
+      "source": "CHIPMAKER",
+      "target": "OEM",
+      "weight": 8.0,
+      "description": "\"A chipmaker fabricates chips which are then delivered to an OEM for further testing and integration before final release.\"",
+      "keywords": "\"supply chain, manufacturing collaboration\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "source": "CHIPMAKER",
+      "target": "OSAT VENDOR",
+      "weight": 8.0,
+      "description": "\"The OSAT vendor and chipmaker communicate securely regarding parts leaving one facility for another to ensure no residual confidential information is left.\"",
+      "keywords": "\"secure communication, supply chain management\"",
+      "source_id": "chunk-4b1439544e5eeae2efd8c27d7051f838"
+    },
+    {
+      "source": "CHIPMAKER",
+      "target": "POST-SILICON (POST-SI) TESTING",
+      "weight": 8.0,
+      "description": "\"The chipmaker carries out Post-Silicon testing to ensure no residual confidential information is left on parts before handing them over to an OSAT vendor.\"",
+      "keywords": "\"quality assurance, security compliance\"",
+      "source_id": "chunk-4b1439544e5eeae2efd8c27d7051f838"
+    },
+    {
+      "source": "MANUFACTURING COMPLETE FUSE",
+      "target": "PRODUCT RELEASED IN NON-RELEASE CONFIGURATION",
+      "weight": 7.0,
+      "description": "\"Failure to properly blow the Manufacturing Complete fuse can result in products being released with non-release configurations, leaving them vulnerable.\"",
+      "keywords": "\"manufacturing oversight, security risk\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "source": "SIMATIC S7-1200 CPU FAMILY (INCL. SIPLUS VARIANTS)",
+      "target": "PRODUCT RELEASED IN NON-RELEASE CONFIGURATION",
+      "weight": 6.0,
+      "description": "\"The SIMATIC S7-1200 CPUs have been released with vulnerabilities due to improper handling of manufacturing access modes.\"",
+      "keywords": "\"hardware vulnerability, production oversight\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "source": "SIMATIC S7-1200 CPU FAMILY (INCL. SIPLUS VARIANTS)",
+      "target": "MANUFACTURING COMPLETE FUSE ",
+      "weight": 8.0,
+      "description": "\"Ensuring the proper blowing of the Manufacturing Complete fuse is crucial to prevent vulnerabilities in SIMATIC S7-1200 CPUs.\"",
+      "keywords": "\"security measure, operational integrity\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "source": "MANUFACTURING MODE ",
+      "target": "LAPTOPS WITH INTEL CHIPSETS ",
+      "weight": 7.0,
+      "description": "\"When laptops with Intel chipsets run in Manufacturing Mode, they expose vulnerabilities that can be exploited by attackers.\"",
+      "keywords": "\"vulnerability exposure, security risk\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "source": "SECURITY TOKENS ",
+      "target": "GENERATION OF INCORRECT SECURITY TOKENS ",
+      "weight": 8.0,
+      "description": "\"Incorrect generation of Security Tokens can lead to privilege escalation or denial-of-service attacks within systems-on-a-chip (SoC).\"",
+      "keywords": "\"security flaw, operational impact\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "source": "SIMATIC S7-200 SMART CPU FAMILY ",
+      "target": "PRODUCT RELEASED IN NON-RELEASE CONFIGURATION - RELATED WEAKNESSES ",
+      "weight": 6.0,
+      "description": "\"The issues related to manufacturing and non-release configurations extend to SIMATIC S7-200 SMART CPUs as well, indicating broader systemic risks.\"",
+      "keywords": "\"systemic risk, manufacturing oversight\"",
+      "source_id": "chunk-bfdb6902372a81b8743bd41e532cd7e1"
+    },
+    {
+      "source": "DOS ATTACK",
+      "target": "SENSITIVE INFORMATION UNCLEARED BEFORE DEBUG/POWER STATE TRANSITION",
+      "weight": 8.0,
+      "description": "\"Uncleared sensitive information before state transitions can facilitate DoS attacks or other security breaches.\"",
+      "keywords": "\"state transition vulnerabilities, attack vectors\"",
+      "source_id": "chunk-81316c00436b6b93031ffe0fd69f3fd9"
+    },
+    {
+      "source": "CHIP DESIGNER COMPANY",
+      "target": "CHIP MANUFACTURER (FOUNDRY)",
+      "weight": 8.0,
+      "description": "\"The Chip Designer Company designs chips, and the Chip Manufacturer works on manufacturing these chips based on provided designs.\"",
+      "keywords": "\"design-manufacturing relationship, collaboration\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "source": "CHIP MANUFACTURER (FOUNDRY)",
+      "target": "ASSEMBLY AND TESTING COMPANY",
+      "weight": 7.0,
+      "description": "\"Both organizations are involved in different phases of chip production where sharing sensitive unlock credentials is necessary for testing purposes.\"",
+      "keywords": "\"manufacturing-testing collaboration, credential sharing\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "source": "CHIP DESIGNER COMPANY (INTERNAL)",
+      "target": "SECURE BOOT PROCESS",
+      "weight": 9.0,
+      "description": "\"The internal Chip Designer company ensures the entire boot process remains secure due to a unified design, manufacturing, and testing approach.\"",
+      "keywords": "\"internal security, comprehensive oversight\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "source": "SECURE BOOT PROCESS",
+      "target": "ROM CODE",
+      "weight": 8.0,
+      "description": "\"The Secure Boot Process relies on ROM Code for fetching and authenticating bootloader code from NVM to VM.\"",
+      "keywords": "\"code authentication, secure transition\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "source": "VOLATILE MEMORY (VM)",
+      "target": "NON-VOLATILE MEMORY (NVM)",
+      "weight": 6.0,
+      "description": "\"Bootloader code is transferred from Non-Volatile Memory (NVM) into Volatile Memory (VM) during the boot process.\"",
+      "keywords": "\"data transfer, boot process\"",
+      "source_id": "chunk-3ceb3dac126c1101c73b56b697d8d93d"
+    },
+    {
+      "source": "SECURITY RESEARCHERS",
+      "target": "HARDWARE MANUFACTURERS",
+      "weight": 14.0,
+      "description": "\"Security researchers often work closely with or report to hardware manufacturers on security weaknesses found within their products.\"",
+      "keywords": "\"collaboration, reporting\"",
+      "source_id": "chunk-7c84224f8692cb440e2575c08bcee968"
+    },
+    {
+      "source": "NETWORK-ATTACHED STORAGE (NAS)",
+      "target": "CVE-2020-9054",
+      "weight": 8.0,
+      "description": "\"The NAS device is the subject of a critical vulnerability exploited to place devices into botnets.\"",
+      "keywords": "\"vulnerability exploitation\"",
+      "source_id": "chunk-5a598cec83537a5eff84d77c2f69e08b"
+    },
+    {
+      "source": "HARDWARE REVERSE ENGINEERING",
+      "target": "IC IMAGING TECHNIQUES",
+      "weight": 9.0,
+      "description": "\"IC imaging techniques are used in hardware reverse engineering to extract secret information from hardware.\"",
+      "keywords": "\"reverse engineering process\"",
+      "source_id": "chunk-5a598cec83537a5eff84d77c2f69e08b"
+    },
+    {
+      "source": "CWE ID:691",
+      "target": "CWE ID:665",
+      "weight": 7.0,
+      "description": "\"Both CWE IDs 691 and 665 relate to hardware-based security practices that may be compromised if certain conditions are not met.\"",
+      "keywords": "\"hardware security, conditional implementation\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e"
+    },
+    {
+      "source": "CWE ID:696",
+      "target": "CWE ID:284",
+      "weight": 7.0,
+      "description": "\"Both CWE IDs 284 and 696 address issues related to timing of access control checks and the potential for unexpected behavior in processors.\"",
+      "keywords": "\"access control, processor instructions\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e"
+    },
+    {
+      "source": "IC",
+      "target": "RNG UNIT",
+      "weight": 7.0,
+      "description": "\"Integrated circuits depend on external random-number generators to provide necessary entropy for cryptographic processes.\"",
+      "keywords": "\"dependency, entropy\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e"
+    },
+    {
+      "source": "IC",
+      "target": "FUSE UNIT",
+      "weight": 7.0,
+      "description": "\"Integrated circuits rely on fuse units for the retrieval of private encryption keys required during cryptographic operations.\"",
+      "keywords": "\"key management, security criticality\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e"
+    },
+    {
+      "source": "RNG UNIT",
+      "target": "PROCESSOR HARDWARE",
+      "weight": 8.0,
+      "description": "\"Random number generators supply essential random data to processor hardware for secure cryptographic functions.\"",
+      "keywords": "\"entropy source, cryptographic security\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e"
+    },
+    {
+      "source": "FUSE UNIT",
+      "target": "PROCESSOR HARDWARE",
+      "weight": 8.0,
+      "description": "\"The fuse unit supplies private encryption keys to the processor hardware, ensuring secure execution of cryptographic instructions.\"",
+      "keywords": "\"key provisioning, security criticality\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e"
+    },
+    {
+      "source": "PROCESSOR HARDWARE",
+      "target": "ISA",
+      "weight": 9.0,
+      "description": "\"The instruction set architecture dictates how the processor hardware executes specific instructions and handles cryptographic operations.\"",
+      "keywords": "\"execution, instruction handling\"",
+      "source_id": "chunk-07015b9e732e25a8add9c78652bc2a1e"
+    },
+    {
+      "source": "PROCESSOR HARDWARE",
+      "target": "MICROCONTROLLER HARDWARE",
+      "weight": 8.0,
+      "description": "\"Both Processor and Microcontroller Hardware technologies share microarchitectural predictor states across hardware boundaries, leading to potential security vulnerabilities.\"",
+      "keywords": "\"shared resources, security risks\"",
+      "source_id": "chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "source": "PRODUCT IMPLEMENTERS",
+      "target": "INCORRECT DECODING OF SECURITY IDENTIFIERS",
+      "weight": 16.0,
+      "description": "\"The Product Implementers are involved in implementing a decoding mechanism that may suffer from incorrect decoding, allowing untrusted agents unauthorized access.\"",
+      "keywords": "\"implementation flaw, security vulnerability\"",
+      "source_id": "chunk-07545bddfae4ac96da0bbd2d994dc44e"
+    },
+    {
+      "source": "COMPANY",
+      "target": "PUBLIC KEY RE-USE FOR SIGNING BOTH DEBUG AND PRODUCTION CODE",
+      "weight": 16.0,
+      "description": "\"The company is responsible for signing firmware binaries, often using different keys for debug and production phases.\"",
+      "keywords": "\"firmware security, key management\"",
+      "source_id": "chunk-07545bddfae4ac96da0bbd2d994dc44e"
+    },
+    {
+      "source": "DEBUG FIRMWARE",
+      "target": "PUBLIC KEY RE-USE FOR SIGNING BOTH DEBUG AND PRODUCTION CODE",
+      "weight": 9.0,
+      "description": "\"Reusing public keys between debug and production phases compromises the security of debug firmware, making it vulnerable to misuse.\"",
+      "keywords": "\"security risk, key reuse\"",
+      "source_id": "chunk-07545bddfae4ac96da0bbd2d994dc44e"
+    },
+    {
+      "source": "SOC (SYSTEM-ON-CHIP)",
+      "target": "OPEN-CORE PROTOCOL (OCP)",
+      "weight": 7.0,
+      "description": "\"The SoC also utilizes the Open-Core Protocol for communication between different components of the system.\"",
+      "keywords": "\"system architecture, alternative protocols\"",
+      "source_id": "chunk-2c2d7f6cfcd3cdd12cba628a74a4c93c"
+    },
+    {
+      "source": "ADVANCED HIGH-PERFORMANCE BUS (AHB)",
+      "target": "BRIDGE AHB-TO-OCP",
+      "weight": 9.0,
+      "description": "\"A bridge is necessary to translate transactions from Advanced High-performance Bus protocol to OCP for seamless integration within SoC systems.\"",
+      "keywords": "\"protocol conversion, system interoperability\"",
+      "source_id": "chunk-2c2d7f6cfcd3cdd12cba628a74a4c93c"
+    },
+    {
+      "source": "OPEN-CORE PROTOCOL (OCP)",
+      "target": "BRIDGE AHB-TO-OCP",
+      "weight": 8.0,
+      "description": "\"The Bridge translates transactions into the Open-Core Protocol ensuring compatibility and proper communication between agents using different protocols.\"",
+      "keywords": "\"protocol conversion, system security\"",
+      "source_id": "chunk-2c2d7f6cfcd3cdd12cba628a74a4c93c"
+    },
+    {
+      "source": "HARDWARE DESIGN TEAM",
+      "target": "CHIPMAKERS",
+      "weight": 8.0,
+      "description": "\"The Hardware Design Team may work closely with Chipmakers in designing and implementing hardware solutions.\"",
+      "keywords": "\"collaboration, design collaboration\"",
+      "source_id": "chunk-00af356422c436a05c6d275775637214"
+    },
+    {
+      "source": "TEST ACCESS PORTS (TAPS)",
+      "target": "SCAN CELLS",
+      "weight": 9.0,
+      "description": "\"Test Access Ports are used to execute boundary scan commands on Scan Cells during debugging and testing phases.\"",
+      "keywords": "\"testing mechanisms, interconnection\"",
+      "source_id": "chunk-00af356422c436a05c6d275775637214"
+    },
+    {
+      "source": "RACE CONDITION IN HARDWARE LOGIC",
+      "target": "ALTERNATE HARDWARE INTERFACE PROTECTION MECHANISM FAILURE",
+      "weight": 7.0,
+      "description": "\"Both events involve vulnerabilities due to incomplete protection mechanisms on hardware interfaces and race conditions in logic circuits, compromising security.\"",
+      "keywords": "\"security vulnerability, timing flaw\"",
+      "source_id": "chunk-4b1439544e5eeae2efd8c27d7051f838"
+    },
+    {
+      "source": "RACE CONDITION IN HARDWARE LOGIC",
+      "target": "CONFIDENTIAL INFORMATION",
+      "weight": 7.0,
+      "description": "\"A race condition can lead to unauthorized access and modification of confidential information if not properly managed.\"",
+      "keywords": "\"security breach, confidentiality risk\"",
+      "source_id": "chunk-4b1439544e5eeae2efd8c27d7051f838"
+    },
+    {
+      "source": "INTELLECTUAL PROPERTY (IP)",
+      "target": "MISSING ABILITY TO PATCH ROM CODE",
+      "weight": 7.0,
+      "description": "\"The Intellectual Property (IP) may be left in a vulnerable state due to missing ability to patch ROM code, which is critical for addressing certain security issues.\"",
+      "keywords": "\"vulnerability, security risk\"",
+      "source_id": "chunk-ed3445a110526a6af4f61d6e1b22cceb"
+    },
+    {
+      "source": "INTELLECTUAL PROPERTY (IP)",
+      "target": "CONFIGURATION STATE",
+      "weight": 8.0,
+      "description": "\"The IP saves, stores, and restores its configuration state to persistent memory during power cycles.\"",
+      "keywords": "\"integrity preservation, security management\"",
+      "source_id": "chunk-ed3445a110526a6af4f61d6e1b22cceb"
+    },
+    {
+      "source": "INTELLECTUAL PROPERTY (IP)",
+      "target": "TRUSTED AGENT",
+      "weight": 8.0,
+      "description": "\"The trusted agent ensures the integrity of the configuration state by performing checks before and after power cycles.\"",
+      "keywords": "\"security verification, data protection\"",
+      "source_id": "chunk-ed3445a110526a6af4f61d6e1b22cceb"
+    },
+    {
+      "source": "INTELLECTUAL PROPERTY (IP)",
+      "target": "THIRD-PARTY SUPPLIER",
+      "weight": 7.0,
+      "description": "\"A third-party supplier provides IP blocks that are integrated into larger systems by hardware designers and system integrators.\"",
+      "keywords": "\"component integration, intellectual property licensing\"",
+      "source_id": "chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
+    },
+    {
+      "source": "CONFIGURATION STATE",
+      "target": "PROTECTED ENVIRONMENT",
+      "weight": 9.0,
+      "description": "\"The protected environment ensures that the configuration state is not tampered with by unauthorized entities before and after system operation.\"",
+      "keywords": "\"security enforcement, data integrity\"",
+      "source_id": "chunk-ed3445a110526a6af4f61d6e1b22cceb"
+    },
+    {
+      "source": "FABRIC BRIDGE",
+      "target": "ON-CHIP FABRIC FIREWALL",
+      "weight": 16.0,
+      "description": "\"Both technologies are part of an on-chip fabric and address different aspects of security within a system-on-chip design.\"<SEP>\"Both technologies are part of an on-chip fabric, dealing with security vulnerabilities within a system-on-chip design.\"",
+      "keywords": "\"security vulnerability, system architecture\"",
+      "source_id": "chunk-b27238ad308de7f1360b8b7dd7f2e7ea"
+    },
+    {
+      "source": "FABRIC BRIDGE",
+      "target": "INTERCONNECT-BUS FABRICS (E.G., AHB AND OCP)",
+      "weight": 18.0,
+      "description": "\"Interconnect-Bus Fabrics are utilized by Fabric Bridges to connect IP blocks and ensure proper access control during transactions.\"",
+      "keywords": "\"communication protocol, security enforcement\"",
+      "source_id": "chunk-432c431cce96482dcc75e717fbb40e1c"
+    },
+    {
+      "source": "ON-CHIP FABRIC FIREWALL",
+      "target": "MIRRORED MEMORY REGIONS",
+      "weight": 8.0,
+      "description": "\"The firewall needs to provide the same level of protection for mirrored memory regions as it does for original data.\"",
+      "keywords": "\"security, redundancy\"",
+      "source_id": "chunk-b27238ad308de7f1360b8b7dd7f2e7ea"
+    },
+    {
+      "source": "IP BLOCKS",
+      "target": "FABRIC PROTOCOLS",
+      "weight": 7.0,
+      "description": "\"IP blocks use fabric protocols for secure communication and integration into a larger system.\"",
+      "keywords": "\"security, protocol translation\"",
+      "source_id": "chunk-b27238ad308de7f1360b8b7dd7f2e7ea"
+    },
+    {
+      "source": "SECURITY ATTRIBUTES",
+      "target": "TRUSTED AGENTS",
+      "weight": 7.0,
+      "description": "\"Security attributes are used to define the trust level and permissions of trusted agents within a system.\"",
+      "keywords": "\"security, permission management\"",
+      "source_id": "chunk-b27238ad308de7f1360b8b7dd7f2e7ea"
+    },
+    {
+      "source": "CWE ID 284",
+      "target": "CVE-2021-33150",
+      "weight": 18.0,
+      "description": "\"The CWE ID 284 describes a general weakness that could result in vulnerabilities like CVE-2021-33150.\"",
+      "keywords": "\"vulnerability, security weakness\"",
+      "source_id": "chunk-dee0276a6a06ecacf727eafe73832d3e"
+    },
+    {
+      "source": "CWE ID 284",
+      "target": "CVE-2021-0146",
+      "weight": 18.0,
+      "description": "\"The CWE ID 284 also describes a general weakness that could result in vulnerabilities like CVE-2021-0146.\"",
+      "keywords": "\"vulnerability, security weakness\"",
+      "source_id": "chunk-dee0276a6a06ecacf727eafe73832d3e"
+    },
+    {
+      "source": "CWE ID 284",
+      "target": "SECURITY TEAM",
+      "weight": 14.0,
+      "description": "\"The Security Team investigates weaknesses like CWE ID 284 to identify and address potential security issues.\"",
+      "keywords": "\"vulnerability analysis, mitigation\"",
+      "source_id": "chunk-dee0276a6a06ecacf727eafe73832d3e"
+    },
+    {
+      "source": "CVE-2021-33150",
+      "target": "SECURITY TEAM",
+      "weight": 8.0,
+      "description": "\"The Security Team responds to CVE events like CVE-2021-33150 by implementing security measures.\"",
+      "keywords": "\"incident response, prevention\"",
+      "source_id": "chunk-dee0276a6a06ecacf727eafe73832d3e"
+    },
+    {
+      "source": "CVE-2021-0146",
+      "target": "SECURITY TEAM",
+      "weight": 8.0,
+      "description": "\"The Security Team implements preventive measures against vulnerabilities like CVE-2021-0146.\"",
+      "keywords": "\"prevention, security safeguarding\"",
+      "source_id": "chunk-dee0276a6a06ecacf727eafe73832d3e"
+    },
+    {
+      "source": "SYSTEM ON CHIP (SOC)",
+      "target": "INTELLECTUAL PROPERTY BLOCKS (IP BLOCKS)",
+      "weight": 16.0,
+      "description": "\"The System on Chip integrates multiple Intellectual Property Blocks that need interconnect-bus fabrics to communicate.\"",
+      "keywords": "\"system architecture, communication pathways\"",
+      "source_id": "chunk-432c431cce96482dcc75e717fbb40e1c"
+    },
+    {
+      "source": "ADDRESS MAP OVERLAP ISSUE",
+      "target": "IMPROPER ACCESS CONTROL IN FABRIC BRIDGE",
+      "weight": 14.0,
+      "description": "\"Both issues involve vulnerabilities in the management of address ranges and access controls within a system on chip.\"",
+      "keywords": "\"security vulnerability, access control weakness\"",
+      "source_id": "chunk-432c431cce96482dcc75e717fbb40e1c"
+    },
+    {
+      "source": "RANGE REGISTERS",
+      "target": "ACCESS CONTROL PROTECTION",
+      "weight": 8.0,
+      "description": "\"Range registers are used to define protected regions that require specific access control mechanisms for security.\"",
+      "keywords": "\"protection mechanism, secure data handling\"",
+      "source_id": "chunk-432c431cce96482dcc75e717fbb40e1c"
+    },
+    {
+      "source": "RTL SIMULATION",
+      "target": "FORMAL VERIFICATION",
+      "weight": 18.0,
+      "description": "\"Both RTL simulation and formal verification are methods used to ensure security features like access control are properly implemented in hardware designs.\"",
+      "keywords": "\"security validation, design assurance\"",
+      "source_id": "chunk-97104f16a9dfd7b73ef0673737266ea0"
+    },
+    {
+      "source": "CVE-2020-27211",
+      "target": "CWE-1319",
+      "weight": 9.0,
+      "description": "\"CVE-2020-27211 exploits the weakness outlined in CWE-1319.\"",
+      "keywords": "\"vulnerability exploitation\"",
+      "source_id": "chunk-e95c98bdc729551a93b3a25db478b932"
+    },
+    {
+      "source": "CWE-1319",
+      "target": "GAY, MAEL, ET AL.",
+      "weight": 8.0,
+      "description": "\"The proposed scheme by Gay, Mael, et al., addresses the weakness described in CWE-1319.\"",
+      "keywords": "\"correction mechanism\"",
+      "source_id": "chunk-e95c98bdc729551a93b3a25db478b932"
+    },
+    {
+      "source": "SECURE BOOT",
+      "target": "ROOT OF TRUST (ROT)",
+      "weight": 9.0,
+      "description": "\"The Root of Trust is crucial for secure boot processes, ensuring that the initial boot code and other critical data are not tampered with.\"",
+      "keywords": "\"security foundation, integrity verification\"",
+      "source_id": "chunk-c27030c4b6abf1ec516a0549fe25867b"
+    },
+    {
+      "source": "ROT MEMORY LOCATION",
+      "target": "ARCHITECTURE AND DESIGN REVIEW",
+      "weight": 8.0,
+      "description": "\"During the architecture and design review phase, RoT memory locations are designated to store security version numbers securely.\"",
+      "keywords": "\"design review, secure storage\"",
+      "source_id": "chunk-a1dac6b82d08fba15a68388d8daec56a"
+    },
+    {
+      "source": "SECURITY VERSION NUMBER",
+      "target": "AUTOMATED TESTING",
+      "weight": 9.0,
+      "description": "\"Automated testing ensures that the Security Version Number is stored in a manner preventing modification by untrusted agents during implementation and test phases.\"",
+      "keywords": "\"testing methodology, security validation\"",
+      "source_id": "chunk-a1dac6b82d08fba15a68388d8daec56a"
+    },
+    {
+      "source": "CONSUMERS AND MAINTAINERS",
+      "target": "EXPLOITABLE VULNERABILITIES",
+      "weight": 14.0,
+      "description": "\"Without proper updates, consumers and maintainers are exposed to risks from exploitable vulnerabilities in products.\"",
+      "keywords": "\"risk exposure, vulnerability exploitation\"",
+      "source_id": "chunk-54b4175e2b43edd926e7fe9dab85c135"
+    },
+    {
+      "source": "EXTERNAL PRESSURES (SPEED TO MARKET)",
+      "target": "UPDATES OVER LIFETIME OF PRODUCT",
+      "weight": 12.0,
+      "description": "\"The pressure to release a product quickly often leads to exclusion or omission of update capabilities during development.\"<SEP>\"The pressure to release a product quickly often leads to the exclusion or omission of update capabilities during development.\"",
+      "keywords": "\"time constraints, long-term neglect\"",
+      "source_id": "chunk-54b4175e2b43edd926e7fe9dab85c135"
+    },
+    {
+      "source": "CVE-2019-8575",
+      "target": "BASE STATION FACTORY RESET",
+      "weight": 12.0,
+      "description": "\"The CVE-2019-8575 vulnerability is associated with a factory reset process that fails to completely erase all user data.\"",
+      "keywords": "\"security flaw, data persistence\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "source": "CVE-2019-8575",
+      "target": "SECURE-ERASE COMMANDS",
+      "weight": 6.0,
+      "description": "\"Secure-erase commands are part of the architecture for mitigating vulnerabilities like CVE-2019-8575.\"",
+      "keywords": "\"vulnerability mitigation, data security\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "source": "IMPROPER ISOLATION OF SHARED RESOURCES IN NETWORK ON CHIP (NOC)",
+      "target": "NETWORK-ON-CHIP (NOC)",
+      "weight": 16.0,
+      "description": "\"The concept of improper isolation applies directly to NoCs, where shared resources between different trust domains can lead to security threats.\"",
+      "keywords": "\"security vulnerability, resource management\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "source": "FAULT INJECTION TECHNIQUES",
+      "target": "IMPROPER HANDLING OF FAULTS THAT LEAD TO INSTRUCTION SKIPS",
+      "weight": 18.0,
+      "description": "\"Attackers use fault injection techniques to exploit improperly handled faults in devices, leading to instruction skips and potential security breaches.\"",
+      "keywords": "\"vulnerability exploitation, hardware manipulation\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "source": "CRYPTOGRAPHIC ERASE",
+      "target": "SELF-ENCRYPTING MEMORY DEVICES",
+      "weight": 8.0,
+      "description": "\"The use of cryptographic erase is a feature in self-encrypting memory devices to enhance security during data deletion.\"",
+      "keywords": "\"data protection, encryption mechanisms\"",
+      "source_id": "chunk-e6debcf8fbe3923ea3b03cf56c278432"
+    },
+    {
+      "source": "HARDWARE DESIGNERS",
+      "target": "SYSTEM SOFTWARE DEVELOPERS",
+      "weight": 8.0,
+      "description": "\"Hardware designers provide the necessary hardware to allow system software developers to implement mitigations effectively.\"",
+      "keywords": "\"hardware-software collaboration\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583"
+    },
+    {
+      "source": "HARDWARE DESIGNERS",
+      "target": "PROCESSOR TRANSITION EVENTS",
+      "weight": 8.0,
+      "description": "\"Hardware designers create mechanisms for processor transition events to sanitize predictor state.\"",
+      "keywords": "\"predictor sanitization, security mitigation\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583"
+    },
+    {
+      "source": "HARDWARE DEVICE",
+      "target": "THERMAL SENSORS",
+      "weight": 16.0,
+      "description": "\"The Hardware Device should be designed with Thermal Sensors to enforce temperature limits and prevent overheating.\"",
+      "keywords": "\"design requirement, safety mechanism\"",
+      "source_id": "chunk-5a4d040c252f7964a695264d510831aa"
+    },
+    {
+      "source": "HARDWARE DEVICE",
+      "target": "FANS",
+      "weight": 18.0,
+      "description": "\"Cooling fans are part of the cooling solution for hardware devices to maintain stable temperatures and avoid overheating conditions.\"",
+      "keywords": "\"cooling solution, thermal management\"",
+      "source_id": "chunk-5a4d040c252f7964a695264d510831aa"
+    },
+    {
+      "source": "THERMAL SENSORS",
+      "target": "PLATFORM COOLING SOLUTIONS",
+      "weight": 8.0,
+      "description": "\"The Platform Cooling Solutions should include Thermal Sensors to monitor temperature and adjust cooling measures accordingly.\"",
+      "keywords": "\"monitoring mechanism, dynamic adjustment\"",
+      "source_id": "chunk-5a4d040c252f7964a695264d510831aa"
+    },
+    {
+      "source": "MICROARCHITECTURAL STATE",
+      "target": "LOAD VALUE INJECTION (LVI)",
+      "weight": 9.0,
+      "description": "\"Load Value Injection exploits the traces of transient execution remaining in Microarchitectural State for side-channel attacks.\"",
+      "keywords": "\"attack vector, security risk\"",
+      "source_id": "chunk-5a4d040c252f7964a695264d510831aa"
+    },
+    {
+      "source": "MICROARCHITECTURAL STATE",
+      "target": "MICROCODE ASSISTS",
+      "weight": 8.0,
+      "description": "\"Microcode assists can leave residual information in the Microarchitectural State if not properly cleared post-execution.\"",
+      "keywords": "\"post-execution clearance, data residue\"",
+      "source_id": "chunk-5a4d040c252f7964a695264d510831aa"
+    },
+    {
+      "source": "CWE-1342",
+      "target": "SPECTRE AND MELTDOWN ATTACKS",
+      "weight": 8.0,
+      "description": "\"CWE-1342 is closely related to the speculative execution weaknesses exploited by Spectre and Meltdown attacks, focusing on illegal data flows in microarchitectural elements.\"",
+      "keywords": "\"speculative execution, side-channel attack\"",
+      "source_id": "chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
+    },
+    {
+      "source": "CWE-1342",
+      "target": "CWE-1303",
+      "weight": 8.0,
+      "description": "\"Both CWE-1342 and CWE-1303 are related to hardware weaknesses involving speculative execution but focus on different aspects: illegal data flows for 1342, misprediction and biasing microarchitectural components for 1303.\"",
+      "keywords": "\"speculative execution weakness, microarchitectural behavior\"",
+      "source_id": "chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
+    },
+    {
+      "source": "PUF (PHYSICAL UNCLONABLE FUNCTION)",
+      "target": "SECURITY PRIMITIVE",
+      "weight": 9.0,
+      "description": "\"The PUF is a specific type of security primitive used for enhancing security guarantees in hardware designs.\"",
+      "keywords": "\"security enhancement, technology implementation\"",
+      "source_id": "chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
+    },
+    {
+      "source": "DRAM AND SRAM",
+      "target": "COLD BOOT ATTACK",
+      "weight": 7.0,
+      "description": "\"These volatile memory types are targets for Cold Boot Attacks where data can be recovered by cooling the chips.\"",
+      "keywords": "\"memory vulnerability, attack vector\"",
+      "source_id": "chunk-0e1d5db0edf7a9c8e345eb5f9eb344cd"
+    },
+    {
+      "source": "PRODUCT VENDOR",
+      "target": "COMPONENT SUPPLIER",
+      "weight": 17.0,
+      "description": "\"The component supplier provides essential components to the product vendor, impacting overall product integrity.<SEP>\"The product vendor relies on component suppliers for critical parts of their products, affecting overall trustworthiness and security.\"",
+      "keywords": "\"supply chain collaboration\"<SEP>\"supply chain dependency\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "source": "PRODUCT VENDOR",
+      "target": "GOVERNMENT AGENCY",
+      "weight": 9.0,
+      "description": "\"The product vendor must comply with government regulations regarding trustworthiness and security, impacting their operations.",
+      "keywords": "\"regulatory compliance\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "source": "COMPONENT SUPPLIER",
+      "target": "CVE-2020-9054",
+      "weight": 7.0,
+      "description": "\"A component supplier might provide parts with inherent vulnerabilities that become critical issues in products like NAS devices.",
+      "keywords": "\"vulnerability exposure\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "source": "DEVELOPERS",
+      "target": "CWE-710",
+      "weight": 6.0,
+      "description": "\"Developers are involved in the design phase where decisions about using trusted components can impact the product's future security.",
+      "keywords": "\"design influence, risk assessment\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "source": "DEVELOPERS",
+      "target": "CUSTOMER",
+      "weight": 7.0,
+      "description": "\"Developers work on creating and maintaining software or hardware that meets customer requirements for security and reliability.",
+      "keywords": "\"customer needs fulfillment\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "source": "PRODUCT OWNER",
+      "target": "CUSTOMER",
+      "weight": 8.0,
+      "description": "\"The product owner is responsible for ensuring that the product meets customer expectations regarding security and reliability.",
+      "keywords": "\"customer satisfaction, security assurance\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "source": "CUSTOMER",
+      "target": "GOVERNMENT AGENCY",
+      "weight": 7.0,
+      "description": "\"Customers may rely on government oversight to ensure that products meet necessary security standards.",
+      "keywords": "\"standard adherence\"",
+      "source_id": "chunk-dfea1ff7079412dcff07a4544a0d3385"
+    },
+    {
+      "source": "HW SIG",
+      "target": "CWE 4.10",
+      "weight": 8.0,
+      "description": "\"The HW SIG is involved in discussions regarding the changes made to CWE 4.10.\"",
+      "keywords": "\"discussions, security updates\"",
+      "source_id": "chunk-272921add9df3a07039ed1b3c747ef84"
+    },
+    {
+      "source": "PROCESSOR DESIGNERS",
+      "target": "HARDWARE VENDOR",
+      "weight": 16.0,
+      "description": "\"Processor designs are crucial for hardware vendors to provide patches and sanitize affected microarchitectural states, addressing transient execution vulnerabilities.\"",
+      "keywords": "\"design impact, patch implementation\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "source": "PROCESSOR DESIGNERS",
+      "target": "SOFTWARE",
+      "weight": 16.0,
+      "description": "\"Software developers rely on processor designs that support memory safety and type safety features, which are crucial for preventing data exposure through transient execution vulnerabilities.\"",
+      "keywords": "\"security feature reliance\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "source": "PROCESSOR DESIGNERS",
+      "target": "SOFTWARE VENDORS",
+      "weight": 16.0,
+      "description": "\"Processor designers provide architectural features that can mitigate transient execution vulnerabilities, while software vendors develop tools to detect these weaknesses.\"",
+      "keywords": "\"collaboration, security mitigation\"",
+      "source_id": "chunk-0b9956c8ddc5d44928a812dc9f83893b"
+    },
+    {
+      "source": "SOFTWARE VENDORS",
+      "target": "KNOWN HARDWARE WEAKNESSES",
+      "weight": 8.0,
+      "description": "\"Software vendors create tools to detect known hardware weaknesses on processors after discovery by others.\"",
+      "keywords": "\"detection, post-discovery action\"",
+      "source_id": "chunk-121b2dda25da2a4859d7a01532fd0901"
+    },
+    {
+      "source": "SOFTWARE VENDORS",
+      "target": "CWE-1420",
+      "weight": 18.0,
+      "description": "\"Software vendors detect and mitigate security weaknesses such as CWE-1420 to enhance system safety and protect against data exposure.\"",
+      "keywords": "\"security mitigation\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "source": "TRANSIENT EXECUTION VULNERABILITY",
+      "target": "COVERT CHANNEL",
+      "weight": 8.0,
+      "description": "\"The Transient Execution Vulnerability can allow attackers to infer data through a covert channel by observing microarchitectural side effects.\"",
+      "keywords": "\"data exposure, security risk\"",
+      "source_id": "chunk-dfe2a55d98dfc3e4506a964293313f33"
+    },
+    {
+      "source": "ACADEMIC RESEARCHERS",
+      "target": "HARDWARE WEAKNESSES",
+      "weight": 9.0,
+      "description": "\"Academic researchers discover and demonstrate the presence of new hardware weaknesses through analysis and testing.\"",
+      "keywords": "\"discovery, research\"",
+      "source_id": "chunk-121b2dda25da2a4859d7a01532fd0901"
+    },
+    {
+      "source": "LINUX KERNEL DEVELOPERS",
+      "target": "PROCESSOR VULNERABILITIES",
+      "weight": 9.0,
+      "description": "\"Developers maintain Linux kernel support for reporting processor vulnerabilities like Meltdown and Spectre through /proc/cpuinfo.\"",
+      "keywords": "\"system information, vulnerability disclosure\"",
+      "source_id": "chunk-121b2dda25da2a4859d7a01532fd0901"
+    },
+    {
+      "source": "SYSTEM SOFTWARE DEVELOPERS",
+      "target": "INDIRECT BRANCH PREDICTION BARRIER",
+      "weight": 9.0,
+      "description": "\"System software invokes the indirect branch prediction barrier provided by hardware vendors as a security measure.\"",
+      "keywords": "\"instruction-level security, context switching\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583"
+    },
+    {
+      "source": "HARDWARE VENDOR",
+      "target": "SYSTEM SOFTWARE VENDORS",
+      "weight": 18.0,
+      "description": "\"Both organizations work together to enhance security measures by restricting access to high-resolution timers used in monitoring covert channels.\"",
+      "keywords": "\"collaborative security enhancement\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "source": "HARDWARE VENDOR",
+      "target": "CVE-2017-5715",
+      "weight": 16.0,
+      "description": "\"The hardware vendor provides patches to address CVE-2017-5715, mitigating vulnerabilities related to transient user-mode operations accessing kernel data.\"",
+      "keywords": "\"vulnerability mitigation\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "source": "COVERT CHANNEL",
+      "target": "CWE-1422",
+      "weight": 18.0,
+      "description": "\"The CWE-1422 weakness allows attackers to exploit incorrect data forwarding and access sensitive information via a covert channel.\"",
+      "keywords": "\"exploitation vector\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "source": "COVERT CHANNEL",
+      "target": "TRANSIENT EXECUTION ATTACK (CWE-023)",
+      "weight": 8.0,
+      "description": "\"A Covert Channel can be used as part of a Transient Execution Attack to monitor and exploit discrepancies for inferring private data.\"",
+      "keywords": "\"data leakage, attack mechanism\"",
+      "source_id": "chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "source": "CVE-2019-1135",
+      "target": "CWE-1422",
+      "weight": 16.0,
+      "description": "\"CVE-2019-1135 is an example of the broader CWE-1422 issue, where transient execution vulnerabilities can expose sensitive data.\"",
+      "keywords": "\"specific case, broader category\"",
+      "source_id": "chunk-66b838f849b031a80f94749c19176abe"
+    },
+    {
+      "source": "LINUX",
+      "target": "COMMODITY PROCESSORS",
+      "weight": 14.0,
+      "description": "\"Linux provides a method for checking processor vulnerabilities on commodity processors through /proc/cpuinfo.\"",
+      "keywords": "\"operating system interaction, vulnerability detection\"",
+      "source_id": "chunk-0b9956c8ddc5d44928a812dc9f83893b"
+    },
+    {
+      "source": "MICROARCHITECTURAL PREDICTOR STATE",
+      "target": "TRANSIENT EXECUTION WEAKNESSES",
+      "weight": 9.0,
+      "description": "\"The microarchitectural predictor state can cause transient execution weaknesses by influencing transient operations across hardware boundaries.\"",
+      "keywords": "\"vulnerability mechanism, security exposure\"",
+      "source_id": "chunk-0b9956c8ddc5d44928a812dc9f83893b"
+    },
+    {
+      "source": "USER MODE",
+      "target": "KERNEL MODE",
+      "weight": 8.0,
+      "description": "\"Shared microarchitectural predictor state between User Mode and Kernel Mode contexts could enable transient execution attacks, exposing system vulnerabilities.\"",
+      "keywords": "\"privilege separation, security threats\"",
+      "source_id": "chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "source": "SIMULTANEOUS MULTITHREADING (SMT)",
+      "target": "HARDWARE THREADS",
+      "weight": 7.0,
+      "description": "\"SMT technology enables the creation of multiple hardware threads that can share microarchitectural predictor states and may expose weaknesses if not properly isolated.\"",
+      "keywords": "\"multithreading, isolation challenges\"",
+      "source_id": "chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "source": "MICROARCHITECTURAL PREDICTORS",
+      "target": "TRANSIENT EXECUTION ATTACK (CWE-023)",
+      "weight": 9.0,
+      "description": "\"Microarchitectural Predictors can be exploited in Transient Execution Attacks by allowing attackers to influence transient execution and infer private data.\"",
+      "keywords": "\"vulnerability exploitation, security breach\"",
+      "source_id": "chunk-1b2fbc0c5b54ea23250a243f477da811"
+    },
+    {
+      "source": "COMPILER AND JIT DEVELOPERS",
+      "target": "OPERATING SYSTEM SOFTWARE",
+      "weight": 9.0,
+      "description": "\"Compiler/JIT configurations work in tandem with operating systems to prevent or mitigate potential vulnerabilities through instruction generation policies.\"",
+      "keywords": "\"vulnerability mitigation, cross-layer security\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583"
+    },
+    {
+      "source": "COMPILER AND JIT DEVELOPERS",
+      "target": "CONTROL-FLOW INTEGRITY (CFI)",
+      "weight": 9.0,
+      "description": "\"Developers implement CFI techniques in compilers/JITs to constrain control flow and prevent indirect branch vulnerabilities.\"",
+      "keywords": "\"control-flow protection, security enhancement\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583"
+    },
+    {
+      "source": "OPERATING SYSTEM SOFTWARE",
+      "target": "SERIALIZATION INSTRUCTIONS",
+      "weight": 8.0,
+      "description": "\"Operating system software uses serialization instructions to reduce transient execution and mitigate vulnerabilities.\"",
+      "keywords": "\"transient execution reduction, vulnerability mitigation\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583"
+    },
+    {
+      "source": "BIOS AND MSR CONFIGURATION",
+      "target": "HIGH-RESOLUTION TIMERS",
+      "weight": 8.0,
+      "description": "\"BIOS or MSR configurations can restrict access to high-resolution timers that monitor covert channels as a mitigation measure.\"",
+      "keywords": "\"covert channel prevention, threat reduction\"",
+      "source_id": "chunk-9d5f49811712740b8fb0295a32498583"
+    },
+    {
+      "source": "BLINDING OR MASKING TECHNIQUES",
+      "target": "CVE-2013-4576",
+      "weight": 8.0,
+      "description": "\"Using blinding techniques can prevent the leakage of secret information like RSA keys as described in CVE-2013-4576.\"",
+      "keywords": "\"vulnerability protection, prevention\"",
+      "source_id": "chunk-4ab646ca8d70cb01e7dd1bb9e1252c5c"
+    },
+    {
+      "source": "SOURCEENTITYNAME1",
+      "target": "TARGETENTITYNAME1",
+      "weight": 1.0,
+      "description": "\"RelationshipDescription1\"",
+      "keywords": "\"RelationshipKeywords1\"",
+      "source_id": "chunk-a4d92c4f2f0780ace5f71226f48ebd50"
     }
   ]
 }
