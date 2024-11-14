@@ -3,10 +3,10 @@ import json
 from lightrag.utils import xml_to_json
 from neo4j import GraphDatabase
 import sys
-sys.path.append('/lightRAG/LightRAG')
+sys.path.append('/LightRAG')
 
 # Constants
-WORKING_DIR = "../../LightRAG_exploit/dickens"
+WORKING_DIR = "./data"
 BATCH_SIZE_NODES = 500
 BATCH_SIZE_EDGES = 100
 
