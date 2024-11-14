@@ -1,0 +1,2424 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;INTEL PROCESSORS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Intel Processors are semiconductor products developed by Intel Corporation that have been identified as having observable discrepancies in their RAPL interface."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CRYPTO HARDWARE WALLET&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A Crypto Hardware Wallet is a device used to store cryptographic keys and other sensitive information, which has been found vulnerable to side-channel attacks through its power consumption patterns."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;JAVA-ORIENTED FRAMEWORK&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The Java-oriented framework uses String.equals() method for HMAC signature comparisons rather than constant-time algorithms, leading to timing discrepancies that can be exploited."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CVE-2020-8695&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"CVE-2020-8695 refers to a specific observable discrepancy in the RAPL interface of certain Intel processors that allows an attacker to infer information about the processor's state."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CVE-2019-14353&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"CVE-2019-14353 describes a side-channel attack where power consumption patterns correlate with the total number of pixels illuminated in a crypto hardware wallet, revealing sensitive information."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CVE-2019-10071&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A particular instance of a security flaw affecting Java-oriented frameworks due to the use of timing-sensitive string comparisons for HMAC signatures."&lt;SEP&gt;"CVE-2019-10071 is an event that highlights the vulnerability in a Java-oriented framework due to timing discrepancies caused by non-constant time algorithm use for HMAC signature comparisons."</data>
+  <data key="d2">chunk-6d19315b3a2ac5b8e6619fe95743e315&lt;SEP&gt;chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CVE-2002-2094&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"CVE-2002-2094 is related to directory traversal attacks and inconsistencies in error responses, highlighting a broader category of security issues involving observable discrepancies."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CWE-200&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"CWE-200 is a category of software weaknesses involving observable discrepancies in system behavior under different circumstances."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;BULLETIN BOARD&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A Bulletin Board system that displays different error messages based on user existence or non-existence, making it easier for attackers to conduct brute force password guessing attacks."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;OPERATING SYSTEM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An Operating System that behaves differently when a direct remote login is disabled and the password is correct, allowing attackers to guess passwords via brute force methods."&lt;SEP&gt;"The operating system is responsible for managing and allocating resources like memory to different processes or users, ensuring efficient resource utilization."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1&lt;SEP&gt;chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;PRODUCT (UNNAMED)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A product which modifies TCP/IP stack and ICMP error messages in ways that indicate its presence and allows for identification of filtered ports based on TTL values."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;VERSION CONTROL SYSTEM&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A version control system that uses the -X command for alternate history files to determine file existence, leading to different error messages being returned."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;FTP SERVER (UNNAMED)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An FTP server that responds differently based on whether a user name exists or not and can be used to identify valid usernames by attackers."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;SSL IMPLEMENTATION (UNNAMED)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"An SSL implementation that does not perform MAC computation for incorrect padding, potentially leading to plaintext extraction via timing discrepancies."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;VIRTUAL MACHINE (UNNAMED)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A virtual machine allowing malicious web site operators to determine file existence on the client by measuring delays in method execution."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;WEB BROWSER (UNNAMED)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A browser that can be used to identify arbitrary files via setting src property to target filename and using Javascript to detect if a web page immediately stops loading."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2004-0294&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A security vulnerability where a Bulletin Board displays different error messages when a user exists or not, making it easier for attackers to identify valid users."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2004-0243&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A security issue in the Operating System which shows a distinct message if the password is correct when direct remote login is disabled."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2002-0514&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Product vulnerability that allows attackers to determine if a port is being filtered by comparing TTL values of response packets."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2002-0515&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A security flaw where the product reveals whether ports are filtered through different TTL settings in responses."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2002-0208&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An issue with a product that modifies TCP/IP stack and ICMP error messages, revealing the product's presence."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2004-2252&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Behavioral infoleak in response to SYN-FIN packets, potentially allowing for information gathering about the system."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2001-1387&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Product may generate unexpected responses leading to an information leak as specified by the administrator."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2004-0778&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A security vulnerability in a version control system that allows determining file existence via error messages for -X command."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2004-1428&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An FTP server vulnerability where non-existent usernames trigger immediate error messages, revealing valid usernames to attackers."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2003-0078&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"SSL implementation weakness allowing timing discrepancies to be used in cryptographic attacks for plaintext extraction."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2000-1117&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A virtual machine vulnerability permitting malicious web site operators to infer file existence on the client through method execution delays."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2003-0637&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Product vulnerability allowing attackers to determine valid usernames via shorter timeouts for non-existent users compared to valid ones."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2003-0190&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Immediate error message response from a product upon invalid user input, facilitating username enumeration by timing attacks."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2004-1602&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"FTP server vulnerability where responses to valid usernames differ in time from non-existent ones, aiding in username discovery via timing analysis."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2005-0918&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A browser vulnerability allowing attackers to determine file existence by triggering an immediate stop of web page loading when a target filename is set as the src property."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;PROCESS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"A process is an instance of a computer program that is being executed. Processes interact with the operating system to request and use system resources such as memory and disk space."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;DISK SPACE MANAGEMENT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The management event where disk space is reallocated when files are deleted, ensuring continuous resource availability for new data storage needs."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;MEMORY DEALLOCATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The process of freeing up memory after it has been used and making it available again for other processes or the same process to reuse."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;CWE ID:459&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"A Common Weakness Enumeration (CWE) identifier that represents a category of software weaknesses related to sensitive information not being cleared before use, leading to potential data leakage."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;SDELETE (SECURE DELETE)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A utility on Windows systems used to securely delete files and folders by overwriting them multiple times, making recovery difficult or impossible."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;CVE-2019-3733&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A specific security vulnerability where a cryptography library fails to clear heap memory before releasing it, potentially exposing sensitive data."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;CVE-2003-0001&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A security issue in Ethernet NIC drivers that do not pad frames with null bytes, leading to information leakage from malformed packets."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;CVE-2003-0291&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A router vulnerability where previously used DHCP packet information is not cleared, allowing potential data exposure."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;MEMORY BUFFER CLEARING&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The process of overwriting memory buffers with fixed patterns or random data before releasing them to prevent sensitive information leakage."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;CWE-226&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"CWE-226 refers to the final stage of the resource lifecycle where a resource is deleted, eliminated, expired, or otherwise released for reuse."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;CWE-212&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"CWE-212 deals with sensitive data in resources that are intentionally shared with others while they remain active."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;SENSITIVE INFORMATION UNCLEARED BEFORE USE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"This event involves the exposure of sensitive information before it is cleared and reused, posing risks to confidentiality and integrity."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;CVE-2005-1941&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"CVE-2005-1941 is an event that represents a security vulnerability where installed executables had world-writable permissions, exposing them to unauthorized modifications."&lt;SEP&gt;"Describes a security issue where executables are installed with world-writable permissions."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5&lt;SEP&gt;chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;CVE-2002-1713&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"CVE-2002-1713 is an event that indicates a security vulnerability involving specific file permissions."&lt;SEP&gt;"Describes an issue where home directories are installed as world-readable."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5&lt;SEP&gt;chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;ARCHITECTS AND DESIGNERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The term 'architects and designers' refers to professionals who are responsible for the design and architecture of systems, particularly emphasizing the principle of least privilege."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;CVE-2001-1550&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Involves world-writable log files allowing information loss and cleartext passwords in readable files."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;PLOVER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A reference to a security standard or guideline related to insecure default permissions."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;CERT C SECURE CODING&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An organization providing secure coding guidelines for the C programming language."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;THE CERT ORACLE SECURE CODING STANDARD FOR JAVA (2011)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Provides secure coding guidelines specific to Java development."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;ISA/IEC 62443&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"A security standard for industrial automation and control systems."&lt;SEP&gt;"ISA/IEC 62443 is a cybersecurity standard designed to protect industrial automation and control systems from cyber threats, addressing aspects such as communication security, device security, access security, integrity, etc."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc&lt;SEP&gt;chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;INSECURE DEFAULT PERMISSIONS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Describes a scenario where system defaults are not secure, allowing unauthorized access or modifications."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;CLEARTEXT TRANSMISSION OF SENSITIVE INFORMATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Refers to the act of transmitting sensitive data in plaintext over insecure channels."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;PROGRAMMABLE LOGIC CONTROLLER (PLC)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Programmable Logic Controller is mentioned multiple times in the context of transmitting passwords and session tokens in plaintext, indicating a security vulnerability."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;BUILDING CONTROLLER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Building Controller transmits authentication credentials in plaintext, highlighting a significant security issue."&lt;SEP&gt;"The Building Controller transmits authentication credentials in plaintext, highlighting a significant security vulnerability."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;WEB APPLICATIONS WITH SSL&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Web applications using SSL are discussed as needing to maintain encryption throughout the entire session from login to logout to ensure data protection."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;SERVERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Servers play a role in communicating over encrypted channels, which is suggested for protecting sensitive information."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;HUMAN TESTER (GENERIC)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A human tester plays a crucial role in analyzing security issues that automated tools may miss, such as those related to design and business rules."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;AUTOMATED STATIC ANALYSIS TOOL&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"This tool is used for finding instances of vulnerabilities by analyzing source code or binary/compiled code without executing it. It builds a model of data flow and control flow to search for potentially vulnerable patterns."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;SOURCE CODE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The source code refers to the original programming instructions that are often analyzed using tools like Automated Static Analysis to ensure security vulnerabilities aren't present."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;BINARY/COMPILED CODE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"This is an executable form of software after it has been compiled from source code. It can still be analyzed statically for potential vulnerabilities."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;DATA FLOW&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The data flow concept involves tracking how data moves through a system, which helps in identifying potential security risks like injection attacks or data leaks."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;CONTROL FLOW&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"This refers to the sequence of instructions executed by a computer program. Analyzing control flow can help identify vulnerabilities such as improper error handling or buffer overflows."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;CRYPTOGRAPHY TOOLS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Tools used for detecting encodings, monitoring network traffic, and determining if data packets contain readable commands or high entropy to indicate encryption use."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;SNIFFERS AND PROTOCOL ANALYZERS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"These tools monitor network traffic by capturing and analyzing the packets that travel through a network. They can be used to detect encryption usage based on packet content."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;SYSTEM ACTIVITY MONITORS (E.G., FILEMON, REGMON)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Tools such as FileMon and RegMon are mentioned for monitoring system activity related to file operations and registry changes, useful in security analysis."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;DEBUGGERS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"These tools attach directly to running processes to monitor and modify the program's behavior. They can be used to trace data flows and detect vulnerabilities without source code."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;CWE-CAPEC ICS/OT SPECIAL INTEREST GROUP (SIG)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The CWE-CAPEC ICS/OT Special Interest Group (SIG) is a subgroup focused on mapping Common Weakness Enumerations (CWEs) to the ISA/IEC 62443 standard, contributing to cybersecurity efforts in industrial control systems and operational technology."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;CERT ORACLE SECURE CODING STANDARD FOR JAVA (2011)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The CERT Oracle Secure Coding Standard for Java (2011) is a set of guidelines aimed at preventing security vulnerabilities in Java applications by specifying secure coding practices."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;MISSING CRYPTOGRAPHIC STEP&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event where the product fails to implement a required step in a cryptographic algorithm, weakening encryption strength and potentially leading to data exposure or security breaches."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;EXPECTED BEHAVIOR VIOLATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A situation where a feature, API, or function does not perform according to its specification, which can lead to various types of software quality degradation and context-specific impacts."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;CVE-2001-1585&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event where a missing challenge-response step allows an authentication bypass using public key, leading to a security vulnerability."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;CVE-2003-0187&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event involving large timeouts on unconfirmed connections due to inconsistency in linked list implementations, causing potential security risks."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;CVE-2003-0465&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event where the strncpy function in Linux kernel acts differently from libc on x86, leading to expected behavior differences and potential errors."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;CVE-2005-3265&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event involving a buffer overflow due to the use of a third-party library function lacking internal protection against overflows."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;OWASP TOP TEN 2007&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"OWASP Top Ten 2007 is a list identifying ten of the most critical web application security risks."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;DEVELOPER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The developer is responsible for creating a software application, but there's an implication that the software might not be used as intended due to certain vulnerabilities."</data>
+  <data key="d2">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</node>
+<node id="&quot;ATTACKER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An attacker who exploits the unintended proxy functionality of a product by sending requests through it to bypass security measures such as firewalls and hide their identity."&lt;SEP&gt;"The Attacker exploits vulnerabilities in the system to cause unauthorized changes or access, impacting security configurations."</data>
+  <data key="d2">chunk-cf2bb615b405ec5f79b3729ede5b6486&lt;SEP&gt;chunk-654843afa7d21ff70e90b3e1ef92c37f</data>
+</node>
+<node id="&quot;PRODUCT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A product that implements access controls via policy to disable or restrict accesses but suffers from insufficient granularity, allowing unauthorized agents to potentially modify device configurations and keys."&lt;SEP&gt;"The product is an intermediary or proxy that forwards requests from upstream components to external actors, potentially losing information about the original source of the request."</data>
+  <data key="d2">chunk-cf2bb615b405ec5f79b3729ede5b6486&lt;SEP&gt;chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;UPSTREAM COMPONENT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Upstream Component sends requests to the Product, which forwards these requests without preserving their original source."</data>
+  <data key="d2">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</node>
+<node id="&quot;EXTERNAL ACTOR&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An External Actor is outside of the Product's control sphere and receives requests from the Product that appear to come directly from it."</data>
+  <data key="d2">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</node>
+<node id="&quot;CVE-2010-1637&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A vulnerability in a web-based mail program that allows internal network scanning using a modified POP3 port number."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;CVE-2009-0037&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A vulnerability where a URL-downloading library automatically follows redirects to file:// and scp:// URLs, potentially allowing unauthorized access."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;PLOVER:UNINTENDED PROXY/INTERMEDIARY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"This concept refers to a situation where an intermediary system is exploited by attackers to gain unauthorized access to resources."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;CWE-668 (EXPOSURE OF RESOURCE TO WRONG SPHERE)&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"This CWE describes the exposure of a resource to a wrong sphere, such as exposing a file or directory to an untrusted user, which can lead to security vulnerabilities."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;INSUFFICIENT TECHNICAL DOCUMENTATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A lack of detailed technical documentation that hinders understanding and maintenance of the product, potentially leading to vulnerabilities."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;CVE-2022-3203&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A vulnerability in a wireless access point where an undisclosed telnet server activated by default can be exploited."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;ISA/IEC 62443:PART 2-4:REQ SP.02.03 BR&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"This is a requirement related to secure programming practices and secure design principles as part of the IEC 62443 standard."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;ISA/IEC 62443:PART 2-4:REQ SP.02.03 RE(1)&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"A requirement related to ensuring that security measures are in place for protecting data and systems as part of the IEC 62443 standard."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;ISA/IEC 62443:PART 2-4:REQ SP.03.03 RE(1)&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"A requirement related to secure design practices, ensuring that systems are designed with security in mind as part of the IEC 62443 standard."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;ISA/IEC 62443:PART 4-1:REQ SG-1&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"A requirement related to secure system design principles and practices for industrial control systems as per the IEC 62443 standard."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;ISA/IEC 62443:PART 4-1:REQ SG-2&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"A security guideline focused on ensuring that security measures are integrated into system designs to protect against various threats as per the IEC 62443 standard."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;ISA/IEC 62443 PART 4-1&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"ISA/IEC 62443 Part 4-1 is a standard or framework that includes various requirements (Req SG) for security in industrial communication systems."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;SYSTEM-ON-A-CHIP (SOC)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A technological system within a single chip that integrates various circuits and hardware engines responsible for generating transactions, such as read/write operations on assets or performing actions like resets."&lt;SEP&gt;"A technology involving various circuits and hardware engines within a chip that generate transactions for accessing assets or performing actions. Transactions are often qualified with Security Tokens for access control purposes."&lt;SEP&gt;"The System-On-a-Chip (SoC) integrates multiple components such as processors, memory, and interfaces onto a single integrated circuit to reduce size and power consumption, but it can also pose security risks if shared resources are improperly isolated between trusted and untrusted agents."</data>
+  <data key="d2">chunk-b3093914f034bebd2e6138d339ec08d6&lt;SEP&gt;chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;DIRECT MEMORY ACCESS (DMA)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Direct Memory Access (DMA) allows data transfer between the computer and connected devices directly without going through the CPU, posing a risk when enabled too early in the boot phase before security configurations are established."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event describing how shared resources between trusted and untrusted agents on an SoC can be improperly isolated, leading to potential vulnerabilities."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event where a Direct Memory Access (DMA) capable device is enabled prematurely during the boot phase before security configurations are established, making it vulnerable to attacks."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;CWE ID:653&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Common Weakness Enumeration (CWE) ID 653 describes improper isolation of shared resources in a system-on-a-chip (SoC)."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;CWE ID:668&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Common Weakness Enumeration (CWE) ID 668 is related to the use of insecure services or functions."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;CWE ID:1331&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Common Weakness Enumeration (CWE) ID 1331 describes improper handling of errors and exceptions in a system-on-a-chip (SoC)."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;CVE-2020-8698&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A Common Vulnerabilities and Exposures entry detailing an issue with improper isolation of shared resources allowing for information disclosure."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;CVE-2019-6260&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A Common Vulnerabilities and Exposures entry indicating that the Baseboard Management Controller (BMC) device does not require authentication for arbitrary read/write access to its physical address space, posing a security risk."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;BASEBOARD MANAGEMENT CONTROLLER (BMC)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The Baseboard Management Controller is responsible for managing system hardware and can be exploited if it lacks proper security measures like authentication checks."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;ADVANCED HIGH-PERFORMANCE BUS (AHB) BRIDGES&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"AHB bridges are part of the Baseboard Management Controller that allow read/write access to physical address space, which may lack necessary authentication mechanisms."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;IOMMU (INPUT/OUTPUT MEMORY MANAGEMENT UNIT)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The IOMMU is a component used in systems to manage direct memory access and protect against unauthorized data transfer between devices and system memory."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;PHASE:ARCHITECTURE AND DESIGN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Architecture and Design phase involves reviewing and ensuring proper security measures are in place during the initial design stages of a system."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;ON-CHIP DEBUG AND TEST INTERFACE WITH IMPROPER ACCESS CONTROL&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"This concept describes a vulnerability where improper access control to on-chip debug and test interfaces can lead to unauthorized access to internal registers and sensitive information."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;JTAG INTERFACE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The JTAG interface is used for debugging programs running on a device by accessing serially interconnected internal registers, potentially allowing unauthorized access if not properly secured."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;SYSTEM-ON-CHIP (SOC)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A System-on-Chip (SoC) is a single integrated circuit that contains all components needed for a computer or other electronic system, such as processors, memory, and input/output devices."&lt;SEP&gt;"A System-on-Chip (SoC) is an integrated circuit that integrates all components of a computer or other electronic system on a single chip, including memory and fabric access controls."</data>
+  <data key="d2">chunk-0e7e0a03ef0aaa003fbaeb20b6671acf&lt;SEP&gt;chunk-656361cef4ab97aa6bcd9340210f5920</data>
+</node>
+<node id="&quot;TRUSTED FIRMWARE &quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Trusted Firmware refers to firmware that ensures security features in hardware are programmed correctly during the boot sequence before untrusted components can execute."&lt;SEP&gt;"Trusted Firmware refers to firmware that ensures security features in hardware are programmed correctly during the boot sequence before untrusted components can execute未经授权的访问，请询问如何进一步协助您。Certainly, I will review and identify additional relevant entities from the text provided, focusing on the specified types (organization, person, geo, event</data>
+  <data key="d2">chunk-0e7e0a03ef0aaa003fbaeb20b6671acf</data>
+</node>
+<node id="&quot;PERIPHERAL MICROCONTROLLERS &quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Peripheral microcontrollers are devices often part of a System-on-Chip (SoC) that provide specific functions and may require secure handling, especially regarding their firmware."</data>
+  <data key="d2">chunk-0e7e0a03ef0aaa003fbaeb20b6671acf</data>
+</node>
+<node id="&quot;RESERVED BITS &quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Reserved bits in hardware designs refer to binary positions intended for future use or expansion but not currently utilized in the current design."</data>
+  <data key="d2">chunk-0e7e0a03ef0aaa003fbaeb20b6671acf</data>
+</node>
+<node id="&quot;ADVERSARY &quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An adversary refers to an entity that seeks to exploit vulnerabilities within a System-on-Chip (SoC) by manipulating reserved bits or exploiting untrusted components."</data>
+  <data key="d2">chunk-0e7e0a03ef0aaa003fbaeb20b6671acf</data>
+</node>
+<node id="&quot;DESIGNER &quot;">
+  <data key="d0">"ROLE"</data>
+  <data key="d1">"A designer is responsible for the architecture and design of hardware systems, including decisions on how to handle future use capabilities through reserved bits."</data>
+  <data key="d2">chunk-0e7e0a03ef0aaa003fbaeb20b6671acf</data>
+</node>
+<node id="&quot;IMPLEMENTER &quot;">
+  <data key="d0">"ROLE"</data>
+  <data key="d1">"An implementer works on turning a hardware design into a functional product, ensuring that all security measures are properly applied during implementation."</data>
+  <data key="d2">chunk-0e7e0a03ef0aaa003fbaeb20b6671acf</data>
+</node>
+<node id="&quot;INTEGRATED CIRCUITS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Integrated circuits are hardware components that can expose assets such as device configuration and keys to trusted firmware during power resets."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;HARDWARE ENGINES&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Hardware engines provide access-controlled environments for trusted modules or firmware, which need protection mechanisms against unauthorized accesses."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;TRUSTED FIRMWARE (BOOT FIRMWARE)&quot;">
+  <data key="d0">"ROLE"</data>
+  <data key="d1">"Trusted Firmware configures necessary access-control protections upon a power reset and ensures the hardware starts with default values in registers."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;UNTRUSTED AGENTS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Individuals or entities that do not have trusted status and can exploit memory regions due to inconsistent read/write permissions enforced by the hardware."&lt;SEP&gt;"Untrusted agents represent entities that may attempt to access security-sensitive assets, posing risks of leaking sensitive information or altering device configurations."</data>
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a&lt;SEP&gt;chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;ACCESS-CONTROL POLICY&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A policy designed within the product to control and restrict accesses (reads and writes) to system assets from unauthorized agents."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;SECURITY-SENSITIVE ASSETS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"These are critical parts of a system that require strict access controls to prevent unauthorized access, such as keys or configuration data."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;POWER RESET&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event during which hardware or systems initialize with default values stored in registers and trusted firmware configures necessary protections."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;HDL CODE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Hardware Description Language (HDL) code used to define register defaults and IP parameters that affect system security settings upon power reset."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;DESIGN REVIEW PHASE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Design Review Phase is a critical phase in which security-sensitive settings are defined to ensure compliance with design specifications."</data>
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</node>
+<node id="&quot;TESTING PHASE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Testing Phase involves using automated tools to verify that the values configured during the design review phase adhere to design specifications."&lt;SEP&gt;"The phase during which automated tools are used to test that values are not reprogrammable and that write-once fields lock on writing zeros, ensuring hardware security."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2&lt;SEP&gt;chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</node>
+<node id="&quot;SOFTWARE MODULE (COMMONLY SET BY BIOS/BOOTLOADER)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A trusted software module responsible for setting device configuration controls after a power reset, typically handled by BIOS or bootloader, and then locking these settings from further modification."</data>
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</node>
+<node id="&quot;HARDWARE DESIGN TEAMS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Teams responsible for the architecture and design of hardware components such as registers and address regions."</data>
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</node>
+<node id="&quot;TRUSTED FIRMWARE/SOFTWARE MODULE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A module that ensures system configuration security, typically set during boot processes to prevent unauthorized modifications."</data>
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</node>
+<node id="&quot;INTEGRATED CIRCUITS AND HARDWARE IP SOFTWARE PROGRAMMABLE CONTROLS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"This technology involves hardware units with register circuits storing settings that can be protected from software modifications through write-once restrictions."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;HDL CODE (HARDWARE DESCRIPTION LANGUAGE)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The HDL code is used in the hardware description language to define default values for hardware unit settings, which are critical for security and initialization purposes."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;LOCK BIT PROTECTION FEATURE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"A lock bit protection feature is a mechanism that uses a trusted lock bit to disable writes to protected registers or address regions after initial configuration."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;TRUSTED FIRMWARE OR SOFTWARE MODULE (E.G., BIOS/BOOTLOADER)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"This module initializes and configures hardware settings after a device power reset, ensuring that security measures such as lock bits are set correctly."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;SYSTEM CONFIGURATION PHASE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The phase during which system configurations are finalized and tested for proper functionality and security measures."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;POWER STATE TRANSITION (ENTRY AND WAKE FROM LOW POWER SLEEP MODES)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A transition in the device's power state that can affect lock bit behavior and system configuration settings."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;PRODUCT DEVELOPMENT TEAM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A team that designs and develops hardware products, likely handling the implementation of memory management features."&lt;SEP&gt;"The Product Development Team is responsible for creating and implementing security-sensitive hardware controls, including the use of lock bits to protect system configuration."</data>
+  <data key="d2">chunk-288a08707ff1741e8c5773dc48f272bf&lt;SEP&gt;chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;ADVERSARY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An Adversary seeks to exploit weaknesses in hardware protection mechanisms, such as improperly set lock bits, to gain unauthorized access or modify protected configurations."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;BIOS/BOOTLOADER&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"BIOS/bootloader is a trusted software module that programs device configuration controls after power reset and sets the lock bit to prevent further modifications."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;LOCK BIT PROTECTION SCHEME&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The Lock Bit Protection Scheme is intended to disable writes to protected registers or address regions, but may have weaknesses if not thoroughly tested across different scenarios."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;POWER STATE TRANSITION TESTING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Power State Transition Testing involves reviewing and ensuring the security lock bit protections remain effective across supported power state transitions."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;TRUSTED FIRMWARE MODULE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The Trusted Firmware Module is responsible for programming device configuration controls after power reset to ensure security lock bits are set correctly."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;SYSTEM CONFIGURATION REGISTERS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"System Configuration Registers hold important hardware configurations that need protection from unauthorized modifications."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;PRE-SILICON TESTING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Pre-silicon Testing involves evaluating the behavior of security lock bits before the actual silicon is manufactured to ensure proper functionality."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;POST-SILICON TESTING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Post-silicon Testing involves verifying the behavior of security lock bits in real hardware after manufacturing to ensure they function as intended."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;FIPS-140-2&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"FIPS-140-2 is a standard for cryptographic modules that includes requirements for zeroization, which refers to clearing sensitive information from hardware registers."</data>
+  <data key="d2">chunk-732e47f37276f678a57ed5b2cc4caaa0</data>
+</node>
+<node id="&quot;HARDWARE PRODUCT&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The hardware product refers to a physical device that may include hardware IPs such as cryptographic accelerators."</data>
+  <data key="d2">chunk-732e47f37276f678a57ed5b2cc4caaa0</data>
+</node>
+<node id="&quot;CWE ID:667&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"CWE ID 667 is a common weakness enumeration related to protection mechanisms that can be bypassed, allowing for unauthorized access and modification of system configurations."</data>
+  <data key="d2">chunk-732e47f37276f678a57ed5b2cc4caaa0</data>
+</node>
+<node id="&quot;CWE ID:226&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"CWE ID 226 refers to the failure to properly zeroize hardware registers, which can leave sensitive data accessible after a user change or physical attack detection."</data>
+  <data key="d2">chunk-732e47f37276f678a57ed5b2cc4caaa0</data>
+</node>
+<node id="&quot;CRYPTOGRAPHIC ACCELERATOR&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A cryptographic accelerator is a specialized piece of hardware designed to speed up cryptographic operations such as encryption and decryption."</data>
+  <data key="d2">chunk-732e47f37276f678a57ed5b2cc4caaa0</data>
+</node>
+<node id="&quot;ZEROIZATION PROCEDURE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The process of clearing register contents in a hardware IP to remove sensitive data, ensuring that no residual information remains after use or when switching users."</data>
+  <data key="d2">chunk-732e47f37276f678a57ed5b2cc4caaa0</data>
+</node>
+<node id="&quot;AES-256&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"AES-256 is an encryption algorithm designed for high security levels by requiring extensive computational resources and time to break, based on the strength of its key size."</data>
+  <data key="d2">chunk-732e47f37276f678a57ed5b2cc4caaa0</data>
+</node>
+<node id="&quot;DES&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"DES (Data Encryption Standard) is a symmetric-key algorithm that was once widely used but has since been considered weak due to vulnerabilities found over time."</data>
+  <data key="d2">chunk-732e47f37276f678a57ed5b2cc4caaa0</data>
+</node>
+<node id="&quot;TLS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"TLS (Transport Layer Security) is a cryptographic protocol designed to provide security for communications on the internet."</data>
+  <data key="d2">chunk-732e47f37276f678a57ed5b2cc4caaa0</data>
+</node>
+<node id="&quot;CRYPTOGRAPHIC PRIMITIVE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"A Cryptographic Primitive refers to the basic building blocks used in cryptography, such as DES and TLS encryption methods."</data>
+  <data key="d2">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c</data>
+</node>
+<node id="&quot;DES (DATA ENCRYPTION STANDARD)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"An older symmetric-key algorithm for encryption, now considered insecure and replaced by more robust standards."&lt;SEP&gt;"DES is a symmetric-key algorithm for the encryption of digital data with a key length of 56 bits. It was widely considered secure but has since become vulnerable to brute-force attacks due to advances in computational power."</data>
+  <data key="d2">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c&lt;SEP&gt;chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</node>
+<node id="&quot;TLS (TRANSPORT LAYER SECURITY)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"TLS is a cryptographic protocol that provides security and data integrity for communications over networks, using various cryptographic primitives including DES in some historical instances."</data>
+  <data key="d2">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c</data>
+</node>
+<node id="&quot;CRYPTOGRAPHY COMMUNITY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Cryptography Community includes researchers from academia, industry, and government entities who review and evaluate cryptographic algorithms to ensure their safety and robustness."</data>
+  <data key="d2">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c</data>
+</node>
+<node id="&quot;ATTACKERS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Attackers are individuals or groups capable of using new mathematical techniques or brute force methods to exploit weaknesses in cryptographic primitives such as DES."</data>
+  <data key="d2">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c</data>
+</node>
+<node id="&quot;NIST (NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"NIST is a U.S. federal agency that sets standards for technology, including cryptographic algorithms and test vectors to ensure proper implementation."</data>
+  <data key="d2">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c</data>
+</node>
+<node id="&quot;FIPS 140-3 CERTIFICATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"FIPS 140-3 Certification is a standard published by NIST to ensure the security of cryptographic modules used in government systems."</data>
+  <data key="d2">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c</data>
+</node>
+<node id="&quot;CUSTOM OR PRIVATE CRYPTOGRAPHIC ALGORITHMS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Custom or private cryptographic algorithms refer to proprietary encryption methods that are not widely reviewed and thus may be vulnerable to attacks."</data>
+  <data key="d2">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c</data>
+</node>
+<node id="&quot;US GOVERNMENT SYSTEMS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The US government systems require FIPS 140-3 certification for their cryptographic standards, superseding earlier versions like FIPS 140-2."</data>
+  <data key="d2">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</node>
+<node id="&quot;FIPS 140-3&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"A U.S. government standard that certifies cryptographic modules, superseding earlier versions like FIPS 140-2."</data>
+  <data key="d2">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</node>
+<node id="&quot;FIPS 140-2&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"A U.S. government standard that certifies cryptographic modules, superseded by FIPS 140-3."</data>
+  <data key="d2">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</node>
+<node id="&quot;MD5&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A widely used hashing algorithm known for vulnerabilities in security contexts like certificate forgery and identity card breaches."</data>
+  <data key="d2">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</node>
+<node id="&quot;SHA-256&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A cryptographic hash function that provides a secure method of ensuring data integrity, commonly used instead of less secure algorithms like MD5."</data>
+  <data key="d2">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</node>
+<node id="&quot;LINEAR FEEDBACK SHIFT REGISTER (LFSR)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A method used to generate sequences for pseudo-random numbers or error-correcting codes, but not recommended as a substitute for standard random number generators."</data>
+  <data key="d2">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</node>
+<node id="&quot;RANDOM NUMBER GENERATOR (RNG)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A device or algorithm designed to produce statistically random numbers suitable for cryptographic applications."</data>
+  <data key="d2">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</node>
+<node id="&quot;CRYPTOGRAPHIC LIBRARIES/FRAMEWORKS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Pre-built software packages that implement commonly used cryptographic algorithms and protocols, reducing the risk of errors in custom implementations."</data>
+  <data key="d2">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</node>
+<node id="&quot;CWE-325 (SKIPPING RESOURCE-INTENSIVE STEPS)&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"A common weak point where critical steps in cryptographic algorithms are omitted, potentially leading to vulnerabilities."</data>
+  <data key="d2">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</node>
+<node id="&quot;CWE-320 (POOR KEY MANAGEMENT)&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"A weakness that arises from inadequate management of cryptographic keys, such as storing them in insecure locations accessible by untrusted agents."</data>
+  <data key="d2">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</node>
+<node id="&quot;CHIP IMPLEMENTING BLUETOOTH&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A chip implementing Bluetooth uses a low-entropy pseudo-random number generator (PRNG) instead of a hardware random number generator (RNG), which allows for spoofing vulnerabilities."</data>
+  <data key="d2">chunk-e70013d85904f7d1efc7a9e808395e0a</data>
+</node>
+<node id="&quot;CVE-2020-6616&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Security vulnerability where a Bluetooth chip uses a low-entropy PRNG, allowing for spoofing."</data>
+  <data key="d2">chunk-e70013d85904f7d1efc7a9e808395e0a</data>
+</node>
+<node id="&quot;CVE-2019-1715&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A security issue with insufficient entropy in the DRBG, leading to collisions and private key discovery."</data>
+  <data key="d2">chunk-e70013d85904f7d1efc7a9e808395e0a</data>
+</node>
+<node id="&quot;CVE-2014-4192&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Security flaw in Dual_EC_DRBG implementation where byte requests are not correctly handled, simplifying plaintext recovery."</data>
+  <data key="d2">chunk-e70013d85904f7d1efc7a9e808395e0a</data>
+</node>
+<node id="&quot;CVE-2007-6755&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A security issue related to the recommendation for Dual_EC_DRBG algorithm with point Q constants simplifying decryption."</data>
+  <data key="d2">chunk-e70013d85904f7d1efc7a9e808395e0a</data>
+</node>
+<node id="&quot;PRODUCT DEVELOPER ORGANIZATION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The organization responsible for developing and implementing products with debug interfaces, potentially including security-sensitive information."</data>
+  <data key="d2">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</node>
+<node id="&quot;ATTACKER ORGANIZATION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An entity that exploits vulnerabilities in product debug interfaces to gain unauthorized access or cause harm."</data>
+  <data key="d2">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</node>
+<node id="&quot;CHICKEN BITS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Chicken bits are features or interfaces that facilitate quick identification and isolation of faulty components but can also be exploited by attackers for unauthorized access."</data>
+  <data key="d2">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</node>
+<node id="&quot;SECURITY-SENSITIVE VALUES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"These include root keys, encryption keys, manufacturing-specific information, chip-manufacturer-specific information, and original-equipment-manufacturer data programmed into fuses during early-boot flows or runtime."</data>
+  <data key="d2">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</node>
+<node id="&quot;FUSES&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Hardware components where security-sensitive values are stored after the chip is powered on."</data>
+  <data key="d2">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</node>
+<node id="&quot;REGISTERS AND LOCAL MEMORIES&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"These locations store security-sensitive information from fuses temporarily but can be accessed during debug operations."</data>
+  <data key="d2">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</node>
+<node id="&quot;DEBUG OPERATIONS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Debug operations allow access to sensitive information in registers and local memories, posing a risk if not properly controlled."</data>
+  <data key="d2">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</node>
+<node id="&quot;SYSTEM STATE OR BOOT STAGE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The current state of the system or stage in boot-up process that determines the level of debug access allowed for different assets."</data>
+  <data key="d2">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</node>
+<node id="&quot;DEBUGGER AUTHENTICATION METHODS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Methods such as using passwords or challenges to authenticate debugging sessions and restrict unauthorized access."</data>
+  <data key="d2">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</node>
+<node id="&quot;SYSTEM RESET&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A mechanism used early in boot stages to ensure that previous session data is not accessible to authenticated debuggers."</data>
+  <data key="d2">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</node>
+<node id="&quot;PASSCODE AUTHENTICATION&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The process of checking passcodes for authentication access to JTAG/debugging ports, which can be missing or improperly set up."</data>
+  <data key="d2">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</node>
+<node id="&quot;CWE-1191 AND CWE-1244 RELATIONSHIP NOTE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"This note explains the relationship between two security weaknesses related to physical debug access, detailing their differences in how they affect system security."</data>
+  <data key="d2">chunk-a486a4935548559d90f50ff1c1104c21</data>
+</node>
+<node id="&quot;CWE-1191&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"This CWE involves missing authorization for a debug interface, allowing unauthorized access to system components."</data>
+  <data key="d2">chunk-a486a4935548559d90f50ff1c1104c21</data>
+</node>
+<node id="&quot;CWE-746 (CORRECTED ID)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"This CWE involves providing internal assets with improper debug access levels, leading to security vulnerabilities."</data>
+  <data key="d2">chunk-a486a4935548559d90f50ff1c1104c21</data>
+</node>
+<node id="&quot;JTAG&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A standard interface used for debugging and testing purposes in electronic circuits, critical for firmware development."</data>
+  <data key="d2">chunk-a486a4935548559d90f50ff1c1104c21</data>
+</node>
+<node id="&quot;NAND FLASH&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A form of non-volatile memory used in many devices due to its high density and low cost."</data>
+  <data key="d2">chunk-a486a4935548559d90f50ff1c1104c21</data>
+</node>
+<node id="&quot;EEPROM&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A type of non-volatile memory that can be erased and reprogrammed in sections rather than all at once."</data>
+  <data key="d2">chunk-a486a4935548559d90f50ff1c1104c21</data>
+</node>
+<node id="&quot;WEAR LEVELING&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A method to distribute write operations evenly across all blocks in a memory device to prevent premature wear."</data>
+  <data key="d2">chunk-a486a4935548559d90f50ff1c1104c21</data>
+</node>
+<node id="&quot;CHIPWHISPERER&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"ChipWhisperer is specialized hardware used to check for vulnerabilities against voltage and clock glitching attacks in electronic devices."</data>
+  <data key="d2">chunk-7eb84a76feac79b0109e4248d03155ec</data>
+</node>
+<node id="&quot;PLUNDERVOLT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Plundervolt refers to a specific type of attack that targets the Dynamic Voltage and Frequency Scaling (DVFS) feature, demonstrating the vulnerability of such systems."</data>
+  <data key="d2">chunk-7eb84a76feac79b0109e4248d03155ec</data>
+</node>
+<node id="&quot;CLKSCREW&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"CLKSCREW is an attack similar to Plundervolt, targeting the DVFS mechanism in electronic devices to exploit vulnerabilities."</data>
+  <data key="d2">chunk-7eb84a76feac79b0109e4248d03155ec</data>
+</node>
+<node id="&quot;PRODUCT ARCHITECTURE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The product architecture involves mirroring regions or components which can lead to inconsistencies if not properly synchronized across distributed systems."</data>
+  <data key="d2">chunk-a55d80a6593fc4c93fd4bb2778558e73</data>
+</node>
+<node id="&quot;MULTI-CORE PROCESSOR&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A multi-core processor is mentioned as an example where mirrored MMUs (Memory Management Units) serve subsets of cores to address performance bottlenecks, but may introduce vulnerabilities due to inconsistent state updates."</data>
+  <data key="d2">chunk-a55d80a6593fc4c93fd4bb2778558e73</data>
+</node>
+<node id="&quot;SHADOW COPIES/MIRRORED COPIES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Shadow copies or mirrored copies refer to local versions of original resources that need consistent updating to prevent discrepancies and potential security risks."</data>
+  <data key="d2">chunk-a55d80a6593fc4c93fd4bb2778558e73</data>
+</node>
+<node id="&quot;CWE ID:664&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"CWE ID:664 is a security vulnerability related to inconsistent state management across distributed systems."</data>
+  <data key="d2">chunk-a55d80a6593fc4c93fd4bb2778558e73</data>
+</node>
+<node id="&quot;SHADOW COPY SYSTEM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A system responsible for maintaining a copy of data that updates independently and may lead to out-of-sync conditions."</data>
+  <data key="d2">chunk-654843afa7d21ff70e90b3e1ef92c37f</data>
+</node>
+<node id="&quot;UPDATE REQUEST EVENT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event signaling the need for an update in the original data copy."</data>
+  <data key="d2">chunk-654843afa7d21ff70e90b3e1ef92c37f</data>
+</node>
+<node id="&quot;COMPLETION MESSAGE EVENT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A message sent by the shadow copy to confirm successful completion of updates."</data>
+  <data key="d2">chunk-654843afa7d21ff70e90b3e1ef92c37f</data>
+</node>
+<node id="&quot;PRODUCT DEVELOPERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Developers who create products that use comparison logic across a series of steps rather than in one operation, potentially leaving their systems vulnerable to timing attacks."</data>
+  <data key="d2">chunk-6d19315b3a2ac5b8e6619fe95743e315</data>
+</node>
+<node id="&quot;HARDWARE DESIGNER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A hardware designer responsible for ensuring that the comparison logic is implemented securely so as to compare objects in one operation instead of smaller chunks."</data>
+  <data key="d2">chunk-6d19315b3a2ac5b8e6619fe95743e315</data>
+</node>
+<node id="&quot;SMARTPHONE OS DEVELOPERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Developers who create smartphone operating systems with functions not running in constant time, potentially leading to side-channel vulnerabilities."</data>
+  <data key="d2">chunk-6d19315b3a2ac5b8e6619fe95743e315</data>
+</node>
+<node id="&quot;JAVA-ORIENTED FRAMEWORK DEVELOPERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Framework developers whose implementation of HMAC signature comparisons is vulnerable due to the use of non-constant-time algorithms."</data>
+  <data key="d2">chunk-6d19315b3a2ac5b8e6619fe95743e315</data>
+</node>
+<node id="&quot;ROUTER PASSWORD FUNCTION DEVELOPERS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Developers who create or maintain password-checking functions that terminate validation on first incorrect character, leading to timing side-channel vulnerabilities."</data>
+  <data key="d2">chunk-6d19315b3a2ac5b8e6619fe95743e315</data>
+</node>
+<node id="&quot;CWE ID 693 (INCORRECT FUSE LOGIC)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event or condition in the system where fuses are misused for security logic, potentially leading to an insecure state."</data>
+  <data key="d2">chunk-6d19315b3a2ac5b8e6619fe95743e315</data>
+</node>
+<node id="&quot;CVE-2019-10482&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A specific vulnerability discovered in a smartphone OS allowing side-channel attacks due to non-constant time comparison functions."</data>
+  <data key="d2">chunk-6d19315b3a2ac5b8e6619fe95743e315</data>
+</node>
+<node id="&quot;CVE-2014-0984&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A documented vulnerability in router password-checking functions, enabling attackers to exploit timing discrepancies to obtain passwords through brute-force methods."</data>
+  <data key="d2">chunk-6d19315b3a2ac5b8e6619fe95743e315</data>
+</node>
+<node id="&quot;CVE-2020-12788&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"CVE-2020-12788 is an event related to CMAC verification being vulnerable to timing and power attacks."</data>
+  <data key="d2">chunk-de788f0e155febe49b330a85c8dacce2</data>
+</node>
+<node id="&quot;POWER MANAGEMENT HARDWARE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"This refers to hardware components that manage power and clock features in devices, which can be exploited if not secured properly."</data>
+  <data key="d2">chunk-de788f0e155febe49b330a85c8dacce2</data>
+</node>
+<node id="&quot;CLOCK/COUNTER HARDWARE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"This is a type of hardware used for managing time-related functions (clocks) or counting mechanisms within devices."</data>
+  <data key="d2">chunk-de788f0e155febe49b330a85c8dacce2</data>
+</node>
+<node id="&quot;FAULT INJECTION ATTACKS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"These are attacks that involve manipulating the physical state of a device to achieve unauthorized outcomes such as bypassing authentication or altering cryptographic operations."</data>
+  <data key="d2">chunk-de788f0e155febe49b330a85c8dacce2</data>
+</node>
+<node id="&quot;SIDE-CHANNEL ANALYSIS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"This is an attack method where attackers gather measurement traces of physical quantities (e.g., power consumption) to perform side-channel attacks."</data>
+  <data key="d2">chunk-de788f0e155febe49b330a85c8dacce2</data>
+</node>
+<node id="&quot;ROWHAMMER&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A hardware vulnerability that involves repeatedly accessing a row of memory, causing bit flips in adjacent rows and leading to security breaches."</data>
+  <data key="d2">chunk-de788f0e155febe49b330a85c8dacce2</data>
+</node>
+<node id="&quot;INTEL RAPL (RUNNING AVERAGE POWER LIMIT)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"This is an internal power metering capability provided by Intel processors that can be used to measure power consumption, which if not adequately protected, enables side-channel attacks."</data>
+  <data key="d2">chunk-de788f0e155febe49b330a85c8dacce2</data>
+</node>
+<node id="&quot;INTEL(R) PROCESSORS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Intel(R) Processors is a product line from Intel, which includes processors that have been targeted by various security vulnerabilities such as Plundervolt and PLATYPUS attacks."</data>
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</node>
+<node id="&quot;AMD&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"AMD is mentioned in the context of an extension to a Linux service that allows for side-channel attacks without requiring privileged access."</data>
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</node>
+<node id="&quot;LINUX KERNEL DRIVER&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The Linux kernel driver is involved in enabling information disclosure through insufficient access control, as demonstrated by certain Intel processors' vulnerabilities."</data>
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</node>
+<node id="&quot;ROWHAMMER ATTACKS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Rowhammer Attacks are a type of hardware attack that exploits the timing and frequency of memory accesses to cause bit flips in adjacent memory locations."</data>
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</node>
+<node id="&quot;ARCHITECT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An architect who initiates introduction of weaknesses through exacting requirements for software accessible power/clock management."</data>
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</node>
+<node id="&quot;IMPLEMENTER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The person responsible for introducing weaknesses by assuming there are no consequences to unbounded power and clock management for secure components from untrusted ones."</data>
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</node>
+<node id="&quot;SECURE COMPONENTS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Software or hardware elements designed to protect against security vulnerabilities but may be compromised due to improper assumptions."</data>
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</node>
+<node id="&quot;SYSTEM-LEVEL ARCHITECTURE AND DESIGN&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The overall design of system components, which needs a security evaluation with software-aided physical attacks in scope."</data>
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</node>
+<node id="&quot;CUSTOM SOFTWARE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Specialized programs used to change registers controlling clock settings or power settings to bypass security locks or extract data."</data>
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</node>
+<node id="&quot;SECURE LOCKS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Security mechanisms within the hardware that can be bypassed by manipulating clock and power settings."</data>
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</node>
+<node id="&quot;DRAM&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Dynamic Random Access Memory, which can have adjacent locations changed to extract or modify data through custom software attacks."</data>
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</node>
+<node id="&quot;MEMORY ALIASES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Different memory addresses pointing to the same physical location due to hardware design."</data>
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</node>
+<node id="&quot;ADDRESS DECODER UNIT&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A component that maps address regions into the full system address, potentially creating aliases if it ignores higher-order bits."</data>
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</node>
+<node id="&quot;ARCHITECTURE AND DESIGN IMPLEMENTATION ORGANIZATION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An organization responsible for reviewing design consistency and common weaknesses related to Security Token assignment."</data>
+  <data key="d2">chunk-288a08707ff1741e8c5773dc48f272bf</data>
+</node>
+<node id="&quot;HARDWARE LOGIC&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Refers to the technical design and functionality implemented in hardware systems, particularly concerning error handling and security mechanisms."</data>
+  <data key="d2">chunk-288a08707ff1741e8c5773dc48f272bf</data>
+</node>
+<node id="&quot;MEMORY PROTECTION UNIT (MPU)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A component within hardware that enforces memory protection policies based on programmed definitions of isolated memory regions."</data>
+  <data key="d2">chunk-288a08707ff1741e8c5773dc48f272bf</data>
+</node>
+<node id="&quot;SINGLE EVENT UPSETS (SEUS)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event where transient errors occur in circuits due to external radiation or internal conditions, leading to temporary bit flips."</data>
+  <data key="d2">chunk-288a08707ff1741e8c5773dc48f272bf</data>
+</node>
+<node id="&quot;DEVELOPER/ENGINEER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A developer or engineer responsible for programming memory protection units with access control policies."</data>
+  <data key="d2">chunk-288a08707ff1741e8c5773dc48f272bf</data>
+</node>
+<node id="&quot;MEMORY REGIONS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Different sections of memory within a system, each defined and protected by hardware logic according to specific rules."</data>
+  <data key="d2">chunk-288a08707ff1741e8c5773dc48f272bf</data>
+</node>
+<node id="&quot;TRUSTED SOFTWARE/FIRMWARE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Software or firmware trusted by the hardware logic for defining and managing memory protection policies."</data>
+  <data key="d2">chunk-288a08707ff1741e8c5773dc48f272bf</data>
+</node>
+<node id="&quot;CWE ID:1384&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"CWE ID:1384 is an event related to improper security measures against single-event upsets (SEUs) in hardware, which can lead to temporary failures compromising chip security."</data>
+  <data key="d2">chunk-656361cef4ab97aa6bcd9340210f5920</data>
+</node>
+<node id="&quot;CWE ID:1254&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"CWE ID:1254 is another related event concerning improper access control for register interfaces, leading to potential vulnerabilities in system-on-chip (SoC) or similar hardware systems."</data>
+  <data key="d2">chunk-656361cef4ab97aa6bcd9340210f5920</data>
+</node>
+<node id="&quot;MEMORY-MAPPED I/O REGISTERS INTERFACE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The Memory-Mapped I/O Registers Interface acts as an interface to hardware functionality from software in products. Improper access control can lead to security vulnerabilities."</data>
+  <data key="d2">chunk-656361cef4ab97aa6bcd9340210f5920</data>
+</node>
+<node id="&quot;CVE-2014-2915&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A security vulnerability where a virtualization product fails to restrict access to debug and other processor registers, potentially leading to the crash of the host or guest OS."</data>
+  <data key="d2">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</node>
+<node id="&quot;VIRTUALIZATION PRODUCT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The virtualization product is a system that allows multiple operating systems (guests) to run on a single host computer hardware platform. The description mentions specific vulnerabilities associated with it."</data>
+  <data key="d2">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</node>
+<node id="&quot;CVE-2021-3011&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A vulnerability in a virtualization product where writing an invalid value to a register can cause a fatal error, potentially leading to the crash of the host OS."</data>
+  <data key="d2">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</node>
+<node id="&quot;VIRTUAL INTERRUPT CONTROLLER&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The virtual interrupt controller is part of the hardware within a virtualization environment that handles interrupts from devices. It can be exploited due to vulnerabilities like CVE-2021-3011."</data>
+  <data key="d2">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</node>
+<node id="&quot;CVE-2020-12446&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A security issue where an admin user's access to Model Specific Registers (MSRs) could expose these registers, potentially granting unauthorized administrative privileges."</data>
+  <data key="d2">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</node>
+<node id="&quot;DRIVER&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The driver is a software component that enables hardware devices to communicate with the operating system. In this context, it exposes security-relevant functionalities through Model Specific Register (MSR) access."</data>
+  <data key="d2">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</node>
+<node id="&quot;CVE-2015-2150&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A vulnerability allowing unrestricted access to PCI command registers in a virtualization product, potentially leading to the crash of the host OS from within a guest environment."</data>
+  <data key="d2">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</node>
+<node id="&quot;HARDWARE REGISTERS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Hardware registers are components within computer hardware that store data or control information, which can be accessed via memory-mapped interfaces. They play a critical role in system security and functionality."</data>
+  <data key="d2">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</node>
+<node id="&quot;MEMORY PROTECTION UNITS (MPUS)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Memory Protection Units (MPUs) enforce memory access rules to protect against unauthorized software access to hardware registers or other sensitive parts of the memory map."</data>
+  <data key="d2">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</node>
+<node id="&quot;ON-CHIP BUS FIREWALL SETTINGS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"On-chip bus firewalls are mechanisms used in semiconductor devices to prevent unauthorized data transfers between different components on a chip, thereby enhancing security by restricting access to critical areas."</data>
+  <data key="d2">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</node>
+<node id="&quot;PCI COMMAND REGISTERS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"PCI (Peripheral Component Interconnect) command registers control the operational state of PCI devices and can be accessed through the memory map or other interfaces. They are crucial for managing hardware functionality but pose risks if improperly secured."</data>
+  <data key="d2">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</node>
+<node id="&quot;MODEL SPECIFIC REGISTERS (MSRS)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Model Specific Registers (MSRs) store information specific to a particular CPU model, providing access to sensitive data and functionalities that can be exploited by attackers with elevated privileges."</data>
+  <data key="d2">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</node>
+<node id="&quot;ANTI-TAMPERING MEASURES&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Anti-tampering measures are security features designed to protect against or detect when hardware has been tampered with. They play a crucial role in safeguarding the integrity of sensitive products and data."</data>
+  <data key="d2">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</node>
+<node id="&quot;CWE ID:821&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"This event describes a weakness where confidentiality requirements can be violated during illegal memory access exceptions, leading to potential unauthorized disclosure of sensitive data."&lt;SEP&gt;"This event refers to a weakness where confidential data is improperly handled during illegal memory access, potentially leading to unauthorized disclosure of information."</data>
+  <data key="d2">chunk-b3093914f034bebd2e6138d339ec08d6</data>
+</node>
+<node id="&quot;CVE-2017-5754&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A specific security vulnerability involving microprocessors that use speculative execution and indirect branch prediction, potentially allowing unauthorized access to sensitive information via side-channel analysis."&lt;SEP&gt;"A specific security vulnerability related to systems with microprocessors utilizing speculative execution and indirect branch prediction that may allow unauthorized disclosure of information via a side-channel analysis of the data cache."</data>
+  <data key="d2">chunk-b3093914f034bebd2e6138d339ec08d6</data>
+</node>
+<node id="&quot;CWE ID:404&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"This event refers to an improper scrubbing issue when decommissioning products, where sensitive data is not properly removed or overwritten."&lt;SEP&gt;"This weakness relates to the improper scrubbing of sensitive data from decommissioned devices, leading to potential exposure of confidential information."</data>
+  <data key="d2">chunk-b3093914f034bebd2e6138d339ec08d6</data>
+</node>
+<node id="&quot;HARDWARE DESIGN ACCESS CONTROL SYSTEM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A system within integrated circuits and hardware engines that controls access to resources for trusted firmware or software modules."</data>
+  <data key="d2">chunk-5af9a5672caa3f4e4835e08a5744ac17</data>
+</node>
+<node id="&quot;TRUSTED FIRMWARE OR SOFTWARE MODULES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"These are components, typically set by a BIOS or bootloader, that manage secure boot processes and other critical functions in hardware devices."</data>
+  <data key="d2">chunk-5af9a5672caa3f4e4835e08a5744ac17</data>
+</node>
+<node id="&quot;UNTRUSTED AGENT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An entity or agent that is not properly authorized to access or modify resources controlled by trusted firmware or software modules."</data>
+  <data key="d2">chunk-5af9a5672caa3f4e4835e08a5744ac17</data>
+</node>
+<node id="&quot;BIOS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A component setting up trusted firmware or software modules for secure boot processes."</data>
+  <data key="d2">chunk-5af9a5672caa3f4e4835e08a5744ac17</data>
+</node>
+<node id="&quot;BOOTLOADER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A system responsible for initializing and loading the operating system on a device."</data>
+  <data key="d2">chunk-5af9a5672caa3f4e4835e08a5744ac17</data>
+</node>
+<node id="&quot;DEVICE CONFIGURATION&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Resource managed by hardware design access control systems, including settings like IP addresses or network configurations."</data>
+  <data key="d2">chunk-5af9a5672caa3f4e4835e08a5744ac17</data>
+</node>
+<node id="&quot;ENCRYPTION KEYS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Sensitive data managed by the hardware design access control system to protect against unauthorized access."</data>
+  <data key="d2">chunk-5af9a5672caa3f4e4835e08a5744ac17</data>
+</node>
+<node id="&quot;CVE-2005-1406&quot;">
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+  <data key="d1">"Proper memory buffer clearing can prevent issues like CVE-2005-1406 where buffers are not fully cleared when less data is stored."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SOURCE CODE/BINARY/COMPILED CODE&quot;">
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+  <data key="d1">"The Automated Static Analysis Tool analyzes source code or compiled binaries to find security issues, making it essential for software development teams."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;INTEGRATED CIRCUITS AND HARDWARE ENGINES&quot;">
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+  <data key="d1">"The product interacts with integrated circuits and hardware engines, implementing access control policies that can be too broad, allowing unauthorized accesses."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CRYPTOGRAPHIC COMMUNITY&quot;">
+  <data key="d2">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c</data>
+  <data key="d1">"The FIPS 140-3 Certification is issued by the Cryptography Community to ensure cryptographic modules meet high standards of security."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;DEBUG AUTHORIZATION LEVELS&quot;">
+  <data key="d2">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+  <data key="d1">"Different levels of debug access are assigned based on the current system state or boot stage to ensure proper protection mechanisms."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SECURITY RISK MITIGATION&quot;">
+  <data key="d2">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+  <data key="d1">"Using authentication methods like passcodes helps mitigate security risks associated with unauthorized debug access."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;DEBUG ACCESS CONTROL&quot;">
+  <data key="d2">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+  <data key="d1">"A system reset at the start of boot ensures that sensitive data from previous sessions is not accessible to authenticated debuggers."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;ORIGINAL COPY&quot;">
+  <data key="d2">chunk-654843afa7d21ff70e90b3e1ef92c37f</data>
+  <data key="d1">"The shadow copy updates independently of the original copy, leading to potential out-of-sync conditions."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;PLUNDERVOLT ATTACK&quot;">
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+  <data key="d1">"The Intel(R) Processors have been affected by the Plundervolt Attack, which involves improper conditions checks in voltage settings."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;NACL&quot;">
+  <data key="d2">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+  <data key="d1">"NaCl in 2015 allowed the CLFLUSH instruction that made Rowhammer attacks possible on certain systems."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CWE-212: EXPOSURE OF SENSITIVE SYSTEM INFORMATION DUE TO UNCLEARED DEBUG INFORMATION INCIDENT&quot;">
+  <data key="d2">chunk-3872fc98e8f01da81fadb53fc83263c2</data>
+  <data key="d1">"The SoC is a key component in which uncleared debug information leads to security vulnerabilities."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SOC (SYSTEM-ON-A-CHIP)&quot;">
+  <data key="d2">chunk-3872fc98e8f01da81fadb53fc83263c2</data>
+  <data key="d1">"The SoC is a key component in which uncleared debug information leads to security vulnerabilities."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;IMPROPER ACCESS CONTROL FOR REGISTER INTERFACE&quot;">
+  <data key="d2">chunk-656361cef4ab97aa6bcd9340210f5920</data>
+  <data key="d1">"Malicious software could tamper with any security-critical hardware data that is accessible through the register interface on a System-on-Chip, leading to potential loss of confidentiality and integrity."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;HARDWARE LOGIC WITH INSECURE DE-SYNCHRONIZATION&quot;">
+  <data key="d2">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+  <data key="d1">"On-chip bus firewalls are part of the hardware logic that can fail to synchronize properly between control and data channels, leading to potential security vulnerabilities."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;IMPROPER PHYSICAL ACCESS CONTROL&quot;">
+  <data key="d2">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+  <data key="d1">"Anti-tampering measures are part of the design and implementation phases that aim to prevent or detect tampering with physical components, thereby mitigating risks associated with improper physical access control."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;INTEL PROCESSORS&quot;" target="&quot;CVE-2020-8695&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The CVE-2020-8695 event highlights the observable discrepancy issue specifically affecting Intel processors."</data>
+  <data key="d5">"security vulnerability, observable discrepancy"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;CRYPTO HARDWARE WALLET&quot;" target="&quot;CVE-2019-14353&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"CVE-2019-14353 describes a side-channel attack on the Crypto Hardware Wallet due to its power consumption patterns."</data>
+  <data key="d5">"power analysis, security flaw"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;JAVA-ORIENTED FRAMEWORK&quot;" target="&quot;CVE-2019-10071&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"CVE-2019-10071 is an event that identifies a vulnerability in the Java-oriented framework due to its implementation of HMAC comparisons."</data>
+  <data key="d5">"timing attack, security weakness"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;CVE-2020-8695&quot;" target="&quot;CWE-200&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The CVE-2020-8695 event involves an observable discrepancy that falls under the broader category of weaknesses defined by CWE-200."</data>
+  <data key="d5">"classification, vulnerability categorization"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;CVE-2019-14353&quot;" target="&quot;CWE-200&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The side-channel attack described in CVE-2019-14353 involves observable discrepancies that align with the weaknesses categorized under CWE-200."</data>
+  <data key="d5">"classification, vulnerability categorization"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;CVE-2019-10071&quot;" target="&quot;CWE-200&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The timing discrepancies in the HMAC comparison identified by CVE-2019-10071 fit within the observable discrepancy category defined by CWE-200."</data>
+  <data key="d5">"classification, vulnerability categorization"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;CVE-2019-10071&quot;" target="&quot;JAVA-ORIENTED FRAMEWORK DEVELOPERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Developers and maintainers of the Java-oriented framework that suffered from this specific timing attack vulnerability."</data>
+  <data key="d5">"vulnerability exposure, security patching"</data>
+  <data key="d6">chunk-6d19315b3a2ac5b8e6619fe95743e315</data>
+</edge>
+<edge source="&quot;BULLETIN BOARD&quot;" target="&quot;PRODUCT (UNNAMED)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both Bulletin Board and unnamed Product display different error messages, making it easier for attackers to determine user existence."</data>
+  <data key="d5">"error handling weakness, information leakage"</data>
+  <data key="d6">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</edge>
+<edge source="&quot;BULLETIN BOARD&quot;" target="&quot;CVE-2004-0294&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Bulletin Board system, as identified in CVE-2004-0294, displays different error messages for user existence which can be exploited."</data>
+  <data key="d5">"security vulnerability, information leakage"</data>
+  <data key="d6">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</edge>
+<edge source="&quot;OPERATING SYSTEM&quot;" target="&quot;FTP SERVER (UNNAMED)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both Operating Systems and FTP Servers show variations in responses which can be exploited by attackers to guess passwords or usernames."</data>
+  <data key="d5">"security vulnerability, remote attack"</data>
+  <data key="d6">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</edge>
+<edge source="&quot;OPERATING SYSTEM&quot;" target="&quot;CVE-2004-0243&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Operating System's behavior described in CVE-2004-0243 shows distinct error messages for correct password attempts when remote login is disabled."</data>
+  <data key="d5">"security flaw, error handling weakness"</data>
+  <data key="d6">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</edge>
+<edge source="&quot;OPERATING SYSTEM&quot;" target="&quot;PROCESS&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The operating system manages resources like memory that are allocated to various processes, ensuring they can function correctly."</data>
+  <data key="d5">"resource allocation, management"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;OPERATING SYSTEM&quot;" target="&quot;SDELETE (SECURE DELETE)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The operating system can utilize or provide APIs to tools like SDelete to ensure secure data deletion on Windows systems."</data>
+  <data key="d5">"secure data deletion, API usage"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;PRODUCT (UNNAMED)&quot;" target="&quot;WEB BROWSER (UNNAMED)&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Unnamed Product and Web Browsers can be exploited to identify file existence through response time discrepancies."</data>
+  <data key="d5">"security breach, timing attack"</data>
+  <data key="d6">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</edge>
+<edge source="&quot;PRODUCT (UNNAMED)&quot;" target="&quot;CVE-2002-0514&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The unnamed Product's issue described in CVE-2002-0514 allows attackers to determine port filtering status by analyzing TTL values."</data>
+  <data key="d5">"security vulnerability, information leakage via TTL analysis"</data>
+  <data key="d6">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</edge>
+<edge source="&quot;PRODUCT (UNNAMED)&quot;" target="&quot;CVE-2002-0515&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The unnamed Product's behavior in CVE-2002-0515 reveals port filtering by responding differently based on filter status."</data>
+  <data key="d5">"security vulnerability, information leakage via TTL comparison"</data>
+  <data key="d6">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</edge>
+<edge source="&quot;PRODUCT (UNNAMED)&quot;" target="&quot;CVE-2002-0208&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The unnamed Product's weakness described in CVE-2002-0208 modifies ICMP error messages and TCP/IP stack, revealing the product to attackers."</data>
+  <data key="d5">"security vulnerability, infoleak via modified responses"</data>
+  <data key="d6">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</edge>
+<edge source="&quot;VERSION CONTROL SYSTEM&quot;" target="&quot;VIRTUAL MACHINE (UNNAMED)&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both the Version Control System and Virtual Machine allow for information leakage through error handling mechanisms."</data>
+  <data key="d5">"information leakage, security flaw"</data>
+  <data key="d6">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</edge>
+<edge source="&quot;VERSION CONTROL SYSTEM&quot;" target="&quot;CVE-2004-0778&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The Version Control System's vulnerability in CVE-2004-0778 allows attackers to determine file existence through error messages for alternate history files."</data>
+  <data key="d5">"security flaw, infoleak via error message analysis"</data>
+  <data key="d6">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</edge>
+<edge source="&quot;FTP SERVER (UNNAMED)&quot;" target="&quot;CVE-2004-1428&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The unnamed FTP server's issue described in CVE-2004-1428 exposes valid usernames through distinct error messages for non-existent users."</data>
+  <data key="d5">"security vulnerability, infoleak via username enumeration"</data>
+  <data key="d6">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</edge>
+<edge source="&quot;SSL IMPLEMENTATION (UNNAMED)&quot;" target="&quot;CVE-2003-0078&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The SSL implementation's weakness in CVE-2003-0078 allows for timing discrepancies that can be exploited in cryptographic attacks."</data>
+  <data key="d5">"security flaw, infoleak via timing analysis"</data>
+  <data key="d6">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</edge>
+<edge source="&quot;VIRTUAL MACHINE (UNNAMED)&quot;" target="&quot;CVE-2000-1117&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The unnamed Virtual Machine's vulnerability in CVE-2000-1117 allows malicious operators to measure delays for file existence detection."</data>
+  <data key="d5">"security flaw, infoleak via timing attack on method execution"</data>
+  <data key="d6">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</edge>
+<edge source="&quot;WEB BROWSER (UNNAMED)&quot;" target="&quot;CVE-2005-0918&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The unnamed Web Browser's vulnerability described in CVE-2005-0918 allows attackers to determine file existence through web page loading delays."</data>
+  <data key="d5">"security flaw, infoleak via web behavior analysis"</data>
+  <data key="d6">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</edge>
+<edge source="&quot;DISK SPACE MANAGEMENT&quot;" target="&quot;MEMORY DEALLOCATION&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"Both disk space and memory deallocation involve freeing up storage resources for reuse, highlighting common strategies in resource management."</data>
+  <data key="d5">"resource availability, reallocation"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;DISK SPACE MANAGEMENT&quot;" target="&quot;MEMORY BUFFER CLEARING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Similar to memory buffer clearing, disk space management involves securely overwriting old data before reallocation to prevent information leaks."</data>
+  <data key="d5">"secure overwrite practices, resource recycling"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;MEMORY DEALLOCATION&quot;" target="&quot;CWE ID:459&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"CWE 459 highlights a common weakness related to memory deallocation and sensitive information uncleared before reuse."</data>
+  <data key="d5">"security vulnerability, resource management"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;SDELETE (SECURE DELETE)&quot;" target="&quot;CVE-2019-3733&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The use of SDelete can help mitigate vulnerabilities such as CVE-2019-3733 by securely erasing sensitive data."</data>
+  <data key="d5">"vulnerability mitigation, secure deletion"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;MEMORY BUFFER CLEARING&quot;" target="&quot;CVE-2005-1406&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Proper memory buffer clearing can prevent issues like CVE-2005-1406 where buffers are not fully cleared when less data is stored."</data>
+  <data key="d5">"data leakage prevention, secure coding practice"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;CWE-226&quot;" target="&quot;CWE-212&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The relationship between CWE-226 and CWE-212 highlights their distinct focus on different stages in the lifecycle of resource management involving sensitive data."</data>
+  <data key="d5">"resource lifecycle, security risk"</data>
+  <data key="d6">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</edge>
+<edge source="&quot;CWE-226&quot;" target="&quot;SENSITIVE INFORMATION UNCLEARED BEFORE USE&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"Uncleared sensitive information before reuse is a manifestation of CWE-226 where improper release or reassignment leads to exposure."</data>
+  <data key="d5">"lifecycle mismanagement, data exposure"</data>
+  <data key="d6">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</edge>
+<edge source="&quot;CWE-226&quot;" target="&quot;CVE-2005-1941&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"The CWE-226 concept addresses the improper management and reuse of resources, which is directly relevant to the security risk identified in CVE-2005-1941."</data>
+  <data key="d5">"resource lifecycle mismanagement, security vulnerability"</data>
+  <data key="d6">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</edge>
+<edge source="&quot;CWE-226&quot;" target="&quot;CVE-2002-1713&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"The CWE-226 concept is also relevant to CVE-2002-1713 where improper management of file permissions exposes security vulnerabilities."</data>
+  <data key="d5">"resource lifecycle mismanagement, security vulnerability"</data>
+  <data key="d6">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</edge>
+<edge source="&quot;CWE-212&quot;" target="&quot;SENSITIVE INFORMATION UNCLEARED BEFORE USE&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"The event 'Sensitive Information Uncleared Before Use' also ties into CWE-212 by exposing shared sensitive resources that remain active and accessible."</data>
+  <data key="d5">"data exposure, resource sharing"</data>
+  <data key="d6">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</edge>
+<edge source="&quot;CVE-2005-1941&quot;" target="&quot;PLOVER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The issue described by CVE-2005-1941 aligns with the PLOVER standard focusing on insecure default permissions."</data>
+  <data key="d5">"vulnerability, security guideline"</data>
+  <data key="d6">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</edge>
+<edge source="&quot;CVE-2005-1941&quot;" target="&quot;CERT C SECURE CODING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The CERT C Secure Coding guidelines aim to prevent issues like CVE-2005-1941 by enforcing secure coding practices."</data>
+  <data key="d5">"guideline, vulnerability prevention"</data>
+  <data key="d6">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</edge>
+<edge source="&quot;ISA/IEC 62443&quot;" target="&quot;INSECURE DEFAULT PERMISSIONS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The ISA/IEC 62443 standard addresses the issue of insecure default permissions in industrial control systems."</data>
+  <data key="d5">"standard, security requirement"</data>
+  <data key="d6">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</edge>
+<edge source="&quot;ISA/IEC 62443&quot;" target="&quot;CWE-CAPEC ICS/OT SPECIAL INTEREST GROUP (SIG)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The SIG is involved in mapping CWEs to the ISA/IEC 62443 standard, contributing to the review and refinement of cybersecurity practices for industrial systems."</data>
+  <data key="d5">"cybersecurity standards, mapping effort"</data>
+  <data key="d6">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</edge>
+<edge source="&quot;PROGRAMMABLE LOGIC CONTROLLER (PLC)&quot;" target="&quot;BUILDING CONTROLLER&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"Both the Programmable Logic Controller and Building Controller transmit sensitive information in plaintext, highlighting similar security vulnerabilities.&lt;SEP&gt;"Both the Programmable Logic Controller and Building Controller transmit sensitive information in plaintext, highlighting similar security vulnerabilities."</data>
+  <data key="d5">"security vulnerability, cleartext transmission"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;WEB APPLICATIONS WITH SSL&quot;" target="&quot;SERVERS&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"When web applications use SSL, it is recommended to configure servers for encrypted communication throughout the session from login to logout."</data>
+  <data key="d5">"encrypted channels, secure protocols"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;AUTOMATED STATIC ANALYSIS TOOL&quot;" target="&quot;SOURCE CODE/BINARY/COMPILED CODE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Automated Static Analysis Tool analyzes source code or compiled binaries to find security issues, making it essential for software development teams."</data>
+  <data key="d5">"security analysis, static testing"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;DATA FLOW&quot;" target="&quot;CONTROL FLOW&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Analyzing data and control flow together helps in identifying vulnerabilities such as buffer overflows or insecure handling of input data.</data>
+  <data key="d5">"security assessment, code review"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;CRYPTOGRAPHY TOOLS&quot;" target="&quot;SNIFFERS AND PROTOCOL ANALYZERS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both Cryptography Tools and Sniffers/Protocol Analyzers are used to analyze network traffic for security purposes. They complement each other in detecting encryption usage or vulnerabilities."</data>
+  <data key="d5">"network analysis, security monitoring"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;SYSTEM ACTIVITY MONITORS (E.G., FILEMON, REGMON)&quot;" target="&quot;DEBUGGERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both System Activity Monitors and Debuggers are used to trace system behavior at runtime. They help in understanding the context of security-related activities."</data>
+  <data key="d5">"runtime monitoring, system analysis"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;CERT ORACLE SECURE CODING STANDARD FOR JAVA (2011)&quot;" target="&quot;MISSING CRYPTOGRAPHIC STEP&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The CERT Oracle Secure Coding Standard provides guidelines that help prevent missing cryptographic steps and ensure strong encryption practices in Java applications."</data>
+  <data key="d5">"secure coding, prevention of vulnerabilities"</data>
+  <data key="d6">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</edge>
+<edge source="&quot;CERT ORACLE SECURE CODING STANDARD FOR JAVA (2011)&quot;" target="&quot;EXPECTED BEHAVIOR VIOLATION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The CERT Oracle Secure Coding Standard offers guidelines to help prevent expected behavior violations and ensure consistent application performance."</data>
+  <data key="d5">"secure coding, consistency"</data>
+  <data key="d6">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</edge>
+<edge source="&quot;DEVELOPER&quot;" target="&quot;PRODUCT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The developer's expectations for how the software should be used are not met due to vulnerabilities in the product."</data>
+  <data key="d5">"developer expectations, security vulnerability"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;ATTACKER&quot;" target="&quot;PRODUCT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"An attacker exploits the product by sending requests through it to bypass access controls and hide their identity."</data>
+  <data key="d5">"exploitation, security breach"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;ATTACKER&quot;" target="&quot;EXTERNAL ACTOR&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The attacker sends requests to the Product and exploits its behavior to target an External Actor without being directly detected."</data>
+  <data key="d5">"exploitation, security breach"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;ATTACKER&quot;" target="&quot;UPDATE REQUEST EVENT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attacker intercepts communication related to update requests, causing disruptions in data integrity."</data>
+  <data key="d5">"communication interception, security breach"</data>
+  <data key="d6">chunk-654843afa7d21ff70e90b3e1ef92c37f</data>
+</edge>
+<edge source="&quot;PRODUCT&quot;" target="&quot;UPSTREAM COMPONENT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The product receives a request but does not preserve the original source before forwarding it, making the upstream component vulnerable."</data>
+  <data key="d5">"request handling, information loss"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;PRODUCT&quot;" target="&quot;INTEGRATED CIRCUITS AND HARDWARE ENGINES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The product interacts with integrated circuits and hardware engines, implementing access control policies that can be too broad, allowing unauthorized accesses."</data>
+  <data key="d5">"security weakness, access control"</data>
+  <data key="d6">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</edge>
+<edge source="&quot;PRODUCT&quot;" target="&quot;ACCESS-CONTROL POLICY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The product uses an access-control policy to manage accesses but faces issues with granularity, allowing unauthorized agents to potentially exploit vulnerabilities."</data>
+  <data key="d5">"access control weakness, vulnerability"</data>
+  <data key="d6">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</edge>
+<edge source="&quot;CVE-2010-1637&quot;" target="&quot;INSUFFICIENT TECHNICAL DOCUMENTATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The vulnerability CVE-2010-1637 is an example where insufficient documentation may have contributed to its existence or complexity in addressing it."</data>
+  <data key="d5">"documentation impact, security risk"</data>
+  <data key="d6">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</edge>
+<edge source="&quot;CVE-2009-0037&quot;" target="&quot;INSUFFICIENT TECHNICAL DOCUMENTATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The vulnerability CVE-2009-0037 is an example where insufficient documentation may have led to the issue being overlooked or misunderstood."</data>
+  <data key="d5">"documentation impact, security risk"</data>
+  <data key="d6">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</edge>
+<edge source="&quot;PLOVER:UNINTENDED PROXY/INTERMEDIARY&quot;" target="&quot;CWE-668 (EXPOSURE OF RESOURCE TO WRONG SPHERE)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The unintended use of a proxy as an intermediary can lead to exposure of resources intended for the wrong sphere."</data>
+  <data key="d5">"security risk, resource exposure"</data>
+  <data key="d6">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</edge>
+<edge source="&quot;SYSTEM-ON-A-CHIP (SOC)&quot;" target="&quot;IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The SoC faces risks due to improper isolation of shared resources between trusted and untrusted agents."</data>
+  <data key="d5">"security risk, resource sharing"</data>
+  <data key="d6">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</edge>
+<edge source="&quot;SYSTEM-ON-A-CHIP (SOC)&quot;" target="&quot;CWE ID:404&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The issue described by CWE ID:404 concerning improper scrubbing of sensitive data can be applied to System-On-a-Chip devices, where such data needs removal upon decommissioning."&lt;SEP&gt;"The issue with CWE ID:404 concerning improper scrubbing of sensitive data can be applied to System-On-a-Chip devices where such data needs removal upon decommissioning."</data>
+  <data key="d5">"Data Security, Device Lifecycle Management"&lt;SEP&gt;"data security, device lifecycle management"</data>
+  <data key="d6">chunk-b3093914f034bebd2e6138d339ec08d6</data>
+</edge>
+<edge source="&quot;DIRECT MEMORY ACCESS (DMA)&quot;" target="&quot;DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"When DMA devices are enabled too early during boot phase before security settings are established, they can be exploited by attackers to gain access or extract data."</data>
+  <data key="d5">"security vulnerability, timing risk"</data>
+  <data key="d6">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</edge>
+<edge source="&quot;IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)&quot;" target="&quot;CWE ID:653&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Common Weakness Enumeration (CWE) ID 653 describes the issue of improper isolation in SoCs as a standard reference."</data>
+  <data key="d5">"security framework, documentation"</data>
+  <data key="d6">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</edge>
+<edge source="&quot;IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)&quot;" target="&quot;CWE ID:1331&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Common Weakness Enumeration (CWE) ID 1331 provides additional context about error handling issues in SoCs."</data>
+  <data key="d5">"security framework, documentation"</data>
+  <data key="d6">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</edge>
+<edge source="&quot;IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)&quot;" target="&quot;CVE-2020-8698&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The CVE-2020-8698 entry highlights a real-world example of the improper isolation issue in SoCs."</data>
+  <data key="d5">"vulnerability report, documentation"</data>
+  <data key="d6">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</edge>
+<edge source="&quot;DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE&quot;" target="&quot;IOMMU (INPUT/OUTPUT MEMORY MANAGEMENT UNIT)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The IOMMU can be used to manage direct memory access and protect against early-boot phase vulnerabilities."</data>
+  <data key="d5">"security mitigation, protection mechanism"</data>
+  <data key="d6">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</edge>
+<edge source="&quot;CVE-2019-6260&quot;" target="&quot;BASEBOARD MANAGEMENT CONTROLLER (BMC)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The CVE-2019-6260 entry describes a vulnerability associated with the BMC's AHB bridges that lack authentication, leading to potential unauthorized access."</data>
+  <data key="d5">"vulnerability report, security risk"</data>
+  <data key="d6">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</edge>
+<edge source="&quot;PHASE:ARCHITECTURE AND DESIGN&quot;" target="&quot;ON-CHIP DEBUG AND TEST INTERFACE WITH IMPROPER ACCESS CONTROL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Architecture and Design phase includes reviewing and implementing proper security measures to prevent improper access control issues in debug interfaces."</data>
+  <data key="d5">"security review, vulnerability prevention"</data>
+  <data key="d6">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</edge>
+<edge source="&quot;PHASE:ARCHITECTURE AND DESIGN&quot;" target="&quot;JTAG INTERFACE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"During the Architecture and Design phase, proper authorization and authentication should be implemented for JTAG interfaces to secure against unauthorized access."</data>
+  <data key="d5">"secure design, security measures"</data>
+  <data key="d6">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</edge>
+<edge source="&quot;SYSTEM-ON-CHIP (SOC)&quot;" target="&quot;TRUSTED FIRMWARE &quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Trusted firmware ensures the secure initialization of System-on-Chip (SoC) by programming necessary protections and access controls during boot-up."</data>
+  <data key="d5">"security, initialization"</data>
+  <data key="d6">chunk-0e7e0a03ef0aaa003fbaeb20b6671acf</data>
+</edge>
+<edge source="&quot;SYSTEM-ON-CHIP (SOC)&quot;" target="&quot;PERIPHERAL MICROCONTROLLERS &quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Peripheral microcontrollers are integral parts of SoCs, requiring secure handling before they can be trusted to operate within the system."</data>
+  <data key="d5">"dependency, security management"</data>
+  <data key="d6">chunk-0e7e0a03ef0aaa003fbaeb20b6671acf</data>
+</edge>
+<edge source="&quot;SYSTEM-ON-CHIP (SOC)&quot;" target="&quot;ADVERSARY &quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"An adversary seeks to exploit vulnerabilities within a System-on-Chip (SoC), often targeting reserved bits or untrusted components to compromise system integrity."</data>
+  <data key="d5">"exploitation, security risk"</data>
+  <data key="d6">chunk-0e7e0a03ef0aaa003fbaeb20b6671acf</data>
+</edge>
+<edge source="&quot;SYSTEM-ON-CHIP (SOC)&quot;" target="&quot;IMPROPER ACCESS CONTROL FOR REGISTER INTERFACE&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Malicious software could tamper with any security-critical hardware data that is accessible through the register interface on a System-on-Chip, leading to potential loss of confidentiality and integrity."</data>
+  <data key="d5">"security vulnerability, access control"</data>
+  <data key="d6">chunk-656361cef4ab97aa6bcd9340210f5920</data>
+</edge>
+<edge source="&quot;RESERVED BITS &quot;" target="&quot;DESIGNER &quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Designers have the responsibility to decide whether reserved bits should remain inactive or be used for debugging in production hardware."</data>
+  <data key="d5">"decision-making, future use"</data>
+  <data key="d6">chunk-0e7e0a03ef0aaa003fbaeb20b6671acf</data>
+</edge>
+<edge source="&quot;TRUSTED FIRMWARE (BOOT FIRMWARE)&quot;" target="&quot;UNTRUSTED AGENTS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Trusted firmware is tasked to protect assets from untrusted agents by configuring necessary protections but can fail if policies lack granularity."</data>
+  <data key="d5">"protection mechanism, security risk"</data>
+  <data key="d6">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</edge>
+<edge source="&quot;TRUSTED FIRMWARE (BOOT FIRMWARE)&quot;" target="&quot;POWER RESET&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Trusted firmware is responsible for configuring necessary protections and default values in registers upon a power reset event."</data>
+  <data key="d5">"protection configuration, initialization event"</data>
+  <data key="d6">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</edge>
+<edge source="&quot;UNTRUSTED AGENTS&quot;" target="&quot;MEMORY ALIASES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Untrusted agents can exploit memory regions through inconsistent read/write permissions enforced by hardware."</data>
+  <data key="d5">"exploitation, access control bypass"</data>
+  <data key="d6">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</edge>
+<edge source="&quot;SECURITY-SENSITIVE ASSETS&quot;" target="&quot;INTEGRATED CIRCUITS AND HARDWARE ENGINES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"These hardware components can expose security-sensitive assets to trusted firmware during power resets if access controls are insufficient."</data>
+  <data key="d5">"asset exposure, security risk"</data>
+  <data key="d6">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</edge>
+<edge source="&quot;SECURITY-SENSITIVE ASSETS&quot;" target="&quot;HDL CODE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The HDL code defines critical security-sensitive settings that must be checked to ensure they are secure at the time of hardware implementation and design phases."</data>
+  <data key="d5">"security setting definition, protection necessity"</data>
+  <data key="d6">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</edge>
+<edge source="&quot;DESIGN REVIEW PHASE&quot;" target="&quot;TESTING PHASE&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"The Testing Phase follows the Design Review Phase and uses automated tools to verify compliance with design specifications."</data>
+  <data key="d5">"sequential process, validation"</data>
+  <data key="d6">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</edge>
+<edge source="&quot;TESTING PHASE&quot;" target="&quot;TRUSTED FIRMWARE/SOFTWARE MODULE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The Testing Phase verifies that trusted firmware/software configurations adhere to security requirements set during the Design Review Phase."</data>
+  <data key="d5">"security validation, compliance check"</data>
+  <data key="d6">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</edge>
+<edge source="&quot;TESTING PHASE&quot;" target="&quot;INTEGRATED CIRCUITS AND HARDWARE IP SOFTWARE PROGRAMMABLE CONTROLS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The testing phase employs automated tools to verify that the integrated circuits' hardware protection features like lock bits function correctly."</data>
+  <data key="d5">"security validation, tool integration"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;SOFTWARE MODULE (COMMONLY SET BY BIOS/BOOTLOADER)&quot;" target="&quot;HARDWARE DESIGN TEAMS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"These software modules are implemented by hardware design teams during the architecture and design phase."</data>
+  <data key="d5">"collaborative work, security implementation"</data>
+  <data key="d6">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</edge>
+<edge source="&quot;INTEGRATED CIRCUITS AND HARDWARE IP SOFTWARE PROGRAMMABLE CONTROLS&quot;" target="&quot;HDL CODE (HARDWARE DESCRIPTION LANGUAGE)&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The hardware description language code is used in the integrated circuits and hardware IP software programmable controls for defining default settings."</data>
+  <data key="d5">"hardware initialization, security definition"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;INTEGRATED CIRCUITS AND HARDWARE IP SOFTWARE PROGRAMMABLE CONTROLS&quot;" target="&quot;LOCK BIT PROTECTION FEATURE&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"A lock bit protection feature can be implemented within the integrated circuits to secure hardware settings against unauthorized modification."</data>
+  <data key="d5">"security measure, write-protection"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;INTEGRATED CIRCUITS AND HARDWARE IP SOFTWARE PROGRAMMABLE CONTROLS&quot;" target="&quot;TRUSTED FIRMWARE OR SOFTWARE MODULE (E.G., BIOS/BOOTLOADER)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The trusted firmware/software module initializes the integrated circuits by setting critical configurations including lock bits."</data>
+  <data key="d5">"initialization, configuration"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;LOCK BIT PROTECTION FEATURE&quot;" target="&quot;POWER STATE TRANSITION (ENTRY AND WAKE FROM LOW POWER SLEEP MODES)&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"During power state transitions, some implementations may inadvertently reset or clear lock bits, making the system configuration changeable."</data>
+  <data key="d5">"vulnerability, security compromise"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;TRUSTED FIRMWARE OR SOFTWARE MODULE (E.G., BIOS/BOOTLOADER)&quot;" target="&quot;SYSTEM CONFIGURATION PHASE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"During system configuration phase, the BIOS/bootloader ensures that all settings are correctly initialized and secure before moving to operational mode."</data>
+  <data key="d5">"configuration finalization, security verification"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;PRODUCT DEVELOPMENT TEAM&quot;" target="&quot;ADVERSARY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Product Development Team's work can potentially be exploited by an Adversary if the lock bit protection scheme is not robust against all weaknesses."</data>
+  <data key="d5">"vulnerability assessment, security testing"</data>
+  <data key="d6">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</edge>
+<edge source="&quot;PRODUCT DEVELOPMENT TEAM&quot;" target="&quot;POWER STATE TRANSITION TESTING&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Product Development Team conducts Power State Transition Testing to verify that lock bits remain effective across different power states."</data>
+  <data key="d5">"testing, quality assurance"</data>
+  <data key="d6">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</edge>
+<edge source="&quot;PRODUCT DEVELOPMENT TEAM&quot;" target="&quot;TRUSTED FIRMWARE MODULE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Product Development Team works with the Trusted Firmware Module to ensure proper programming and locking of system configuration controls."</data>
+  <data key="d5">"security implementation, trusted computing base"</data>
+  <data key="d6">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</edge>
+<edge source="&quot;PRODUCT DEVELOPMENT TEAM&quot;" target="&quot;ARCHITECTURE AND DESIGN IMPLEMENTATION ORGANIZATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Architecture and Design Implementation organization reviews the work of the Product Development Team for security weaknesses."</data>
+  <data key="d5">"review process, quality assurance"</data>
+  <data key="d6">chunk-288a08707ff1741e8c5773dc48f272bf</data>
+</edge>
+<edge source="&quot;BIOS/BOOTLOADER&quot;" target="&quot;LOCK BIT PROTECTION SCHEME&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"BIOS/bootloader uses the Lock Bit Protection Scheme to ensure that system configuration controls are programmed and locked after power reset."</data>
+  <data key="d5">"security implementation, protection mechanism"</data>
+  <data key="d6">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</edge>
+<edge source="&quot;LOCK BIT PROTECTION SCHEME&quot;" target="&quot;SYSTEM CONFIGURATION REGISTERS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Lock Bit Protection Scheme is designed to prevent unauthorized modifications to System Configuration Registers."</data>
+  <data key="d5">"protection mechanism, security assurance"</data>
+  <data key="d6">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</edge>
+<edge source="&quot;PRE-SILICON TESTING&quot;" target="&quot;POST-SILICON TESTING&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both Pre-silicon and Post-silicon Testing are part of a comprehensive testing strategy to validate the effectiveness of lock bit protection across different stages."</data>
+  <data key="d5">"testing methodology, validation process"</data>
+  <data key="d6">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</edge>
+<edge source="&quot;HARDWARE PRODUCT&quot;" target="&quot;CWE ID:667&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hardware product may be subject to CWE ID 667, where lock protection mechanisms can potentially be bypassed leading to unauthorized access and configuration modification."</data>
+  <data key="d5">"vulnerability impact, security mechanism bypass"</data>
+  <data key="d6">chunk-732e47f37276f678a57ed5b2cc4caaa0</data>
+</edge>
+<edge source="&quot;HARDWARE PRODUCT&quot;" target="&quot;CWE ID:226&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hardware product may also face issues related to CWE ID 226, where sensitive data stored in registers is not properly cleared or zeroized after use."</data>
+  <data key="d5">"data security risk, zeroization failure"</data>
+  <data key="d6">chunk-732e47f37276f678a57ed5b2cc4caaa0</data>
+</edge>
+<edge source="&quot;CRYPTOGRAPHIC ACCELERATOR&quot;" target="&quot;ZEROIZATION PROCEDURE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"A Cryptographic Accelerator should implement a proper Zeroization Procedure to ensure that sensitive information stored in its registers is removed when switching users or detecting potential physical attacks."</data>
+  <data key="d5">"data protection, security measure"</data>
+  <data key="d6">chunk-732e47f37276f678a57ed5b2cc4caaa0</data>
+</edge>
+<edge source="&quot;AES-256&quot;" target="&quot;DES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"AES-256 contrasts with DES; while AES remains secure due to its robust key size and resistance to brute force attacks, DES has been deemed vulnerable because of its relatively small key size."</data>
+  <data key="d5">"encryption algorithm comparison, security strength"</data>
+  <data key="d6">chunk-732e47f37276f678a57ed5b2cc4caaa0</data>
+</edge>
+<edge source="&quot;DES&quot;" target="&quot;TLS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Historically, TLS implementations using DES for encryption have shown vulnerabilities leading to weakened cryptographic integrity and potential data breaches."</data>
+  <data key="d5">"protocol vulnerability, historical context"</data>
+  <data key="d6">chunk-732e47f37276f678a57ed5b2cc4caaa0</data>
+</edge>
+<edge source="&quot;CRYPTOGRAPHIC PRIMITIVE&quot;" target="&quot;DES (DATA ENCRYPTION STANDARD)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"DES is a specific instance of a cryptographic primitive that has been evaluated and found vulnerable over time due to advances in computational capabilities."</data>
+  <data key="d5">"vulnerability assessment, technological evolution"</data>
+  <data key="d6">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c</data>
+</edge>
+<edge source="&quot;CRYPTOGRAPHIC PRIMITIVE&quot;" target="&quot;CRYPTOGRAPHY COMMUNITY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Cryptography Community evaluates and reevaluates cryptographic primitives to ensure they remain secure against new types of attacks over time."</data>
+  <data key="d5">"security evaluation, community oversight"</data>
+  <data key="d6">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c</data>
+</edge>
+<edge source="&quot;CRYPTOGRAPHIC PRIMITIVE&quot;" target="&quot;NIST (NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"NIST provides standards for cryptographic primitives, ensuring their security through rigorous testing and evaluation."</data>
+  <data key="d5">"standardization, security evaluation"</data>
+  <data key="d6">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c</data>
+</edge>
+<edge source="&quot;DES (DATA ENCRYPTION STANDARD)&quot;" target="&quot;TLS (TRANSPORT LAYER SECURITY)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"TLS historically used DES as one of its cryptographic primitives but this usage is now considered insecure due to the vulnerabilities found in DES."</data>
+  <data key="d5">"protocol vulnerability, historical security practices"</data>
+  <data key="d6">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c</data>
+</edge>
+<edge source="&quot;DES (DATA ENCRYPTION STANDARD)&quot;" target="&quot;ATTACKERS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Attackers exploit the weaknesses in DES by using brute-force methods to break encryption keys due to advances in computational power."</data>
+  <data key="d5">"exploitation, security risk"</data>
+  <data key="d6">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c</data>
+</edge>
+<edge source="&quot;DES (DATA ENCRYPTION STANDARD)&quot;" target="&quot;FIPS 140-3&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"DES is considered insecure and is no longer compliant with the latest FIPS 140-3 standards for cryptographic modules."</data>
+  <data key="d5">"Insecurity, Non-compliance"</data>
+  <data key="d6">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</edge>
+<edge source="&quot;ATTACKERS&quot;" target="&quot;CUSTOM OR PRIVATE CRYPTOGRAPHIC ALGORITHMS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Attackers often exploit custom or private cryptographic algorithms due to their lack of public review and testing."</data>
+  <data key="d5">"vulnerability risk, exploitation threat"</data>
+  <data key="d6">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c</data>
+</edge>
+<edge source="&quot;FIPS 140-3 CERTIFICATION&quot;" target="&quot;CRYPTOGRAPHIC COMMUNITY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The FIPS 140-3 Certification is issued by the Cryptography Community to ensure cryptographic modules meet high standards of security."</data>
+  <data key="d5">"security certification, community collaboration"</data>
+  <data key="d6">chunk-0ba9bcc27d44c280c13ec45a0c7dae7c</data>
+</edge>
+<edge source="&quot;US GOVERNMENT SYSTEMS&quot;" target="&quot;FIPS 140-3&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"US government systems require FIPS 140-3 certification to ensure compliance with the latest cryptographic standards."</data>
+  <data key="d5">"Compliance, Standards"</data>
+  <data key="d6">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</edge>
+<edge source="&quot;MD5&quot;" target="&quot;SHA-256&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"MD5 is outdated and less secure compared to SHA-256, which provides better security for data integrity checks."</data>
+  <data key="d5">"Security Vulnerability, Algorithm Upgrade"</data>
+  <data key="d6">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</edge>
+<edge source="&quot;LINEAR FEEDBACK SHIFT REGISTER (LFSR)&quot;" target="&quot;RANDOM NUMBER GENERATOR (RNG)&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"LFSRs are not recommended as a substitute for proper RNGs in cryptographic applications due to their lack of randomness."</data>
+  <data key="d5">"Security Weakness, Standard Practice"</data>
+  <data key="d6">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</edge>
+<edge source="&quot;CRYPTOGRAPHIC LIBRARIES/FRAMEWORKS&quot;" target="&quot;CWE-325 (SKIPPING RESOURCE-INTENSIVE STEPS)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"While using a vetted library can save development time, incorrect implementation (such as skipping resource-intensive steps) can still lead to vulnerabilities."</data>
+  <data key="d5">"Implementation Error, Common Weakness"</data>
+  <data key="d6">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</edge>
+<edge source="&quot;CRYPTOGRAPHIC LIBRARIES/FRAMEWORKS&quot;" target="&quot;CWE-320 (POOR KEY MANAGEMENT)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Poor key management practices, such as storing keys in insecure locations, can undermine the security provided by even the most robust cryptographic libraries."</data>
+  <data key="d5">"Key Management, Security Risk"</data>
+  <data key="d6">chunk-a8ce63219639ac3ccda8f5f97256d087</data>
+</edge>
+<edge source="&quot;CHIP IMPLEMENTING BLUETOOTH&quot;" target="&quot;CVE-2020-6616&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The chip implementing Bluetooth uses a low-entropy PRNG, leading to the security vulnerability described by CVE-2020-6616."</data>
+  <data key="d5">"Security Vulnerability, Low Entropy"</data>
+  <data key="d6">chunk-e70013d85904f7d1efc7a9e808395e0a</data>
+</edge>
+<edge source="&quot;PRODUCT DEVELOPER ORGANIZATION&quot;" target="&quot;ATTACKER ORGANIZATION&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"The Product Developer Organization creates products with potential vulnerabilities that can be exploited by the Attacker Organization."</data>
+  <data key="d5">"vulnerability exploitation, security risk"</data>
+  <data key="d6">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</edge>
+<edge source="&quot;SECURITY-SENSITIVE VALUES&quot;" target="&quot;FUSES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Security-sensitive values are programmed into fuses and sensed by the chip upon power-on."</data>
+  <data key="d5">"storage, power-on initialization"</data>
+  <data key="d6">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</edge>
+<edge source="&quot;FUSES&quot;" target="&quot;REGISTERS AND LOCAL MEMORIES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Information from fuses is stored temporarily in registers and local memories during debug operations."</data>
+  <data key="d5">"temporary storage, debugging"</data>
+  <data key="d6">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</edge>
+<edge source="&quot;REGISTERS AND LOCAL MEMORIES&quot;" target="&quot;DEBUG OPERATIONS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"During debug operations, access to information in registers and local memories is allowed but should be controlled for security reasons."</data>
+  <data key="d5">"access control, security risk"</data>
+  <data key="d6">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</edge>
+<edge source="&quot;SYSTEM STATE OR BOOT STAGE&quot;" target="&quot;DEBUG AUTHORIZATION LEVELS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Different levels of debug access are assigned based on the current system state or boot stage to ensure proper protection mechanisms."</data>
+  <data key="d5">"protection mechanism, access level"</data>
+  <data key="d6">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</edge>
+<edge source="&quot;DEBUGGER AUTHENTICATION METHODS&quot;" target="&quot;SECURITY RISK MITIGATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Using authentication methods like passcodes helps mitigate security risks associated with unauthorized debug access."</data>
+  <data key="d5">"authentication, security mitigation"</data>
+  <data key="d6">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</edge>
+<edge source="&quot;SYSTEM RESET&quot;" target="&quot;DEBUG ACCESS CONTROL&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"A system reset at the start of boot ensures that sensitive data from previous sessions is not accessible to authenticated debuggers."</data>
+  <data key="d5">"boot stage, protection mechanism"</data>
+  <data key="d6">chunk-e691098d0c2c88a9a4a0420c61274c1e</data>
+</edge>
+<edge source="&quot;CWE-1191&quot;" target="&quot;JTAG&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The lack of proper authorization for accessing JTAG interfaces can lead to vulnerabilities as described in CWE-1191."</data>
+  <data key="d5">"vulnerability, authorization"</data>
+  <data key="d6">chunk-a486a4935548559d90f50ff1c1104c21</data>
+</edge>
+<edge source="&quot;CWE-746 (CORRECTED ID)&quot;" target="&quot;JTAG&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Incorrect configurations of JTAG interfaces can lead to vulnerabilities described in CWE-746."</data>
+  <data key="d5">"misconfiguration, vulnerability"</data>
+  <data key="d6">chunk-a486a4935548559d90f50ff1c1104c21</data>
+</edge>
+<edge source="&quot;NAND FLASH&quot;" target="&quot;WEAR LEVELING&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Wear leveling is crucial for managing write cycles in NAND Flash to extend its lifespan."</data>
+  <data key="d5">"durability, management"</data>
+  <data key="d6">chunk-a486a4935548559d90f50ff1c1104c21</data>
+</edge>
+<edge source="&quot;EEPROM&quot;" target="&quot;WEAR LEVELING&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Similar to NAND Flash, proper wear leveling is essential for managing write cycles in EEPROM."</data>
+  <data key="d5">"durability, management"</data>
+  <data key="d6">chunk-a486a4935548559d90f50ff1c1104c21</data>
+</edge>
+<edge source="&quot;CHIPWHISPERER&quot;" target="&quot;PLUNDERVOLT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The ChipWhisperer can be used to test for vulnerabilities like those exploited by Plundervolt."</data>
+  <data key="d5">"vulnerability testing, security analysis"</data>
+  <data key="d6">chunk-7eb84a76feac79b0109e4248d03155ec</data>
+</edge>
+<edge source="&quot;CHIPWHISPERER&quot;" target="&quot;CLKSCREW&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The ChipWhisperer can also detect the type of vulnerabilities targeted by CLKSCREW attacks."</data>
+  <data key="d5">"security evaluation, attack detection"</data>
+  <data key="d6">chunk-7eb84a76feac79b0109e4248d03155ec</data>
+</edge>
+<edge source="&quot;PRODUCT ARCHITECTURE&quot;" target="&quot;MULTI-CORE PROCESSOR&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The product architecture's approach to mirroring regions is illustrated through the example of a multi-core processor using shadow MMUs, highlighting challenges in maintaining consistency."</data>
+  <data key="d5">"performance optimization, synchronization challenges"</data>
+  <data key="d6">chunk-a55d80a6593fc4c93fd4bb2778558e73</data>
+</edge>
+<edge source="&quot;PRODUCT ARCHITECTURE&quot;" target="&quot;SHADOW COPIES/MIRRORED COPIES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The concept of shadow copies or mirrored copies is integral to the product architecture's design and presents critical security implications if not properly managed."</data>
+  <data key="d5">"security vulnerabilities, data integrity"</data>
+  <data key="d6">chunk-a55d80a6593fc4c93fd4bb2778558e73</data>
+</edge>
+<edge source="&quot;PRODUCT ARCHITECTURE&quot;" target="&quot;CWE ID:664&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The product architecture's flaws in managing mirrored regions contribute significantly to CWE ID 664, emphasizing the need for robust state synchronization mechanisms."</data>
+  <data key="d5">"vulnerability exposure, state management"</data>
+  <data key="d6">chunk-a55d80a6593fc4c93fd4bb2778558e73</data>
+</edge>
+<edge source="&quot;SHADOW COPY SYSTEM&quot;" target="&quot;ORIGINAL COPY&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"The shadow copy updates independently of the original copy, leading to potential out-of-sync conditions."</data>
+  <data key="d5">"data synchronization issues"</data>
+  <data key="d6">chunk-654843afa7d21ff70e90b3e1ef92c37f</data>
+</edge>
+<edge source="&quot;SHADOW COPY SYSTEM&quot;" target="&quot;COMPLETION MESSAGE EVENT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The shadow copy system sends a completion message upon successfully updating its copy."</data>
+  <data key="d5">"successful update notification"</data>
+  <data key="d6">chunk-654843afa7d21ff70e90b3e1ef92c37f</data>
+</edge>
+<edge source="&quot;COMPLETION MESSAGE EVENT&quot;" target="&quot;ORIGINAL COPY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"If the completion message is intercepted or fails to reach the original copy, it causes the original data to revert."</data>
+  <data key="d5">"communication failure, security issue"</data>
+  <data key="d6">chunk-654843afa7d21ff70e90b3e1ef92c37f</data>
+</edge>
+<edge source="&quot;PRODUCT DEVELOPERS&quot;" target="&quot;HARDWARE DESIGNER&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"Both work in product development but differ in their level of detail and focus; hardware designers ensure logical operations are secure across the whole string."</data>
+  <data key="d5">"collaborative security measures, technical expertise division"</data>
+  <data key="d6">chunk-6d19315b3a2ac5b8e6619fe95743e315</data>
+</edge>
+<edge source="&quot;PRODUCT DEVELOPERS&quot;" target="&quot;SMARTPHONE OS DEVELOPERS&quot;">
+  <data key="d3">12.0</data>
+  <data key="d4">"These developers are a subset of product developers focusing specifically on smartphone operating systems which can be prone to timing attacks if not designed securely."</data>
+  <data key="d5">"subdivision of expertise, specific application focus"</data>
+  <data key="d6">chunk-6d19315b3a2ac5b8e6619fe95743e315</data>
+</edge>
+<edge source="&quot;SMARTPHONE OS DEVELOPERS&quot;" target="&quot;CWE ID 693 (INCORRECT FUSE LOGIC)&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Developers of smartphone operating systems may also encounter similar issues with incorrect fuse logic leading to security vulnerabilities."</data>
+  <data key="d5">"shared vulnerability context, security design flaws"</data>
+  <data key="d6">chunk-6d19315b3a2ac5b8e6619fe95743e315</data>
+</edge>
+<edge source="&quot;CVE-2020-12788&quot;" target="&quot;POWER MANAGEMENT HARDWARE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Poorly secured Power Management Hardware can lead to vulnerabilities such as the one described in CVE-2020-12788."</data>
+  <data key="d5">"security vulnerability, hardware weakness"</data>
+  <data key="d6">chunk-de788f0e155febe49b330a85c8dacce2</data>
+</edge>
+<edge source="&quot;POWER MANAGEMENT HARDWARE&quot;" target="&quot;CLOCK/COUNTER HARDWARE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both hardware technologies manage different aspects of the device's operation but both are critical in enabling or preventing security vulnerabilities."</data>
+  <data key="d5">"technology interdependence, security risk management"</data>
+  <data key="d6">chunk-de788f0e155febe49b330a85c8dacce2</data>
+</edge>
+<edge source="&quot;POWER MANAGEMENT HARDWARE&quot;" target="&quot;FAULT INJECTION ATTACKS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Attacking power management features can lead to fault injection attacks that manipulate the device's state without physical access."</data>
+  <data key="d5">"security vulnerability, hardware exploitation"</data>
+  <data key="d6">chunk-de788f0e155febe49b330a85c8dacce2</data>
+</edge>
+<edge source="&quot;FAULT INJECTION ATTACKS&quot;" target="&quot;SIDE-CHANNEL ANALYSIS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both techniques are used by attackers to compromise device security; fault injection can provide data that is useful for side-channel analysis."</data>
+  <data key="d5">"attack methodologies, vulnerability assessment"</data>
+  <data key="d6">chunk-de788f0e155febe49b330a85c8dacce2</data>
+</edge>
+<edge source="&quot;SIDE-CHANNEL ANALYSIS&quot;" target="&quot;INTEL RAPL (RUNNING AVERAGE POWER LIMIT)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Intel RAPL's power metering capability can be exploited by side-channel analysis to gather necessary measurements for attacks."</data>
+  <data key="d5">"security risk, hardware feature exploitation"</data>
+  <data key="d6">chunk-de788f0e155febe49b330a85c8dacce2</data>
+</edge>
+<edge source="&quot;INTEL(R) PROCESSORS&quot;" target="&quot;PLUNDERVOLT ATTACK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Intel(R) Processors have been affected by the Plundervolt Attack, which involves improper conditions checks in voltage settings."</data>
+  <data key="d5">"vulnerability, security breach"</data>
+  <data key="d6">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</edge>
+<edge source="&quot;INTEL(R) PROCESSORS&quot;" target="&quot;LINUX KERNEL DRIVER&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Linux kernel driver for some Intel processors allows information disclosure through insufficient access control."</data>
+  <data key="d5">"software vulnerability, hardware interaction"</data>
+  <data key="d6">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</edge>
+<edge source="&quot;ROWHAMMER ATTACKS&quot;" target="&quot;NACL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"NaCl in 2015 allowed the CLFLUSH instruction that made Rowhammer attacks possible on certain systems."</data>
+  <data key="d5">"security weakness, exploitation"</data>
+  <data key="d6">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</edge>
+<edge source="&quot;ARCHITECT&quot;" target="&quot;SECURE COMPONENTS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The architect introduces weaknesses through exacting requirements for software accessible power/clock management."</data>
+  <data key="d5">"design flaw"</data>
+  <data key="d6">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</edge>
+<edge source="&quot;IMPLEMENTER&quot;" target="&quot;SECURE COMPONENTS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Implementers may introduce vulnerabilities by assuming no consequences to unbounded power and clock settings."</data>
+  <data key="d5">"implementation error"</data>
+  <data key="d6">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</edge>
+<edge source="&quot;SYSTEM-LEVEL ARCHITECTURE AND DESIGN&quot;" target="&quot;CUSTOM SOFTWARE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Custom software evaluates the security of system-level architecture and design using physical attacks."</data>
+  <data key="d5">"security evaluation, dynamic analysis"</data>
+  <data key="d6">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</edge>
+<edge source="&quot;CUSTOM SOFTWARE&quot;" target="&quot;SECURE LOCKS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Custom software can bypass secure locks by manipulating clock and power settings."</data>
+  <data key="d5">"bypass mechanism, security flaw"</data>
+  <data key="d6">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</edge>
+<edge source="&quot;CUSTOM SOFTWARE&quot;" target="&quot;DRAM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Custom software uses DRAM to extract or modify data through repeated writes to adjacent locations."</data>
+  <data key="d5">"data extraction, memory manipulation"</data>
+  <data key="d6">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</edge>
+<edge source="&quot;MEMORY ALIASES&quot;" target="&quot;ADDRESS DECODER UNIT&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The address decoder unit can create aliases in the system address map by ignoring higher-order bits."</data>
+  <data key="d5">"address mapping, alias creation"</data>
+  <data key="d6">chunk-81f6850da7e29f622c19e2eaa382023a</data>
+</edge>
+<edge source="&quot;HARDWARE LOGIC&quot;" target="&quot;MEMORY PROTECTION UNIT (MPU)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Hardware logic interacts with or is complemented by the Memory Protection Unit to ensure proper memory management and protection against unauthorized access."</data>
+  <data key="d5">"hardware interaction, security mechanism"</data>
+  <data key="d6">chunk-288a08707ff1741e8c5773dc48f272bf</data>
+</edge>
+<edge source="&quot;HARDWARE LOGIC&quot;" target="&quot;SINGLE EVENT UPSETS (SEUS)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"When Single Event Upsets occur, hardware logic may fail to handle these errors effectively, compromising system integrity."</data>
+  <data key="d5">"error handling, vulnerability exposure"</data>
+  <data key="d6">chunk-288a08707ff1741e8c5773dc48f272bf</data>
+</edge>
+<edge source="&quot;HARDWARE LOGIC&quot;" target="&quot;MEMORY REGIONS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Hardware logic enforces read/write policies on memory regions based on their defined characteristics and permissions."</data>
+  <data key="d5">"enforcement, policy implementation"</data>
+  <data key="d6">chunk-288a08707ff1741e8c5773dc48f272bf</data>
+</edge>
+<edge source="&quot;MEMORY PROTECTION UNIT (MPU)&quot;" target="&quot;DEVELOPER/ENGINEER&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The developer programs the MPU with access control definitions to ensure proper isolation of memory regions."</data>
+  <data key="d5">"programming, security enforcement"</data>
+  <data key="d6">chunk-288a08707ff1741e8c5773dc48f272bf</data>
+</edge>
+<edge source="&quot;MEMORY PROTECTION UNIT (MPU)&quot;" target="&quot;TRUSTED SOFTWARE/FIRMWARE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Trusted software programs the MPU to define a priority scheme for handling overlapping address regions."</data>
+  <data key="d5">"configuration, enforcement"</data>
+  <data key="d6">chunk-288a08707ff1741e8c5773dc48f272bf</data>
+</edge>
+<edge source="&quot;MEMORY-MAPPED I/O REGISTERS INTERFACE&quot;" target="&quot;IMPROPER ACCESS CONTROL FOR REGISTER INTERFACE&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"The Memory-Mapped I/O Registers Interface is directly involved in the improper access control event, leading to security risks."</data>
+  <data key="d5">"interface vulnerability, data integrity"</data>
+  <data key="d6">chunk-656361cef4ab97aa6bcd9340210f5920</data>
+</edge>
+<edge source="&quot;CVE-2014-2915&quot;" target="&quot;VIRTUALIZATION PRODUCT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The virtualization product is associated with CVE-2014-2915 due to its failure in properly restricting access to processor registers."</data>
+  <data key="d5">"security flaw, crash vulnerability"</data>
+  <data key="d6">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</edge>
+<edge source="&quot;VIRTUALIZATION PRODUCT&quot;" target="&quot;CVE-2020-12446&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The virtualization product's driver issues are related to CVE-2020-12446 due to exposed access mechanisms."</data>
+  <data key="d5">"driver vulnerability, unauthorized privilege escalation"</data>
+  <data key="d6">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</edge>
+<edge source="&quot;VIRTUALIZATION PRODUCT&quot;" target="&quot;CVE-2015-2150&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The virtualization product is linked with CVE-2015-2150 due to unrestricted access to PCI command registers."</data>
+  <data key="d5">"PCI vulnerability, security breach"</data>
+  <data key="d6">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</edge>
+<edge source="&quot;VIRTUALIZATION PRODUCT&quot;" target="&quot;HARDWARE REGISTERS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Hardware registers in a virtualization product are critical for proper access control but can pose risks if improperly managed."</data>
+  <data key="d5">"access control, security risk"</data>
+  <data key="d6">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</edge>
+<edge source="&quot;VIRTUALIZATION PRODUCT&quot;" target="&quot;MEMORY PROTECTION UNITS (MPUS)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Memory Protection Units within a virtualization product enforce crucial security measures to prevent unauthorized software from accessing hardware registers and other critical areas."</data>
+  <data key="d5">"security enforcement, access restriction"</data>
+  <data key="d6">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</edge>
+<edge source="&quot;VIRTUALIZATION PRODUCT&quot;" target="&quot;PCI COMMAND REGISTERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"PCI command registers in a virtualization environment must be properly secured against unauthorized access to prevent crashes or other harmful effects."</data>
+  <data key="d5">"hardware vulnerability, security breach"</data>
+  <data key="d6">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</edge>
+<edge source="&quot;CVE-2021-3011&quot;" target="&quot;VIRTUAL INTERRUPT CONTROLLER&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The virtual interrupt controller is implicated in CVE-2021-3011 due to its role in handling invalid register writes and triggering fatal errors."</data>
+  <data key="d5">"hardware vulnerability, security breach"</data>
+  <data key="d6">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</edge>
+<edge source="&quot;CVE-2020-12446&quot;" target="&quot;DRIVER&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The driver exposes access to Model Specific Registers (MSRs), which is the root cause of CVE-2020-12446."</data>
+  <data key="d5">"driver exposure, security risk"</data>
+  <data key="d6">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</edge>
+<edge source="&quot;DRIVER&quot;" target="&quot;MODEL SPECIFIC REGISTERS (MSRS)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Drivers exposing access to Model Specific Registers can lead to vulnerabilities such as granting unauthorized administrative privileges."</data>
+  <data key="d5">"driver exposure, security risk"</data>
+  <data key="d6">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</edge>
+<edge source="&quot;ON-CHIP BUS FIREWALL SETTINGS&quot;" target="&quot;HARDWARE LOGIC WITH INSECURE DE-SYNCHRONIZATION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"On-chip bus firewalls are part of the hardware logic that can fail to synchronize properly between control and data channels, leading to potential security vulnerabilities."</data>
+  <data key="d5">"security flaw, synchronization issue"</data>
+  <data key="d6">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</edge>
+<edge source="&quot;ANTI-TAMPERING MEASURES&quot;" target="&quot;IMPROPER PHYSICAL ACCESS CONTROL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Anti-tampering measures are part of the design and implementation phases that aim to prevent or detect tampering with physical components, thereby mitigating risks associated with improper physical access control."</data>
+  <data key="d5">"security enhancement, detection mechanism"</data>
+  <data key="d6">chunk-b6039bd97b43bce5a8a0f30910b6c1f7</data>
+</edge>
+<edge source="&quot;CWE ID:821&quot;" target="&quot;CVE-2017-5754&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"The security vulnerability CVE-2017-5754 is related to the weakness described by CWE ID:821, which involves improper handling of data during illegal memory access."&lt;SEP&gt;"The security vulnerability identified by CVE-2017-5754 is related to the weakness described in CWE ID:821, which involves improper handling of data during illegal memory access."</data>
+  <data key="d5">"Security Vulnerability, Data Confidentiality"&lt;SEP&gt;"security vulnerability, data confidentiality"</data>
+  <data key="d6">chunk-b3093914f034bebd2e6138d339ec08d6</data>
+</edge>
+<edge source="&quot;HARDWARE DESIGN ACCESS CONTROL SYSTEM&quot;" target="&quot;TRUSTED FIRMWARE OR SOFTWARE MODULES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Hardware Design Access Control System manages and controls the access of Trusted Firmware or Software Modules to specific device resources."</data>
+  <data key="d5">"resource control, security management"</data>
+  <data key="d6">chunk-5af9a5672caa3f4e4835e08a5744ac17</data>
+</edge>
+<edge source="&quot;HARDWARE DESIGN ACCESS CONTROL SYSTEM&quot;" target="&quot;DEVICE CONFIGURATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hardware design access control system manages and controls access to device configuration resources."</data>
+  <data key="d5">"resource management, security"</data>
+  <data key="d6">chunk-5af9a5672caa3f4e4835e08a5744ac17</data>
+</edge>
+<edge source="&quot;TRUSTED FIRMWARE OR SOFTWARE MODULES&quot;" target="&quot;UNTRUSTED AGENT&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"An untrusted agent could potentially gain unauthorized access to resources controlled by trusted firmware or software modules, leading to security compromises."</data>
+  <data key="d5">"security threat, unauthorized access"</data>
+  <data key="d6">chunk-5af9a5672caa3f4e4835e08a5744ac17</data>
+</edge>
+<edge source="&quot;TRUSTED FIRMWARE OR SOFTWARE MODULES&quot;" target="&quot;BIOS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BIOS sets up trusted firmware or software modules ensuring proper initialization of secure boot processes."</data>
+  <data key="d5">"secure boot, initialization"</data>
+  <data key="d6">chunk-5af9a5672caa3f4e4835e08a5744ac17</data>
+</edge>
+<edge source="&quot;UNTRUSTED AGENT&quot;" target="&quot;ENCRYPTION KEYS&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"An untrusted agent may gain unauthorized write access to encryption keys through policy inconsistency, leading to security risks."</data>
+  <data key="d5">"security threat, data exposure"</data>
+  <data key="d6">chunk-5af9a5672caa3f4e4835e08a5744ac17</data>
+</edge>
+<edge source="&quot;CWE-212: EXPOSURE OF SENSITIVE SYSTEM INFORMATION DUE TO UNCLEARED DEBUG INFORMATION INCIDENT&quot;" target="&quot;SOC (SYSTEM-ON-A-CHIP)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The SoC is a key component in which uncleared debug information leads to security vulnerabilities."</data>
+  <data key="d5">"hardware vulnerability, security breach"</data>
+  <data key="d6">chunk-3872fc98e8f01da81fadb53fc83263c2</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,3040 @@
+{
+  "nodes": [
+    {
+      "id": "INTEL PROCESSORS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Intel Processors are semiconductor products developed by Intel Corporation that have been identified as having observable discrepancies in their RAPL interface.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CRYPTO HARDWARE WALLET",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A Crypto Hardware Wallet is a device used to store cryptographic keys and other sensitive information, which has been found vulnerable to side-channel attacks through its power consumption patterns.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "JAVA-ORIENTED FRAMEWORK",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"The Java-oriented framework uses String.equals() method for HMAC signature comparisons rather than constant-time algorithms, leading to timing discrepancies that can be exploited.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CVE-2020-8695",
+      "entity_type": "EVENT",
+      "description": "\"CVE-2020-8695 refers to a specific observable discrepancy in the RAPL interface of certain Intel processors that allows an attacker to infer information about the processor's state.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CVE-2019-14353",
+      "entity_type": "EVENT",
+      "description": "\"CVE-2019-14353 describes a side-channel attack where power consumption patterns correlate with the total number of pixels illuminated in a crypto hardware wallet, revealing sensitive information.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CVE-2019-10071",
+      "entity_type": "EVENT",
+      "description": "\"A particular instance of a security flaw affecting Java-oriented frameworks due to the use of timing-sensitive string comparisons for HMAC signatures.\"<SEP>\"CVE-2019-10071 is an event that highlights the vulnerability in a Java-oriented framework due to timing discrepancies caused by non-constant time algorithm use for HMAC signature comparisons.\"",
+      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315<SEP>chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CVE-2002-2094",
+      "entity_type": "EVENT",
+      "description": "\"CVE-2002-2094 is related to directory traversal attacks and inconsistencies in error responses, highlighting a broader category of security issues involving observable discrepancies.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CWE-200",
+      "entity_type": "CONCEPT",
+      "description": "\"CWE-200 is a category of software weaknesses involving observable discrepancies in system behavior under different circumstances.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "BULLETIN BOARD",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A Bulletin Board system that displays different error messages based on user existence or non-existence, making it easier for attackers to conduct brute force password guessing attacks.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "OPERATING SYSTEM",
+      "entity_type": "ORGANIZATION",
+      "description": "\"An Operating System that behaves differently when a direct remote login is disabled and the password is correct, allowing attackers to guess passwords via brute force methods.\"<SEP>\"The operating system is responsible for managing and allocating resources like memory to different processes or users, ensuring efficient resource utilization.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1<SEP>chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "PRODUCT (UNNAMED)",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A product which modifies TCP/IP stack and ICMP error messages in ways that indicate its presence and allows for identification of filtered ports based on TTL values.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "VERSION CONTROL SYSTEM",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A version control system that uses the -X command for alternate history files to determine file existence, leading to different error messages being returned.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "FTP SERVER (UNNAMED)",
+      "entity_type": "ORGANIZATION",
+      "description": "\"An FTP server that responds differently based on whether a user name exists or not and can be used to identify valid usernames by attackers.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "SSL IMPLEMENTATION (UNNAMED)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"An SSL implementation that does not perform MAC computation for incorrect padding, potentially leading to plaintext extraction via timing discrepancies.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "VIRTUAL MACHINE (UNNAMED)",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A virtual machine allowing malicious web site operators to determine file existence on the client by measuring delays in method execution.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "WEB BROWSER (UNNAMED)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A browser that can be used to identify arbitrary files via setting src property to target filename and using Javascript to detect if a web page immediately stops loading.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2004-0294",
+      "entity_type": "EVENT",
+      "description": "\"A security vulnerability where a Bulletin Board displays different error messages when a user exists or not, making it easier for attackers to identify valid users.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2004-0243",
+      "entity_type": "EVENT",
+      "description": "\"A security issue in the Operating System which shows a distinct message if the password is correct when direct remote login is disabled.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2002-0514",
+      "entity_type": "EVENT",
+      "description": "\"Product vulnerability that allows attackers to determine if a port is being filtered by comparing TTL values of response packets.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2002-0515",
+      "entity_type": "EVENT",
+      "description": "\"A security flaw where the product reveals whether ports are filtered through different TTL settings in responses.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2002-0208",
+      "entity_type": "EVENT",
+      "description": "\"An issue with a product that modifies TCP/IP stack and ICMP error messages, revealing the product's presence.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2004-2252",
+      "entity_type": "EVENT",
+      "description": "\"Behavioral infoleak in response to SYN-FIN packets, potentially allowing for information gathering about the system.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2001-1387",
+      "entity_type": "EVENT",
+      "description": "\"Product may generate unexpected responses leading to an information leak as specified by the administrator.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2004-0778",
+      "entity_type": "EVENT",
+      "description": "\"A security vulnerability in a version control system that allows determining file existence via error messages for -X command.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2004-1428",
+      "entity_type": "EVENT",
+      "description": "\"An FTP server vulnerability where non-existent usernames trigger immediate error messages, revealing valid usernames to attackers.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2003-0078",
+      "entity_type": "EVENT",
+      "description": "\"SSL implementation weakness allowing timing discrepancies to be used in cryptographic attacks for plaintext extraction.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2000-1117",
+      "entity_type": "EVENT",
+      "description": "\"A virtual machine vulnerability permitting malicious web site operators to infer file existence on the client through method execution delays.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2003-0637",
+      "entity_type": "EVENT",
+      "description": "\"Product vulnerability allowing attackers to determine valid usernames via shorter timeouts for non-existent users compared to valid ones.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2003-0190",
+      "entity_type": "EVENT",
+      "description": "\"Immediate error message response from a product upon invalid user input, facilitating username enumeration by timing attacks.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2004-1602",
+      "entity_type": "EVENT",
+      "description": "\"FTP server vulnerability where responses to valid usernames differ in time from non-existent ones, aiding in username discovery via timing analysis.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2005-0918",
+      "entity_type": "EVENT",
+      "description": "\"A browser vulnerability allowing attackers to determine file existence by triggering an immediate stop of web page loading when a target filename is set as the src property.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "PROCESS",
+      "entity_type": "CONCEPT",
+      "description": "\"A process is an instance of a computer program that is being executed. Processes interact with the operating system to request and use system resources such as memory and disk space.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "DISK SPACE MANAGEMENT",
+      "entity_type": "EVENT",
+      "description": "\"The management event where disk space is reallocated when files are deleted, ensuring continuous resource availability for new data storage needs.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "MEMORY DEALLOCATION",
+      "entity_type": "EVENT",
+      "description": "\"The process of freeing up memory after it has been used and making it available again for other processes or the same process to reuse.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "CWE ID:459",
+      "entity_type": "CONCEPT",
+      "description": "\"A Common Weakness Enumeration (CWE) identifier that represents a category of software weaknesses related to sensitive information not being cleared before use, leading to potential data leakage.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "SDELETE (SECURE DELETE)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A utility on Windows systems used to securely delete files and folders by overwriting them multiple times, making recovery difficult or impossible.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "CVE-2019-3733",
+      "entity_type": "EVENT",
+      "description": "\"A specific security vulnerability where a cryptography library fails to clear heap memory before releasing it, potentially exposing sensitive data.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "CVE-2003-0001",
+      "entity_type": "EVENT",
+      "description": "\"A security issue in Ethernet NIC drivers that do not pad frames with null bytes, leading to information leakage from malformed packets.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "CVE-2003-0291",
+      "entity_type": "EVENT",
+      "description": "\"A router vulnerability where previously used DHCP packet information is not cleared, allowing potential data exposure.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "MEMORY BUFFER CLEARING",
+      "entity_type": "CONCEPT",
+      "description": "\"The process of overwriting memory buffers with fixed patterns or random data before releasing them to prevent sensitive information leakage.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "CWE-226",
+      "entity_type": "CONCEPT",
+      "description": "\"CWE-226 refers to the final stage of the resource lifecycle where a resource is deleted, eliminated, expired, or otherwise released for reuse.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "CWE-212",
+      "entity_type": "CONCEPT",
+      "description": "\"CWE-212 deals with sensitive data in resources that are intentionally shared with others while they remain active.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "SENSITIVE INFORMATION UNCLEARED BEFORE USE",
+      "entity_type": "EVENT",
+      "description": "\"This event involves the exposure of sensitive information before it is cleared and reused, posing risks to confidentiality and integrity.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "CVE-2005-1941",
+      "entity_type": "EVENT",
+      "description": "\"CVE-2005-1941 is an event that represents a security vulnerability where installed executables had world-writable permissions, exposing them to unauthorized modifications.\"<SEP>\"Describes a security issue where executables are installed with world-writable permissions.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5<SEP>chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "CVE-2002-1713",
+      "entity_type": "EVENT",
+      "description": "\"CVE-2002-1713 is an event that indicates a security vulnerability involving specific file permissions.\"<SEP>\"Describes an issue where home directories are installed as world-readable.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5<SEP>chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "ARCHITECTS AND DESIGNERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"The term 'architects and designers' refers to professionals who are responsible for the design and architecture of systems, particularly emphasizing the principle of least privilege.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "CVE-2001-1550",
+      "entity_type": "EVENT",
+      "description": "\"Involves world-writable log files allowing information loss and cleartext passwords in readable files.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "PLOVER",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A reference to a security standard or guideline related to insecure default permissions.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "CERT C SECURE CODING",
+      "entity_type": "ORGANIZATION",
+      "description": "\"An organization providing secure coding guidelines for the C programming language.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "THE CERT ORACLE SECURE CODING STANDARD FOR JAVA (2011)",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Provides secure coding guidelines specific to Java development.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "ISA/IEC 62443",
+      "entity_type": "CONCEPT",
+      "description": "\"A security standard for industrial automation and control systems.\"<SEP>\"ISA/IEC 62443 is a cybersecurity standard designed to protect industrial automation and control systems from cyber threats, addressing aspects such as communication security, device security, access security, integrity, etc.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc<SEP>chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "INSECURE DEFAULT PERMISSIONS",
+      "entity_type": "EVENT",
+      "description": "\"Describes a scenario where system defaults are not secure, allowing unauthorized access or modifications.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "CLEARTEXT TRANSMISSION OF SENSITIVE INFORMATION",
+      "entity_type": "EVENT",
+      "description": "\"Refers to the act of transmitting sensitive data in plaintext over insecure channels.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "PROGRAMMABLE LOGIC CONTROLLER (PLC)",
+      "entity_type": "ORGANIZATION",
+      "description": "\"The Programmable Logic Controller is mentioned multiple times in the context of transmitting passwords and session tokens in plaintext, indicating a security vulnerability.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "BUILDING CONTROLLER",
+      "entity_type": "ORGANIZATION",
+      "description": "\"The Building Controller transmits authentication credentials in plaintext, highlighting a significant security issue.\"<SEP>\"The Building Controller transmits authentication credentials in plaintext, highlighting a significant security vulnerability.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "WEB APPLICATIONS WITH SSL",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Web applications using SSL are discussed as needing to maintain encryption throughout the entire session from login to logout to ensure data protection.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "SERVERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Servers play a role in communicating over encrypted channels, which is suggested for protecting sensitive information.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "HUMAN TESTER (GENERIC)",
+      "entity_type": "PERSON",
+      "description": "\"A human tester plays a crucial role in analyzing security issues that automated tools may miss, such as those related to design and business rules.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "AUTOMATED STATIC ANALYSIS TOOL",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"This tool is used for finding instances of vulnerabilities by analyzing source code or binary/compiled code without executing it. It builds a model of data flow and control flow to search for potentially vulnerable patterns.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "SOURCE CODE",
+      "entity_type": "CONCEPT",
+      "description": "\"The source code refers to the original programming instructions that are often analyzed using tools like Automated Static Analysis to ensure security vulnerabilities aren't present.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "BINARY/COMPILED CODE",
+      "entity_type": "CONCEPT",
+      "description": "\"This is an executable form of software after it has been compiled from source code. It can still be analyzed statically for potential vulnerabilities.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "DATA FLOW",
+      "entity_type": "CONCEPT",
+      "description": "\"The data flow concept involves tracking how data moves through a system, which helps in identifying potential security risks like injection attacks or data leaks.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "CONTROL FLOW",
+      "entity_type": "CONCEPT",
+      "description": "\"This refers to the sequence of instructions executed by a computer program. Analyzing control flow can help identify vulnerabilities such as improper error handling or buffer overflows.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "CRYPTOGRAPHY TOOLS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Tools used for detecting encodings, monitoring network traffic, and determining if data packets contain readable commands or high entropy to indicate encryption use.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "SNIFFERS AND PROTOCOL ANALYZERS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"These tools monitor network traffic by capturing and analyzing the packets that travel through a network. They can be used to detect encryption usage based on packet content.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "SYSTEM ACTIVITY MONITORS (E.G., FILEMON, REGMON)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Tools such as FileMon and RegMon are mentioned for monitoring system activity related to file operations and registry changes, useful in security analysis.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "DEBUGGERS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"These tools attach directly to running processes to monitor and modify the program's behavior. They can be used to trace data flows and detect vulnerabilities without source code.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "CWE-CAPEC ICS/OT SPECIAL INTEREST GROUP (SIG)",
+      "entity_type": "ORGANIZATION",
+      "description": "\"The CWE-CAPEC ICS/OT Special Interest Group (SIG) is a subgroup focused on mapping Common Weakness Enumerations (CWEs) to the ISA/IEC 62443 standard, contributing to cybersecurity efforts in industrial control systems and operational technology.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "CERT ORACLE SECURE CODING STANDARD FOR JAVA (2011)",
+      "entity_type": "ORGANIZATION",
+      "description": "\"The CERT Oracle Secure Coding Standard for Java (2011) is a set of guidelines aimed at preventing security vulnerabilities in Java applications by specifying secure coding practices.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "MISSING CRYPTOGRAPHIC STEP",
+      "entity_type": "EVENT",
+      "description": "\"An event where the product fails to implement a required step in a cryptographic algorithm, weakening encryption strength and potentially leading to data exposure or security breaches.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "EXPECTED BEHAVIOR VIOLATION",
+      "entity_type": "EVENT",
+      "description": "\"A situation where a feature, API, or function does not perform according to its specification, which can lead to various types of software quality degradation and context-specific impacts.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "CVE-2001-1585",
+      "entity_type": "EVENT",
+      "description": "\"An event where a missing challenge-response step allows an authentication bypass using public key, leading to a security vulnerability.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "CVE-2003-0187",
+      "entity_type": "EVENT",
+      "description": "\"An event involving large timeouts on unconfirmed connections due to inconsistency in linked list implementations, causing potential security risks.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "CVE-2003-0465",
+      "entity_type": "EVENT",
+      "description": "\"An event where the strncpy function in Linux kernel acts differently from libc on x86, leading to expected behavior differences and potential errors.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "CVE-2005-3265",
+      "entity_type": "EVENT",
+      "description": "\"An event involving a buffer overflow due to the use of a third-party library function lacking internal protection against overflows.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "OWASP TOP TEN 2007",
+      "entity_type": "ORGANIZATION",
+      "description": "\"OWASP Top Ten 2007 is a list identifying ten of the most critical web application security risks.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "DEVELOPER",
+      "entity_type": "PERSON",
+      "description": "\"The developer is responsible for creating a software application, but there's an implication that the software might not be used as intended due to certain vulnerabilities.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "ATTACKER",
+      "entity_type": "PERSON",
+      "description": "\"An attacker who exploits the unintended proxy functionality of a product by sending requests through it to bypass security measures such as firewalls and hide their identity.\"<SEP>\"The Attacker exploits vulnerabilities in the system to cause unauthorized changes or access, impacting security configurations.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486<SEP>chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "PRODUCT",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A product that implements access controls via policy to disable or restrict accesses but suffers from insufficient granularity, allowing unauthorized agents to potentially modify device configurations and keys.\"<SEP>\"The product is an intermediary or proxy that forwards requests from upstream components to external actors, potentially losing information about the original source of the request.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486<SEP>chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "UPSTREAM COMPONENT",
+      "entity_type": "ORGANIZATION",
+      "description": "\"The Upstream Component sends requests to the Product, which forwards these requests without preserving their original source.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "EXTERNAL ACTOR",
+      "entity_type": "ORGANIZATION",
+      "description": "\"An External Actor is outside of the Product's control sphere and receives requests from the Product that appear to come directly from it.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "CVE-2010-1637",
+      "entity_type": "EVENT",
+      "description": "\"A vulnerability in a web-based mail program that allows internal network scanning using a modified POP3 port number.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "CVE-2009-0037",
+      "entity_type": "EVENT",
+      "description": "\"A vulnerability where a URL-downloading library automatically follows redirects to file:// and scp:// URLs, potentially allowing unauthorized access.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "PLOVER:UNINTENDED PROXY/INTERMEDIARY",
+      "entity_type": "CONCEPT",
+      "description": "\"This concept refers to a situation where an intermediary system is exploited by attackers to gain unauthorized access to resources.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "CWE-668 (EXPOSURE OF RESOURCE TO WRONG SPHERE)",
+      "entity_type": "CONCEPT",
+      "description": "\"This CWE describes the exposure of a resource to a wrong sphere, such as exposing a file or directory to an untrusted user, which can lead to security vulnerabilities.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "INSUFFICIENT TECHNICAL DOCUMENTATION",
+      "entity_type": "EVENT",
+      "description": "\"A lack of detailed technical documentation that hinders understanding and maintenance of the product, potentially leading to vulnerabilities.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "CVE-2022-3203",
+      "entity_type": "EVENT",
+      "description": "\"A vulnerability in a wireless access point where an undisclosed telnet server activated by default can be exploited.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "ISA/IEC 62443:PART 2-4:REQ SP.02.03 BR",
+      "entity_type": "CONCEPT",
+      "description": "\"This is a requirement related to secure programming practices and secure design principles as part of the IEC 62443 standard.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "ISA/IEC 62443:PART 2-4:REQ SP.02.03 RE(1)",
+      "entity_type": "CONCEPT",
+      "description": "\"A requirement related to ensuring that security measures are in place for protecting data and systems as part of the IEC 62443 standard.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "ISA/IEC 62443:PART 2-4:REQ SP.03.03 RE(1)",
+      "entity_type": "CONCEPT",
+      "description": "\"A requirement related to secure design practices, ensuring that systems are designed with security in mind as part of the IEC 62443 standard.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "ISA/IEC 62443:PART 4-1:REQ SG-1",
+      "entity_type": "CONCEPT",
+      "description": "\"A requirement related to secure system design principles and practices for industrial control systems as per the IEC 62443 standard.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "ISA/IEC 62443:PART 4-1:REQ SG-2",
+      "entity_type": "CONCEPT",
+      "description": "\"A security guideline focused on ensuring that security measures are integrated into system designs to protect against various threats as per the IEC 62443 standard.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "ISA/IEC 62443 PART 4-1",
+      "entity_type": "ORGANIZATION",
+      "description": "\"ISA/IEC 62443 Part 4-1 is a standard or framework that includes various requirements (Req SG) for security in industrial communication systems.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "SYSTEM-ON-A-CHIP (SOC)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A technological system within a single chip that integrates various circuits and hardware engines responsible for generating transactions, such as read/write operations on assets or performing actions like resets.\"<SEP>\"A technology involving various circuits and hardware engines within a chip that generate transactions for accessing assets or performing actions. Transactions are often qualified with Security Tokens for access control purposes.\"<SEP>\"The System-On-a-Chip (SoC) integrates multiple components such as processors, memory, and interfaces onto a single integrated circuit to reduce size and power consumption, but it can also pose security risks if shared resources are improperly isolated between trusted and untrusted agents.\"",
+      "source_id": "chunk-b3093914f034bebd2e6138d339ec08d6<SEP>chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "DIRECT MEMORY ACCESS (DMA)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Direct Memory Access (DMA) allows data transfer between the computer and connected devices directly without going through the CPU, posing a risk when enabled too early in the boot phase before security configurations are established.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)",
+      "entity_type": "EVENT",
+      "description": "\"An event describing how shared resources between trusted and untrusted agents on an SoC can be improperly isolated, leading to potential vulnerabilities.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE",
+      "entity_type": "EVENT",
+      "description": "\"An event where a Direct Memory Access (DMA) capable device is enabled prematurely during the boot phase before security configurations are established, making it vulnerable to attacks.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "CWE ID:653",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Common Weakness Enumeration (CWE) ID 653 describes improper isolation of shared resources in a system-on-a-chip (SoC).\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "CWE ID:668",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Common Weakness Enumeration (CWE) ID 668 is related to the use of insecure services or functions.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "CWE ID:1331",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Common Weakness Enumeration (CWE) ID 1331 describes improper handling of errors and exceptions in a system-on-a-chip (SoC).\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "CVE-2020-8698",
+      "entity_type": "EVENT",
+      "description": "\"A Common Vulnerabilities and Exposures entry detailing an issue with improper isolation of shared resources allowing for information disclosure.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "CVE-2019-6260",
+      "entity_type": "EVENT",
+      "description": "\"A Common Vulnerabilities and Exposures entry indicating that the Baseboard Management Controller (BMC) device does not require authentication for arbitrary read/write access to its physical address space, posing a security risk.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "BASEBOARD MANAGEMENT CONTROLLER (BMC)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"The Baseboard Management Controller is responsible for managing system hardware and can be exploited if it lacks proper security measures like authentication checks.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "ADVANCED HIGH-PERFORMANCE BUS (AHB) BRIDGES",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"AHB bridges are part of the Baseboard Management Controller that allow read/write access to physical address space, which may lack necessary authentication mechanisms.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "IOMMU (INPUT/OUTPUT MEMORY MANAGEMENT UNIT)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"The IOMMU is a component used in systems to manage direct memory access and protect against unauthorized data transfer between devices and system memory.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "PHASE:ARCHITECTURE AND DESIGN",
+      "entity_type": "EVENT",
+      "description": "\"The Architecture and Design phase involves reviewing and ensuring proper security measures are in place during the initial design stages of a system.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "ON-CHIP DEBUG AND TEST INTERFACE WITH IMPROPER ACCESS CONTROL",
+      "entity_type": "CONCEPT",
+      "description": "\"This concept describes a vulnerability where improper access control to on-chip debug and test interfaces can lead to unauthorized access to internal registers and sensitive information.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "JTAG INTERFACE",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"The JTAG interface is used for debugging programs running on a device by accessing serially interconnected internal registers, potentially allowing unauthorized access if not properly secured.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "SYSTEM-ON-CHIP (SOC)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A System-on-Chip (SoC) is a single integrated circuit that contains all components needed for a computer or other electronic system, such as processors, memory, and input/output devices.\"<SEP>\"A System-on-Chip (SoC) is an integrated circuit that integrates all components of a computer or other electronic system on a single chip, including memory and fabric access controls.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf<SEP>chunk-656361cef4ab97aa6bcd9340210f5920"
+    },
+    {
+      "id": "TRUSTED FIRMWARE ",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Trusted Firmware refers to firmware that ensures security features in hardware are programmed correctly during the boot sequence before untrusted components can execute.\"<SEP>\"Trusted Firmware refers to firmware that ensures security features in hardware are programmed correctly during the boot sequence before untrusted components can execute未经授权的访问，请询问如何进一步协助您。Certainly, I will review and identify additional relevant entities from the text provided, focusing on the specified types (organization, person, geo, event",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "PERIPHERAL MICROCONTROLLERS ",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Peripheral microcontrollers are devices often part of a System-on-Chip (SoC) that provide specific functions and may require secure handling, especially regarding their firmware.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "RESERVED BITS ",
+      "entity_type": "CONCEPT",
+      "description": "\"Reserved bits in hardware designs refer to binary positions intended for future use or expansion but not currently utilized in the current design.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "ADVERSARY ",
+      "entity_type": "PERSON",
+      "description": "\"An adversary refers to an entity that seeks to exploit vulnerabilities within a System-on-Chip (SoC) by manipulating reserved bits or exploiting untrusted components.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "DESIGNER ",
+      "entity_type": "ROLE",
+      "description": "\"A designer is responsible for the architecture and design of hardware systems, including decisions on how to handle future use capabilities through reserved bits.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "IMPLEMENTER ",
+      "entity_type": "ROLE",
+      "description": "\"An implementer works on turning a hardware design into a functional product, ensuring that all security measures are properly applied during implementation.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "INTEGRATED CIRCUITS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Integrated circuits are hardware components that can expose assets such as device configuration and keys to trusted firmware during power resets.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "HARDWARE ENGINES",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Hardware engines provide access-controlled environments for trusted modules or firmware, which need protection mechanisms against unauthorized accesses.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "TRUSTED FIRMWARE (BOOT FIRMWARE)",
+      "entity_type": "ROLE",
+      "description": "\"Trusted Firmware configures necessary access-control protections upon a power reset and ensures the hardware starts with default values in registers.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "UNTRUSTED AGENTS",
+      "entity_type": "CONCEPT",
+      "description": "\"Individuals or entities that do not have trusted status and can exploit memory regions due to inconsistent read/write permissions enforced by the hardware.\"<SEP>\"Untrusted agents represent entities that may attempt to access security-sensitive assets, posing risks of leaking sensitive information or altering device configurations.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a<SEP>chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "ACCESS-CONTROL POLICY",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A policy designed within the product to control and restrict accesses (reads and writes) to system assets from unauthorized agents.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "SECURITY-SENSITIVE ASSETS",
+      "entity_type": "CONCEPT",
+      "description": "\"These are critical parts of a system that require strict access controls to prevent unauthorized access, such as keys or configuration data.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "POWER RESET",
+      "entity_type": "EVENT",
+      "description": "\"An event during which hardware or systems initialize with default values stored in registers and trusted firmware configures necessary protections.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "HDL CODE",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Hardware Description Language (HDL) code used to define register defaults and IP parameters that affect system security settings upon power reset.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "DESIGN REVIEW PHASE",
+      "entity_type": "EVENT",
+      "description": "\"The Design Review Phase is a critical phase in which security-sensitive settings are defined to ensure compliance with design specifications.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "TESTING PHASE",
+      "entity_type": "EVENT",
+      "description": "\"The Testing Phase involves using automated tools to verify that the values configured during the design review phase adhere to design specifications.\"<SEP>\"The phase during which automated tools are used to test that values are not reprogrammable and that write-once fields lock on writing zeros, ensuring hardware security.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2<SEP>chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "SOFTWARE MODULE (COMMONLY SET BY BIOS/BOOTLOADER)",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A trusted software module responsible for setting device configuration controls after a power reset, typically handled by BIOS or bootloader, and then locking these settings from further modification.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "HARDWARE DESIGN TEAMS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Teams responsible for the architecture and design of hardware components such as registers and address regions.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "TRUSTED FIRMWARE/SOFTWARE MODULE",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A module that ensures system configuration security, typically set during boot processes to prevent unauthorized modifications.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "INTEGRATED CIRCUITS AND HARDWARE IP SOFTWARE PROGRAMMABLE CONTROLS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"This technology involves hardware units with register circuits storing settings that can be protected from software modifications through write-once restrictions.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "HDL CODE (HARDWARE DESCRIPTION LANGUAGE)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"The HDL code is used in the hardware description language to define default values for hardware unit settings, which are critical for security and initialization purposes.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "LOCK BIT PROTECTION FEATURE",
+      "entity_type": "CONCEPT",
+      "description": "\"A lock bit protection feature is a mechanism that uses a trusted lock bit to disable writes to protected registers or address regions after initial configuration.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "TRUSTED FIRMWARE OR SOFTWARE MODULE (E.G., BIOS/BOOTLOADER)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"This module initializes and configures hardware settings after a device power reset, ensuring that security measures such as lock bits are set correctly.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "SYSTEM CONFIGURATION PHASE",
+      "entity_type": "EVENT",
+      "description": "\"The phase during which system configurations are finalized and tested for proper functionality and security measures.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "POWER STATE TRANSITION (ENTRY AND WAKE FROM LOW POWER SLEEP MODES)",
+      "entity_type": "EVENT",
+      "description": "\"A transition in the device's power state that can affect lock bit behavior and system configuration settings.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "PRODUCT DEVELOPMENT TEAM",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A team that designs and develops hardware products, likely handling the implementation of memory management features.\"<SEP>\"The Product Development Team is responsible for creating and implementing security-sensitive hardware controls, including the use of lock bits to protect system configuration.\"",
+      "source_id": "chunk-288a08707ff1741e8c5773dc48f272bf<SEP>chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "ADVERSARY",
+      "entity_type": "PERSON",
+      "description": "\"An Adversary seeks to exploit weaknesses in hardware protection mechanisms, such as improperly set lock bits, to gain unauthorized access or modify protected configurations.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "BIOS/BOOTLOADER",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"BIOS/bootloader is a trusted software module that programs device configuration controls after power reset and sets the lock bit to prevent further modifications.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "LOCK BIT PROTECTION SCHEME",
+      "entity_type": "CONCEPT",
+      "description": "\"The Lock Bit Protection Scheme is intended to disable writes to protected registers or address regions, but may have weaknesses if not thoroughly tested across different scenarios.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "POWER STATE TRANSITION TESTING",
+      "entity_type": "EVENT",
+      "description": "\"Power State Transition Testing involves reviewing and ensuring the security lock bit protections remain effective across supported power state transitions.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "TRUSTED FIRMWARE MODULE",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"The Trusted Firmware Module is responsible for programming device configuration controls after power reset to ensure security lock bits are set correctly.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "SYSTEM CONFIGURATION REGISTERS",
+      "entity_type": "CONCEPT",
+      "description": "\"System Configuration Registers hold important hardware configurations that need protection from unauthorized modifications.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "PRE-SILICON TESTING",
+      "entity_type": "EVENT",
+      "description": "\"Pre-silicon Testing involves evaluating the behavior of security lock bits before the actual silicon is manufactured to ensure proper functionality.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "POST-SILICON TESTING",
+      "entity_type": "EVENT",
+      "description": "\"Post-silicon Testing involves verifying the behavior of security lock bits in real hardware after manufacturing to ensure they function as intended.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "FIPS-140-2",
+      "entity_type": "CONCEPT",
+      "description": "\"FIPS-140-2 is a standard for cryptographic modules that includes requirements for zeroization, which refers to clearing sensitive information from hardware registers.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "HARDWARE PRODUCT",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"The hardware product refers to a physical device that may include hardware IPs such as cryptographic accelerators.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "CWE ID:667",
+      "entity_type": "CONCEPT",
+      "description": "\"CWE ID 667 is a common weakness enumeration related to protection mechanisms that can be bypassed, allowing for unauthorized access and modification of system configurations.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "CWE ID:226",
+      "entity_type": "CONCEPT",
+      "description": "\"CWE ID 226 refers to the failure to properly zeroize hardware registers, which can leave sensitive data accessible after a user change or physical attack detection.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "CRYPTOGRAPHIC ACCELERATOR",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A cryptographic accelerator is a specialized piece of hardware designed to speed up cryptographic operations such as encryption and decryption.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "ZEROIZATION PROCEDURE",
+      "entity_type": "CONCEPT",
+      "description": "\"The process of clearing register contents in a hardware IP to remove sensitive data, ensuring that no residual information remains after use or when switching users.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "AES-256",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"AES-256 is an encryption algorithm designed for high security levels by requiring extensive computational resources and time to break, based on the strength of its key size.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "DES",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"DES (Data Encryption Standard) is a symmetric-key algorithm that was once widely used but has since been considered weak due to vulnerabilities found over time.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "TLS",
+      "entity_type": "CONCEPT",
+      "description": "\"TLS (Transport Layer Security) is a cryptographic protocol designed to provide security for communications on the internet.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "CRYPTOGRAPHIC PRIMITIVE",
+      "entity_type": "CONCEPT",
+      "description": "\"A Cryptographic Primitive refers to the basic building blocks used in cryptography, such as DES and TLS encryption methods.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "DES (DATA ENCRYPTION STANDARD)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"An older symmetric-key algorithm for encryption, now considered insecure and replaced by more robust standards.\"<SEP>\"DES is a symmetric-key algorithm for the encryption of digital data with a key length of 56 bits. It was widely considered secure but has since become vulnerable to brute-force attacks due to advances in computational power.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c<SEP>chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "TLS (TRANSPORT LAYER SECURITY)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"TLS is a cryptographic protocol that provides security and data integrity for communications over networks, using various cryptographic primitives including DES in some historical instances.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "CRYPTOGRAPHY COMMUNITY",
+      "entity_type": "ORGANIZATION",
+      "description": "\"The Cryptography Community includes researchers from academia, industry, and government entities who review and evaluate cryptographic algorithms to ensure their safety and robustness.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "ATTACKERS",
+      "entity_type": "PERSON",
+      "description": "\"Attackers are individuals or groups capable of using new mathematical techniques or brute force methods to exploit weaknesses in cryptographic primitives such as DES.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "NIST (NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY)",
+      "entity_type": "ORGANIZATION",
+      "description": "\"NIST is a U.S. federal agency that sets standards for technology, including cryptographic algorithms and test vectors to ensure proper implementation.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "FIPS 140-3 CERTIFICATION",
+      "entity_type": "EVENT",
+      "description": "\"FIPS 140-3 Certification is a standard published by NIST to ensure the security of cryptographic modules used in government systems.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "CUSTOM OR PRIVATE CRYPTOGRAPHIC ALGORITHMS",
+      "entity_type": "CONCEPT",
+      "description": "\"Custom or private cryptographic algorithms refer to proprietary encryption methods that are not widely reviewed and thus may be vulnerable to attacks.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "US GOVERNMENT SYSTEMS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"The US government systems require FIPS 140-3 certification for their cryptographic standards, superseding earlier versions like FIPS 140-2.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "FIPS 140-3",
+      "entity_type": "CONCEPT",
+      "description": "\"A U.S. government standard that certifies cryptographic modules, superseding earlier versions like FIPS 140-2.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "FIPS 140-2",
+      "entity_type": "CONCEPT",
+      "description": "\"A U.S. government standard that certifies cryptographic modules, superseded by FIPS 140-3.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "MD5",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A widely used hashing algorithm known for vulnerabilities in security contexts like certificate forgery and identity card breaches.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "SHA-256",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A cryptographic hash function that provides a secure method of ensuring data integrity, commonly used instead of less secure algorithms like MD5.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "LINEAR FEEDBACK SHIFT REGISTER (LFSR)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A method used to generate sequences for pseudo-random numbers or error-correcting codes, but not recommended as a substitute for standard random number generators.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "RANDOM NUMBER GENERATOR (RNG)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A device or algorithm designed to produce statistically random numbers suitable for cryptographic applications.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "CRYPTOGRAPHIC LIBRARIES/FRAMEWORKS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Pre-built software packages that implement commonly used cryptographic algorithms and protocols, reducing the risk of errors in custom implementations.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "CWE-325 (SKIPPING RESOURCE-INTENSIVE STEPS)",
+      "entity_type": "CONCEPT",
+      "description": "\"A common weak point where critical steps in cryptographic algorithms are omitted, potentially leading to vulnerabilities.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "CWE-320 (POOR KEY MANAGEMENT)",
+      "entity_type": "CONCEPT",
+      "description": "\"A weakness that arises from inadequate management of cryptographic keys, such as storing them in insecure locations accessible by untrusted agents.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "CHIP IMPLEMENTING BLUETOOTH",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A chip implementing Bluetooth uses a low-entropy pseudo-random number generator (PRNG) instead of a hardware random number generator (RNG), which allows for spoofing vulnerabilities.\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "id": "CVE-2020-6616",
+      "entity_type": "EVENT",
+      "description": "\"Security vulnerability where a Bluetooth chip uses a low-entropy PRNG, allowing for spoofing.\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "id": "CVE-2019-1715",
+      "entity_type": "EVENT",
+      "description": "\"A security issue with insufficient entropy in the DRBG, leading to collisions and private key discovery.\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "id": "CVE-2014-4192",
+      "entity_type": "EVENT",
+      "description": "\"Security flaw in Dual_EC_DRBG implementation where byte requests are not correctly handled, simplifying plaintext recovery.\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "id": "CVE-2007-6755",
+      "entity_type": "EVENT",
+      "description": "\"A security issue related to the recommendation for Dual_EC_DRBG algorithm with point Q constants simplifying decryption.\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "id": "PRODUCT DEVELOPER ORGANIZATION",
+      "entity_type": "ORGANIZATION",
+      "description": "\"The organization responsible for developing and implementing products with debug interfaces, potentially including security-sensitive information.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "ATTACKER ORGANIZATION",
+      "entity_type": "ORGANIZATION",
+      "description": "\"An entity that exploits vulnerabilities in product debug interfaces to gain unauthorized access or cause harm.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "CHICKEN BITS",
+      "entity_type": "CONCEPT",
+      "description": "\"Chicken bits are features or interfaces that facilitate quick identification and isolation of faulty components but can also be exploited by attackers for unauthorized access.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "SECURITY-SENSITIVE VALUES",
+      "entity_type": "CONCEPT",
+      "description": "\"These include root keys, encryption keys, manufacturing-specific information, chip-manufacturer-specific information, and original-equipment-manufacturer data programmed into fuses during early-boot flows or runtime.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "FUSES",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Hardware components where security-sensitive values are stored after the chip is powered on.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "REGISTERS AND LOCAL MEMORIES",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"These locations store security-sensitive information from fuses temporarily but can be accessed during debug operations.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "DEBUG OPERATIONS",
+      "entity_type": "EVENT",
+      "description": "\"Debug operations allow access to sensitive information in registers and local memories, posing a risk if not properly controlled.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "SYSTEM STATE OR BOOT STAGE",
+      "entity_type": "CONCEPT",
+      "description": "\"The current state of the system or stage in boot-up process that determines the level of debug access allowed for different assets.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "DEBUGGER AUTHENTICATION METHODS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Methods such as using passwords or challenges to authenticate debugging sessions and restrict unauthorized access.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "SYSTEM RESET",
+      "entity_type": "EVENT",
+      "description": "\"A mechanism used early in boot stages to ensure that previous session data is not accessible to authenticated debuggers.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "PASSCODE AUTHENTICATION",
+      "entity_type": "CONCEPT",
+      "description": "\"The process of checking passcodes for authentication access to JTAG/debugging ports, which can be missing or improperly set up.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "CWE-1191 AND CWE-1244 RELATIONSHIP NOTE",
+      "entity_type": "EVENT",
+      "description": "\"This note explains the relationship between two security weaknesses related to physical debug access, detailing their differences in how they affect system security.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "CWE-1191",
+      "entity_type": "EVENT",
+      "description": "\"This CWE involves missing authorization for a debug interface, allowing unauthorized access to system components.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "CWE-746 (CORRECTED ID)",
+      "entity_type": "EVENT",
+      "description": "\"This CWE involves providing internal assets with improper debug access levels, leading to security vulnerabilities.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "JTAG",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A standard interface used for debugging and testing purposes in electronic circuits, critical for firmware development.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "NAND FLASH",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A form of non-volatile memory used in many devices due to its high density and low cost.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "EEPROM",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A type of non-volatile memory that can be erased and reprogrammed in sections rather than all at once.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "WEAR LEVELING",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A method to distribute write operations evenly across all blocks in a memory device to prevent premature wear.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "CHIPWHISPERER",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"ChipWhisperer is specialized hardware used to check for vulnerabilities against voltage and clock glitching attacks in electronic devices.\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "id": "PLUNDERVOLT",
+      "entity_type": "EVENT",
+      "description": "\"Plundervolt refers to a specific type of attack that targets the Dynamic Voltage and Frequency Scaling (DVFS) feature, demonstrating the vulnerability of such systems.\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "id": "CLKSCREW",
+      "entity_type": "EVENT",
+      "description": "\"CLKSCREW is an attack similar to Plundervolt, targeting the DVFS mechanism in electronic devices to exploit vulnerabilities.\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "id": "PRODUCT ARCHITECTURE",
+      "entity_type": "ORGANIZATION",
+      "description": "\"The product architecture involves mirroring regions or components which can lead to inconsistencies if not properly synchronized across distributed systems.\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "id": "MULTI-CORE PROCESSOR",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A multi-core processor is mentioned as an example where mirrored MMUs (Memory Management Units) serve subsets of cores to address performance bottlenecks, but may introduce vulnerabilities due to inconsistent state updates.\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "id": "SHADOW COPIES/MIRRORED COPIES",
+      "entity_type": "CONCEPT",
+      "description": "\"Shadow copies or mirrored copies refer to local versions of original resources that need consistent updating to prevent discrepancies and potential security risks.\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "id": "CWE ID:664",
+      "entity_type": "EVENT",
+      "description": "\"CWE ID:664 is a security vulnerability related to inconsistent state management across distributed systems.\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "id": "SHADOW COPY SYSTEM",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A system responsible for maintaining a copy of data that updates independently and may lead to out-of-sync conditions.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "UPDATE REQUEST EVENT",
+      "entity_type": "EVENT",
+      "description": "\"An event signaling the need for an update in the original data copy.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "COMPLETION MESSAGE EVENT",
+      "entity_type": "EVENT",
+      "description": "\"A message sent by the shadow copy to confirm successful completion of updates.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "PRODUCT DEVELOPERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Developers who create products that use comparison logic across a series of steps rather than in one operation, potentially leaving their systems vulnerable to timing attacks.\"",
+      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315"
+    },
+    {
+      "id": "HARDWARE DESIGNER",
+      "entity_type": "PERSON",
+      "description": "\"A hardware designer responsible for ensuring that the comparison logic is implemented securely so as to compare objects in one operation instead of smaller chunks.\"",
+      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315"
+    },
+    {
+      "id": "SMARTPHONE OS DEVELOPERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Developers who create smartphone operating systems with functions not running in constant time, potentially leading to side-channel vulnerabilities.\"",
+      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315"
+    },
+    {
+      "id": "JAVA-ORIENTED FRAMEWORK DEVELOPERS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Framework developers whose implementation of HMAC signature comparisons is vulnerable due to the use of non-constant-time algorithms.\"",
+      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315"
+    },
+    {
+      "id": "ROUTER PASSWORD FUNCTION DEVELOPERS",
+      "entity_type": "PERSON",
+      "description": "\"Developers who create or maintain password-checking functions that terminate validation on first incorrect character, leading to timing side-channel vulnerabilities.\"",
+      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315"
+    },
+    {
+      "id": "CWE ID 693 (INCORRECT FUSE LOGIC)",
+      "entity_type": "EVENT",
+      "description": "\"An event or condition in the system where fuses are misused for security logic, potentially leading to an insecure state.\"",
+      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315"
+    },
+    {
+      "id": "CVE-2019-10482",
+      "entity_type": "EVENT",
+      "description": "\"A specific vulnerability discovered in a smartphone OS allowing side-channel attacks due to non-constant time comparison functions.\"",
+      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315"
+    },
+    {
+      "id": "CVE-2014-0984",
+      "entity_type": "EVENT",
+      "description": "\"A documented vulnerability in router password-checking functions, enabling attackers to exploit timing discrepancies to obtain passwords through brute-force methods.\"",
+      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315"
+    },
+    {
+      "id": "CVE-2020-12788",
+      "entity_type": "EVENT",
+      "description": "\"CVE-2020-12788 is an event related to CMAC verification being vulnerable to timing and power attacks.\"",
+      "source_id": "chunk-de788f0e155febe49b330a85c8dacce2"
+    },
+    {
+      "id": "POWER MANAGEMENT HARDWARE",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"This refers to hardware components that manage power and clock features in devices, which can be exploited if not secured properly.\"",
+      "source_id": "chunk-de788f0e155febe49b330a85c8dacce2"
+    },
+    {
+      "id": "CLOCK/COUNTER HARDWARE",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"This is a type of hardware used for managing time-related functions (clocks) or counting mechanisms within devices.\"",
+      "source_id": "chunk-de788f0e155febe49b330a85c8dacce2"
+    },
+    {
+      "id": "FAULT INJECTION ATTACKS",
+      "entity_type": "EVENT",
+      "description": "\"These are attacks that involve manipulating the physical state of a device to achieve unauthorized outcomes such as bypassing authentication or altering cryptographic operations.\"",
+      "source_id": "chunk-de788f0e155febe49b330a85c8dacce2"
+    },
+    {
+      "id": "SIDE-CHANNEL ANALYSIS",
+      "entity_type": "EVENT",
+      "description": "\"This is an attack method where attackers gather measurement traces of physical quantities (e.g., power consumption) to perform side-channel attacks.\"",
+      "source_id": "chunk-de788f0e155febe49b330a85c8dacce2"
+    },
+    {
+      "id": "ROWHAMMER",
+      "entity_type": "EVENT",
+      "description": "\"A hardware vulnerability that involves repeatedly accessing a row of memory, causing bit flips in adjacent rows and leading to security breaches.\"",
+      "source_id": "chunk-de788f0e155febe49b330a85c8dacce2"
+    },
+    {
+      "id": "INTEL RAPL (RUNNING AVERAGE POWER LIMIT)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"This is an internal power metering capability provided by Intel processors that can be used to measure power consumption, which if not adequately protected, enables side-channel attacks.\"",
+      "source_id": "chunk-de788f0e155febe49b330a85c8dacce2"
+    },
+    {
+      "id": "INTEL(R) PROCESSORS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Intel(R) Processors is a product line from Intel, which includes processors that have been targeted by various security vulnerabilities such as Plundervolt and PLATYPUS attacks.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "id": "AMD",
+      "entity_type": "ORGANIZATION",
+      "description": "\"AMD is mentioned in the context of an extension to a Linux service that allows for side-channel attacks without requiring privileged access.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "id": "LINUX KERNEL DRIVER",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"The Linux kernel driver is involved in enabling information disclosure through insufficient access control, as demonstrated by certain Intel processors' vulnerabilities.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "id": "ROWHAMMER ATTACKS",
+      "entity_type": "EVENT",
+      "description": "\"Rowhammer Attacks are a type of hardware attack that exploits the timing and frequency of memory accesses to cause bit flips in adjacent memory locations.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "id": "ARCHITECT",
+      "entity_type": "PERSON",
+      "description": "\"An architect who initiates introduction of weaknesses through exacting requirements for software accessible power/clock management.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "id": "IMPLEMENTER",
+      "entity_type": "PERSON",
+      "description": "\"The person responsible for introducing weaknesses by assuming there are no consequences to unbounded power and clock management for secure components from untrusted ones.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "id": "SECURE COMPONENTS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Software or hardware elements designed to protect against security vulnerabilities but may be compromised due to improper assumptions.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "id": "SYSTEM-LEVEL ARCHITECTURE AND DESIGN",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"The overall design of system components, which needs a security evaluation with software-aided physical attacks in scope.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "id": "CUSTOM SOFTWARE",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Specialized programs used to change registers controlling clock settings or power settings to bypass security locks or extract data.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "id": "SECURE LOCKS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Security mechanisms within the hardware that can be bypassed by manipulating clock and power settings.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "id": "DRAM",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Dynamic Random Access Memory, which can have adjacent locations changed to extract or modify data through custom software attacks.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "id": "MEMORY ALIASES",
+      "entity_type": "CONCEPT",
+      "description": "\"Different memory addresses pointing to the same physical location due to hardware design.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "id": "ADDRESS DECODER UNIT",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A component that maps address regions into the full system address, potentially creating aliases if it ignores higher-order bits.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "id": "ARCHITECTURE AND DESIGN IMPLEMENTATION ORGANIZATION",
+      "entity_type": "ORGANIZATION",
+      "description": "\"An organization responsible for reviewing design consistency and common weaknesses related to Security Token assignment.\"",
+      "source_id": "chunk-288a08707ff1741e8c5773dc48f272bf"
+    },
+    {
+      "id": "HARDWARE LOGIC",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Refers to the technical design and functionality implemented in hardware systems, particularly concerning error handling and security mechanisms.\"",
+      "source_id": "chunk-288a08707ff1741e8c5773dc48f272bf"
+    },
+    {
+      "id": "MEMORY PROTECTION UNIT (MPU)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A component within hardware that enforces memory protection policies based on programmed definitions of isolated memory regions.\"",
+      "source_id": "chunk-288a08707ff1741e8c5773dc48f272bf"
+    },
+    {
+      "id": "SINGLE EVENT UPSETS (SEUS)",
+      "entity_type": "EVENT",
+      "description": "\"An event where transient errors occur in circuits due to external radiation or internal conditions, leading to temporary bit flips.\"",
+      "source_id": "chunk-288a08707ff1741e8c5773dc48f272bf"
+    },
+    {
+      "id": "DEVELOPER/ENGINEER",
+      "entity_type": "PERSON",
+      "description": "\"A developer or engineer responsible for programming memory protection units with access control policies.\"",
+      "source_id": "chunk-288a08707ff1741e8c5773dc48f272bf"
+    },
+    {
+      "id": "MEMORY REGIONS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Different sections of memory within a system, each defined and protected by hardware logic according to specific rules.\"",
+      "source_id": "chunk-288a08707ff1741e8c5773dc48f272bf"
+    },
+    {
+      "id": "TRUSTED SOFTWARE/FIRMWARE",
+      "entity_type": "ORGANIZATION",
+      "description": "\"Software or firmware trusted by the hardware logic for defining and managing memory protection policies.\"",
+      "source_id": "chunk-288a08707ff1741e8c5773dc48f272bf"
+    },
+    {
+      "id": "CWE ID:1384",
+      "entity_type": "EVENT",
+      "description": "\"CWE ID:1384 is an event related to improper security measures against single-event upsets (SEUs) in hardware, which can lead to temporary failures compromising chip security.\"",
+      "source_id": "chunk-656361cef4ab97aa6bcd9340210f5920"
+    },
+    {
+      "id": "CWE ID:1254",
+      "entity_type": "EVENT",
+      "description": "\"CWE ID:1254 is another related event concerning improper access control for register interfaces, leading to potential vulnerabilities in system-on-chip (SoC) or similar hardware systems.\"",
+      "source_id": "chunk-656361cef4ab97aa6bcd9340210f5920"
+    },
+    {
+      "id": "MEMORY-MAPPED I/O REGISTERS INTERFACE",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"The Memory-Mapped I/O Registers Interface acts as an interface to hardware functionality from software in products. Improper access control can lead to security vulnerabilities.\"",
+      "source_id": "chunk-656361cef4ab97aa6bcd9340210f5920"
+    },
+    {
+      "id": "CVE-2014-2915",
+      "entity_type": "EVENT",
+      "description": "\"A security vulnerability where a virtualization product fails to restrict access to debug and other processor registers, potentially leading to the crash of the host or guest OS.\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "id": "VIRTUALIZATION PRODUCT",
+      "entity_type": "ORGANIZATION",
+      "description": "\"The virtualization product is a system that allows multiple operating systems (guests) to run on a single host computer hardware platform. The description mentions specific vulnerabilities associated with it.\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "id": "CVE-2021-3011",
+      "entity_type": "EVENT",
+      "description": "\"A vulnerability in a virtualization product where writing an invalid value to a register can cause a fatal error, potentially leading to the crash of the host OS.\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "id": "VIRTUAL INTERRUPT CONTROLLER",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"The virtual interrupt controller is part of the hardware within a virtualization environment that handles interrupts from devices. It can be exploited due to vulnerabilities like CVE-2021-3011.\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "id": "CVE-2020-12446",
+      "entity_type": "EVENT",
+      "description": "\"A security issue where an admin user's access to Model Specific Registers (MSRs) could expose these registers, potentially granting unauthorized administrative privileges.\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "id": "DRIVER",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"The driver is a software component that enables hardware devices to communicate with the operating system. In this context, it exposes security-relevant functionalities through Model Specific Register (MSR) access.\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "id": "CVE-2015-2150",
+      "entity_type": "EVENT",
+      "description": "\"A vulnerability allowing unrestricted access to PCI command registers in a virtualization product, potentially leading to the crash of the host OS from within a guest environment.\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "id": "HARDWARE REGISTERS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Hardware registers are components within computer hardware that store data or control information, which can be accessed via memory-mapped interfaces. They play a critical role in system security and functionality.\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "id": "MEMORY PROTECTION UNITS (MPUS)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Memory Protection Units (MPUs) enforce memory access rules to protect against unauthorized software access to hardware registers or other sensitive parts of the memory map.\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "id": "ON-CHIP BUS FIREWALL SETTINGS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"On-chip bus firewalls are mechanisms used in semiconductor devices to prevent unauthorized data transfers between different components on a chip, thereby enhancing security by restricting access to critical areas.\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "id": "PCI COMMAND REGISTERS",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"PCI (Peripheral Component Interconnect) command registers control the operational state of PCI devices and can be accessed through the memory map or other interfaces. They are crucial for managing hardware functionality but pose risks if improperly secured.\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "id": "MODEL SPECIFIC REGISTERS (MSRS)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Model Specific Registers (MSRs) store information specific to a particular CPU model, providing access to sensitive data and functionalities that can be exploited by attackers with elevated privileges.\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "id": "ANTI-TAMPERING MEASURES",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Anti-tampering measures are security features designed to protect against or detect when hardware has been tampered with. They play a crucial role in safeguarding the integrity of sensitive products and data.\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "id": "CWE ID:821",
+      "entity_type": "EVENT",
+      "description": "\"This event describes a weakness where confidentiality requirements can be violated during illegal memory access exceptions, leading to potential unauthorized disclosure of sensitive data.\"<SEP>\"This event refers to a weakness where confidential data is improperly handled during illegal memory access, potentially leading to unauthorized disclosure of information.\"",
+      "source_id": "chunk-b3093914f034bebd2e6138d339ec08d6"
+    },
+    {
+      "id": "CVE-2017-5754",
+      "entity_type": "EVENT",
+      "description": "\"A specific security vulnerability involving microprocessors that use speculative execution and indirect branch prediction, potentially allowing unauthorized access to sensitive information via side-channel analysis.\"<SEP>\"A specific security vulnerability related to systems with microprocessors utilizing speculative execution and indirect branch prediction that may allow unauthorized disclosure of information via a side-channel analysis of the data cache.\"",
+      "source_id": "chunk-b3093914f034bebd2e6138d339ec08d6"
+    },
+    {
+      "id": "CWE ID:404",
+      "entity_type": "EVENT",
+      "description": "\"This event refers to an improper scrubbing issue when decommissioning products, where sensitive data is not properly removed or overwritten.\"<SEP>\"This weakness relates to the improper scrubbing of sensitive data from decommissioned devices, leading to potential exposure of confidential information.\"",
+      "source_id": "chunk-b3093914f034bebd2e6138d339ec08d6"
+    },
+    {
+      "id": "HARDWARE DESIGN ACCESS CONTROL SYSTEM",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A system within integrated circuits and hardware engines that controls access to resources for trusted firmware or software modules.\"",
+      "source_id": "chunk-5af9a5672caa3f4e4835e08a5744ac17"
+    },
+    {
+      "id": "TRUSTED FIRMWARE OR SOFTWARE MODULES",
+      "entity_type": "CONCEPT",
+      "description": "\"These are components, typically set by a BIOS or bootloader, that manage secure boot processes and other critical functions in hardware devices.\"",
+      "source_id": "chunk-5af9a5672caa3f4e4835e08a5744ac17"
+    },
+    {
+      "id": "UNTRUSTED AGENT",
+      "entity_type": "PERSON",
+      "description": "\"An entity or agent that is not properly authorized to access or modify resources controlled by trusted firmware or software modules.\"",
+      "source_id": "chunk-5af9a5672caa3f4e4835e08a5744ac17"
+    },
+    {
+      "id": "BIOS",
+      "entity_type": "ORGANIZATION",
+      "description": "\"A component setting up trusted firmware or software modules for secure boot processes.\"",
+      "source_id": "chunk-5af9a5672caa3f4e4835e08a5744ac17"
+    },
+    {
+      "id": "BOOTLOADER",
+      "entity_type": "PERSON",
+      "description": "\"A system responsible for initializing and loading the operating system on a device.\"",
+      "source_id": "chunk-5af9a5672caa3f4e4835e08a5744ac17"
+    },
+    {
+      "id": "DEVICE CONFIGURATION",
+      "entity_type": "GEO",
+      "description": "\"Resource managed by hardware design access control systems, including settings like IP addresses or network configurations.\"",
+      "source_id": "chunk-5af9a5672caa3f4e4835e08a5744ac17"
+    },
+    {
+      "id": "ENCRYPTION KEYS",
+      "entity_type": "CONCEPT",
+      "description": "\"Sensitive data managed by the hardware design access control system to protect against unauthorized access.\"",
+      "source_id": "chunk-5af9a5672caa3f4e4835e08a5744ac17"
+    },
+    {
+      "id": "CVE-2005-1406",
+      "entity_type": "UNKNOWN",
+      "description": "\"Proper memory buffer clearing can prevent issues like CVE-2005-1406 where buffers are not fully cleared when less data is stored.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "SOURCE CODE/BINARY/COMPILED CODE",
+      "entity_type": "UNKNOWN",
+      "description": "\"The Automated Static Analysis Tool analyzes source code or compiled binaries to find security issues, making it essential for software development teams.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "INTEGRATED CIRCUITS AND HARDWARE ENGINES",
+      "entity_type": "UNKNOWN",
+      "description": "\"The product interacts with integrated circuits and hardware engines, implementing access control policies that can be too broad, allowing unauthorized accesses.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "CRYPTOGRAPHIC COMMUNITY",
+      "entity_type": "UNKNOWN",
+      "description": "\"The FIPS 140-3 Certification is issued by the Cryptography Community to ensure cryptographic modules meet high standards of security.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "DEBUG AUTHORIZATION LEVELS",
+      "entity_type": "UNKNOWN",
+      "description": "\"Different levels of debug access are assigned based on the current system state or boot stage to ensure proper protection mechanisms.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "SECURITY RISK MITIGATION",
+      "entity_type": "UNKNOWN",
+      "description": "\"Using authentication methods like passcodes helps mitigate security risks associated with unauthorized debug access.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "DEBUG ACCESS CONTROL",
+      "entity_type": "UNKNOWN",
+      "description": "\"A system reset at the start of boot ensures that sensitive data from previous sessions is not accessible to authenticated debuggers.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "ORIGINAL COPY",
+      "entity_type": "UNKNOWN",
+      "description": "\"The shadow copy updates independently of the original copy, leading to potential out-of-sync conditions.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "PLUNDERVOLT ATTACK",
+      "entity_type": "UNKNOWN",
+      "description": "\"The Intel(R) Processors have been affected by the Plundervolt Attack, which involves improper conditions checks in voltage settings.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "id": "NACL",
+      "entity_type": "UNKNOWN",
+      "description": "\"NaCl in 2015 allowed the CLFLUSH instruction that made Rowhammer attacks possible on certain systems.\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "id": "CWE-212: EXPOSURE OF SENSITIVE SYSTEM INFORMATION DUE TO UNCLEARED DEBUG INFORMATION INCIDENT",
+      "entity_type": "UNKNOWN",
+      "description": "\"The SoC is a key component in which uncleared debug information leads to security vulnerabilities.\"",
+      "source_id": "chunk-3872fc98e8f01da81fadb53fc83263c2"
+    },
+    {
+      "id": "SOC (SYSTEM-ON-A-CHIP)",
+      "entity_type": "UNKNOWN",
+      "description": "\"The SoC is a key component in which uncleared debug information leads to security vulnerabilities.\"",
+      "source_id": "chunk-3872fc98e8f01da81fadb53fc83263c2"
+    },
+    {
+      "id": "IMPROPER ACCESS CONTROL FOR REGISTER INTERFACE",
+      "entity_type": "UNKNOWN",
+      "description": "\"Malicious software could tamper with any security-critical hardware data that is accessible through the register interface on a System-on-Chip, leading to potential loss of confidentiality and integrity.\"",
+      "source_id": "chunk-656361cef4ab97aa6bcd9340210f5920"
+    },
+    {
+      "id": "HARDWARE LOGIC WITH INSECURE DE-SYNCHRONIZATION",
+      "entity_type": "UNKNOWN",
+      "description": "\"On-chip bus firewalls are part of the hardware logic that can fail to synchronize properly between control and data channels, leading to potential security vulnerabilities.\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "id": "IMPROPER PHYSICAL ACCESS CONTROL",
+      "entity_type": "UNKNOWN",
+      "description": "\"Anti-tampering measures are part of the design and implementation phases that aim to prevent or detect tampering with physical components, thereby mitigating risks associated with improper physical access control.\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "INTEL PROCESSORS",
+      "target": "CVE-2020-8695",
+      "weight": 7.0,
+      "description": "\"The CVE-2020-8695 event highlights the observable discrepancy issue specifically affecting Intel processors.\"",
+      "keywords": "\"security vulnerability, observable discrepancy\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "CRYPTO HARDWARE WALLET",
+      "target": "CVE-2019-14353",
+      "weight": 8.0,
+      "description": "\"CVE-2019-14353 describes a side-channel attack on the Crypto Hardware Wallet due to its power consumption patterns.\"",
+      "keywords": "\"power analysis, security flaw\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "JAVA-ORIENTED FRAMEWORK",
+      "target": "CVE-2019-10071",
+      "weight": 8.0,
+      "description": "\"CVE-2019-10071 is an event that identifies a vulnerability in the Java-oriented framework due to its implementation of HMAC comparisons.\"",
+      "keywords": "\"timing attack, security weakness\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "CVE-2020-8695",
+      "target": "CWE-200",
+      "weight": 7.0,
+      "description": "\"The CVE-2020-8695 event involves an observable discrepancy that falls under the broader category of weaknesses defined by CWE-200.\"",
+      "keywords": "\"classification, vulnerability categorization\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "CVE-2019-14353",
+      "target": "CWE-200",
+      "weight": 7.0,
+      "description": "\"The side-channel attack described in CVE-2019-14353 involves observable discrepancies that align with the weaknesses categorized under CWE-200.\"",
+      "keywords": "\"classification, vulnerability categorization\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "CVE-2019-10071",
+      "target": "CWE-200",
+      "weight": 7.0,
+      "description": "\"The timing discrepancies in the HMAC comparison identified by CVE-2019-10071 fit within the observable discrepancy category defined by CWE-200.\"",
+      "keywords": "\"classification, vulnerability categorization\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "CVE-2019-10071",
+      "target": "JAVA-ORIENTED FRAMEWORK DEVELOPERS",
+      "weight": 8.0,
+      "description": "\"Developers and maintainers of the Java-oriented framework that suffered from this specific timing attack vulnerability.\"",
+      "keywords": "\"vulnerability exposure, security patching\"",
+      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315"
+    },
+    {
+      "source": "BULLETIN BOARD",
+      "target": "PRODUCT (UNNAMED)",
+      "weight": 7.0,
+      "description": "\"Both Bulletin Board and unnamed Product display different error messages, making it easier for attackers to determine user existence.\"",
+      "keywords": "\"error handling weakness, information leakage\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "BULLETIN BOARD",
+      "target": "CVE-2004-0294",
+      "weight": 7.0,
+      "description": "\"The Bulletin Board system, as identified in CVE-2004-0294, displays different error messages for user existence which can be exploited.\"",
+      "keywords": "\"security vulnerability, information leakage\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "OPERATING SYSTEM",
+      "target": "FTP SERVER (UNNAMED)",
+      "weight": 8.0,
+      "description": "\"Both Operating Systems and FTP Servers show variations in responses which can be exploited by attackers to guess passwords or usernames.\"",
+      "keywords": "\"security vulnerability, remote attack\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "OPERATING SYSTEM",
+      "target": "CVE-2004-0243",
+      "weight": 8.0,
+      "description": "\"The Operating System's behavior described in CVE-2004-0243 shows distinct error messages for correct password attempts when remote login is disabled.\"",
+      "keywords": "\"security flaw, error handling weakness\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "OPERATING SYSTEM",
+      "target": "PROCESS",
+      "weight": 16.0,
+      "description": "\"The operating system manages resources like memory that are allocated to various processes, ensuring they can function correctly.\"",
+      "keywords": "\"resource allocation, management\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "OPERATING SYSTEM",
+      "target": "SDELETE (SECURE DELETE)",
+      "weight": 9.0,
+      "description": "\"The operating system can utilize or provide APIs to tools like SDelete to ensure secure data deletion on Windows systems.\"",
+      "keywords": "\"secure data deletion, API usage\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "PRODUCT (UNNAMED)",
+      "target": "WEB BROWSER (UNNAMED)",
+      "weight": 5.0,
+      "description": "\"Unnamed Product and Web Browsers can be exploited to identify file existence through response time discrepancies.\"",
+      "keywords": "\"security breach, timing attack\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "PRODUCT (UNNAMED)",
+      "target": "CVE-2002-0514",
+      "weight": 6.0,
+      "description": "\"The unnamed Product's issue described in CVE-2002-0514 allows attackers to determine port filtering status by analyzing TTL values.\"",
+      "keywords": "\"security vulnerability, information leakage via TTL analysis\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "PRODUCT (UNNAMED)",
+      "target": "CVE-2002-0515",
+      "weight": 6.0,
+      "description": "\"The unnamed Product's behavior in CVE-2002-0515 reveals port filtering by responding differently based on filter status.\"",
+      "keywords": "\"security vulnerability, information leakage via TTL comparison\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "PRODUCT (UNNAMED)",
+      "target": "CVE-2002-0208",
+      "weight": 6.0,
+      "description": "\"The unnamed Product's weakness described in CVE-2002-0208 modifies ICMP error messages and TCP/IP stack, revealing the product to attackers.\"",
+      "keywords": "\"security vulnerability, infoleak via modified responses\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "VERSION CONTROL SYSTEM",
+      "target": "VIRTUAL MACHINE (UNNAMED)",
+      "weight": 6.0,
+      "description": "\"Both the Version Control System and Virtual Machine allow for information leakage through error handling mechanisms.\"",
+      "keywords": "\"information leakage, security flaw\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "VERSION CONTROL SYSTEM",
+      "target": "CVE-2004-0778",
+      "weight": 6.0,
+      "description": "\"The Version Control System's vulnerability in CVE-2004-0778 allows attackers to determine file existence through error messages for alternate history files.\"",
+      "keywords": "\"security flaw, infoleak via error message analysis\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "FTP SERVER (UNNAMED)",
+      "target": "CVE-2004-1428",
+      "weight": 7.0,
+      "description": "\"The unnamed FTP server's issue described in CVE-2004-1428 exposes valid usernames through distinct error messages for non-existent users.\"",
+      "keywords": "\"security vulnerability, infoleak via username enumeration\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "SSL IMPLEMENTATION (UNNAMED)",
+      "target": "CVE-2003-0078",
+      "weight": 6.0,
+      "description": "\"The SSL implementation's weakness in CVE-2003-0078 allows for timing discrepancies that can be exploited in cryptographic attacks.\"",
+      "keywords": "\"security flaw, infoleak via timing analysis\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "VIRTUAL MACHINE (UNNAMED)",
+      "target": "CVE-2000-1117",
+      "weight": 6.0,
+      "description": "\"The unnamed Virtual Machine's vulnerability in CVE-2000-1117 allows malicious operators to measure delays for file existence detection.\"",
+      "keywords": "\"security flaw, infoleak via timing attack on method execution\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "WEB BROWSER (UNNAMED)",
+      "target": "CVE-2005-0918",
+      "weight": 6.0,
+      "description": "\"The unnamed Web Browser's vulnerability described in CVE-2005-0918 allows attackers to determine file existence through web page loading delays.\"",
+      "keywords": "\"security flaw, infoleak via web behavior analysis\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "DISK SPACE MANAGEMENT",
+      "target": "MEMORY DEALLOCATION",
+      "weight": 14.0,
+      "description": "\"Both disk space and memory deallocation involve freeing up storage resources for reuse, highlighting common strategies in resource management.\"",
+      "keywords": "\"resource availability, reallocation\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "DISK SPACE MANAGEMENT",
+      "target": "MEMORY BUFFER CLEARING",
+      "weight": 8.0,
+      "description": "\"Similar to memory buffer clearing, disk space management involves securely overwriting old data before reallocation to prevent information leaks.\"",
+      "keywords": "\"secure overwrite practices, resource recycling\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "MEMORY DEALLOCATION",
+      "target": "CWE ID:459",
+      "weight": 8.0,
+      "description": "\"CWE 459 highlights a common weakness related to memory deallocation and sensitive information uncleared before reuse.\"",
+      "keywords": "\"security vulnerability, resource management\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "SDELETE (SECURE DELETE)",
+      "target": "CVE-2019-3733",
+      "weight": 8.0,
+      "description": "\"The use of SDelete can help mitigate vulnerabilities such as CVE-2019-3733 by securely erasing sensitive data.\"",
+      "keywords": "\"vulnerability mitigation, secure deletion\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "MEMORY BUFFER CLEARING",
+      "target": "CVE-2005-1406",
+      "weight": 9.0,
+      "description": "\"Proper memory buffer clearing can prevent issues like CVE-2005-1406 where buffers are not fully cleared when less data is stored.\"",
+      "keywords": "\"data leakage prevention, secure coding practice\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "CWE-226",
+      "target": "CWE-212",
+      "weight": 16.0,
+      "description": "\"The relationship between CWE-226 and CWE-212 highlights their distinct focus on different stages in the lifecycle of resource management involving sensitive data.\"",
+      "keywords": "\"resource lifecycle, security risk\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "CWE-226",
+      "target": "SENSITIVE INFORMATION UNCLEARED BEFORE USE",
+      "weight": 14.0,
+      "description": "\"Uncleared sensitive information before reuse is a manifestation of CWE-226 where improper release or reassignment leads to exposure.\"",
+      "keywords": "\"lifecycle mismanagement, data exposure\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "CWE-226",
+      "target": "CVE-2005-1941",
+      "weight": 14.0,
+      "description": "\"The CWE-226 concept addresses the improper management and reuse of resources, which is directly relevant to the security risk identified in CVE-2005-1941.\"",
+      "keywords": "\"resource lifecycle mismanagement, security vulnerability\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "CWE-226",
+      "target": "CVE-2002-1713",
+      "weight": 14.0,
+      "description": "\"The CWE-226 concept is also relevant to CVE-2002-1713 where improper management of file permissions exposes security vulnerabilities.\"",
+      "keywords": "\"resource lifecycle mismanagement, security vulnerability\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "CWE-212",
+      "target": "SENSITIVE INFORMATION UNCLEARED BEFORE USE",
+      "weight": 14.0,
+      "description": "\"The event 'Sensitive Information Uncleared Before Use' also ties into CWE-212 by exposing shared sensitive resources that remain active and accessible.\"",
+      "keywords": "\"data exposure, resource sharing\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "CVE-2005-1941",
+      "target": "PLOVER",
+      "weight": 8.0,
+      "description": "\"The issue described by CVE-2005-1941 aligns with the PLOVER standard focusing on insecure default permissions.\"",
+      "keywords": "\"vulnerability, security guideline\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "CVE-2005-1941",
+      "target": "CERT C SECURE CODING",
+      "weight": 8.0,
+      "description": "\"The CERT C Secure Coding guidelines aim to prevent issues like CVE-2005-1941 by enforcing secure coding practices.\"",
+      "keywords": "\"guideline, vulnerability prevention\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "ISA/IEC 62443",
+      "target": "INSECURE DEFAULT PERMISSIONS",
+      "weight": 9.0,
+      "description": "\"The ISA/IEC 62443 standard addresses the issue of insecure default permissions in industrial control systems.\"",
+      "keywords": "\"standard, security requirement\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "ISA/IEC 62443",
+      "target": "CWE-CAPEC ICS/OT SPECIAL INTEREST GROUP (SIG)",
+      "weight": 9.0,
+      "description": "\"The SIG is involved in mapping CWEs to the ISA/IEC 62443 standard, contributing to the review and refinement of cybersecurity practices for industrial systems.\"",
+      "keywords": "\"cybersecurity standards, mapping effort\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "source": "PROGRAMMABLE LOGIC CONTROLLER (PLC)",
+      "target": "BUILDING CONTROLLER",
+      "weight": 14.0,
+      "description": "\"Both the Programmable Logic Controller and Building Controller transmit sensitive information in plaintext, highlighting similar security vulnerabilities.<SEP>\"Both the Programmable Logic Controller and Building Controller transmit sensitive information in plaintext, highlighting similar security vulnerabilities.\"",
+      "keywords": "\"security vulnerability, cleartext transmission\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "WEB APPLICATIONS WITH SSL",
+      "target": "SERVERS",
+      "weight": 16.0,
+      "description": "\"When web applications use SSL, it is recommended to configure servers for encrypted communication throughout the session from login to logout.\"",
+      "keywords": "\"encrypted channels, secure protocols\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "AUTOMATED STATIC ANALYSIS TOOL",
+      "target": "SOURCE CODE/BINARY/COMPILED CODE",
+      "weight": 9.0,
+      "description": "\"The Automated Static Analysis Tool analyzes source code or compiled binaries to find security issues, making it essential for software development teams.\"",
+      "keywords": "\"security analysis, static testing\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "DATA FLOW",
+      "target": "CONTROL FLOW",
+      "weight": 8.0,
+      "description": "\"Analyzing data and control flow together helps in identifying vulnerabilities such as buffer overflows or insecure handling of input data.",
+      "keywords": "\"security assessment, code review\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "CRYPTOGRAPHY TOOLS",
+      "target": "SNIFFERS AND PROTOCOL ANALYZERS",
+      "weight": 7.0,
+      "description": "\"Both Cryptography Tools and Sniffers/Protocol Analyzers are used to analyze network traffic for security purposes. They complement each other in detecting encryption usage or vulnerabilities.\"",
+      "keywords": "\"network analysis, security monitoring\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "SYSTEM ACTIVITY MONITORS (E.G., FILEMON, REGMON)",
+      "target": "DEBUGGERS",
+      "weight": 8.0,
+      "description": "\"Both System Activity Monitors and Debuggers are used to trace system behavior at runtime. They help in understanding the context of security-related activities.\"",
+      "keywords": "\"runtime monitoring, system analysis\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "CERT ORACLE SECURE CODING STANDARD FOR JAVA (2011)",
+      "target": "MISSING CRYPTOGRAPHIC STEP",
+      "weight": 16.0,
+      "description": "\"The CERT Oracle Secure Coding Standard provides guidelines that help prevent missing cryptographic steps and ensure strong encryption practices in Java applications.\"",
+      "keywords": "\"secure coding, prevention of vulnerabilities\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "source": "CERT ORACLE SECURE CODING STANDARD FOR JAVA (2011)",
+      "target": "EXPECTED BEHAVIOR VIOLATION",
+      "weight": 7.0,
+      "description": "\"The CERT Oracle Secure Coding Standard offers guidelines to help prevent expected behavior violations and ensure consistent application performance.\"",
+      "keywords": "\"secure coding, consistency\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "source": "DEVELOPER",
+      "target": "PRODUCT",
+      "weight": 7.0,
+      "description": "\"The developer's expectations for how the software should be used are not met due to vulnerabilities in the product.\"",
+      "keywords": "\"developer expectations, security vulnerability\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "PRODUCT",
+      "weight": 9.0,
+      "description": "\"An attacker exploits the product by sending requests through it to bypass access controls and hide their identity.\"",
+      "keywords": "\"exploitation, security breach\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "EXTERNAL ACTOR",
+      "weight": 9.0,
+      "description": "\"The attacker sends requests to the Product and exploits its behavior to target an External Actor without being directly detected.\"",
+      "keywords": "\"exploitation, security breach\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "UPDATE REQUEST EVENT",
+      "weight": 8.0,
+      "description": "\"The attacker intercepts communication related to update requests, causing disruptions in data integrity.\"",
+      "keywords": "\"communication interception, security breach\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "source": "PRODUCT",
+      "target": "UPSTREAM COMPONENT",
+      "weight": 7.0,
+      "description": "\"The product receives a request but does not preserve the original source before forwarding it, making the upstream component vulnerable.\"",
+      "keywords": "\"request handling, information loss\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "PRODUCT",
+      "target": "INTEGRATED CIRCUITS AND HARDWARE ENGINES",
+      "weight": 7.0,
+      "description": "\"The product interacts with integrated circuits and hardware engines, implementing access control policies that can be too broad, allowing unauthorized accesses.\"",
+      "keywords": "\"security weakness, access control\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "PRODUCT",
+      "target": "ACCESS-CONTROL POLICY",
+      "weight": 7.0,
+      "description": "\"The product uses an access-control policy to manage accesses but faces issues with granularity, allowing unauthorized agents to potentially exploit vulnerabilities.\"",
+      "keywords": "\"access control weakness, vulnerability\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "CVE-2010-1637",
+      "target": "INSUFFICIENT TECHNICAL DOCUMENTATION",
+      "weight": 8.0,
+      "description": "\"The vulnerability CVE-2010-1637 is an example where insufficient documentation may have contributed to its existence or complexity in addressing it.\"",
+      "keywords": "\"documentation impact, security risk\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "source": "CVE-2009-0037",
+      "target": "INSUFFICIENT TECHNICAL DOCUMENTATION",
+      "weight": 8.0,
+      "description": "\"The vulnerability CVE-2009-0037 is an example where insufficient documentation may have led to the issue being overlooked or misunderstood.\"",
+      "keywords": "\"documentation impact, security risk\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "source": "PLOVER:UNINTENDED PROXY/INTERMEDIARY",
+      "target": "CWE-668 (EXPOSURE OF RESOURCE TO WRONG SPHERE)",
+      "weight": 9.0,
+      "description": "\"The unintended use of a proxy as an intermediary can lead to exposure of resources intended for the wrong sphere.\"",
+      "keywords": "\"security risk, resource exposure\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "source": "SYSTEM-ON-A-CHIP (SOC)",
+      "target": "IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)",
+      "weight": 16.0,
+      "description": "\"The SoC faces risks due to improper isolation of shared resources between trusted and untrusted agents.\"",
+      "keywords": "\"security risk, resource sharing\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "SYSTEM-ON-A-CHIP (SOC)",
+      "target": "CWE ID:404",
+      "weight": 16.0,
+      "description": "\"The issue described by CWE ID:404 concerning improper scrubbing of sensitive data can be applied to System-On-a-Chip devices, where such data needs removal upon decommissioning.\"<SEP>\"The issue with CWE ID:404 concerning improper scrubbing of sensitive data can be applied to System-On-a-Chip devices where such data needs removal upon decommissioning.\"",
+      "keywords": "\"Data Security, Device Lifecycle Management\"<SEP>\"data security, device lifecycle management\"",
+      "source_id": "chunk-b3093914f034bebd2e6138d339ec08d6"
+    },
+    {
+      "source": "DIRECT MEMORY ACCESS (DMA)",
+      "target": "DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE",
+      "weight": 18.0,
+      "description": "\"When DMA devices are enabled too early during boot phase before security settings are established, they can be exploited by attackers to gain access or extract data.\"",
+      "keywords": "\"security vulnerability, timing risk\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)",
+      "target": "CWE ID:653",
+      "weight": 7.0,
+      "description": "\"Common Weakness Enumeration (CWE) ID 653 describes the issue of improper isolation in SoCs as a standard reference.\"",
+      "keywords": "\"security framework, documentation\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)",
+      "target": "CWE ID:1331",
+      "weight": 6.0,
+      "description": "\"Common Weakness Enumeration (CWE) ID 1331 provides additional context about error handling issues in SoCs.\"",
+      "keywords": "\"security framework, documentation\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)",
+      "target": "CVE-2020-8698",
+      "weight": 7.0,
+      "description": "\"The CVE-2020-8698 entry highlights a real-world example of the improper isolation issue in SoCs.\"",
+      "keywords": "\"vulnerability report, documentation\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE",
+      "target": "IOMMU (INPUT/OUTPUT MEMORY MANAGEMENT UNIT)",
+      "weight": 9.0,
+      "description": "\"The IOMMU can be used to manage direct memory access and protect against early-boot phase vulnerabilities.\"",
+      "keywords": "\"security mitigation, protection mechanism\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "CVE-2019-6260",
+      "target": "BASEBOARD MANAGEMENT CONTROLLER (BMC)",
+      "weight": 8.0,
+      "description": "\"The CVE-2019-6260 entry describes a vulnerability associated with the BMC's AHB bridges that lack authentication, leading to potential unauthorized access.\"",
+      "keywords": "\"vulnerability report, security risk\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "PHASE:ARCHITECTURE AND DESIGN",
+      "target": "ON-CHIP DEBUG AND TEST INTERFACE WITH IMPROPER ACCESS CONTROL",
+      "weight": 8.0,
+      "description": "\"The Architecture and Design phase includes reviewing and implementing proper security measures to prevent improper access control issues in debug interfaces.\"",
+      "keywords": "\"security review, vulnerability prevention\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "PHASE:ARCHITECTURE AND DESIGN",
+      "target": "JTAG INTERFACE",
+      "weight": 9.0,
+      "description": "\"During the Architecture and Design phase, proper authorization and authentication should be implemented for JTAG interfaces to secure against unauthorized access.\"",
+      "keywords": "\"secure design, security measures\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "TRUSTED FIRMWARE ",
+      "weight": 9.0,
+      "description": "\"Trusted firmware ensures the secure initialization of System-on-Chip (SoC) by programming necessary protections and access controls during boot-up.\"",
+      "keywords": "\"security, initialization\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "PERIPHERAL MICROCONTROLLERS ",
+      "weight": 8.0,
+      "description": "\"Peripheral microcontrollers are integral parts of SoCs, requiring secure handling before they can be trusted to operate within the system.\"",
+      "keywords": "\"dependency, security management\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "ADVERSARY ",
+      "weight": 6.0,
+      "description": "\"An adversary seeks to exploit vulnerabilities within a System-on-Chip (SoC), often targeting reserved bits or untrusted components to compromise system integrity.\"",
+      "keywords": "\"exploitation, security risk\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "IMPROPER ACCESS CONTROL FOR REGISTER INTERFACE",
+      "weight": 16.0,
+      "description": "\"Malicious software could tamper with any security-critical hardware data that is accessible through the register interface on a System-on-Chip, leading to potential loss of confidentiality and integrity.\"",
+      "keywords": "\"security vulnerability, access control\"",
+      "source_id": "chunk-656361cef4ab97aa6bcd9340210f5920"
+    },
+    {
+      "source": "RESERVED BITS ",
+      "target": "DESIGNER ",
+      "weight": 7.0,
+      "description": "\"Designers have the responsibility to decide whether reserved bits should remain inactive or be used for debugging in production hardware.\"",
+      "keywords": "\"decision-making, future use\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "source": "TRUSTED FIRMWARE (BOOT FIRMWARE)",
+      "target": "UNTRUSTED AGENTS",
+      "weight": 8.0,
+      "description": "\"Trusted firmware is tasked to protect assets from untrusted agents by configuring necessary protections but can fail if policies lack granularity.\"",
+      "keywords": "\"protection mechanism, security risk\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "TRUSTED FIRMWARE (BOOT FIRMWARE)",
+      "target": "POWER RESET",
+      "weight": 9.0,
+      "description": "\"Trusted firmware is responsible for configuring necessary protections and default values in registers upon a power reset event.\"",
+      "keywords": "\"protection configuration, initialization event\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "UNTRUSTED AGENTS",
+      "target": "MEMORY ALIASES",
+      "weight": 8.0,
+      "description": "\"Untrusted agents can exploit memory regions through inconsistent read/write permissions enforced by hardware.\"",
+      "keywords": "\"exploitation, access control bypass\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "source": "SECURITY-SENSITIVE ASSETS",
+      "target": "INTEGRATED CIRCUITS AND HARDWARE ENGINES",
+      "weight": 8.0,
+      "description": "\"These hardware components can expose security-sensitive assets to trusted firmware during power resets if access controls are insufficient.\"",
+      "keywords": "\"asset exposure, security risk\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "SECURITY-SENSITIVE ASSETS",
+      "target": "HDL CODE",
+      "weight": 8.0,
+      "description": "\"The HDL code defines critical security-sensitive settings that must be checked to ensure they are secure at the time of hardware implementation and design phases.\"",
+      "keywords": "\"security setting definition, protection necessity\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "DESIGN REVIEW PHASE",
+      "target": "TESTING PHASE",
+      "weight": 18.0,
+      "description": "\"The Testing Phase follows the Design Review Phase and uses automated tools to verify compliance with design specifications.\"",
+      "keywords": "\"sequential process, validation\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "source": "TESTING PHASE",
+      "target": "TRUSTED FIRMWARE/SOFTWARE MODULE",
+      "weight": 10.0,
+      "description": "\"The Testing Phase verifies that trusted firmware/software configurations adhere to security requirements set during the Design Review Phase.\"",
+      "keywords": "\"security validation, compliance check\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "source": "TESTING PHASE",
+      "target": "INTEGRATED CIRCUITS AND HARDWARE IP SOFTWARE PROGRAMMABLE CONTROLS",
+      "weight": 9.0,
+      "description": "\"The testing phase employs automated tools to verify that the integrated circuits' hardware protection features like lock bits function correctly.\"",
+      "keywords": "\"security validation, tool integration\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "SOFTWARE MODULE (COMMONLY SET BY BIOS/BOOTLOADER)",
+      "target": "HARDWARE DESIGN TEAMS",
+      "weight": 8.0,
+      "description": "\"These software modules are implemented by hardware design teams during the architecture and design phase.\"",
+      "keywords": "\"collaborative work, security implementation\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "source": "INTEGRATED CIRCUITS AND HARDWARE IP SOFTWARE PROGRAMMABLE CONTROLS",
+      "target": "HDL CODE (HARDWARE DESCRIPTION LANGUAGE)",
+      "weight": 16.0,
+      "description": "\"The hardware description language code is used in the integrated circuits and hardware IP software programmable controls for defining default settings.\"",
+      "keywords": "\"hardware initialization, security definition\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "INTEGRATED CIRCUITS AND HARDWARE IP SOFTWARE PROGRAMMABLE CONTROLS",
+      "target": "LOCK BIT PROTECTION FEATURE",
+      "weight": 18.0,
+      "description": "\"A lock bit protection feature can be implemented within the integrated circuits to secure hardware settings against unauthorized modification.\"",
+      "keywords": "\"security measure, write-protection\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "INTEGRATED CIRCUITS AND HARDWARE IP SOFTWARE PROGRAMMABLE CONTROLS",
+      "target": "TRUSTED FIRMWARE OR SOFTWARE MODULE (E.G., BIOS/BOOTLOADER)",
+      "weight": 8.0,
+      "description": "\"The trusted firmware/software module initializes the integrated circuits by setting critical configurations including lock bits.\"",
+      "keywords": "\"initialization, configuration\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "LOCK BIT PROTECTION FEATURE",
+      "target": "POWER STATE TRANSITION (ENTRY AND WAKE FROM LOW POWER SLEEP MODES)",
+      "weight": 6.0,
+      "description": "\"During power state transitions, some implementations may inadvertently reset or clear lock bits, making the system configuration changeable.\"",
+      "keywords": "\"vulnerability, security compromise\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "TRUSTED FIRMWARE OR SOFTWARE MODULE (E.G., BIOS/BOOTLOADER)",
+      "target": "SYSTEM CONFIGURATION PHASE",
+      "weight": 7.0,
+      "description": "\"During system configuration phase, the BIOS/bootloader ensures that all settings are correctly initialized and secure before moving to operational mode.\"",
+      "keywords": "\"configuration finalization, security verification\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "PRODUCT DEVELOPMENT TEAM",
+      "target": "ADVERSARY",
+      "weight": 8.0,
+      "description": "\"The Product Development Team's work can potentially be exploited by an Adversary if the lock bit protection scheme is not robust against all weaknesses.\"",
+      "keywords": "\"vulnerability assessment, security testing\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "source": "PRODUCT DEVELOPMENT TEAM",
+      "target": "POWER STATE TRANSITION TESTING",
+      "weight": 7.0,
+      "description": "\"The Product Development Team conducts Power State Transition Testing to verify that lock bits remain effective across different power states.\"",
+      "keywords": "\"testing, quality assurance\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "source": "PRODUCT DEVELOPMENT TEAM",
+      "target": "TRUSTED FIRMWARE MODULE",
+      "weight": 8.0,
+      "description": "\"The Product Development Team works with the Trusted Firmware Module to ensure proper programming and locking of system configuration controls.\"",
+      "keywords": "\"security implementation, trusted computing base\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "source": "PRODUCT DEVELOPMENT TEAM",
+      "target": "ARCHITECTURE AND DESIGN IMPLEMENTATION ORGANIZATION",
+      "weight": 8.0,
+      "description": "\"The Architecture and Design Implementation organization reviews the work of the Product Development Team for security weaknesses.\"",
+      "keywords": "\"review process, quality assurance\"",
+      "source_id": "chunk-288a08707ff1741e8c5773dc48f272bf"
+    },
+    {
+      "source": "BIOS/BOOTLOADER",
+      "target": "LOCK BIT PROTECTION SCHEME",
+      "weight": 9.0,
+      "description": "\"BIOS/bootloader uses the Lock Bit Protection Scheme to ensure that system configuration controls are programmed and locked after power reset.\"",
+      "keywords": "\"security implementation, protection mechanism\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "source": "LOCK BIT PROTECTION SCHEME",
+      "target": "SYSTEM CONFIGURATION REGISTERS",
+      "weight": 9.0,
+      "description": "\"Lock Bit Protection Scheme is designed to prevent unauthorized modifications to System Configuration Registers.\"",
+      "keywords": "\"protection mechanism, security assurance\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "source": "PRE-SILICON TESTING",
+      "target": "POST-SILICON TESTING",
+      "weight": 7.0,
+      "description": "\"Both Pre-silicon and Post-silicon Testing are part of a comprehensive testing strategy to validate the effectiveness of lock bit protection across different stages.\"",
+      "keywords": "\"testing methodology, validation process\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "source": "HARDWARE PRODUCT",
+      "target": "CWE ID:667",
+      "weight": 8.0,
+      "description": "\"The hardware product may be subject to CWE ID 667, where lock protection mechanisms can potentially be bypassed leading to unauthorized access and configuration modification.\"",
+      "keywords": "\"vulnerability impact, security mechanism bypass\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "source": "HARDWARE PRODUCT",
+      "target": "CWE ID:226",
+      "weight": 8.0,
+      "description": "\"The hardware product may also face issues related to CWE ID 226, where sensitive data stored in registers is not properly cleared or zeroized after use.\"",
+      "keywords": "\"data security risk, zeroization failure\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "source": "CRYPTOGRAPHIC ACCELERATOR",
+      "target": "ZEROIZATION PROCEDURE",
+      "weight": 9.0,
+      "description": "\"A Cryptographic Accelerator should implement a proper Zeroization Procedure to ensure that sensitive information stored in its registers is removed when switching users or detecting potential physical attacks.\"",
+      "keywords": "\"data protection, security measure\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "source": "AES-256",
+      "target": "DES",
+      "weight": 7.0,
+      "description": "\"AES-256 contrasts with DES; while AES remains secure due to its robust key size and resistance to brute force attacks, DES has been deemed vulnerable because of its relatively small key size.\"",
+      "keywords": "\"encryption algorithm comparison, security strength\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "source": "DES",
+      "target": "TLS",
+      "weight": 6.0,
+      "description": "\"Historically, TLS implementations using DES for encryption have shown vulnerabilities leading to weakened cryptographic integrity and potential data breaches.\"",
+      "keywords": "\"protocol vulnerability, historical context\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "source": "CRYPTOGRAPHIC PRIMITIVE",
+      "target": "DES (DATA ENCRYPTION STANDARD)",
+      "weight": 8.0,
+      "description": "\"DES is a specific instance of a cryptographic primitive that has been evaluated and found vulnerable over time due to advances in computational capabilities.\"",
+      "keywords": "\"vulnerability assessment, technological evolution\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "CRYPTOGRAPHIC PRIMITIVE",
+      "target": "CRYPTOGRAPHY COMMUNITY",
+      "weight": 9.0,
+      "description": "\"The Cryptography Community evaluates and reevaluates cryptographic primitives to ensure they remain secure against new types of attacks over time.\"",
+      "keywords": "\"security evaluation, community oversight\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "CRYPTOGRAPHIC PRIMITIVE",
+      "target": "NIST (NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY)",
+      "weight": 8.0,
+      "description": "\"NIST provides standards for cryptographic primitives, ensuring their security through rigorous testing and evaluation.\"",
+      "keywords": "\"standardization, security evaluation\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "DES (DATA ENCRYPTION STANDARD)",
+      "target": "TLS (TRANSPORT LAYER SECURITY)",
+      "weight": 7.0,
+      "description": "\"TLS historically used DES as one of its cryptographic primitives but this usage is now considered insecure due to the vulnerabilities found in DES.\"",
+      "keywords": "\"protocol vulnerability, historical security practices\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "DES (DATA ENCRYPTION STANDARD)",
+      "target": "ATTACKERS",
+      "weight": 6.0,
+      "description": "\"Attackers exploit the weaknesses in DES by using brute-force methods to break encryption keys due to advances in computational power.\"",
+      "keywords": "\"exploitation, security risk\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "DES (DATA ENCRYPTION STANDARD)",
+      "target": "FIPS 140-3",
+      "weight": 7.0,
+      "description": "\"DES is considered insecure and is no longer compliant with the latest FIPS 140-3 standards for cryptographic modules.\"",
+      "keywords": "\"Insecurity, Non-compliance\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "CUSTOM OR PRIVATE CRYPTOGRAPHIC ALGORITHMS",
+      "weight": 6.0,
+      "description": "\"Attackers often exploit custom or private cryptographic algorithms due to their lack of public review and testing.\"",
+      "keywords": "\"vulnerability risk, exploitation threat\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "FIPS 140-3 CERTIFICATION",
+      "target": "CRYPTOGRAPHIC COMMUNITY",
+      "weight": 7.0,
+      "description": "\"The FIPS 140-3 Certification is issued by the Cryptography Community to ensure cryptographic modules meet high standards of security.\"",
+      "keywords": "\"security certification, community collaboration\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "US GOVERNMENT SYSTEMS",
+      "target": "FIPS 140-3",
+      "weight": 8.0,
+      "description": "\"US government systems require FIPS 140-3 certification to ensure compliance with the latest cryptographic standards.\"",
+      "keywords": "\"Compliance, Standards\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "MD5",
+      "target": "SHA-256",
+      "weight": 9.0,
+      "description": "\"MD5 is outdated and less secure compared to SHA-256, which provides better security for data integrity checks.\"",
+      "keywords": "\"Security Vulnerability, Algorithm Upgrade\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "LINEAR FEEDBACK SHIFT REGISTER (LFSR)",
+      "target": "RANDOM NUMBER GENERATOR (RNG)",
+      "weight": 6.0,
+      "description": "\"LFSRs are not recommended as a substitute for proper RNGs in cryptographic applications due to their lack of randomness.\"",
+      "keywords": "\"Security Weakness, Standard Practice\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "CRYPTOGRAPHIC LIBRARIES/FRAMEWORKS",
+      "target": "CWE-325 (SKIPPING RESOURCE-INTENSIVE STEPS)",
+      "weight": 7.0,
+      "description": "\"While using a vetted library can save development time, incorrect implementation (such as skipping resource-intensive steps) can still lead to vulnerabilities.\"",
+      "keywords": "\"Implementation Error, Common Weakness\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "CRYPTOGRAPHIC LIBRARIES/FRAMEWORKS",
+      "target": "CWE-320 (POOR KEY MANAGEMENT)",
+      "weight": 8.0,
+      "description": "\"Poor key management practices, such as storing keys in insecure locations, can undermine the security provided by even the most robust cryptographic libraries.\"",
+      "keywords": "\"Key Management, Security Risk\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "CHIP IMPLEMENTING BLUETOOTH",
+      "target": "CVE-2020-6616",
+      "weight": 9.0,
+      "description": "\"The chip implementing Bluetooth uses a low-entropy PRNG, leading to the security vulnerability described by CVE-2020-6616.\"",
+      "keywords": "\"Security Vulnerability, Low Entropy\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "source": "PRODUCT DEVELOPER ORGANIZATION",
+      "target": "ATTACKER ORGANIZATION",
+      "weight": 5.0,
+      "description": "\"The Product Developer Organization creates products with potential vulnerabilities that can be exploited by the Attacker Organization.\"",
+      "keywords": "\"vulnerability exploitation, security risk\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "source": "SECURITY-SENSITIVE VALUES",
+      "target": "FUSES",
+      "weight": 8.0,
+      "description": "\"Security-sensitive values are programmed into fuses and sensed by the chip upon power-on.\"",
+      "keywords": "\"storage, power-on initialization\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "source": "FUSES",
+      "target": "REGISTERS AND LOCAL MEMORIES",
+      "weight": 7.0,
+      "description": "\"Information from fuses is stored temporarily in registers and local memories during debug operations.\"",
+      "keywords": "\"temporary storage, debugging\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "source": "REGISTERS AND LOCAL MEMORIES",
+      "target": "DEBUG OPERATIONS",
+      "weight": 6.0,
+      "description": "\"During debug operations, access to information in registers and local memories is allowed but should be controlled for security reasons.\"",
+      "keywords": "\"access control, security risk\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "source": "SYSTEM STATE OR BOOT STAGE",
+      "target": "DEBUG AUTHORIZATION LEVELS",
+      "weight": 7.0,
+      "description": "\"Different levels of debug access are assigned based on the current system state or boot stage to ensure proper protection mechanisms.\"",
+      "keywords": "\"protection mechanism, access level\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "source": "DEBUGGER AUTHENTICATION METHODS",
+      "target": "SECURITY RISK MITIGATION",
+      "weight": 8.0,
+      "description": "\"Using authentication methods like passcodes helps mitigate security risks associated with unauthorized debug access.\"",
+      "keywords": "\"authentication, security mitigation\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "source": "SYSTEM RESET",
+      "target": "DEBUG ACCESS CONTROL",
+      "weight": 7.0,
+      "description": "\"A system reset at the start of boot ensures that sensitive data from previous sessions is not accessible to authenticated debuggers.\"",
+      "keywords": "\"boot stage, protection mechanism\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "source": "CWE-1191",
+      "target": "JTAG",
+      "weight": 8.0,
+      "description": "\"The lack of proper authorization for accessing JTAG interfaces can lead to vulnerabilities as described in CWE-1191.\"",
+      "keywords": "\"vulnerability, authorization\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "source": "CWE-746 (CORRECTED ID)",
+      "target": "JTAG",
+      "weight": 8.0,
+      "description": "\"Incorrect configurations of JTAG interfaces can lead to vulnerabilities described in CWE-746.\"",
+      "keywords": "\"misconfiguration, vulnerability\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "source": "NAND FLASH",
+      "target": "WEAR LEVELING",
+      "weight": 9.0,
+      "description": "\"Wear leveling is crucial for managing write cycles in NAND Flash to extend its lifespan.\"",
+      "keywords": "\"durability, management\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "source": "EEPROM",
+      "target": "WEAR LEVELING",
+      "weight": 9.0,
+      "description": "\"Similar to NAND Flash, proper wear leveling is essential for managing write cycles in EEPROM.\"",
+      "keywords": "\"durability, management\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "source": "CHIPWHISPERER",
+      "target": "PLUNDERVOLT",
+      "weight": 8.0,
+      "description": "\"The ChipWhisperer can be used to test for vulnerabilities like those exploited by Plundervolt.\"",
+      "keywords": "\"vulnerability testing, security analysis\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "source": "CHIPWHISPERER",
+      "target": "CLKSCREW",
+      "weight": 7.0,
+      "description": "\"The ChipWhisperer can also detect the type of vulnerabilities targeted by CLKSCREW attacks.\"",
+      "keywords": "\"security evaluation, attack detection\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "source": "PRODUCT ARCHITECTURE",
+      "target": "MULTI-CORE PROCESSOR",
+      "weight": 7.0,
+      "description": "\"The product architecture's approach to mirroring regions is illustrated through the example of a multi-core processor using shadow MMUs, highlighting challenges in maintaining consistency.\"",
+      "keywords": "\"performance optimization, synchronization challenges\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "source": "PRODUCT ARCHITECTURE",
+      "target": "SHADOW COPIES/MIRRORED COPIES",
+      "weight": 9.0,
+      "description": "\"The concept of shadow copies or mirrored copies is integral to the product architecture's design and presents critical security implications if not properly managed.\"",
+      "keywords": "\"security vulnerabilities, data integrity\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "source": "PRODUCT ARCHITECTURE",
+      "target": "CWE ID:664",
+      "weight": 8.0,
+      "description": "\"The product architecture's flaws in managing mirrored regions contribute significantly to CWE ID 664, emphasizing the need for robust state synchronization mechanisms.\"",
+      "keywords": "\"vulnerability exposure, state management\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "source": "SHADOW COPY SYSTEM",
+      "target": "ORIGINAL COPY",
+      "weight": 14.0,
+      "description": "\"The shadow copy updates independently of the original copy, leading to potential out-of-sync conditions.\"",
+      "keywords": "\"data synchronization issues\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "source": "SHADOW COPY SYSTEM",
+      "target": "COMPLETION MESSAGE EVENT",
+      "weight": 9.0,
+      "description": "\"The shadow copy system sends a completion message upon successfully updating its copy.\"",
+      "keywords": "\"successful update notification\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "source": "COMPLETION MESSAGE EVENT",
+      "target": "ORIGINAL COPY",
+      "weight": 7.0,
+      "description": "\"If the completion message is intercepted or fails to reach the original copy, it causes the original data to revert.\"",
+      "keywords": "\"communication failure, security issue\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "source": "PRODUCT DEVELOPERS",
+      "target": "HARDWARE DESIGNER",
+      "weight": 14.0,
+      "description": "\"Both work in product development but differ in their level of detail and focus; hardware designers ensure logical operations are secure across the whole string.\"",
+      "keywords": "\"collaborative security measures, technical expertise division\"",
+      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315"
+    },
+    {
+      "source": "PRODUCT DEVELOPERS",
+      "target": "SMARTPHONE OS DEVELOPERS",
+      "weight": 12.0,
+      "description": "\"These developers are a subset of product developers focusing specifically on smartphone operating systems which can be prone to timing attacks if not designed securely.\"",
+      "keywords": "\"subdivision of expertise, specific application focus\"",
+      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315"
+    },
+    {
+      "source": "SMARTPHONE OS DEVELOPERS",
+      "target": "CWE ID 693 (INCORRECT FUSE LOGIC)",
+      "weight": 5.0,
+      "description": "\"Developers of smartphone operating systems may also encounter similar issues with incorrect fuse logic leading to security vulnerabilities.\"",
+      "keywords": "\"shared vulnerability context, security design flaws\"",
+      "source_id": "chunk-6d19315b3a2ac5b8e6619fe95743e315"
+    },
+    {
+      "source": "CVE-2020-12788",
+      "target": "POWER MANAGEMENT HARDWARE",
+      "weight": 6.0,
+      "description": "\"Poorly secured Power Management Hardware can lead to vulnerabilities such as the one described in CVE-2020-12788.\"",
+      "keywords": "\"security vulnerability, hardware weakness\"",
+      "source_id": "chunk-de788f0e155febe49b330a85c8dacce2"
+    },
+    {
+      "source": "POWER MANAGEMENT HARDWARE",
+      "target": "CLOCK/COUNTER HARDWARE",
+      "weight": 8.0,
+      "description": "\"Both hardware technologies manage different aspects of the device's operation but both are critical in enabling or preventing security vulnerabilities.\"",
+      "keywords": "\"technology interdependence, security risk management\"",
+      "source_id": "chunk-de788f0e155febe49b330a85c8dacce2"
+    },
+    {
+      "source": "POWER MANAGEMENT HARDWARE",
+      "target": "FAULT INJECTION ATTACKS",
+      "weight": 7.0,
+      "description": "\"Attacking power management features can lead to fault injection attacks that manipulate the device's state without physical access.\"",
+      "keywords": "\"security vulnerability, hardware exploitation\"",
+      "source_id": "chunk-de788f0e155febe49b330a85c8dacce2"
+    },
+    {
+      "source": "FAULT INJECTION ATTACKS",
+      "target": "SIDE-CHANNEL ANALYSIS",
+      "weight": 8.0,
+      "description": "\"Both techniques are used by attackers to compromise device security; fault injection can provide data that is useful for side-channel analysis.\"",
+      "keywords": "\"attack methodologies, vulnerability assessment\"",
+      "source_id": "chunk-de788f0e155febe49b330a85c8dacce2"
+    },
+    {
+      "source": "SIDE-CHANNEL ANALYSIS",
+      "target": "INTEL RAPL (RUNNING AVERAGE POWER LIMIT)",
+      "weight": 9.0,
+      "description": "\"Intel RAPL's power metering capability can be exploited by side-channel analysis to gather necessary measurements for attacks.\"",
+      "keywords": "\"security risk, hardware feature exploitation\"",
+      "source_id": "chunk-de788f0e155febe49b330a85c8dacce2"
+    },
+    {
+      "source": "INTEL(R) PROCESSORS",
+      "target": "PLUNDERVOLT ATTACK",
+      "weight": 8.0,
+      "description": "\"The Intel(R) Processors have been affected by the Plundervolt Attack, which involves improper conditions checks in voltage settings.\"",
+      "keywords": "\"vulnerability, security breach\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "source": "INTEL(R) PROCESSORS",
+      "target": "LINUX KERNEL DRIVER",
+      "weight": 7.0,
+      "description": "\"The Linux kernel driver for some Intel processors allows information disclosure through insufficient access control.\"",
+      "keywords": "\"software vulnerability, hardware interaction\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "source": "ROWHAMMER ATTACKS",
+      "target": "NACL",
+      "weight": 8.0,
+      "description": "\"NaCl in 2015 allowed the CLFLUSH instruction that made Rowhammer attacks possible on certain systems.\"",
+      "keywords": "\"security weakness, exploitation\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "source": "ARCHITECT",
+      "target": "SECURE COMPONENTS",
+      "weight": 7.0,
+      "description": "\"The architect introduces weaknesses through exacting requirements for software accessible power/clock management.\"",
+      "keywords": "\"design flaw\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "source": "IMPLEMENTER",
+      "target": "SECURE COMPONENTS",
+      "weight": 6.0,
+      "description": "\"Implementers may introduce vulnerabilities by assuming no consequences to unbounded power and clock settings.\"",
+      "keywords": "\"implementation error\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "source": "SYSTEM-LEVEL ARCHITECTURE AND DESIGN",
+      "target": "CUSTOM SOFTWARE",
+      "weight": 7.0,
+      "description": "\"Custom software evaluates the security of system-level architecture and design using physical attacks.\"",
+      "keywords": "\"security evaluation, dynamic analysis\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "source": "CUSTOM SOFTWARE",
+      "target": "SECURE LOCKS",
+      "weight": 8.0,
+      "description": "\"Custom software can bypass secure locks by manipulating clock and power settings.\"",
+      "keywords": "\"bypass mechanism, security flaw\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "source": "CUSTOM SOFTWARE",
+      "target": "DRAM",
+      "weight": 9.0,
+      "description": "\"Custom software uses DRAM to extract or modify data through repeated writes to adjacent locations.\"",
+      "keywords": "\"data extraction, memory manipulation\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "source": "MEMORY ALIASES",
+      "target": "ADDRESS DECODER UNIT",
+      "weight": 6.0,
+      "description": "\"The address decoder unit can create aliases in the system address map by ignoring higher-order bits.\"",
+      "keywords": "\"address mapping, alias creation\"",
+      "source_id": "chunk-81f6850da7e29f622c19e2eaa382023a"
+    },
+    {
+      "source": "HARDWARE LOGIC",
+      "target": "MEMORY PROTECTION UNIT (MPU)",
+      "weight": 9.0,
+      "description": "\"Hardware logic interacts with or is complemented by the Memory Protection Unit to ensure proper memory management and protection against unauthorized access.\"",
+      "keywords": "\"hardware interaction, security mechanism\"",
+      "source_id": "chunk-288a08707ff1741e8c5773dc48f272bf"
+    },
+    {
+      "source": "HARDWARE LOGIC",
+      "target": "SINGLE EVENT UPSETS (SEUS)",
+      "weight": 7.0,
+      "description": "\"When Single Event Upsets occur, hardware logic may fail to handle these errors effectively, compromising system integrity.\"",
+      "keywords": "\"error handling, vulnerability exposure\"",
+      "source_id": "chunk-288a08707ff1741e8c5773dc48f272bf"
+    },
+    {
+      "source": "HARDWARE LOGIC",
+      "target": "MEMORY REGIONS",
+      "weight": 8.0,
+      "description": "\"Hardware logic enforces read/write policies on memory regions based on their defined characteristics and permissions.\"",
+      "keywords": "\"enforcement, policy implementation\"",
+      "source_id": "chunk-288a08707ff1741e8c5773dc48f272bf"
+    },
+    {
+      "source": "MEMORY PROTECTION UNIT (MPU)",
+      "target": "DEVELOPER/ENGINEER",
+      "weight": 9.0,
+      "description": "\"The developer programs the MPU with access control definitions to ensure proper isolation of memory regions.\"",
+      "keywords": "\"programming, security enforcement\"",
+      "source_id": "chunk-288a08707ff1741e8c5773dc48f272bf"
+    },
+    {
+      "source": "MEMORY PROTECTION UNIT (MPU)",
+      "target": "TRUSTED SOFTWARE/FIRMWARE",
+      "weight": 7.0,
+      "description": "\"Trusted software programs the MPU to define a priority scheme for handling overlapping address regions.\"",
+      "keywords": "\"configuration, enforcement\"",
+      "source_id": "chunk-288a08707ff1741e8c5773dc48f272bf"
+    },
+    {
+      "source": "MEMORY-MAPPED I/O REGISTERS INTERFACE",
+      "target": "IMPROPER ACCESS CONTROL FOR REGISTER INTERFACE",
+      "weight": 14.0,
+      "description": "\"The Memory-Mapped I/O Registers Interface is directly involved in the improper access control event, leading to security risks.\"",
+      "keywords": "\"interface vulnerability, data integrity\"",
+      "source_id": "chunk-656361cef4ab97aa6bcd9340210f5920"
+    },
+    {
+      "source": "CVE-2014-2915",
+      "target": "VIRTUALIZATION PRODUCT",
+      "weight": 8.0,
+      "description": "\"The virtualization product is associated with CVE-2014-2915 due to its failure in properly restricting access to processor registers.\"",
+      "keywords": "\"security flaw, crash vulnerability\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "source": "VIRTUALIZATION PRODUCT",
+      "target": "CVE-2020-12446",
+      "weight": 8.0,
+      "description": "\"The virtualization product's driver issues are related to CVE-2020-12446 due to exposed access mechanisms.\"",
+      "keywords": "\"driver vulnerability, unauthorized privilege escalation\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "source": "VIRTUALIZATION PRODUCT",
+      "target": "CVE-2015-2150",
+      "weight": 8.0,
+      "description": "\"The virtualization product is linked with CVE-2015-2150 due to unrestricted access to PCI command registers.\"",
+      "keywords": "\"PCI vulnerability, security breach\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "source": "VIRTUALIZATION PRODUCT",
+      "target": "HARDWARE REGISTERS",
+      "weight": 7.0,
+      "description": "\"Hardware registers in a virtualization product are critical for proper access control but can pose risks if improperly managed.\"",
+      "keywords": "\"access control, security risk\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "source": "VIRTUALIZATION PRODUCT",
+      "target": "MEMORY PROTECTION UNITS (MPUS)",
+      "weight": 9.0,
+      "description": "\"Memory Protection Units within a virtualization product enforce crucial security measures to prevent unauthorized software from accessing hardware registers and other critical areas.\"",
+      "keywords": "\"security enforcement, access restriction\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "source": "VIRTUALIZATION PRODUCT",
+      "target": "PCI COMMAND REGISTERS",
+      "weight": 8.0,
+      "description": "\"PCI command registers in a virtualization environment must be properly secured against unauthorized access to prevent crashes or other harmful effects.\"",
+      "keywords": "\"hardware vulnerability, security breach\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "source": "CVE-2021-3011",
+      "target": "VIRTUAL INTERRUPT CONTROLLER",
+      "weight": 9.0,
+      "description": "\"The virtual interrupt controller is implicated in CVE-2021-3011 due to its role in handling invalid register writes and triggering fatal errors.\"",
+      "keywords": "\"hardware vulnerability, security breach\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "source": "CVE-2020-12446",
+      "target": "DRIVER",
+      "weight": 7.0,
+      "description": "\"The driver exposes access to Model Specific Registers (MSRs), which is the root cause of CVE-2020-12446.\"",
+      "keywords": "\"driver exposure, security risk\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "source": "DRIVER",
+      "target": "MODEL SPECIFIC REGISTERS (MSRS)",
+      "weight": 7.0,
+      "description": "\"Drivers exposing access to Model Specific Registers can lead to vulnerabilities such as granting unauthorized administrative privileges.\"",
+      "keywords": "\"driver exposure, security risk\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "source": "ON-CHIP BUS FIREWALL SETTINGS",
+      "target": "HARDWARE LOGIC WITH INSECURE DE-SYNCHRONIZATION",
+      "weight": 7.0,
+      "description": "\"On-chip bus firewalls are part of the hardware logic that can fail to synchronize properly between control and data channels, leading to potential security vulnerabilities.\"",
+      "keywords": "\"security flaw, synchronization issue\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "source": "ANTI-TAMPERING MEASURES",
+      "target": "IMPROPER PHYSICAL ACCESS CONTROL",
+      "weight": 8.0,
+      "description": "\"Anti-tampering measures are part of the design and implementation phases that aim to prevent or detect tampering with physical components, thereby mitigating risks associated with improper physical access control.\"",
+      "keywords": "\"security enhancement, detection mechanism\"",
+      "source_id": "chunk-b6039bd97b43bce5a8a0f30910b6c1f7"
+    },
+    {
+      "source": "CWE ID:821",
+      "target": "CVE-2017-5754",
+      "weight": 18.0,
+      "description": "\"The security vulnerability CVE-2017-5754 is related to the weakness described by CWE ID:821, which involves improper handling of data during illegal memory access.\"<SEP>\"The security vulnerability identified by CVE-2017-5754 is related to the weakness described in CWE ID:821, which involves improper handling of data during illegal memory access.\"",
+      "keywords": "\"Security Vulnerability, Data Confidentiality\"<SEP>\"security vulnerability, data confidentiality\"",
+      "source_id": "chunk-b3093914f034bebd2e6138d339ec08d6"
+    },
+    {
+      "source": "HARDWARE DESIGN ACCESS CONTROL SYSTEM",
+      "target": "TRUSTED FIRMWARE OR SOFTWARE MODULES",
+      "weight": 8.0,
+      "description": "\"The Hardware Design Access Control System manages and controls the access of Trusted Firmware or Software Modules to specific device resources.\"",
+      "keywords": "\"resource control, security management\"",
+      "source_id": "chunk-5af9a5672caa3f4e4835e08a5744ac17"
+    },
+    {
+      "source": "HARDWARE DESIGN ACCESS CONTROL SYSTEM",
+      "target": "DEVICE CONFIGURATION",
+      "weight": 8.0,
+      "description": "\"The hardware design access control system manages and controls access to device configuration resources.\"",
+      "keywords": "\"resource management, security\"",
+      "source_id": "chunk-5af9a5672caa3f4e4835e08a5744ac17"
+    },
+    {
+      "source": "TRUSTED FIRMWARE OR SOFTWARE MODULES",
+      "target": "UNTRUSTED AGENT",
+      "weight": 5.0,
+      "description": "\"An untrusted agent could potentially gain unauthorized access to resources controlled by trusted firmware or software modules, leading to security compromises.\"",
+      "keywords": "\"security threat, unauthorized access\"",
+      "source_id": "chunk-5af9a5672caa3f4e4835e08a5744ac17"
+    },
+    {
+      "source": "TRUSTED FIRMWARE OR SOFTWARE MODULES",
+      "target": "BIOS",
+      "weight": 8.0,
+      "description": "\"The BIOS sets up trusted firmware or software modules ensuring proper initialization of secure boot processes.\"",
+      "keywords": "\"secure boot, initialization\"",
+      "source_id": "chunk-5af9a5672caa3f4e4835e08a5744ac17"
+    },
+    {
+      "source": "UNTRUSTED AGENT",
+      "target": "ENCRYPTION KEYS",
+      "weight": 5.0,
+      "description": "\"An untrusted agent may gain unauthorized write access to encryption keys through policy inconsistency, leading to security risks.\"",
+      "keywords": "\"security threat, data exposure\"",
+      "source_id": "chunk-5af9a5672caa3f4e4835e08a5744ac17"
+    },
+    {
+      "source": "CWE-212: EXPOSURE OF SENSITIVE SYSTEM INFORMATION DUE TO UNCLEARED DEBUG INFORMATION INCIDENT",
+      "target": "SOC (SYSTEM-ON-A-CHIP)",
+      "weight": 8.0,
+      "description": "\"The SoC is a key component in which uncleared debug information leads to security vulnerabilities.\"",
+      "keywords": "\"hardware vulnerability, security breach\"",
+      "source_id": "chunk-3872fc98e8f01da81fadb53fc83263c2"
+    }
+  ]
+}
