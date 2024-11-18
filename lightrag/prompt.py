@@ -16,39 +16,14 @@ Given a text document that is potentially relevant to this activity and a list o
 1. Identify all entities. For each identified entity, extract the following information:
 - entity_name: Name of the entity, use same language as input text. If English, capitalized the name.
 - entity_type: One of the following types: [
-    {
-        "type": "Attacker",
-        "description": "An entity involved in adversarial activities. It can be an individual, group, or organization. Attackers typically use software or attack techniques to carry out their attacks, and the relationship between attacker and software, as well as attacker and attack technique, is represented as a 'Use' relationship."
-    },
-    {
-        "type": "Software",
-        "description": "Software that an attacker may use to conduct an attack, including commercial code, operating system utilities, or open-source software. It is typically classified into malicious software and normal tools. The relationship between software and attack techniques is represented as an 'Implement' relationship."
-    },
-    {
-        "type": "Attack Pattern",
-        "description": "The method through which an attacker attempts to compromise a target. For example, sniffing network traffic where an attacker monitors network traffic between public or multicast network nodes in an attempt to capture sensitive information at the protocol level. Attackers can exploit vulnerabilities in the target entity using specific attack patterns, and the relationship between attack pattern and vulnerability is represented as an 'Exploit' relationship."
-    },
-    {
-        "type": "Attack Technique",
-        "description": "The specific actions executed by an attacker during an attack. For example, bypassing User Account Control (UAC) to escalate privileges in the system. While attack techniques and attack patterns have overlapping concepts, each has its own characteristics, and the relationship between attack technique and attack pattern is represented as a 'Same_as' relationship."
-    },
-    {
-        "type": "Mitigation",
-        "description": "Security measures or recommendations that can prevent the successful execution of attack techniques. The relationship between mitigation and attack technique is represented as a 'Mitigate' relationship."
-    },
-    {
-        "type": "Tactic",
-        "description": "The objective that an attacker seeks to achieve through using techniques or taking actions. For example, an attacker may use phishing messages to gain access to a victim's system. The relationship between tactic and attack technique is represented as an 'Accomplish' relationship."
-    },
-    {
-        "type": "Vulnerability",
-        "description": "A software defect or weakness that an attacker can exploit to access a system or network. Vulnerabilities may include flaws and weaknesses, and the relationship between vulnerability and target entities is represented as an 'Exist_in' relationship."
-    },
-    {
-        "type": "Target Entity",
-        "description": "The entity that an attacker targets in an attack, including applications, systems, platforms, etc."
-    }
-]
+    ("type": "Attacker","description": "An entity involved in adversarial activities. It can be an individual, group, or organization. Attackers typically use software or attack techniques to carry out their attacks, and the relationship between attacker and software, as well as attacker and attack technique, is represented as a 'Use' relationship."),
+    ("type": "Software","description": "Software that an attacker may use to conduct an attack, including commercial code, operating system utilities, or open-source software. It is typically classified into malicious software and normal tools. The relationship between software and attack techniques is represented as an 'Implement' relationship."),
+    ("type": "Attack Pattern","description": "The method through which an attacker attempts to compromise a target. For example, sniffing network traffic where an attacker monitors network traffic between public or multicast network nodes in an attempt to capture sensitive information at the protocol level. Attackers can exploit vulnerabilities in the target entity using specific attack patterns, and the relationship between attack pattern and vulnerability is represented as an 'Exploit' relationship."),
+    ("type": "Attack Technique","description": "The specific actions executed by an attacker during an attack. For example, bypassing User Account Control (UAC) to escalate privileges in the system. While attack techniques and attack patterns have overlapping concepts, each has its own characteristics, and the relationship between attack technique and attack pattern is represented as a 'Same_as' relationship."),
+    ("type": "Mitigation","description": "Security measures or recommendations that can prevent the successful execution of attack techniques. The relationship between mitigation and attack technique is represented as a 'Mitigate' relationship."),
+    ("type": "Tactic","description": "The objective that an attacker seeks to achieve through using techniques or taking actions. For example, an attacker may use phishing messages to gain access to a victim's system. The relationship between tactic and attack technique is represented as an 'Accomplish' relationship."),
+    ("type": "Vulnerability","description": "A software defect or weakness that an attacker can exploit to access a system or network. Vulnerabilities may include flaws and weaknesses, and the relationship between vulnerability and target entities is represented as an 'Exist_in' relationship."),
+    ("type": "Target Entity","description": "The entity that an attacker targets in an attack, including applications, systems, platforms, etc.")]
 - entity_description: Comprehensive description of the entity's attributes and activities
 Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>
 
