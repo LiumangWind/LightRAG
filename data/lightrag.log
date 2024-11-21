@@ -1,0 +1,11 @@
+2024-11-21 09:40:27,597 - lightrag - INFO - Logger initialized for working directory: /kaggle/working/LightRAG/data
+2024-11-21 09:40:27,598 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-11-21 09:40:27,598 - lightrag - INFO - Load KV full_docs with 0 data
+2024-11-21 09:40:27,598 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-11-21 09:40:27,605 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-11-21 09:40:28,399 - lightrag - INFO - [New Chunks] inserting 27 chunks
+2024-11-21 09:40:28,399 - lightrag - INFO - Inserting 27 vectors to chunks
+2024-11-21 09:40:31,858 - lightrag - INFO - [Entity Extraction]...
+2024-11-21 11:22:13,790 - lightrag - INFO - Inserting 284 vectors to entities
+2024-11-21 11:22:17,586 - lightrag - INFO - Inserting 187 vectors to relationships
+2024-11-21 11:22:19,384 - lightrag - INFO - Writing graph with 296 nodes, 187 edges
