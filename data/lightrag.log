@@ -69,3 +69,15 @@
 2024-11-26 02:58:56,062 - lightrag - INFO - Inserting 294 vectors to entities
 2024-11-26 02:59:00,053 - lightrag - INFO - Inserting 234 vectors to relationships
 2024-11-26 02:59:02,524 - lightrag - INFO - Writing graph with 1703 nodes, 1241 edges
+2024-11-26 10:32:24,013 - lightrag - INFO - Logger initialized for working directory: /kaggle/working/LightRAG/data
+2024-11-26 10:32:24,043 - lightrag - INFO - Load KV llm_response_cache with 301 data
+2024-11-26 10:32:24,050 - lightrag - INFO - Load KV full_docs with 6 data
+2024-11-26 10:32:24,056 - lightrag - INFO - Load KV text_chunks with 148 data
+2024-11-26 10:32:24,237 - lightrag - INFO - Loaded graph from /kaggle/working/LightRAG/data/graph_chunk_entity_relation.graphml with 1703 nodes, 1241 edges
+2024-11-26 10:32:24,403 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-11-26 10:32:25,248 - lightrag - INFO - [New Chunks] inserting 25 chunks
+2024-11-26 10:32:25,248 - lightrag - INFO - Inserting 25 vectors to chunks
+2024-11-26 10:32:28,704 - lightrag - INFO - [Entity Extraction]...
+2024-11-26 11:34:52,759 - lightrag - INFO - Inserting 314 vectors to entities
+2024-11-26 11:34:56,901 - lightrag - INFO - Inserting 222 vectors to relationships
+2024-11-26 11:34:59,293 - lightrag - INFO - Writing graph with 2004 nodes, 1463 edges
