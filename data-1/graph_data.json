@@ -1,0 +1,3224 @@
+{
+  "nodes": [
+    {
+      "id": "UNAUTHORIZED ACTORS",
+      "entity_type": "ATTACKER",
+      "description": "\"Unauthorized actors are individuals or groups that can access sensitive information through exploiting insecure communication channels.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "ATTACK MODE",
+      "entity_type": "ATTACK MODE",
+      "description": "\"Exploiting the vulnerability by accessing improperly cleared memory or incorrect default permissions to gain unauthorized access.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "FAULTY FSM IMPLEMENTATION",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"Incorrectly implemented finite state machines can lead to undefined states in hardware logic, causing instability or DoS conditions, and potentially allowing privilege escalation.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "APPROVED ENCRYPTION ALGORITHMS (E.G., NIST)",
+      "entity_type": "SOFTWARE",
+      "description": "\"Encryption algorithms recommended by organizations such as the National Institute of Standards and Technology (NIST).\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "CLEARTEXT TRANSMISSION OF SENSITIVE INFORMATION",
+      "entity_type": "TACTICS",
+      "description": "\"A tactic where sensitive data is transmitted in an unencrypted form, making it vulnerable to interception by unauthorized parties.\"<SEP>\"Transmitting sensitive information in an unencrypted form over communication channels where it can be intercepted by unauthorized actors.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "DEBUG FEATURE EXPLOITATION ATTACK PATTERN",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"Attack patterns that involve exploiting debug features of hardware for unauthorized access and data extraction.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "WEAR LEVELING OPERATIONS",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"Improper wear leveling operations can cause non-volatile memory cells to prematurely fail due to an uneven distribution of write cycles, leading to reliability issues.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "PROGRAMMABLE LOGIC CONTROLLER (PLC)",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"A PLC is a digital computer used for automation of electromechanical processes, which can send sensitive information in plaintext.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "NETWORK TRAFFIC",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"Network traffic refers to data transmitted over a communication channel that can be intercepted by unauthorized parties.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "CHIPWHISPERER",
+      "entity_type": "SOFTWARE",
+      "description": "\"A specialized hardware tool used for dynamic analysis during the implementation phase to check if a platform is susceptible to voltage and clock glitching attacks.\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "id": "BUILDING CONTROLLER",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"An automated control system designed to manage various functionalities within buildings, potentially transmitting authentication credentials unencrypted.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "AUTOMATED STATIC ANALYSIS (SAST)",
+      "entity_type": "SOFTWARE",
+      "description": "\"A method for detecting security weaknesses in source code or binary/compiled code without executing it.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "SSL MAC COMPUTATION TIMING DISCREPANCIES",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"A hidden danger where incorrect block cipher padding in SSL implementations might lead to timing discrepancies that facilitate cryptographic attacks.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "PLUNDERVOLT ATTACK",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"An attack technique that targets Dynamic Voltage and Frequency Scaling (DVFS) to manipulate voltage levels, demonstrating how unprivileged software access can be exploited.\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "id": "PENETRATION TESTING",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"A manual testing technique that simulates cyber-attacks to evaluate system vulnerabilities.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "UNTRUSTED FIRMWARE",
+      "entity_type": "SOFTWARE",
+      "description": "\"Untrusted firmware can enable IPs or peripheral microcontrollers that compromise the SoC boot firmware.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "CLKSCREW ATTACK",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"A specific attack method targeting DVFS mechanisms in hardware to alter clock signals, thereby compromising security measures.\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "id": "THREAT MODELING",
+      "entity_type": "SOFTWARE",
+      "description": "\"Process used to identify possible threats and vulnerabilities in application systems or network infrastructure.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "INSECURE PERMISSIONS FOR SHARED SECRET KEY FILE",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern where shared secret key files have insufficient permissions, making them accessible to unauthorized users.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "TUNABLE REPLICA CIRCUITS (TRCS)",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Circuits designed for testing and verification purposes that can help detect and mitigate glitch attacks at the circuit level.\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "id": "SNIFFING ATTACK TECHNIQUE",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"An attack technique involving monitoring and capturing network traffic for cleartext information without proper authorization.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "DEFAULT IP SPOOFING PERMISSIONS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A default setting that allows IP spoofing due to insecure permissions on network devices, facilitating impersonation attacks.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "RAZOR FLIP-FLOPS",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Special flip-flop designs used in hardware to reduce susceptibility to glitching attacks by providing additional security features.\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "id": "FILEMON, REGMON, PROCESS MONITOR (WINDOWS)",
+      "entity_type": "SOFTWARE",
+      "description": "\"System activity monitoring utilities for Windows operating system.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "INSECURE DEFAULT PERMISSIONS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability that arises from default system permissions being overly permissive, allowing unauthorized access or modification of sensitive files.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "SNIFFING NETWORK TRAFFIC",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"An attack technique involving the interception of network traffic to capture cleartext data without proper authorization.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "SECURE BOOT MECHANISMS",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"Security-sensitive hardware modules that protect against unauthorized boot processes, which can be compromised through semiconductor defects or physical attacks.\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "id": "ENCRYPTED CHANNELS FOR COMMUNICATION",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Using secure protocols like SSL/TLS to ensure data communication is protected from plaintext transmission.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "EXTENSIVE RESEARCH AND REVIEW",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Cryptographic primitives are reviewed by experts in academia, industry, and government to ensure they are secure against known attacks.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "MONITORING TOOLS (TRUSS, STRACE)",
+      "entity_type": "SOFTWARE",
+      "description": "\"Tools used for monitoring and capturing process interactions with the operating system and network, often used by attackers or security professionals.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "DYNAMIC VOLTAGE AND FREQUENCY SCALING (DVFS)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"A feature in SoCs that controls voltage and frequency via software, susceptible to attacks such as Plundervolt and CLKSCREW.\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "id": "LOCK BIT PROTECTION MECHANISM",
+      "entity_type": "SOFTWARE",
+      "description": "\"A mechanism implemented using a programmable lock bit that disables writes to protected sets of registers or address regions, intended to prevent unauthorized modifications.\"<SEP>\"A mechanism that uses lock bits to prevent unauthorized writes, designed for security purposes in hardware systems.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "ATTACKERS",
+      "entity_type": "ATTACKER",
+      "description": "\"Attackers who exploit cryptographic weaknesses in systems using outdated or non-compliant algorithms, such as MD5 and DES.\"<SEP>\"Individuals who may exploit design flaws in hardware and software implementations to gain unauthorized access or modify system configurations that were intended to be locked down post-initialization.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2<SEP>chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "FILEMON, REGMON, PROCESS MONITOR",
+      "entity_type": "SOFTWARE",
+      "description": "\"Windows utilities for monitoring file operations, registry changes, and processes respectively.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "PRODUCT (GENERAL)",
+      "entity_type": "SOFTWARE",
+      "description": "\"A generic product that sets different TTL values or modifies ICMP error messages differently based on filtering conditions, providing clues to attackers about network configurations.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "AUTHENTICATION ROUTINE",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"A critical security routine designed for authentication purposes, often targeted by attackers who aim to bypass it.\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "id": "MODIFICATION OF SYSTEM REGISTERS/CONTROLS",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"The action taken by an attacker to change system registers or controls after exploiting vulnerabilities.\"<SEP>\"The action taken by an attacker to modify system registers or controls after exploiting weaknesses in the lock bit protection mechanism.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "JTAG INTERFACE",
+      "entity_type": "SOFTWARE",
+      "description": "\"The JTAG interface is a standard for debugging and testing electronic circuits. It allows an attacker to bypass OS or bootloader access controls if not properly secured.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "ATTACKER",
+      "entity_type": "ATTACKER",
+      "description": "\"An attacker can exploit improper access control on a device's debug/test interface to bypass protection mechanisms and gain unauthorized access.\"<SEP>\"An attacker can exploit improper isolation in SoCs or enable DMA devices too early during boot phases to gain unauthorized access and privileges.\"<SEP>\"An attacker can exploit observable discrepancies to gain unauthorized access and obtain sensitive information about the system's state or configuration.\"<SEP>\"An attacker can exploit systems transmitting data in plaintext to capture passwords and session tokens.\"<SEP>\"An attacker can misuse a software application that acts as an intermediary, sending malicious requests to a target through the product without being detected.\"<SEP>\"An attacker exploits inconsistencies in mirrored regions or cache copies to gain unauthorized access or manipulate system operations.\"<SEP>\"An attacker may exploit improperly cleared memory or incorrect default permissions to gain unauthorized access to sensitive information.\"<SEP>\"An attacker may exploit the weakness of uncleared sensitive information by reading leftover data from reused resources, such as memory or disk space.\"<SEP>\"An attacker might exploit undocumented features or debug interfaces of a device for unauthorized access, compromising security.\"<SEP>\"An attacker who aims to exploit vulnerabilities like voltage and clock glitching attacks or semiconductor defects to compromise secure boot mechanisms.\"<SEP>\"An attacker who can manipulate the system by exploiting vulnerabilities in fuse logic and comparison logic to gain unauthorized access or privileges.\"<SEP>\"An entity involved in adversarial activities aimed at exploiting vulnerabilities such as voltage and clock glitches.\"<SEP>\"An entity that attempts to exploit software applications acting as intermediaries by sending malicious requests through them, thereby bypassing security measures like firewalls.\"<SEP>\"The attacker exploits vulnerabilities in the system's hardware logic or non-volatile memory to cause Denial of Service (DoS) conditions, gain unauthorized privileges, and potentially compromise security guarantees.\"<SEP>\"The attacker exploits vulnerabilities such as improper zeroization and risky implementations to gain unauthorized access or modify system configurations.\"<SEP>\"The attacker is an entity that exploits vulnerabilities such as CVE-2010-1637 and CVE-2009-0037 to gain unauthorized access or perform malicious actions.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21<SEP>chunk-a55d80a6593fc4c93fd4bb2778558e73<SEP>chunk-b2db9bd0b7df158579fa4f955ca5f332<SEP>chunk-732e47f37276f678a57ed5b2cc4caaa0<SEP>chunk-5ba67b7953cc742d67bd66028d9840d5<SEP>chunk-7eb84a76feac79b0109e4248d03155ec<SEP>chunk-97f0fe12f43fe0952f114af5f3d4a0a1<SEP>chunk-cf2bb615b405ec5f79b3729ede5b6486<SEP>chunk-511f3baaabb0ab2809dad9343c0d0238<SEP>chunk-f33f72f8ec6e026ca0374d2967ab51e1<SEP>chunk-eb9580695df69206d5ae3cb8f9e396f5<SEP>chunk-60f96cbfcdc863307fe7ed2450e4fab0<SEP>chunk-3765fb59247c8757d841cb1e549550cf<SEP>chunk-155e5cca5e90d88780b67dd7b487829a<SEP>chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "ARTIFACTS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Data or items left after an authentication routine is bypassed; can be exploited if the attacker also compromises artifact-checking routines.\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "id": "CERT ORACLE SECURE CODING STANDARD FOR JAVA (2011)",
+      "entity_type": "SOFTWARE",
+      "description": "\"The CERT Oracle Secure Coding Standard for Java provides guidelines for secure coding practices in the Java language.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "AUTHENTICATED DEBUG MODES SOFTWARE TOOL",
+      "entity_type": "SOFTWARE",
+      "description": "\"Software designed to secure debug features in hardware by using authenticated modes, preventing unauthorized access and modifications.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "CWE-1256 (UNPRIVILEGED SOFTWARE ACCESS)",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability allowing unprivileged software to access and manipulate DVFS, enabling clock or voltage glitch attacks.\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "id": "ON-CHIP DEBUG AND TEST INTERFACE WITHOUT PROPER ACCESS CONTROL",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"This technique involves exploiting the lack of proper authorization checks on debug/test interfaces, allowing attackers to gain unauthorized access to internal registers and test modes.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "SHADOW MMUS (MEMORY MANAGEMENT UNITS)",
+      "entity_type": "SOFTWARE",
+      "description": "\"Local copies of MMUs designed to distribute the workload across multiple cores, which must maintain consistent state with the original MMU to prevent security vulnerabilities.\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "id": "IMPROPER ZEROIZATION OF HARDWARE REGISTER SOFTWARE TOOL",
+      "entity_type": "SOFTWARE",
+      "description": "\"Software used improperly may fail to clear sensitive information from hardware registers when a user changes, leading to potential security risks.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "UNTRUSTED AGENTS",
+      "entity_type": "ATTACKER",
+      "description": "\"Untrusted agents refer to entities or processes that are not authorized or trusted within a system and could exploit access controls.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "FUZZING TESTS",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Fuzzing tests are conducted to ensure no unauthorized access is possible through the Debug and Test Interfaces, even without appropriate authentication.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "UNINTENDED PROXY/INTERMEDIARY AND PROXIED TRUSTED CHANNEL",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"These hidden dangers refer to situations where intermediary systems are used in ways not intended by the original design, potentially exposing them to vulnerabilities such as unauthorized access or data interception.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "ACCESS CONTROL POLICY",
+      "entity_type": "SOFTWARE",
+      "description": "\"Access control policy is a set of rules designed to restrict or allow accesses to assets based on user identity, but the lack of granularity can expose security vulnerabilities.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "DISABLE JTAG INTERFACE OR IMPLEMENT AUTHENTICATION FOR JTAG INTERFACE",
+      "entity_type": "TACTICS",
+      "description": "\"A tactic that involves disabling the JTAG interface or implementing robust authentication mechanisms to prevent unauthorized use during debugging sessions.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "RESETTING SENSITIVE INFORMATION WHEN ENTERING DEBUG MODE",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Clearing security-sensitive data stored in registers when entering debug mode is a measure to mitigate risks associated with improper access control on debug interfaces.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "TRUSTED FIRMWARE (BOOT FIRMWARE)",
+      "entity_type": "SOFTWARE",
+      "description": "\"Trusted firmware initializes necessary access-control protection upon power reset, setting up default values in registers. However, it is susceptible to weaknesses due to non-granular access controls.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "IMPROPER ACCESS CONTROL TO DEBUG/TESTING INTERFACES",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where devices lack proper authorization checks for debug/testing interfaces, allowing unauthorized access.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "REGISTER CLEARING PROCESS SOFTWARE TOOL",
+      "entity_type": "SOFTWARE",
+      "description": "\"Software that implements the process of clearing hardware register contents (zeroization) to prevent unauthorized access and retain confidentiality.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "HARDWARE ENGINES AND INTEGRATED CIRCUITS",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"These components can be exposed to untrusted agents through inadequately granular access control policies, leading to security risks such as leakage of sensitive data or unauthorized modifications.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "URL-DOWNLOADING LIBRARY WITH REDIRECTION ISSUE (CVE-2009-0037)",
+      "entity_type": "SOFTWARE",
+      "description": "\"Software that automatically follows redirects to file:// and scp:// URLs without proper security checks, allowing unauthorized access or exploitation by attackers.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "SHA-2 CHAINING FOR ENCRYPTION",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"An insecure method of using SHA-2 hashing functions as encryption, creating a 1-time pad without proper security measures.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "SECURITY-SENSITIVE ASSETS (DEVICE CONFIGURATION, KEYS)",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"Security-sensitive assets are critical resources within a system that must be protected from unauthorized accesses. Lack of adequate protection can result in significant vulnerabilities.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "DEVICE'S INTERNAL REGISTERS",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The target entity that an attacker seeks to exploit via improper access control on debugging/test interfaces to gain unauthorized access to sensitive information.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "UNAUTHORIZED ACCESS THROUGH DEBUG/TESTING INTERFACE",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern where attackers bypass protection mechanisms by exploiting improperly secured debug/testing interfaces, allowing them to execute unauthorized code or commands and read/write memory.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "RESERVED BITS",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"Reserved bits are not disabled prior to production and can be used by adversaries to induce unwanted behavior in the hardware.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "GRANULARITY WEAKNESS",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"A common weakness where access controls and policies lack sufficient granularity, allowing untrusted agents to gain unauthorized access to security-sensitive assets.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "TARGET OBJECT",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"The target objects are system files or memory that contain sensitive information vulnerable due to improper clearance practices and incorrect default permissions.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "MODIFICATION OF SYSTEM CONFIGURATION ATTACK TECHNIQUE",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"An attack technique that involves modifying system configurations such as memory or protection unit settings even if lock bits are set.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "ACCESS-CONTROL MECHANISM",
+      "entity_type": "SOFTWARE",
+      "description": "\"A mechanism designed to manage access rights to system resources, but it can be vulnerable due to a lack of granularity in policy definitions.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "EXPLOITING DEBUG INTERFACE WITHOUT AUTHORIZATION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"An attack technique where attackers exploit debug interfaces that lack proper authorization checks to gain unauthorized access to internal registers and test modes.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "IMPROPER ZEROIZATION VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where hardware registers do not clear sensitive information when the user changes, potentially exposing data to new users or attackers.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "WORLD-WRITABLE EXECUTABLES",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern where executables installed with world-writable permissions are exploited to gain elevated privileges on a system.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "HARDWARE DESCRIPTION LANGUAGE (HDL) CODE",
+      "entity_type": "SOFTWARE",
+      "description": "\"HDL code defines hardware parameters and defaults that must be secure but can be vulnerable if incorrectly defined.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "SECURE DESIGN OF DEBUG INTERFACES",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"A security measure involving designing secure mechanisms for debugging interfaces, including authentication and authorization checks to prevent unauthorized use.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "SYN-FIN PACKETS BEHAVIORAL RESPONSE",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"Behavioral response to SYN-FIN packets may reveal information about the target system's configuration and vulnerabilities.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CUSTOM OR PRIVATE CRYPTOGRAPHIC ALGORITHMS",
+      "entity_type": "SOFTWARE",
+      "description": "\"Algorithms developed internally which may be more prone to known vulnerabilities compared to established standards.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "WORLD-READABLE HOME DIRECTORIES",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern that involves exploiting home directories set to be readable by everyone, potentially revealing sensitive information.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "PARAMETER VARIABLES",
+      "entity_type": "SOFTWARE",
+      "description": "\"Variables that configure specific instances of a hardware module; insecure values can compromise system security.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "UNTRUSTED SOFTWARE COMPONENT",
+      "entity_type": "ATTACKER",
+      "description": "\"An untrusted software component can exploit hardware design flaws to modify register settings before a trusted component does.\"<SEP>\"An untrusted software component can exploit hardware design flaws to modify register settings before a trusted module.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "TRUSTED SOFTWARE COMPONENT",
+      "entity_type": "TACTICS",
+      "description": "\"A trusted software component is responsible for setting secure values during the initial boot process, ensuring that system configurations are secured against modifications by untrusted components.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "BYPASS PROTECTION MECHANISM MITIGATION MEASURE",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Mitigation measure designed to prevent attackers from bypassing protection mechanisms by ensuring proper zeroization and secure implementation of cryptographic primitives.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "SYSTEM CONFIGURATION PHASE",
+      "entity_type": "EVENT",
+      "description": "\"A phase where systems are configured and tested to ensure correct functionality, including review of security settings.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "REGISTER LOCK CONTROL BITS",
+      "entity_type": "SOFTWARE",
+      "description": "\"Used to protect hardware registers from unauthorized modification, these bits must be set correctly during the boot process to prevent security vulnerabilities.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "IMPLEMENTATION OF CRYPTOGRAPHIC PRIMITIVES",
+      "entity_type": "TACTICS",
+      "description": "\"Adversaries may exploit improperly implemented cryptographic algorithms or ad-hoc solutions that lack proper security review.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "INSECURE STATE",
+      "entity_type": "CONCEPT",
+      "description": "\"A state where the hardware or system lacks adequate security measures, typically arising from incorrect default settings.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "PRODUCT ARCHITECTURE WITH MIRRORED REGIONS",
+      "entity_type": "SOFTWARE",
+      "description": "\"A software design where multiple components maintain independent local copies of shared data, intended for distributed and high-performance environments. However, it can introduce vulnerabilities if the synchronization fails.\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "id": "WEAK CIPHER SUITES",
+      "entity_type": "SOFTWARE",
+      "description": "\"Cipher suites, such as TLS-RSA and outdated ciphers, that allow decryption of traffic if more secure alternatives are not enabled.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "ROUTING DETOUR",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"An attack technique where an attacker exploits a system's routing mechanisms to redirect traffic through their own network segment or proxy server.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "CHICKEN BITS",
+      "entity_type": "SOFTWARE",
+      "description": "\"Chicken bits refer to undocumented debugging features that can facilitate quick identification and isolation of faulty components but also pose risks when exploited by attackers.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "WRITE-ONCE REGISTERS",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"Registers that can only be written once are designed to secure system configurations but may introduce race conditions if not properly managed.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "FABRIC ACCESS CONTROLS",
+      "entity_type": "TACTICS",
+      "description": "\"Enabling fabric access controls during the boot sequence to prevent unauthorized access by untrusted components.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "ENTROPY ISSUES",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"Low entropy in random number generation implementations that can lead to collisions and private key discovery attacks.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "RACE CONDITION ATTACK",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"An attack technique where an attacker attempts to alter system state before updates from the original source can be propagated to local copies.\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "id": "SENSITIVE NON-VOLATILE INFORMATION NOT PROTECTED DURING DEBUGGING",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"This vulnerability allows access to security-sensitive information stored in fuses during debug operations, potentially exposing critical data such as encryption keys.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "RACE CONDITION SECURITY FLAW",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A security issue where an untrusted software module can write to a register before the trusted component, potentially compromising system configuration.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "COMPARISON LOGIC FAILURE EXPLOITATION",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"An attack technique where an attacker exploits a failure in comparison logic implemented in smaller chunks to identify exact points of comparison failure and guess correct responses or passwords.\"",
+      "source_id": "chunk-3765fb59247c8757d841cb1e549550cf"
+    },
+    {
+      "id": "INTERNAL ASSET EXPOSED TO UNSAFE DEBUG ACCESS LEVEL OR STATE",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"This involves using physical debug interfaces that may provide unintended access levels to internal assets during debugging phases, risking unauthorized exposure of sensitive information.\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "id": "SECURITY SENSITIVE SETTINGS",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"Settings that are critical for security and must be configured correctly during hardware design phases to prevent unauthorized access or modification.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "INCORRECT COMPARISON LOGIC GRANULARITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A timing attack vulnerability that arises from comparison logic being performed in steps rather than across the entire string at once, allowing attackers to infer correct data through timing discrepancies.\"",
+      "source_id": "chunk-3765fb59247c8757d841cb1e549550cf"
+    },
+    {
+      "id": "CHECKSUMS",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"Non-cryptographically generated hashes that can be used as a substitute for cryptographic hash functions but are weaker.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "ACCESS CONTROL ATTACK TECHNIQUE",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"An attack technique focusing on exploiting weaknesses in system configurations or security lock protections to gain unauthorized access.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "ATTACKER 1252",
+      "entity_type": "ATTACKER",
+      "description": "\"An attacker who can exploit the lack of hardware support for exclusivity of write and execute operations on memory to inject malicious code onto memory and later execute it.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "TRUSTED SOFTWARE MODULE (MODULE A)",
+      "entity_type": "TACTICS",
+      "description": "\"A trusted software module is responsible for setting secure values during the initial boot process, ensuring that system configurations are secured against modifications by untrusted components.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "CRYPTOGRAPHIC PRIMITIVE VULNERABILITY",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"Weaknesses in cryptographic primitives, such as the use of DES, can render entire systems vulnerable to attacks.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "SYNCHRONIZATION FAILURE IN DISTRIBUTED SYSTEMS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The vulnerability arises from the lack of robust synchronization mechanisms ensuring that all mirrored copies or local caches stay consistent with each other across distributed systems.\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "id": "FUSE LOGIC VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where an attacker can drive a system into an insecure state by manipulating fuses, leveraging negative logic.\"",
+      "source_id": "chunk-3765fb59247c8757d841cb1e549550cf"
+    },
+    {
+      "id": "HARDWARE EXCLUSIVITY SUPPORT BIT",
+      "entity_type": "SOFTWARE",
+      "description": "\"A special bit in CPUs used to segregate areas of memory, marking them as either code (instructions) or data. This bit is utilized by the operating system to protect executable space.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "INITIALIZATION OF HARDWARE RESET VALUES",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Proper initialization of default values at hardware reset is crucial to mitigate race conditions and ensure secure system configurations.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "SECURE IMPLEMENTATION GUIDANCE",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Guidance aimed at ensuring secure design and implementation practices, including comparisons in one operation and avoiding logic that can drive the system into an insecure state due to fuse manipulation.\"",
+      "source_id": "chunk-3765fb59247c8757d841cb1e549550cf"
+    },
+    {
+      "id": "CRYPTOGRAPHIC AGILITY",
+      "entity_type": "TACTICS",
+      "description": "\"The strategy to design systems with the ability to replace cryptographic primitives easily to adapt against evolving threats.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "WRITE AND EXECUTE OPERATIONS CONFIGURATION ISSUE 1252",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The lack of configuration in some CPUs for exclusivity between write and execute operations, allowing an attacker to inject and execute malicious code.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "CHIP IMPLEMENTING BLUETOOTH",
+      "entity_type": "SOFTWARE",
+      "description": "\"A chip implementing Bluetooth with a low-entropy PRNG instead of a hardware RNG, allowing spoofing.\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "id": "CUSTOM CRYPTOGRAPHIC PRIMITIVES IMPLEMENTATION",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"Implementing custom or proprietary cryptographic algorithms without thorough review exposes systems to well-understood vulnerabilities.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "STORING KEYS SECURELY",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"The practice of protecting cryptographic keys from unauthorized access to prevent key theft or guessing attacks.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "SYSTEM COMPROMISE VIA MIRRORED REGIONS WITH DIFFERENT VALUES",
+      "entity_type": "TACTICS",
+      "description": "\"Strategies used by attackers to exploit inconsistencies in mirrored regions or cache copies to achieve unauthorized access or tamper with system data.\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "id": "ATTACK TECHNIQUE 1252",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"The specific technique used by an attacker involves manipulating areas of memory that lack exclusivity between write and execute operations.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "LOW ENTROPY PRNG",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The use of a low entropy pseudo-random number generator (PRNG) that can be predicted and potentially exploited to compromise security.\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "id": "FTP SERVER USERNAME RESPONSE TIME DIFFERENCE",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"Timing differences in FTP server responses can be used by attackers to identify valid usernames through measurement of response times.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "UNIFORM INTERFACES FOR CRYPTOGRAPHY WRAPPERS",
+      "entity_type": "SOFTWARE",
+      "description": "\"Design elements that allow for easier upgrading of cryptography algorithms in hardware and software interfaces.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "IMPROPER MEMORY CLEARANCE",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"Improper clearance of sensitive information in reusable resources allows for unauthorized access.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "MITIGATION MEASURES FOR HARDWARE EXCLUSIVITY SUPPORT BIT ISSUE",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Recommendations include ensuring CPUs are properly configured with hardware support for segregating memory areas or implementing firewalls in the SoC interconnect to mimic write-exclusivity operations.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "HARDWARE RNG",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"A hardware-based true random number generator (TRNG) is recommended as it generates unpredictable, unbiased random numbers which enhances cryptographic security.\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "id": "BOOT FIRMWARE",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"The SoC boot firmware is a target for compromise when untrusted IPs are enabled prematurely.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "PRODUCT WITHOUT DOCUMENTATION (CWE-1059)",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"A product that lacks proper technical documentation, making it harder to maintain and secure properly due to insufficient knowledge of its internal workings.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "ATTACKER FOR INCORRECT FUSE SELECTION",
+      "entity_type": "ATTACKER",
+      "description": "\"An attacker who can exploit a system's reliance on unblown fuses for security configuration by blowing the fuse to set the system in an insecure state.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "SPOOFING ATTACK TECHNIQUE",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"An attack technique that involves the use of predictable PRNGs to mimic legitimate communication and gain unauthorized access or perform actions on behalf of another entity.\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "id": "TRANSFER OF SENSITIVE INFORMATION BETWEEN CONTROL SPHERES",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"Transferring sensitive information between different control spheres without proper clearing can expose data to unauthorized entities.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "EXPOSED DATA",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"Data exposed due to improper memory clearance or incorrect file permissions is a significant security risk.\"<SEP>\"This refers to exposing sensitive data in ways it should not be exposed, making it accessible to unauthorized users or systems.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5<SEP>chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "FUSE VALUES CONFIGURATION ISSUE 1253",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability arises from incorrect selection of logic levels used to determine the secure state, allowing manipulation through fuse status changes.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "ATTACKER (EXPLOITING LOW ENTROPY PRNG)",
+      "entity_type": "ATTACKER",
+      "description": "\"An attacker who exploits vulnerabilities in low-entropy pseudo-random number generators to perform unauthorized actions, such as spoofing.\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "id": "-X COMMAND FOR AN ALTERNATE HISTORY FILE",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"An attack technique that uses the -X command in a version control system to determine the existence of arbitrary files, leading to potential data leaks.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "MD5 HASH ALGORITHM",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"An outdated hashing algorithm that is vulnerable to attacks, such as MD4 and SHA1.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "HARDWARE IMPLEMENTATION OF CRYPTOGRAPHY",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"The deployment of cryptographic algorithms in hardware can exacerbate security risks if weak primitives are used due to the difficulty in patching hardware.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "ATTACK TECHNIQUE 1253 - INCORRECT FUSE SELECTION",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"Specific actions taken by an attacker to set the system into an insecure state by altering fuse values contrary to intended logic.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "COLLISION ATTACK",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"A technique where an attacker uses predictable patterns in a PRNG to cause collisions and discover private keys.\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "id": "WEB-BASED MAIL PROGRAM (WITH CVE-2010-1637)",
+      "entity_type": "SOFTWARE",
+      "description": "\"A web-based email application that allows internal network scanning through a modified POP3 port, which can be exploited by an attacker.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "CACHE MEMORY UPDATE ISSUE",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"An attack technique targeting cache memory inconsistencies where attackers exploit the time window between updates to manipulate system states.\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "id": "MITIGATION MEASURES FOR INCORRECT FUSE VALUES SELECTION",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Measures to ensure that logic used for determining secure state is correctly implemented and validated against potential attacker manipulations.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "UNAUTHORIZED ACCESS TACTIC",
+      "entity_type": "TACTIC",
+      "description": "\"The tactic of gaining unauthorized access through exploiting predictable random number generators to perform actions on behalf of another entity without permission.\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "id": "CHIP IMPLEMENTING BLUETOOTH (WITH VULNERABILITY)",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"A chip implementing Bluetooth that uses a low-entropy PRNG instead of a hardware RNG, making it vulnerable to attacks such as spoofing.\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "id": "CONCURRENCY AND SYNCHRONIZATION ISSUES",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"Attack methods that exploit race conditions or timing differences in concurrent operations where synchronization mechanisms are inadequate.\"<SEP>\"Issues related to the handling of state, cache creation, preservation, and synchronization in concurrent environments.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f<SEP>chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "id": "CRYPTOGRAPHIC PRIMITIVES",
+      "entity_type": "SOFTWARE",
+      "description": "\"Basic components used to build secure cryptographic systems, such as hash functions and symmetric keys.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "ORIGINAL COPY VALUE MANAGEMENT SYSTEM",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"A system managing original copy values in conjunction with shadow copies during updates, potentially vulnerable to discrepancies when update processes are not instantaneous or atomic.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "SECURE PRODUCT DESIGN GUIDANCE",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Guidance for designing secure products, focusing on ensuring systems do not rely solely on hardware components like fuses and implement robust security mechanisms.\"",
+      "source_id": "chunk-3765fb59247c8757d841cb1e549550cf"
+    },
+    {
+      "id": "HARDWARE UPGRADE DIFFICULTY",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"The challenge of upgrading hardware cryptography due to its inherent physical nature compared to software.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "MITIGATION MEASURES",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Mitigation involves setting proper default file permissions and ensuring that all sensitive data is securely erased before a resource is reused. Additionally, using tools like automated static analysis can help detect such vulnerabilities during the software development lifecycle.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "SHADOW COPY UPDATE MECHANISM",
+      "entity_type": "SOFTWARE",
+      "description": "\"Mechanism responsible for updating shadow copies in a way that might not be instantaneous or atomic, leading to potential out-of-sync states with the original copy.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "RECOMMENDATION FOR DUAL_EC_DRBG ALGORITHM",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"A recommendation to avoid using the Dual_EC_DRBG algorithm due to potential cryptographic weaknesses and predictable patterns that can be exploited.\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "id": "TACTICS",
+      "entity_type": "TACTICS",
+      "description": "\"The tactic here could involve targeting systems with incorrect default permissions to escalate privileges or gain unauthorized access.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "RESOURCE-INTENSIVE STEPS IN CRYPTOGRAPHY IMPLEMENTATION",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Steps that are crucial for preventing common attacks but may be skipped during implementation due to resource constraints or negligence.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "SYNCHRONIZATION VULNERABILITY 1250",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Vulnerability arising from the lack of proper synchronization between original copy values and shadow copies during update processes.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "SOFTWARE MODULE (E.G., BIOS/BOOTLOADER)",
+      "entity_type": "SOFTWARE",
+      "description": "\"A trusted software module that initializes hardware settings post-power reset and locks protected registers or address regions from further modification.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "SENSITIVE INFORMATION UNCLEARED BEFORE USE",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"Uncleared sensitive information in reusable resources can be exploited by attackers for unauthorized access.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "CWE-325",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"A known weakness related to skipping essential steps in cryptographic implementations, leading to vulnerabilities.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "INCORRECT DEFAULT FILE PERMISSIONS",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"Incorrectly set file permissions can allow anyone to modify files, leading to security breaches.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "UPDATE REQUEST PROTOCOL",
+      "entity_type": "SOFTWARE",
+      "description": "\"Protocol responsible for initiating and managing update requests from the original copy system.\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "id": "TRUSTED LOCK BIT",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"A mechanism used to restrict access to registers, address regions, or other resources by disabling writes once the lock bit is set; however, implementation errors can allow attackers to modify this lock bit after it has been initialized.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "RESERVED BIT LOGIC",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"The logic controlled by reserved bits can be exploited by adversaries to induce unwanted behavior if it remains active and accessible in the final product.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "CRYPTOGRAPHIC LIBRARY/FRAMEWORKS",
+      "entity_type": "SOFTWARE",
+      "description": "\"Industry-standard implementations that help prevent errors during the implementation of cryptographic algorithms.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "OPERATING SYSTEM (OS)",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"The OS behaves differently based on login attempt success or failure, allowing remote attackers to guess passwords through timing discrepancies and message differences.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "SECURE BOOT PROCESS",
+      "entity_type": "SOFTWARE",
+      "description": "\"A secure boot process that ensures the system starts in a trusted state by verifying the signatures of subsequent stages against a golden value before transferring control.\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "id": "DESIGN FLAWS IN HARDWARE IMPLEMENTATION",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"Inadequate prevention of lock bit modification can expose registers to reprogramming by attackers, undermining the security measures intended to protect them.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "VERSION CONTROL SYSTEM (VCS)",
+      "entity_type": "SOFTWARE",
+      "description": "\"A version control system allows an attacker to check the existence of files through command responses which can be used in reconnaissance activities.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "BLUETOOTH LOW-ENTROPY PRNG",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"A vulnerability where Bluetooth chips implement low-entropy pseudo-random number generators (PRNG), enabling spoofing attacks.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "PRODUCT WITH DIFFERENT TTL RESPONSES",
+      "entity_type": "SOFTWARE",
+      "description": "\"A generic product which modifies the Time To Live (TTL) values differently for filtered versus unfiltered ports, revealing information that can be exploited by attackers to identify specific port statuses.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CHAIN OF TRUST",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"The chain of trust is an attack technique where each stage of the boot process checks and validates the next stage, ensuring secure execution from the root of trust.\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "id": "SYSTEM CONFIGURATION REGISTERS AND ADDRESS REGIONS",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"Hardware components that store critical settings initialized by trusted software modules; such configurations are targeted by attack techniques that aim to unlock or modify these protected regions after initialization.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "EXPECTED BEHAVIOR VIOLATION",
+      "entity_type": "VULNERABILITY",
+      "description": "\"An issue where features or functions do not behave as specified, potentially leading to quality degradation or other impacts.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "SCADA PRODUCT OUTDATED CIPHER SUITES",
+      "entity_type": "SOFTWARE",
+      "description": "\"An outdated implementation in SCADA products that allows for the use of weak cipher suites.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "HARDWARE DESIGN FEATURE",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"A design feature of hardware that allows for bypassing lock protections or improper zeroization of hardware registers.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "FAULT ATTACKS (VOLTAGE AND CLOCK GLITCHES)",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"Attackers use voltage and clock glitches to disrupt normal system operations, aiming to gain unauthorized access or execute malicious commands.\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "id": "INTEGRATED CIRCUITS AND HARDWARE IP SOFTWARE PROGRAMMABLE CONTROLS",
+      "entity_type": "SOFTWARE",
+      "description": "\"Controls and settings for hardware IP that are programmable through software, commonly stored in register circuits.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "ERROR MESSAGE MINIMIZATION",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Minimizing details in error messages prevents attackers from obtaining useful information about the internal state or security mechanisms of the product.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "LDAP INTERFACE WEAK CIPHERS",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"A vulnerable configuration in LDAP interfaces that permits the use of weak ciphers, facilitating attacks.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "SIDE CHANNEL ATTACK PATTERNS",
+      "entity_type": "ATTACK PATTERNS",
+      "description": "\"A Side Channel Attack Pattern involves exploiting differences in observable behavior to infer sensitive information, often through timing or power consumption analysis.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "SECURE WEAR LEVELING ALGORITHMS",
+      "entity_type": "SOFTWARE",
+      "description": "\"Algorithms designed to protect against data exposure during wear leveling processes on storage hardware.\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "id": "REGISTER CIRCUITS",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"Hardware components containing default values initialized at hardware reset to ensure proper system configuration.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "FTP SERVER",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"The FTP server generates different error messages or responds with varying time delays when a username does not exist compared to when it exists, allowing remote attackers to determine valid usernames and further attack.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "NONCES FOR CHACHA20-POLY1305 CIPHER",
+      "entity_type": "SOFTWARE",
+      "description": "\"Unique values used once per encryption operation to ensure security; mismanagement can lead to cipher vulnerability.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "POWER MANAGEMENT HARDWARE",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"Hardware responsible for managing power consumption and distribution within the system, potentially vulnerable to voltage glitches.\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "id": "WRITE-ONCE RESTRICTIONS",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Security measure implemented to prevent software from modifying critical settings after initial boot, making registers read-only once set.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "SEPARATION OF PRIVILEGE",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"The Separation of Privilege principle is used to compartmentalize the system so that sensitive data remains within a secure boundary, reducing exposure to attackers.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "FIPS 140-2 CERTIFICATION",
+      "entity_type": "SOFTWARE",
+      "description": "\"An older version of FIPS 140-3, now superseded by the newer FIPS 140-3 certification standard.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "CLOCK/COUNTER HARDWARE",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"Hardware components used for timing and counting operations in a system, susceptible to clock glitch attacks.\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "id": "WRITE-1-ONCE FIELDS",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"A specific type of write-once field that becomes read-only only if it has been set to value 0 (or 1).\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "CRYPTOGRAPHY IMPLEMENTATION WEAKNESSES",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Weaknesses related to improper or inadequate implementation of cryptographic protocols which can expose systems to plaintext attacks.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "OBSERVABLE DISCREPANCY",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"Observable Discrepancies refer to differences in product behavior that reveal security-relevant information. These can be exploited through various methods such as side-channel attacks, timing discrepancies, and inconsistent error responses.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "SENSOR HARDWARE",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"Hardware that detects anomalies in environmental conditions or operational states, critical for detecting fault attacks.\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "id": "HDL CODE (HARDWARE DESCRIPTION LANGUAGE)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Programming language used for describing the logic functions and design features of hardware systems, often defining register contents.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "SPOOFED UPDATE REQUESTS",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"Techniques employed by attackers to send fake update requests to shadow copies, causing them to adopt attacker-friendly values while original copies remain unchanged.\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "id": "UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"This refers to a situation where an application forwards requests without preserving the original source context, which can be exploited by attackers.\"<SEP>\"This technique involves an attacker exploiting a product that forwards requests on behalf of upstream components without preserving the original source identity, allowing bypassing of security controls.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486<SEP>chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "DEBUG INTERFACE SECURITY LOGIC",
+      "entity_type": "SOFTWARE",
+      "description": "\"Security measures implemented in hardware and firmware to protect against unauthorized access through debug interfaces.\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "id": "INITIALIZATION AT HARDWARE RESET",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"Process by which default values are assigned to registers during system startup before they become read-only under write-once restrictions.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "THIRD-PARTY HARDWARE IPS",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"Third-party hardware IPs are components enabled by untrusted firmware and can potentially master transactions on the hardware bus to compromise SoC boot firmware.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "SIGN THEN SEAL SENSITIVE OBJECTS BEFORE SENDING THEM OUTSIDE A TRUST BOUNDARY",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"A best practice to ensure that sensitive data is properly signed and sealed when transmitted beyond trusted boundaries.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "MANUAL ANALYSIS METHOD",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"A method involving manual intervention such as toggling I/O bits, printing console messages, or observing loop exits for detecting vulnerabilities.\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "id": "RUNTIME SOFTWARE",
+      "entity_type": "SOFTWARE",
+      "description": "\"Software that runs on the hardware after initialization and is designed not to modify critical settings due to security measures such as write-once locks.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "CWE-ID 203 - OBSERVABLE DISCREPANCY VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"This vulnerability arises when discrepancies exist in the product's responses under different circumstances, allowing unauthorized actors to gain security-relevant insights.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "PLAINTEXT TRANSMISSION OF SENSITIVE INFORMATION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"This involves transmitting sensitive data without encryption, which can be exploited by attackers.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "DYNAMIC ANALYSIS WITH MANUAL RESULTS INTERPRETATION",
+      "entity_type": "SOFTWARE",
+      "description": "\"A mitigation measure that involves reviewing architecture design for authentication and authorization of debug and test interfaces and conducting dynamic tests to ensure they are not open by default.\"<SEP>\"Involves the use of specialized hardware tools to check if a platform is susceptible to voltage and clock glitching attacks during implementation phase.\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1<SEP>chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "MEMORY PROTECTIONS",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Implementing memory protections and fabric access controls before enabling untrusted IPs mitigates threats from untrusted components.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "FIPS 140-3 CERTIFICATION",
+      "entity_type": "SOFTWARE",
+      "description": "\"A certification standard for cryptographic modules used in US government systems to ensure compliance with security requirements.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "ARCHITECTURE OR DESIGN REVIEW",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"A review process aimed at identifying whether protections against fault attacks merely transfer the target rather than preventing them.\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "id": "DRBG INSUFFICIENT ENTROPY",
+      "entity_type": "SOFTWARE",
+      "description": "\"A cryptographic generator with inadequate entropy, leading to predictable outcomes and potential security breaches.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "MIRRORED MEMORY REGIONS AND REGISTERS",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"Entities such as memory regions, registers, and computational units in multi-core processors that are duplicated to enhance performance but can become out of sync, creating potential attack vectors.\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "id": "IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)",
+      "entity_type": "VULNERABILITY",
+      "description": "\"This vulnerability allows untrusted agents to improperly share resources intended for trusted agents, leading to potential information disclosure or integrity issues.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "FUTURE CAPABILITIES LOGIC",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"Future capabilities logic refers to functional logic within reserved bits that designers might want to control or configure, potentially leaving a backdoor for attackers if not properly disabled in production hardware.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "ADVERSARY",
+      "entity_type": "ATTACKER",
+      "description": "\"An adversary who can exploit weaknesses in hardware lock bit protections to modify system registers or controls.\"<SEP>\"An adversary with access to reserved bits will write to them in an attempt to compromise hardware state.\"<SEP>\"An attacker can exploit systems using weak cryptographic primitives, such as DES in the case of TLS.\"<SEP>\"An individual or group who exploits hardware weaknesses to modify system configurations.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf<SEP>chunk-2ccff7f000ca8ceb65b49c7c3183348d<SEP>chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "HIDDEN DANGERS",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"Improperly cleared memory and incorrect file permissions can pose significant security risks, allowing attackers to exploit sensitive data without detection.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Enabling DMA devices too early can lead to unauthorized data extraction and privilege escalation due to direct memory access capabilities.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "PERIPHERAL MICROCONTROLLERS",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"Peripheral microcontrollers that use untrusted firmware can be compromised if they are enabled before security features like fabric access controls are set up.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "DES",
+      "entity_type": "SOFTWARE",
+      "description": "\"Data Encryption Standard (DES) is a symmetric-key algorithm for the encryption of electronic data. It was once considered secure but is now vulnerable to brute-force attacks.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "CRYPTOGRAPHY PRIMITIVE IMPLEMENTATION RISK",
+      "entity_type": "TACTICS",
+      "description": "\"Tactic involves using cryptographic primitives in a risky manner due to non-standard or weakened implementations that compromise system security.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "DIRECT MEMORY ACCESS (DMA)",
+      "entity_type": "SOFTWARE",
+      "description": "\"DMA is a technology that allows devices to read or write directly to main memory, potentially without OS interaction.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "TIMING ATTACK",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"A specific type of attack that uses the time it takes for a system to respond as a side channel to gather information about internal processes, often used to infer secret data such as passwords.\"",
+      "source_id": "chunk-3765fb59247c8757d841cb1e549550cf"
+    },
+    {
+      "id": "LINEAR FEEDBACK SHIFT REGISTER (LFSR)",
+      "entity_type": "SOFTWARE",
+      "description": "\"An outdated method of generating random numbers, less secure than accepted and standard Random Number Generators.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "SOFTWARE CLEARED AFTER USE",
+      "entity_type": "SOFTWARE",
+      "description": "\"Security measures that overwrite or clear data in a resource before it is released to prevent unauthorized access to old data.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "IDENTIFIER MECHANISM",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"An identifier mechanism is a feature in System-on-Chip (SoC) that defines unique identifiers for IPs, which may be insufficiently defined, misconfigured, or ignored.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "DES ENCRYPTION ALGORITHM",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"A weak encryption standard that can now be broken quickly, making it a target for attackers.\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "id": "ATTACK TECHNIQUES - READING UNCLEARED DATA",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"An attack technique where an attacker reads leftover data from reused resources, taking advantage of the lack of proper clearing after use.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "SOFTWARE APPLICATION",
+      "entity_type": "SOFTWARE",
+      "description": "\"A software application is vulnerable if it does not preserve the original source of a request when forwarding it to an external actor, leading to confusion about the actual origin of the request.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "OPERATING SYSTEM",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"The Operating System, when direct remote login is disabled, provides different feedback upon incorrect and correct password entries, aiding in password guessing attacks.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "MITIGATION MEASURES - CLEARING DATA BEFORE RESOURCE RELEASE",
+      "entity_type": "MITIGATION",
+      "description": "\"Security measures that require overwriting or clearing a resource's data before it is released to prevent unauthorized access to old information.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "MUTUAL AUTHENTICATION MECHANISM",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"A mitigation measure to prevent the 'Confused Deputy' attack is enforcing strong mutual authentication between all parties involved in a transaction.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "MISSING CRYPTOGRAPHIC STEP",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where a product omits a required step in cryptographic algorithms, weakening encryption security.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "TACTIC - INFORMATION GATHERING THROUGH EXPLOITATION",
+      "entity_type": "TACTIC",
+      "description": "\"A tactic used by an attacker to gather sensitive information by exploiting uncleared data in reused resources.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "IMMUTABILITY OF INITIATOR'S IDENTITY",
+      "entity_type": "TACTICS",
+      "description": "\"Maintaining the immutability and forwarding the identity of the initiator of a transaction helps mitigate attacks that exploit intermediary software vulnerabilities.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "IMPROPER INITIALIZATION/SHUTDOWN OF RESOURCES",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"Resources that are not properly initialized or shut down can leave traces of sensitive information, leading to security vulnerabilities.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "VULNERABILITY - UNCLEARED SENSITIVE DATA BEFORE RESOURCE RELEASE",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The vulnerability of leaving previously stored data uncleared before a resource is released for reuse, allowing attackers to potentially access this old data.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "FIREWALL",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"A firewall can be bypassed if an attacker uses an intermediary application to send requests that appear to come from within the network instead of the external attacker's system.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "SOFTWARE",
+      "entity_type": "SOFTWARE",
+      "description": "\"The software is flawed in that it does not properly clear memory before reuse, potentially exposing sensitive data.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "TARGET OBJECT - REUSED RESOURCES (MEMORY/DISK)",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Resources such as memory and disk space that can be reused after allocation/de-allocation, posing risks if not properly cleared of previous data.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "FTP SERVER (OR ANY INTERMEDIARY APPLICATION)",
+      "entity_type": "SOFTWARE",
+      "description": "\"A software application that forwards client requests to other servers without preserving the original request source identity, potentially leading to unauthorized access or proxy scanning attacks.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "ATTACKER - INFORMATION GATHERER",
+      "entity_type": "ATTACKER",
+      "description": "\"An attacker who seeks to gather sensitive information by exploiting uncleared data in resources.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "CVE-1999-0017",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"A vulnerability in FTP protocol design that allows an attacker to modify PORT commands, causing the server to connect to unintended machines.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "SOFTWARE - MEMORY MANAGEMENT",
+      "entity_type": "SOFTWARE",
+      "description": "\"A software responsible for managing memory allocation, de-allocation, and reuse of memory blocks.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "CONFUSED DEPUTY ATTACK PATTERN",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern where an intermediary software misuses its authority on behalf of a client requestor, making the intermediary appear as the source of malicious actions.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "BULLETIN BOARD SOFTWARE",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"Bulletin Board Software displays error messages that provide information useful for remote attackers to conduct brute force password guessing attacks.\"<SEP>\"Bulletin Board displays different error messages for user existence checks which can be exploited by remote attackers for brute force password guessing.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "ATTACK TECHNIQUES - INFOLEAK FROM UNRELEASED RESOURCES",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"An attack technique where an attacker exploits uncleared data in resources that are released back to the system for reuse.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "CONFUSED DEPUTY VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A design flaw in software that allows an attacker to exploit it by forwarding requests under false identity, leading to unauthorized access or activity masking.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "REMOTE ATTACKERS",
+      "entity_type": "ATTACKER",
+      "description": "\"Remote attackers exploit various vulnerabilities to conduct brute force attacks and gather information about target systems.\"<SEP>\"Remote attackers exploit vulnerabilities to identify valid users or determine if ports are being filtered, aiding in brute force attacks and other malicious activities.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "MITIGATION MEASURES - OVERWRITE ON RELEASE",
+      "entity_type": "MITIGATION",
+      "description": "\"A security measure ensuring data is overwritten or cleared before a resource is made available for reuse, reducing risk of data leakage.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "TARGET SYSTEM",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"The system or service targeted by the attacker through intermediary software, which appears as the originator of malicious requests.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "CRYPTOGRAPHIC ACCELERATOR TARGET ENTITY",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"A specific target entity within a system that uses cryptographic accelerators for processing sensitive data like passwords or encryption keys.\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "id": "TACTIC - EXPLOIT UNCLEARING PRACTICES",
+      "entity_type": "TACTIC",
+      "description": "\"An attacker's tactic involving the exploitation of practices where sensitive information is not properly cleared from resources before their release.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "IMPROPER FINITE STATE MACHINES (FSMS)",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"Improper FSMs can lead an attacker to put the system into an undefined or insecure state, causing a DoS condition or allowing privilege escalation.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "VULNERABILITY - MEMORY NOT CLEARED POST-USE",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A weakness in software systems where memory or other reusable resources are released without proper clearing, leading to potential data exposure.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "TLS WITH DES",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"Transport Layer Security using Data Encryption Standard (DES), which has been rendered insecure due to weaknesses in DES.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "WEAK KEY LENGTHS",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"The 56-bit key length in DES is now considered weak, making it vulnerable to brute force attacks due to increased computing power.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "FAULTY IMPLEMENTATION OF WEAR LEVELING OPERATIONS",
+      "entity_type": "HIDDEN DANGERS",
+      "description": "\"Faulty wear leveling operations in non-volatile memories may be exploited by attackers to prematurely degrade memory reliability and cause unexpected instability leading to DoS conditions.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "TARGET OBJECT - MEMORY AND DISK RESOURCES",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Memory segments, disk space, and similar resources that can be reallocated after use, potentially retaining old data.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "JTAG ACCESS VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A security vulnerability where JTAG access before the execution of ROM code allows full system control, enabling an attacker to modify boot flows and bypass secure-boot mechanisms.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "STATIC APPLICATION SECURITY TESTING (SAST)",
+      "entity_type": "SOFTWARE",
+      "description": "\"A software tool used for automated static analysis of source code or binaries to identify vulnerabilities.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "DEBUG INTERFACE SECURITY FAILURE",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Security failures in debug interfaces such as missing authorization (CWE-1191) or incorrect debug access levels (CWE-241244) can expose system assets to unauthorized access and attacks.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "FUSES",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Hardware components in a system that, once blown, cannot typically be reset. They are used as part of security mechanisms but can potentially be manipulated by attackers.\"",
+      "source_id": "chunk-3765fb59247c8757d841cb1e549550cf"
+    },
+    {
+      "id": "SYSTEM CALL TRACING UTILITIES (E.G., TRUSS, STRACE)",
+      "entity_type": "SOFTWARE",
+      "description": "\"Software tools that trace system calls and signals in real-time to monitor system activity and detect anomalies.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "SYSTEM ON CHIP",
+      "entity_type": "TARGET OBJECT",
+      "description": "\"The System on Chip is the hardware platform that encompasses non-volatile memory, debug interfaces, and other security-sensitive components targeted by attackers exploiting FSM and wear leveling vulnerabilities.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "SYSTEM-SECURITY STATE DETERMINATION LOGIC",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Logic that determines the security state of a system based on values sensed from fuses. It can be exploited if it uses negative logic, allowing attackers to manipulate fuses.\"",
+      "source_id": "chunk-3765fb59247c8757d841cb1e549550cf"
+    },
+    {
+      "id": "CRYPTOGRAPHIC FUNCTIONS",
+      "entity_type": "CONCEPT",
+      "description": "\"Functions within software or systems that perform cryptographic operations such as encryption and decryption of data.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "MANUAL ANALYSIS",
+      "entity_type": "TACTICS",
+      "description": "\"Manual analysis involves checking for passcodes on devices and verifying communications over JTAG/debugging ports to ensure security.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "NEGATIVE LOGIC",
+      "entity_type": "CONCEPT",
+      "description": "\"A logic approach where the logical state is inverted from what would normally be expected (e.g., 1 becomes 0). Attackers might exploit negative logic to force a system into an insecure state.\"",
+      "source_id": "chunk-3765fb59247c8757d841cb1e549550cf"
+    },
+    {
+      "id": "NETWORK SNIFFERS AND PROTOCOL ANALYZERS",
+      "entity_type": "SOFTWARE",
+      "description": "\"Software tools used to capture and analyze network traffic, often to identify plaintext transmission of sensitive information.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "BRUTE FORCE ATTACK",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"A brute force attack involves trying every possible key until the correct one is found. This has become practical for keys like 56-bit DES due to increased computing power.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "ATTACK TECHNIQUES",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"The attacker may use various techniques such as exploiting unsecured file permissions or reading sensitive information from memory that was not properly cleared.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "BLINDING OR MASKING TECHNIQUES",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"These techniques are applied in strategic areas during the design phase to enhance security by reducing visibility into sensitive operations.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "DATA ENCRYPTION ALGORITHMS (E.G., THOSE RECOMMENDED BY NIST)",
+      "entity_type": "CONCEPT",
+      "description": "\"Approved encryption algorithms that protect data paths from security-critical components to trusted user applications.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "SHIELDING OR TAMPER-RESISTANT PROTECTIONS",
+      "entity_type": "MITIGATION MEASURES",
+      "description": "\"Physical protections such as shielding and tamper-resistant designs increase the difficulty of unauthorized access to debug/test interfaces, enhancing overall system security.\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "id": "MATHEMATICAL AND ATTACK TECHNIQUES",
+      "entity_type": "ATTACK TECHNIQUES",
+      "description": "\"New mathematical discoveries can lead to new attack techniques that may render previously secure cryptographic primitives vulnerable.\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "id": "SENSITIVE INFORMATION TRANSMISSION IN PLAIN TEXT",
+      "entity_type": "ATTACK MODE",
+      "description": "\"The transmission of sensitive information such as passwords and session tokens without encryption, allowing attackers easy access.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "WORLD-WRITABLE LOG FILES",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern involving log files with world-writable permissions, allowing attackers to alter or delete logs and hide their activities.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "ATTACK TECHNIQUE: CREDENTIAL THEFT",
+      "entity_type": "UNKNOWN",
+      "description": "\"Attackers exploit insecure permissions to steal shared secret keys and compromise security systems.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "ATTACK TECHNIQUE: INFORMATION GATHERING",
+      "entity_type": "UNKNOWN",
+      "description": "\"Attackers use world-readable home directories for information gathering and reconnaissance.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "OBSERVABLE DISCREPANCY ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Exploitation of Observable Discrepancies can involve techniques such as side-channel attacks that infer sensitive details from behavior variations.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "OBSERVABLE DISCREPANCY VULNERABILITY ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Reducing details in error messages mitigates risks associated with observable discrepancies by limiting information available to attackers.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "OBSERVABLE DISCREPANCY VULNERABILITY",
+      "entity_type": "UNKNOWN",
+      "description": "\"Implementing separation of privilege reduces the risk of exposing internal state through observable discrepancies.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "ATTACK TECHNIQUE: EVIDENCE TAMPERING",
+      "entity_type": "UNKNOWN",
+      "description": "\"Attackers exploit writable log files to tamper with evidence or hide their tracks by altering logs.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "ATTACK TECHNIQUE: PRIVILEGE ESCALATION",
+      "entity_type": "UNKNOWN",
+      "description": "\"World-writable executables can be modified by attackers to escalate privileges.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "ATTACK TECHNIQUE: IMPERSONATION",
+      "entity_type": "UNKNOWN",
+      "description": "\"Attackers take advantage of default IP spoofing permissions to impersonate other devices or users on a network.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    }
+  ],
+  "edges": [
+    {
+      "source": "UNAUTHORIZED ACTORS",
+      "target": "FILEMON, REGMON, PROCESS MONITOR",
+      "weight": 8.0,
+      "description": "\"Unauthorized actors utilize these utilities to track file operations and registry changes for information gathering.\"",
+      "keywords": "\"Data extraction, file surveillance\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "UNAUTHORIZED ACTORS",
+      "target": "SNIFFING ATTACK TECHNIQUE",
+      "weight": 9.0,
+      "description": "\"Unauthorized actors use the sniffing attack technique to intercept cleartext transmissions of sensitive information.\"",
+      "keywords": "\"exploitation, interception\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "UNAUTHORIZED ACTORS",
+      "target": "INSECURE DEFAULT PERMISSIONS",
+      "weight": 9.0,
+      "description": "\"Unauthorized actors exploit insecure default permissions to gain unauthorized access.\"",
+      "keywords": "\"Exploitation\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "UNAUTHORIZED ACTORS",
+      "target": "MONITORING TOOLS (TRUSS, STRACE)",
+      "weight": 7.0,
+      "description": "\"Unauthorized actors use these tools to monitor system calls and process interactions for reconnaissance purposes.\"",
+      "keywords": "\"Reconnaissance, process monitoring\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "ATTACK MODE",
+      "target": "ATTACK TECHNIQUES",
+      "weight": 8.0,
+      "description": "\"An attack mode is executed through the use of specific attack techniques to exploit vulnerabilities in software or systems.\"",
+      "keywords": "\"exploit vulnerability, unauthorized access\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "FAULTY FSM IMPLEMENTATION",
+      "target": "BLINDING OR MASKING TECHNIQUES",
+      "weight": 8.0,
+      "description": "\"Applying blinding techniques during design helps prevent attackers from exploiting undefined states in FSMs to cause instability or gain privileges.\"",
+      "keywords": "\"security enhancement, state management\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "source": "FAULTY FSM IMPLEMENTATION",
+      "target": "MANUAL ANALYSIS",
+      "weight": 7.0,
+      "description": "\"Manual analysis can help identify and mitigate risks associated with faulty FSM implementations by checking for proper state handling.\"",
+      "keywords": "\"security verification, risk mitigation\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "source": "APPROVED ENCRYPTION ALGORITHMS (E.G., NIST)",
+      "target": "CRYPTOGRAPHY IMPLEMENTATION WEAKNESSES",
+      "weight": 7.0,
+      "description": "\"Incorrect or inadequate use of approved encryption algorithms can introduce vulnerabilities that enable plaintext transmission attacks.\"",
+      "keywords": "\"algorithm misuse\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "CLEARTEXT TRANSMISSION OF SENSITIVE INFORMATION",
+      "target": "NETWORK TRAFFIC",
+      "weight": 8.0,
+      "description": "\"The tactic of Cleartext Transmission of Sensitive Information involves transmitting data over network traffic in a way that allows unauthorized actors to intercept it.\"",
+      "keywords": "\"vulnerability exposure, communication security\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "CLEARTEXT TRANSMISSION OF SENSITIVE INFORMATION",
+      "target": "SNIFFING NETWORK TRAFFIC",
+      "weight": 10.0,
+      "description": "\"Sniffing attack techniques are used to intercept cleartext transmissions for data collection and analysis.\"",
+      "keywords": "\"Data interception, network monitoring\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "DEBUG FEATURE EXPLOITATION ATTACK PATTERN",
+      "target": "HARDWARE DESIGN FEATURE",
+      "weight": 6.0,
+      "description": "\"Exploits in debug features are patterns that attackers use to manipulate hardware design flaws for unauthorized access.\"",
+      "keywords": "\"exploitation, security flaw\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "source": "WEAR LEVELING OPERATIONS",
+      "target": "SHIELDING OR TAMPER-RESISTANT PROTECTIONS",
+      "weight": 7.0,
+      "description": "\"Physical protections can complement proper wear leveling operations by deterring attackers from tampering with the system’s non-volatile memory.\"",
+      "keywords": "\"physical security, data integrity\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "source": "PROGRAMMABLE LOGIC CONTROLLER (PLC)",
+      "target": "SENSITIVE INFORMATION TRANSMISSION IN PLAIN TEXT",
+      "weight": 9.0,
+      "description": "\"PLCs may transmit sensitive information such as passwords and session tokens in plaintext, making them targets for attackers.\"",
+      "keywords": "\"plaintext vulnerability\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "NETWORK TRAFFIC",
+      "target": "SNIFFING ATTACK TECHNIQUE",
+      "weight": 9.0,
+      "description": "\"The Sniffing attack technique targets network traffic for the purpose of capturing sensitive information sent via cleartext.\"",
+      "keywords": "\"attack vector, data interception\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "CHIPWHISPERER",
+      "target": "PLUNDERVOLT ATTACK",
+      "weight": 9.0,
+      "description": "\"ChipWhisperer is used as a tool to detect and analyze vulnerabilities that can be exploited by Plundervolt attacks.\"",
+      "keywords": "\"vulnerability detection\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "source": "CHIPWHISPERER",
+      "target": "CLKSCREW ATTACK",
+      "weight": 8.0,
+      "description": "\"ChipWhisperer can be used to detect and analyze vulnerabilities similar to those exploited by the CLKSCREW attack, enhancing defense strategies.\"",
+      "keywords": "\"vulnerability detection\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "source": "BUILDING CONTROLLER",
+      "target": "SENSITIVE INFORMATION TRANSMISSION IN PLAIN TEXT",
+      "weight": 8.0,
+      "description": "\"Building controllers can transmit authentication credentials unencrypted, providing an entry point for attackers.\"",
+      "keywords": "\"plaintext exposure\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "AUTOMATED STATIC ANALYSIS (SAST)",
+      "target": "CRYPTOGRAPHY IMPLEMENTATION WEAKNESSES",
+      "weight": 8.0,
+      "description": "\"Detects weaknesses in cryptographic implementations during static code analysis.\"",
+      "keywords": "\"detect weakness\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "PLUNDERVOLT ATTACK",
+      "target": "ATTACKER",
+      "weight": 8.0,
+      "description": "\"The attacker uses Plundervolt attack to manipulate DVFS interfaces and access unprivileged software features.\"",
+      "keywords": "\"vulnerability exploitation\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "source": "PENETRATION TESTING",
+      "target": "SENSITIVE INFORMATION TRANSMISSION IN PLAIN TEXT",
+      "weight": 7.0,
+      "description": "\"Aids in identifying vulnerabilities related to plaintext transmission of sensitive data.\"",
+      "keywords": "\"identify vulnerability\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "UNTRUSTED FIRMWARE",
+      "target": "BOOT FIRMWARE",
+      "weight": 7.0,
+      "description": "\"Enabling untrusted firmware can compromise the SoC boot firmware by allowing unauthorized access to memory and other assets.\"",
+      "keywords": "\"compromise, security risk\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "source": "CLKSCREW ATTACK",
+      "target": "ATTACKER",
+      "weight": 7.0,
+      "description": "\"The attacker exploits the CLKSCREW technique to alter clock signals in hardware, compromising security mechanisms.\"",
+      "keywords": "\"hardware manipulation\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "source": "THREAT MODELING",
+      "target": "SENSITIVE INFORMATION TRANSMISSION IN PLAIN TEXT",
+      "weight": 8.0,
+      "description": "\"Helps identify and mitigate risks associated with transmitting sensitive information unencrypted.\"",
+      "keywords": "\"mitigate risk\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "INSECURE PERMISSIONS FOR SHARED SECRET KEY FILE",
+      "target": "ATTACK TECHNIQUE: CREDENTIAL THEFT",
+      "weight": 9.0,
+      "description": "\"Attackers exploit insecure permissions to steal shared secret keys and compromise security systems.\"",
+      "keywords": "\"Credential theft, key recovery\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "TUNABLE REPLICA CIRCUITS (TRCS)",
+      "target": "SECURE BOOT MECHANISMS",
+      "weight": 8.0,
+      "description": "\"TRCs are implemented to detect and mitigate physical attacks on secure boot mechanisms, enhancing their security.\"",
+      "keywords": "\"glitch attack prevention\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "source": "TUNABLE REPLICA CIRCUITS (TRCS)",
+      "target": "AUTHENTICATION ROUTINE",
+      "weight": 7.0,
+      "description": "\"TRCs help secure authentication routines against glitch attacks, mitigating risks associated with bypassing security mechanisms.\"",
+      "keywords": "\"glitch attack prevention\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "source": "DEFAULT IP SPOOFING PERMISSIONS",
+      "target": "ATTACK TECHNIQUE: IMPERSONATION",
+      "weight": 9.0,
+      "description": "\"Attackers take advantage of default IP spoofing permissions to impersonate other devices or users on a network.\"",
+      "keywords": "\"Network deception, impersonation\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "FILEMON, REGMON, PROCESS MONITOR (WINDOWS)",
+      "target": "SENSITIVE INFORMATION TRANSMISSION IN PLAIN TEXT",
+      "weight": 7.0,
+      "description": "\"These utilities can trace system calls to detect plaintext transmission of sensitive data.\"",
+      "keywords": "\"trace activity\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "SNIFFING NETWORK TRAFFIC",
+      "target": "MONITORING TOOLS (TRUSS, STRACE)",
+      "weight": 8.0,
+      "description": "\"Monitoring tools can be used to identify the extent of data being transmitted over network channels and intercepted.\"",
+      "keywords": "\"Packet analysis, traffic monitoring\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "ENCRYPTED CHANNELS FOR COMMUNICATION",
+      "target": "CRYPTOGRAPHY IMPLEMENTATION WEAKNESSES",
+      "weight": 9.0,
+      "description": "\"Configuring encrypted channels mitigates risks from improper cryptographic implementations.\"",
+      "keywords": "\"reduce risk\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "EXTENSIVE RESEARCH AND REVIEW",
+      "target": "DES",
+      "weight": 6.0,
+      "description": "\"Research has shown that the once-secure DES is now vulnerable to brute force attacks due to advancements in computing power.\"",
+      "keywords": "\"mitigation, research review\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "LDAP INTERFACE WEAK CIPHERS",
+      "weight": 8.0,
+      "description": "\"Vulnerabilities in LDAP interfaces due to weak ciphers can be exploited by attackers for unauthorized access.\"",
+      "keywords": "\"vulnerability exploitation, attack vector\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "BLUETOOTH LOW-ENTROPY PRNG",
+      "weight": 8.0,
+      "description": "\"Low entropy in Bluetooth PRNG implementations can lead to spoofing attacks by malicious actors.\"",
+      "keywords": "\"vulnerability exploitation, security risk\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "SCADA PRODUCT OUTDATED CIPHER SUITES",
+      "weight": 7.0,
+      "description": "\"The use of outdated cipher suites in SCADA products provides attackers with easier paths to exploit system weaknesses.\"",
+      "keywords": "\"security risk, vulnerability targeting\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "DRBG INSUFFICIENT ENTROPY",
+      "weight": 7.0,
+      "description": "\"Attackers may exploit systems with insufficient entropy in cryptographic generators like the DRBG for key discovery and other attacks.\"",
+      "keywords": "\"security breach potential, vulnerability targeting\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "MD5 HASH ALGORITHM",
+      "weight": 8.0,
+      "description": "\"Attackers exploit the use of MD5 due to its known vulnerabilities and ease of attack.\"",
+      "keywords": "\"exploitation, vulnerability targeting\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "SHA-2 CHAINING FOR ENCRYPTION",
+      "weight": 7.0,
+      "description": "\"Attackers might target improper use of SHA-2 chaining to create encryption schemes that are inherently flawed.\"",
+      "keywords": "\"insecure implementation, attack vector\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "RESOURCE-INTENSIVE STEPS IN CRYPTOGRAPHY IMPLEMENTATION",
+      "weight": 7.0,
+      "description": "\"Attackers can exploit systems that cut corners by skipping resource-intensive steps during implementation.\"",
+      "keywords": "\"vulnerability exploitation, secure practices adherence\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "DESIGN FLAWS IN HARDWARE IMPLEMENTATION",
+      "weight": 8.0,
+      "description": "\"Attackers exploit the design flaws present in hardware implementations to gain unauthorized access and manipulate system configurations.\"",
+      "keywords": "\"exploit, security breach\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "RUNTIME SOFTWARE",
+      "weight": 7.0,
+      "description": "\"Attackers might attempt to exploit flaws in runtime software to modify protected register settings despite security measures like write-once restrictions.\"",
+      "keywords": "\"exploitation, security breach\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "WEAK CIPHER SUITES",
+      "weight": 8.0,
+      "description": "\"Attackers exploit vulnerabilities in weak cipher suites to decrypt traffic and gain unauthorized access.\"",
+      "keywords": "\"vulnerability exploitation, decryption attacks\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "FIPS 140-2 CERTIFICATION",
+      "weight": 8.0,
+      "description": "\"Attackers might exploit systems that use older or non-compliant certifications like FIPS 140-2 instead of the updated FIPS 140-3.\"",
+      "keywords": "\"vulnerability targeting, certification exploitation\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "PRODUCT (GENERAL)",
+      "target": "-X COMMAND FOR AN ALTERNATE HISTORY FILE",
+      "weight": 8.0,
+      "description": "\"The product's response to the -X command reveals details about file and directory existence, aiding attackers in further reconnaissance.\"",
+      "keywords": "\"information leakage, vulnerability identification\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "PRODUCT (GENERAL)",
+      "target": "SYN-FIN PACKETS BEHAVIORAL RESPONSE",
+      "weight": 7.0,
+      "description": "\"Product behaves differently when responding to SYN-FIN packets, revealing potentially sensitive network configurations.\"",
+      "keywords": "\"information leakage, network security risks\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "AUTHENTICATION ROUTINE",
+      "target": "ARTIFACTS",
+      "weight": 7.0,
+      "description": "\"The routine produces artifacts for detecting bypass attempts, but these are also vulnerable to attack if the attacker bypasses protection mechanisms.\"",
+      "keywords": "\"vulnerability exposure\"",
+      "source_id": "chunk-7eb84a76feac79b0109e4248d03155ec"
+    },
+    {
+      "source": "MODIFICATION OF SYSTEM REGISTERS/CONTROLS",
+      "target": "ADVERSARY",
+      "weight": 16.0,
+      "description": "\"The adversary uses the technique of modifying system registers after exploiting weaknesses.\"<SEP>\"The adversary uses the technique of modifying system registers or controls to exploit vulnerabilities in the protection mechanism.\"",
+      "keywords": "\"exploitation, modification\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "source": "JTAG INTERFACE",
+      "target": "ATTACKER",
+      "weight": 8.0,
+      "description": "\"The attacker exploits vulnerabilities related to the JTAG interface to bypass protection mechanisms.\"",
+      "keywords": "\"vulnerability exploitation\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "JTAG INTERFACE",
+      "target": "ON-CHIP DEBUG AND TEST INTERFACE WITHOUT PROPER ACCESS CONTROL",
+      "weight": 9.0,
+      "description": "\"This attack technique targets the JTAG interface, exploiting its lack of proper access control.\"",
+      "keywords": "\"exploitation target\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "JTAG INTERFACE",
+      "target": "FUZZING TESTS",
+      "weight": 8.0,
+      "description": "\"Fuzzing tests ensure that the JTAG interface is secured against unauthorized access attempts.\"",
+      "keywords": "\"security testing\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "SENSITIVE INFORMATION TRANSMISSION IN PLAIN TEXT",
+      "weight": 9.0,
+      "description": "\"The attacker exploits the transmission of sensitive information in plaintext for unauthorized access.\"",
+      "keywords": "\"exploit vulnerability\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "ATTACK TECHNIQUES",
+      "weight": 8.0,
+      "description": "\"An attacker uses specific attack techniques such as exploiting improperly cleared memory or incorrect file permissions.\"",
+      "keywords": "\"exploit vulnerability, unauthorized access\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "URL-DOWNLOADING LIBRARY WITH REDIRECTION ISSUE (CVE-2009-0037)",
+      "weight": 8.0,
+      "description": "\"The attacker takes advantage of the URL-following feature to redirect requests to unauthorized resources.\"",
+      "keywords": "\"redirection abuse, vulnerability exploitation\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "FTP SERVER (OR ANY INTERMEDIARY APPLICATION)",
+      "weight": 8.0,
+      "description": "\"The attacker exploits the FTP server's functionality to send PORT commands that cause it to connect to unintended systems, thereby bypassing security measures.\"",
+      "keywords": "\"Exploitation, Misuse\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "INCORRECT COMPARISON LOGIC GRANULARITY",
+      "weight": 8.0,
+      "description": "\"An attacker can exploit vulnerabilities in comparison logic performed over multiple steps, using timing attacks to infer secret information such as passwords or responses.\"",
+      "keywords": "\"vulnerability exploitation, timing attack\"",
+      "source_id": "chunk-3765fb59247c8757d841cb1e549550cf"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "PRODUCT ARCHITECTURE WITH MIRRORED REGIONS",
+      "weight": 16.0,
+      "description": "\"The attacker exploits the architecture's lack of consistent synchronization across mirrored regions.\"",
+      "keywords": "\"exploitation, vulnerability exploitation\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "JTAG ACCESS VULNERABILITY",
+      "weight": 9.0,
+      "description": "\"An attacker can exploit JTAG access before ROM code execution to gain full system control and bypass secure-boot mechanisms.\"",
+      "keywords": "\"exploitation, privilege escalation\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "WEB-BASED MAIL PROGRAM (WITH CVE-2010-1637)",
+      "weight": 9.0,
+      "description": "\"The attacker exploits a vulnerability in the web-based mail application to perform unauthorized actions, such as network scanning.\"",
+      "keywords": "\"exploitation, vulnerability exploitation\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "IMPROPER ZEROIZATION VULNERABILITY",
+      "weight": 8.0,
+      "description": "\"The attacker exploits improper zeroization to gain unauthorized access or modify system configurations.\"",
+      "keywords": "\"exploit, vulnerability exploitation\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "SOFTWARE APPLICATION",
+      "weight": 8.0,
+      "description": "\"The attacker exploits weaknesses in a software application, using it as an intermediary to hide malicious activities.\"",
+      "keywords": "\"exploitation, hiding identity\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE",
+      "weight": 7.0,
+      "description": "\"The attacker can gain unauthorized access to data and privileges through DMA devices that are enabled too early during boot phases.\"",
+      "keywords": "\"privilege escalation, direct memory access\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)",
+      "weight": 8.0,
+      "description": "\"An attacker exploits the improper isolation in SoCs by accessing shared resources meant for trusted agents.\"",
+      "keywords": "\"exploit, vulnerability\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "FAULT ATTACKS (VOLTAGE AND CLOCK GLITCHES)",
+      "weight": 18.0,
+      "description": "\"The attacker uses voltage and clock glitches as an attack technique to compromise the system.\"<SEP>\"The attacker uses voltage and clock glitches as an attack technique to compromise the target entity.\"",
+      "keywords": "\"exploit vulnerabilities\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "MIRRORED MEMORY REGIONS AND REGISTERS",
+      "weight": 14.0,
+      "description": "\"The attacker manipulates inconsistent states of mirrored regions or registers to gain unauthorized access or control.\"",
+      "keywords": "\"exploitation, manipulation\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "OBSERVABLE DISCREPANCY ",
+      "weight": 10.0,
+      "description": "\"Attackers can exploit observable discrepancies to gain unauthorized access or obtain sensitive information.\"",
+      "keywords": "\"exploitation\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "ATTACK TECHNIQUES - READING UNCLEARED DATA",
+      "weight": 8.0,
+      "description": "\"An attacker uses the technique of reading uncleared data from reused resources to gather sensitive information.\"",
+      "keywords": "\"exploitation, data leakage\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "FUSE LOGIC VULNERABILITY",
+      "weight": 9.0,
+      "description": "\"The attacker exploits a vulnerability in fuse logic by manipulating fuses to place the system in an insecure state.\"",
+      "keywords": "\"vulnerability exploitation, security breach\"",
+      "source_id": "chunk-3765fb59247c8757d841cb1e549550cf"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "FAULTY IMPLEMENTATION OF WEAR LEVELING OPERATIONS",
+      "weight": 8.0,
+      "description": "\"Attackers may intentionally cause memory instability by exploiting improperly implemented wear leveling operations to achieve DoS conditions or other malicious activities.\"",
+      "keywords": "\"denial-of-service, reliability degradation\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "INTERNAL ASSET EXPOSED TO UNSAFE DEBUG ACCESS LEVEL OR STATE",
+      "weight": 9.0,
+      "description": "\"Attackers can exploit this vulnerability by obtaining sensitive information from internal assets using debug interfaces.\"",
+      "keywords": "\"unauthorized access\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "CHICKEN BITS",
+      "weight": 18.0,
+      "description": "\"An attacker can exploit chicken bits for unauthorized access and code execution in production devices.\"",
+      "keywords": "\"exploitation risk\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "EXPOSED DATA",
+      "weight": 8.0,
+      "description": "\"An attacker exploits exposed data due to improper memory clearance or incorrect file permissions.\"",
+      "keywords": "\"data exposure, unauthorized access\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "SENSITIVE NON-VOLATILE INFORMATION NOT PROTECTED DURING DEBUGGING",
+      "weight": 16.0,
+      "description": "\"Attackers could exploit this vulnerability to gain unauthorized access to security-sensitive information stored during debug operations.\"",
+      "keywords": "\"data exposure risk\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "source": "CERT ORACLE SECURE CODING STANDARD FOR JAVA (2011)",
+      "target": "MISSING CRYPTOGRAPHIC STEP",
+      "weight": 8.0,
+      "description": "\"The CERT standard provides guidelines that aim to prevent issues like missing cryptographic steps.\"",
+      "keywords": "\"guideline prevention\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "source": "AUTHENTICATED DEBUG MODES SOFTWARE TOOL",
+      "target": "HARDWARE DESIGN FEATURE",
+      "weight": 8.0,
+      "description": "\"The software tool secures the design feature by enforcing authenticated modes to prevent unauthorized bypassing of lock protections.\"",
+      "keywords": "\"security enhancement, authentication\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "source": "ON-CHIP DEBUG AND TEST INTERFACE WITHOUT PROPER ACCESS CONTROL",
+      "target": "DYNAMIC ANALYSIS WITH MANUAL RESULTS INTERPRETATION",
+      "weight": 7.0,
+      "description": "\"This mitigation measure addresses potential flaws in design related to debug/test interfaces without proper authorization.\"",
+      "keywords": "\"vulnerability detection\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "ON-CHIP DEBUG AND TEST INTERFACE WITHOUT PROPER ACCESS CONTROL",
+      "target": "DISABLE JTAG INTERFACE OR IMPLEMENT AUTHENTICATION FOR JTAG INTERFACE",
+      "weight": 9.0,
+      "description": "\"This tactic mitigates risks associated with improper authorization on debug interfaces like the JTAG interface.\"",
+      "keywords": "\"vulnerability mitigation\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "SHADOW MMUS (MEMORY MANAGEMENT UNITS)",
+      "target": "SYNCHRONIZATION FAILURE IN DISTRIBUTED SYSTEMS",
+      "weight": 6.0,
+      "description": "\"Lack of robust synchronization mechanisms between shadow MMUs and the original MMU can lead to inconsistencies and vulnerabilities.\"",
+      "keywords": "\"performance optimization, security risk\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "source": "UNTRUSTED AGENTS",
+      "target": "SECURITY-SENSITIVE ASSETS (DEVICE CONFIGURATION, KEYS)",
+      "weight": 8.0,
+      "description": "\"Untrusted agents can exploit weak access control measures to gain unauthorized accesses to sensitive assets.\"",
+      "keywords": "\"vulnerability exploitation, security breach\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "UNINTENDED PROXY/INTERMEDIARY AND PROXIED TRUSTED CHANNEL",
+      "target": "ROUTING DETOUR",
+      "weight": 9.0,
+      "description": "\"An attack technique that can exploit hidden dangers such as unintended use of proxies or intermediary systems for malicious activities.\"",
+      "keywords": "\"technique exploitation, hidden danger abuse\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "source": "ACCESS CONTROL POLICY",
+      "target": "GRANULARITY WEAKNESS",
+      "weight": 7.0,
+      "description": "\"A policy that lacks granular definition of permissions and restrictions exposes the system to vulnerabilities from untrusted agents.\"",
+      "keywords": "\"policy flaw, security risk\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "TRUSTED FIRMWARE (BOOT FIRMWARE)",
+      "target": "HARDWARE ENGINES AND INTEGRATED CIRCUITS",
+      "weight": 8.0,
+      "description": "\"The boot firmware configures hardware engines to protect against unauthorized access upon power reset, but can fail if default values are insecure.\"",
+      "keywords": "\"hardware protection, system initialization\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "IMPROPER ACCESS CONTROL TO DEBUG/TESTING INTERFACES",
+      "target": "UNAUTHORIZED ACCESS THROUGH DEBUG/TESTING INTERFACE",
+      "weight": 8.0,
+      "description": "\"The vulnerability related to improper access control is exploited through the attack pattern of unauthorized access via debug/testing interfaces.\"",
+      "keywords": "\"exploit\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "REGISTER CLEARING PROCESS SOFTWARE TOOL",
+      "target": "CRYPTOGRAPHIC ACCELERATOR TARGET ENTITY",
+      "weight": 9.0,
+      "description": "\"Software ensures sensitive information in hardware registers is cleared when transitioning between users or upon detecting a physical attack.\"",
+      "keywords": "\"data protection, secure transition\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "source": "DEVICE'S INTERNAL REGISTERS",
+      "target": "EXPLOITING DEBUG INTERFACE WITHOUT AUTHORIZATION",
+      "weight": 9.0,
+      "description": "\"The attack technique of exploiting debug interfaces without proper authorization targets the internal registers within a device.\"",
+      "keywords": "\"target\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "UNAUTHORIZED ACCESS THROUGH DEBUG/TESTING INTERFACE",
+      "target": "SECURE DESIGN OF DEBUG INTERFACES",
+      "weight": 8.0,
+      "description": "\"A secure design approach for debugging interfaces mitigates the risk of unauthorized access through debug/testing interfaces.\"",
+      "keywords": "\"prevention\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "RESERVED BITS",
+      "target": "BOOT FIRMWARE",
+      "weight": 6.0,
+      "description": "\"The integrity of the SoC boot firmware can be compromised by exploiting reserved bits in hardware designs.\"",
+      "keywords": "\"compromise risk, hardware weakness\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "source": "RESERVED BITS",
+      "target": "IDENTIFIER MECHANISM",
+      "weight": 6.0,
+      "description": "\"An identifier mechanism is often related to reserved bits because both are part of the security architecture of an SoC, which may contain weaknesses like insufficient or ignored identifiers.\"",
+      "keywords": "\"security architecture\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "source": "RESERVED BITS",
+      "target": "FUTURE CAPABILITIES LOGIC",
+      "weight": 8.0,
+      "description": "\"Reserved bits can control future capabilities logic, and this relationship is critical because if the reserved bit logic remains active in production hardware, it poses a significant risk to system security.\"",
+      "keywords": "\"exploitable logic\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "source": "RESERVED BITS",
+      "target": "ADVERSARY",
+      "weight": 8.0,
+      "description": "\"An adversary exploits the reserved bits to induce unwanted behavior in hardware, compromising system integrity.\"",
+      "keywords": "\"exploit, vulnerability\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "source": "GRANULARITY WEAKNESS",
+      "target": "ACCESS-CONTROL MECHANISM",
+      "weight": 7.0,
+      "description": "\"The access-control mechanism can be exploited if it does not provide sufficient granularity in its policies.\"",
+      "keywords": "\"vulnerability, security risk\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "GRANULARITY WEAKNESS",
+      "target": "SYSTEM CONFIGURATION PHASE",
+      "weight": 7.0,
+      "description": "\"During system configuration, granularity weaknesses can be identified but may be challenging to address due to hard-coded values.\"",
+      "keywords": "\"security testing, vulnerability identification\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "MODIFICATION OF SYSTEM CONFIGURATION ATTACK TECHNIQUE",
+      "target": "BYPASS PROTECTION MECHANISM MITIGATION MEASURE",
+      "weight": 7.0,
+      "description": "\"Attack techniques aiming to bypass protection mechanisms are mitigated by ensuring proper security measures such as correct zeroization procedures.\"",
+      "keywords": "\"mitigation, security enhancement\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "source": "IMPROPER ZEROIZATION VULNERABILITY",
+      "target": "ACCESS CONTROL ATTACK TECHNIQUE",
+      "weight": 7.0,
+      "description": "\"Attack techniques target improper zeroization to gain unauthorized access and modify system configurations.\"",
+      "keywords": "\"vulnerability exploitation, security breach\"",
+      "source_id": "chunk-732e47f37276f678a57ed5b2cc4caaa0"
+    },
+    {
+      "source": "WORLD-WRITABLE EXECUTABLES",
+      "target": "ATTACK TECHNIQUE: PRIVILEGE ESCALATION",
+      "weight": 8.0,
+      "description": "\"World-writable executables can be modified by attackers to escalate privileges.\"",
+      "keywords": "\"Privilege escalation, exploitation\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "HARDWARE DESCRIPTION LANGUAGE (HDL) CODE",
+      "target": "INSECURE STATE",
+      "weight": 8.0,
+      "description": "\"Incorrectly defined parameters in HDL code can lead to an insecure state at power reset.\"",
+      "keywords": "\"security flaw, initialization vulnerability\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "CUSTOM OR PRIVATE CRYPTOGRAPHIC ALGORITHMS",
+      "target": "CRYPTOGRAPHIC LIBRARY/FRAMEWORKS",
+      "weight": 9.0,
+      "description": "\"Using a standard cryptographic library is recommended over developing custom algorithms which can introduce weaknesses.\"",
+      "keywords": "\"best practices, security enhancement\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "WORLD-READABLE HOME DIRECTORIES",
+      "target": "ATTACK TECHNIQUE: INFORMATION GATHERING",
+      "weight": 7.0,
+      "description": "\"Attackers use world-readable home directories for information gathering and reconnaissance.\"",
+      "keywords": "\"Reconnaissance, data exfiltration\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "PARAMETER VARIABLES",
+      "target": "INSECURE STATE",
+      "weight": 8.0,
+      "description": "\"Incorrect parameter settings can result in an insecure state when the system is initialized.\"",
+      "keywords": "\"security risk, initialization vulnerability\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "UNTRUSTED SOFTWARE COMPONENT",
+      "target": "WRITE-ONCE REGISTERS",
+      "weight": 16.0,
+      "description": "\"An untrusted software component can exploit write-once registers by writing to them before a trusted module, leading to a race condition.\"",
+      "keywords": "\"exploitation, security flaw\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "source": "TRUSTED SOFTWARE COMPONENT",
+      "target": "REGISTER LOCK CONTROL BITS",
+      "weight": 9.0,
+      "description": "\"The trusted software component is responsible for setting register lock control bits correctly during the boot process to secure configurations.\"",
+      "keywords": "\"security management, proper configuration\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "source": "REGISTER LOCK CONTROL BITS",
+      "target": "SECURITY SENSITIVE SETTINGS",
+      "weight": 16.0,
+      "description": "\"The proper configuration and testing of security sensitive settings require correct management with register lock control bits during the design phase.\"",
+      "keywords": "\"secure configuration, prevention\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "source": "REGISTER LOCK CONTROL BITS",
+      "target": "TRUSTED SOFTWARE MODULE (MODULE A)",
+      "weight": 9.0,
+      "description": "\"The trusted software module is responsible for setting register lock control bits correctly during the boot process to secure configurations.\"",
+      "keywords": "\"security management, proper configuration\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "source": "CHICKEN BITS",
+      "target": "INTERNAL ASSET EXPOSED TO UNSAFE DEBUG ACCESS LEVEL OR STATE",
+      "weight": 8.0,
+      "description": "\"Both entities pose risks related to unsecured debugging features and interfaces that can be exploited by attackers.\"",
+      "keywords": "\"debug interface security\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "source": "CHICKEN BITS",
+      "target": "SENSITIVE NON-VOLATILE INFORMATION NOT PROTECTED DURING DEBUGGING",
+      "weight": 18.0,
+      "description": "\"Both entities pose risks related to unsecured debugging features and interfaces that can be exploited by attackers.\"",
+      "keywords": "\"debug interface security\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "source": "WRITE-ONCE REGISTERS",
+      "target": "RACE CONDITION SECURITY FLAW",
+      "weight": 14.0,
+      "description": "\"Improper implementation of write-once registers can lead to a race condition security flaw where untrusted components exploit access before trusted ones.\"",
+      "keywords": "\"vulnerability exposure, improper implementation\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "source": "FABRIC ACCESS CONTROLS",
+      "target": "PERIPHERAL MICROCONTROLLERS",
+      "weight": 9.0,
+      "description": "\"Peripheral microcontrollers need to be secured by fabric access controls to prevent unauthorized access during the boot sequence, ensuring system security.\"",
+      "keywords": "\"secure boot sequence\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "source": "FABRIC ACCESS CONTROLS",
+      "target": "MEMORY PROTECTIONS",
+      "weight": 9.0,
+      "description": "\"Implementing memory protections complements fabric access controls in mitigating threats from untrusted components during the boot sequence.\"",
+      "keywords": "\"security measures, complementary protection\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "source": "ENTROPY ISSUES",
+      "target": "CRYPTOGRAPHIC LIBRARY/FRAMEWORKS",
+      "weight": 7.0,
+      "description": "\"A cryptographic library may be used incorrectly if its implementation does not properly manage entropy for randomness.\"",
+      "keywords": "\"implementation flaws, security risk\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "ENTROPY ISSUES",
+      "target": "CRYPTOGRAPHIC AGILITY",
+      "weight": 9.0,
+      "description": "\"Implementing cryptographic agility allows for quicker adaptation and mitigation against entropy-related vulnerabilities.\"",
+      "keywords": "\"resilience improvement, security upgrade\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "RACE CONDITION ATTACK",
+      "target": "CONCURRENCY AND SYNCHRONIZATION ISSUES",
+      "weight": 7.0,
+      "description": "\"Attackers use race conditions as a technique to exploit concurrency and synchronization problems in distributed systems.\"",
+      "keywords": "\"exploitation method, attack vector\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "source": "SENSITIVE NON-VOLATILE INFORMATION NOT PROTECTED DURING DEBUGGING",
+      "target": "INTERNAL ASSET EXPOSED TO UNSAFE DEBUG ACCESS LEVEL OR STATE",
+      "weight": 8.0,
+      "description": "\"Both vulnerabilities involve risks related to unsecured debugging interfaces that can be exploited by attackers.\"",
+      "keywords": "\"debug interface security\"",
+      "source_id": "chunk-e691098d0c2c88a9a4a0420c61274c1e"
+    },
+    {
+      "source": "RACE CONDITION SECURITY FLAW",
+      "target": "INITIALIZATION OF HARDWARE RESET VALUES",
+      "weight": 9.0,
+      "description": "\"Proper initialization of hardware reset values can mitigate race conditions by ensuring that configurations are locked down correctly from the start.\"",
+      "keywords": "\"mitigation, proper initialization\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "source": "COMPARISON LOGIC FAILURE EXPLOITATION",
+      "target": "TIMING ATTACK",
+      "weight": 9.0,
+      "description": "\"The technique of exploiting failure points in comparison logic involves the use of timing attacks to accurately guess correct data.\"",
+      "keywords": "\"exploitation method, inference attack\"",
+      "source_id": "chunk-3765fb59247c8757d841cb1e549550cf"
+    },
+    {
+      "source": "ATTACKER 1252",
+      "target": "ORIGINAL COPY VALUE MANAGEMENT SYSTEM",
+      "weight": 7.0,
+      "description": "\"An attacker exploiting vulnerabilities within the original copy's value management system can lead to unauthorized access and control over updated values.\"",
+      "keywords": "\"system manipulation, security breach\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "source": "ATTACKER 1252",
+      "target": "HARDWARE EXCLUSIVITY SUPPORT BIT",
+      "weight": 8.0,
+      "description": "\"An attacker exploits the absence or misconfiguration of this bit to insert unauthorized executable content onto memory.\"",
+      "keywords": "\"exploitation, security flaw\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "source": "CRYPTOGRAPHIC PRIMITIVE VULNERABILITY",
+      "target": "MATHEMATICAL AND ATTACK TECHNIQUES",
+      "weight": 7.0,
+      "description": "\"New mathematical discoveries can lead to new attack techniques that render cryptographic primitives like DES weak.\"",
+      "keywords": "\"research findings, technique development\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "CRYPTOGRAPHIC PRIMITIVE VULNERABILITY",
+      "target": "DES",
+      "weight": 14.0,
+      "description": "\"The use of weak cryptographic primitives like DES can expose systems to vulnerabilities that allow for easy exploitation.\"",
+      "keywords": "\"security risk, vulnerability exposure\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "SYNCHRONIZATION FAILURE IN DISTRIBUTED SYSTEMS",
+      "target": "CACHE MEMORY UPDATE ISSUE",
+      "weight": 18.0,
+      "description": "\"This attack technique targets vulnerabilities created by insufficient synchronization among distributed components.\"",
+      "keywords": "\"vulnerability exploitation, security flaw\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "source": "CRYPTOGRAPHIC AGILITY",
+      "target": "HARDWARE UPGRADE DIFFICULTY",
+      "weight": 9.0,
+      "description": "\"The difficulty in upgrading hardware cryptography is a reason for implementing cryptographic agility to make upgrades easier.\"",
+      "keywords": "\"resilience improvement, security enhancement\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "WRITE AND EXECUTE OPERATIONS CONFIGURATION ISSUE 1252",
+      "target": "MITIGATION MEASURES FOR HARDWARE EXCLUSIVITY SUPPORT BIT ISSUE",
+      "weight": 9.0,
+      "description": "\"These measures aim to prevent attackers from exploiting hardware configurations that lack exclusivity between write and execute operations.\"",
+      "keywords": "\"security enhancement, risk reduction\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "source": "WRITE AND EXECUTE OPERATIONS CONFIGURATION ISSUE 1252",
+      "target": "ATTACK TECHNIQUE 1252",
+      "weight": 8.0,
+      "description": "\"This attack technique exploits the vulnerability in CPU configuration related to the exclusivity bit.\"",
+      "keywords": "\"vulnerability exploitation, security weakness\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "source": "CHIP IMPLEMENTING BLUETOOTH",
+      "target": "LOW ENTROPY PRNG",
+      "weight": 7.0,
+      "description": "\"The chip uses a low entropy pseudo-random number generator instead of a hardware RNG, leading to potential vulnerabilities.\"",
+      "keywords": "\"vulnerability exploitation\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "source": "CUSTOM CRYPTOGRAPHIC PRIMITIVES IMPLEMENTATION",
+      "target": "ADVERSARY",
+      "weight": 8.0,
+      "description": "\"An adversary is more likely to exploit systems if custom cryptographic implementations are used without thorough security reviews.\"",
+      "keywords": "\"implementation flaw, attack vector\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "SYSTEM COMPROMISE VIA MIRRORED REGIONS WITH DIFFERENT VALUES",
+      "target": "SPOOFED UPDATE REQUESTS",
+      "weight": 8.0,
+      "description": "\"Attackers use spoofed update requests as part of their strategies to compromise systems through inconsistent mirrored regions.\"",
+      "keywords": "\"attack strategy, vulnerability exploitation\"",
+      "source_id": "chunk-a55d80a6593fc4c93fd4bb2778558e73"
+    },
+    {
+      "source": "LOW ENTROPY PRNG",
+      "target": "HARDWARE RNG",
+      "weight": 8.0,
+      "description": "\"Using a hardware RNG mitigates the risk associated with using a low-entropy PRNG by providing true randomness.\"",
+      "keywords": "\"security enhancement\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "source": "LOW ENTROPY PRNG",
+      "target": "SPOOFING ATTACK TECHNIQUE",
+      "weight": 9.0,
+      "description": "\"The spoofing attack technique exploits predictable patterns in PRNG outputs to achieve unauthorized access.\"",
+      "keywords": "\"exploitation vector\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "source": "LOW ENTROPY PRNG",
+      "target": "ATTACKER (EXPLOITING LOW ENTROPY PRNG)",
+      "weight": 9.0,
+      "description": "\"The attacker exploits the low entropy in the pseudo-random number generator to perform unauthorized actions.\"",
+      "keywords": "\"exploitation vector\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "source": "LOW ENTROPY PRNG",
+      "target": "COLLISION ATTACK",
+      "weight": 9.0,
+      "description": "\"This attack technique targets vulnerabilities created by predictable patterns in low-entropy PRNGs, leading to potential security breaches.\"",
+      "keywords": "\"exploitation vector\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "source": "LOW ENTROPY PRNG",
+      "target": "CHIP IMPLEMENTING BLUETOOTH (WITH VULNERABILITY)",
+      "weight": 7.0,
+      "description": "\"The chip implementing Bluetooth is vulnerable due to the use of a low entropy pseudo-random number generator.\"",
+      "keywords": "\"vulnerability existence\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "source": "BOOT FIRMWARE",
+      "target": "THIRD-PARTY HARDWARE IPS",
+      "weight": 7.0,
+      "description": "\"Third-party hardware IPs can compromise boot firmware integrity when they are enabled prematurely before security mechanisms like memory protections and fabric access controls are set up.\"",
+      "keywords": "\"security threat, integrity compromise\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "source": "ATTACKER FOR INCORRECT FUSE SELECTION",
+      "target": "FUSE VALUES CONFIGURATION ISSUE 1253",
+      "weight": 7.0,
+      "description": "\"The attacker manipulates security settings by changing fuse values in a way that undermines system integrity.\"",
+      "keywords": "\"exploitation of misconfiguration, security breach\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "source": "TRANSFER OF SENSITIVE INFORMATION BETWEEN CONTROL SPHERES",
+      "target": "HIDDEN DANGERS",
+      "weight": 8.0,
+      "description": "\"Improper transfer of data between control spheres exposes hidden dangers.\"",
+      "keywords": "\"security risk, exposure\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "EXPOSED DATA",
+      "target": "MISSING CRYPTOGRAPHIC STEP",
+      "weight": 7.0,
+      "description": "\"Omitting a required cryptographic step weakens encryption security and can lead to data being exposed in an unsecured manner.\"",
+      "keywords": "\"weak encryption, data exposure\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "source": "EXPOSED DATA",
+      "target": "PLAINTEXT TRANSMISSION OF SENSITIVE INFORMATION",
+      "weight": 8.0,
+      "description": "\"Transmitting sensitive data in plaintext increases the risk of exposing that data to unauthorized access.\"",
+      "keywords": "\"data exposure, security breach\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "source": "FUSE VALUES CONFIGURATION ISSUE 1253",
+      "target": "MITIGATION MEASURES FOR INCORRECT FUSE VALUES SELECTION",
+      "weight": 9.0,
+      "description": "\"These mitigation strategies aim at reinforcing security mechanisms related to fuse values and system configuration.\"",
+      "keywords": "\"security reinforcement, risk management\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "source": "FUSE VALUES CONFIGURATION ISSUE 1253",
+      "target": "ATTACK TECHNIQUE 1253 - INCORRECT FUSE SELECTION",
+      "weight": 8.0,
+      "description": "\"This technique involves exploiting a flaw in how security states are determined based on fuse settings.\"",
+      "keywords": "\"security misconfiguration exploitation, system integrity compromise\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "source": "HARDWARE IMPLEMENTATION OF CRYPTOGRAPHY",
+      "target": "DES",
+      "weight": 7.0,
+      "description": "\"Using DES in hardware implementations can render the product vulnerable over time due to increasing computational power available to attackers.\"",
+      "keywords": "\"hardware risk, long-term vulnerability\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "COLLISION ATTACK",
+      "target": "UNAUTHORIZED ACCESS TACTIC",
+      "weight": 8.0,
+      "description": "\"The tactic of unauthorized access is achieved through the use of collision attacks that exploit predictable patterns in PRNGs.\"",
+      "keywords": "\"tactical exploitation\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "source": "COLLISION ATTACK",
+      "target": "RECOMMENDATION FOR DUAL_EC_DRBG ALGORITHM",
+      "weight": 8.0,
+      "description": "\"Avoiding the recommendation for using the Dual_EC_DRBG algorithm mitigates potential attacks such as collision attacks.\"",
+      "keywords": "\"mitigation vector\"",
+      "source_id": "chunk-e70013d85904f7d1efc7a9e808395e0a"
+    },
+    {
+      "source": "CONCURRENCY AND SYNCHRONIZATION ISSUES",
+      "target": "SYNCHRONIZATION VULNERABILITY 1250",
+      "weight": 7.0,
+      "description": "\"Vulnerabilities often stem from inadequate handling of concurrency issues leading to inconsistencies.\"",
+      "keywords": "\"inconsistency risk, operational complexity\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "source": "ORIGINAL COPY VALUE MANAGEMENT SYSTEM",
+      "target": "SHADOW COPY UPDATE MECHANISM",
+      "weight": 8.0,
+      "description": "\"These systems are interconnected and must synchronize updates to maintain data integrity.\"",
+      "keywords": "\"data synchronization, operational dependency\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "source": "ORIGINAL COPY VALUE MANAGEMENT SYSTEM",
+      "target": "UPDATE REQUEST PROTOCOL",
+      "weight": 8.0,
+      "description": "\"The value management system relies on proper execution of update request protocols to ensure synchronized updates.\"",
+      "keywords": "\"dependency, security integrity\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "source": "SECURE PRODUCT DESIGN GUIDANCE",
+      "target": "SYSTEM-SECURITY STATE DETERMINATION LOGIC",
+      "weight": 8.0,
+      "description": "\"Guidance advises against relying on negative logic-based fuse systems to ensure robust security mechanisms are in place.\"",
+      "keywords": "\"security best practices, design guidance\"",
+      "source_id": "chunk-3765fb59247c8757d841cb1e549550cf"
+    },
+    {
+      "source": "MITIGATION MEASURES",
+      "target": "HIDDEN DANGERS",
+      "weight": 9.0,
+      "description": "\"Effective mitigation measures address hidden dangers by ensuring proper clearance practices and secure default permissions.\"",
+      "keywords": "\"security enhancement, vulnerability reduction\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "MITIGATION MEASURES",
+      "target": "INCORRECT DEFAULT FILE PERMISSIONS",
+      "weight": 9.0,
+      "description": "\"Setting proper default file permissions mitigates the security risks associated with incorrect defaults.\"",
+      "keywords": "\"secure configuration, vulnerability reduction\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "SHADOW COPY UPDATE MECHANISM",
+      "target": "SYNCHRONIZATION VULNERABILITY 1250",
+      "weight": 7.0,
+      "description": "\"This mechanism is prone to vulnerabilities when not designed with robust synchronization protocols.\"",
+      "keywords": "\"protocol deficiency, security flaw\"",
+      "source_id": "chunk-654843afa7d21ff70e90b3e1ef92c37f"
+    },
+    {
+      "source": "SOFTWARE MODULE (E.G., BIOS/BOOTLOADER)",
+      "target": "SYSTEM CONFIGURATION REGISTERS AND ADDRESS REGIONS",
+      "weight": 9.0,
+      "description": "\"The software module initializes and configures these registers post-power reset, ensuring they are locked for integrity and confidentiality after initial setup.\"",
+      "keywords": "\"secure initialization, configuration management\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "SOFTWARE MODULE (E.G., BIOS/BOOTLOADER)",
+      "target": "HDL CODE (HARDWARE DESCRIPTION LANGUAGE)",
+      "weight": 9.0,
+      "description": "\"The software module uses HDL code to define initial values for hardware components during the boot process.\"",
+      "keywords": "\"hardware definition, secure boot sequence\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "SENSITIVE INFORMATION UNCLEARED BEFORE USE",
+      "target": "ATTACK TECHNIQUES",
+      "weight": 9.0,
+      "description": "\"Techniques are used to exploit uncleared sensitive information in reusable resources.\"",
+      "keywords": "\"exploit vulnerability, unauthorized access\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "CWE-325",
+      "target": "NONCES FOR CHACHA20-POLY1305 CIPHER",
+      "weight": 8.0,
+      "description": "\"Skipping essential steps in cryptographic implementations can lead to vulnerabilities like those seen with nonces in the ChaCha20-Poly1305 cipher.\"",
+      "keywords": "\"implementation flaws, security risks\"",
+      "source_id": "chunk-a8ce63219639ac3ccda8f5f97256d087"
+    },
+    {
+      "source": "TRUSTED LOCK BIT",
+      "target": "DESIGN FLAWS IN HARDWARE IMPLEMENTATION",
+      "weight": 8.0,
+      "description": "\"Implementation flaws can cause the trusted lock bit to become modifiable by attackers after it has been set, compromising system security.\"",
+      "keywords": "\"security vulnerability, post-initialization protection failure\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "OPERATING SYSTEM (OS)",
+      "target": "REMOTE ATTACKERS",
+      "weight": 9.0,
+      "description": "\"Remote attackers use the OS’s feedback mechanism during login attempts to perform brute force attacks by analyzing different error messages.\"",
+      "keywords": "\"password guessing, information leakage\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "SECURE BOOT PROCESS",
+      "target": "CHAIN OF TRUST",
+      "weight": 18.0,
+      "description": "\"The secure boot process establishes the chain of trust to ensure secure execution from the root of trust.\"",
+      "keywords": "\"ensure secure startup\"<SEP>\"establish security framework\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "source": "VERSION CONTROL SYSTEM (VCS)",
+      "target": "REMOTE ATTACKERS",
+      "weight": 7.0,
+      "description": "\"VCS’s differing responses allow remote attackers to perform reconnaissance and identify file existence for further exploitation.\"",
+      "keywords": "\"reconnaissance, file enumeration\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "PRODUCT WITH DIFFERENT TTL RESPONSES",
+      "target": "REMOTE ATTACKERS",
+      "weight": 7.0,
+      "description": "\"Remote attackers exploit the product’s varying TTL responses to identify filtered ports and network configurations.\"",
+      "keywords": "\"network configuration, information gathering\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "CHAIN OF TRUST",
+      "target": "FAULT ATTACKS (VOLTAGE AND CLOCK GLITCHES)",
+      "weight": 16.0,
+      "description": "\"Fault attacks can bypass secure boot processes that rely on a chain of trust, exploiting system vulnerabilities.\"",
+      "keywords": "\"bypass protection mechanisms\"<SEP>\"bypass security measures\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "source": "EXPECTED BEHAVIOR VIOLATION",
+      "target": "UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')",
+      "weight": 14.0,
+      "description": "\"Both vulnerabilities arise from unexpected behavior that can cause applications to forward requests without proper source context, leading to potential security breaches.\"<SEP>\"Both vulnerabilities can arise from unexpected behavior in software components, leading to potential security breaches.\"",
+      "keywords": "\"unexpected behavior, security breach\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "source": "FAULT ATTACKS (VOLTAGE AND CLOCK GLITCHES)",
+      "target": "POWER MANAGEMENT HARDWARE",
+      "weight": 14.0,
+      "description": "\"Attacks on power management hardware can disrupt system stability, leading to unauthorized access or command execution.\"",
+      "keywords": "\"disrupt operations\"<SEP>\"disrupt system operations\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "source": "FAULT ATTACKS (VOLTAGE AND CLOCK GLITCHES)",
+      "target": "CLOCK/COUNTER HARDWARE",
+      "weight": 8.0,
+      "description": "\"Fault attacks exploit clock and counter hardware to manipulate timing and counting mechanisms for malicious purposes.\"",
+      "keywords": "\"timing manipulation\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "source": "INTEGRATED CIRCUITS AND HARDWARE IP SOFTWARE PROGRAMMABLE CONTROLS",
+      "target": "REGISTER CIRCUITS",
+      "weight": 8.0,
+      "description": "\"These programmable controls are stored within register circuits, which manage system configuration and security.\"",
+      "keywords": "\"configuration management, secure initialization\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "ERROR MESSAGE MINIMIZATION",
+      "target": "OBSERVABLE DISCREPANCY VULNERABILITY ",
+      "weight": 8.0,
+      "description": "\"Reducing details in error messages mitigates risks associated with observable discrepancies by limiting information available to attackers.\"",
+      "keywords": "\"mitigation\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "SIDE CHANNEL ATTACK PATTERNS",
+      "target": "OBSERVABLE DISCREPANCY ",
+      "weight": 10.0,
+      "description": "\"Exploitation of Observable Discrepancies can involve techniques such as side-channel attacks that infer sensitive details from behavior variations.\"",
+      "keywords": "\"exploit method\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "FTP SERVER",
+      "target": "REMOTE ATTACKERS",
+      "weight": 8.0,
+      "description": "\"Remote attackers use FTP server's different response times for non-existent versus existing usernames to conduct brute force attacks.\"",
+      "keywords": "\"user enumeration, brute force attacks\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "SEPARATION OF PRIVILEGE",
+      "target": "OBSERVABLE DISCREPANCY VULNERABILITY",
+      "weight": 9.0,
+      "description": "\"Implementing separation of privilege reduces the risk of exposing internal state through observable discrepancies.\"",
+      "keywords": "\"mitigation\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "CRYPTOGRAPHY IMPLEMENTATION WEAKNESSES",
+      "target": "STATIC APPLICATION SECURITY TESTING (SAST)",
+      "weight": 8.0,
+      "description": "\"SAST tools can detect weaknesses related to improper cryptographic implementations in source code or binaries.\"",
+      "keywords": "\"detect weakness\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "CRYPTOGRAPHY IMPLEMENTATION WEAKNESSES",
+      "target": "CRYPTOGRAPHIC FUNCTIONS",
+      "weight": 6.0,
+      "description": "\"Improper implementation or use of cryptographic functions can lead to weaknesses that allow for plaintext transmission of sensitive data.\"",
+      "keywords": "\"function misuse\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "SENSOR HARDWARE",
+      "target": "MANUAL ANALYSIS METHOD",
+      "weight": 9.0,
+      "description": "\"Sensors are used during manual analysis to detect anomalies caused by fault attacks such as voltage and clock glitches.\"",
+      "keywords": "\"anomaly detection\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "source": "UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')",
+      "target": "SOFTWARE APPLICATION",
+      "weight": 9.0,
+      "description": "\"This attack technique targets the vulnerabilities of a software application that improperly forwards requests without preserving source information.\"",
+      "keywords": "\"attack vector, vulnerability exploitation\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')",
+      "target": "MUTUAL AUTHENTICATION MECHANISM",
+      "weight": 8.0,
+      "description": "\"The mitigation measure helps prevent an attacker from successfully exploiting the proxy functionality of a software application.\"",
+      "keywords": "\"defense mechanism, protection against attack\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "DEBUG INTERFACE SECURITY LOGIC",
+      "target": "ARCHITECTURE OR DESIGN REVIEW",
+      "weight": 8.0,
+      "description": "\"A review of the design ensures that security logic for debug interfaces is robust against fault attacks.\"",
+      "keywords": "\"prevent unauthorized access\"",
+      "source_id": "chunk-f33f72f8ec6e026ca0374d2967ab51e1"
+    },
+    {
+      "source": "SIGN THEN SEAL SENSITIVE OBJECTS BEFORE SENDING THEM OUTSIDE A TRUST BOUNDARY",
+      "target": "PLAINTEXT TRANSMISSION OF SENSITIVE INFORMATION",
+      "weight": 9.0,
+      "description": "\"This mitigation technique prevents the issue of transmitting sensitive information in plaintext by ensuring proper signing and sealing.\"",
+      "keywords": "\"mitigation, secure transmission\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "source": "IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)",
+      "target": "DIRECT MEMORY ACCESS (DMA)",
+      "weight": 7.0,
+      "description": "\"When shared resources are improperly isolated on SoCs, they can be exploited by DMA devices for unauthorized data access.\"",
+      "keywords": "\"exploit, vulnerability\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "ADVERSARY",
+      "target": "DES",
+      "weight": 16.0,
+      "description": "\"The adversary can use a brute force attack on systems using DES due to its known vulnerability.\"",
+      "keywords": "\"exploitation, vulnerability exposure\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "HIDDEN DANGERS",
+      "target": "SOFTWARE",
+      "weight": 9.0,
+      "description": "\"The software contains hidden dangers such as improper memory clearance and insecure default file permissions that can be exploited by attackers.\"",
+      "keywords": "\"vulnerability exposure, security risk\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "DES",
+      "target": "WEAK KEY LENGTHS",
+      "weight": 8.0,
+      "description": "\"DES has a 56-bit key length which is now considered too short and vulnerable to brute force attacks.\"",
+      "keywords": "\"vulnerability, security weakness\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "DES",
+      "target": "BRUTE FORCE ATTACK",
+      "weight": 18.0,
+      "description": "\"A brute force attack is the method used by attackers to crack keys of the 56-bit length in DES encryption.\"",
+      "keywords": "\"attack technique, key cracking\"",
+      "source_id": "chunk-0ba9bcc27d44c280c13ec45a0c7dae7c"
+    },
+    {
+      "source": "SOFTWARE CLEARED AFTER USE",
+      "target": "MITIGATION MEASURES - CLEARING DATA BEFORE RESOURCE RELEASE",
+      "weight": 9.0,
+      "description": "\"Clearing software implements mitigation measures that require overwriting or clearing data before releasing a resource.\"",
+      "keywords": "\"security implementation, protection against exploitation\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "ATTACK TECHNIQUES - READING UNCLEARED DATA",
+      "target": "TACTIC - INFORMATION GATHERING THROUGH EXPLOITATION",
+      "weight": 7.0,
+      "description": "\"An attacker uses information gathering tactics that involve exploiting uncleared data in resources to gain sensitive details.\"",
+      "keywords": "\"tactical exploitation, data collection\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "ATTACK TECHNIQUES - READING UNCLEARED DATA",
+      "target": "VULNERABILITY - UNCLEARED SENSITIVE DATA BEFORE RESOURCE RELEASE",
+      "weight": 8.0,
+      "description": "\"The attack technique exploits the vulnerability of uncleared sensitive data in reused resources.\"",
+      "keywords": "\"vulnerability exploitation, security weakness\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "OPERATING SYSTEM",
+      "target": "REMOTE ATTACKERS",
+      "weight": 9.0,
+      "description": "\"Attackers use the different messages displayed by an OS for login attempts as a guide to guess passwords via brute force methods.\"",
+      "keywords": "\"vulnerability exploitation, information leakage\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "MUTUAL AUTHENTICATION MECHANISM",
+      "target": "CONFUSED DEPUTY ATTACK PATTERN",
+      "weight": 9.0,
+      "description": "\"Strong mutual authentication between parties helps prevent the 'Confused Deputy' attack by ensuring identity immutability across transactions.\"",
+      "keywords": "\"Defense, Protection\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "MUTUAL AUTHENTICATION MECHANISM",
+      "target": "IMMUTABILITY OF INITIATOR'S IDENTITY",
+      "weight": 9.0,
+      "description": "\"Maintaining initiator identity and strong mutual authentication work together to protect transactions from being exploited by an intermediary system.\"",
+      "keywords": "\"security measure, transaction integrity\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "VULNERABILITY - UNCLEARED SENSITIVE DATA BEFORE RESOURCE RELEASE",
+      "target": "TARGET OBJECT - REUSED RESOURCES (MEMORY/DISK)",
+      "weight": 9.0,
+      "description": "\"Uncleared sensitive data in reused resources like memory or disk space presents a significant vulnerability.\"",
+      "keywords": "\"data security risk, potential exploitation\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "ATTACKER - INFORMATION GATHERER",
+      "target": "ATTACK TECHNIQUES - INFOLEAK FROM UNRELEASED RESOURCES",
+      "weight": 8.0,
+      "description": "\"An attacker employs techniques to read uncleared information in reused resources like memory or disk spaces.\"",
+      "keywords": "\"exploitation technique, data leakage risk\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "SOFTWARE - MEMORY MANAGEMENT",
+      "target": "MITIGATION MEASURES - OVERWRITE ON RELEASE",
+      "weight": 9.0,
+      "description": "\"Memory management software implements overwriting measures before releasing a resource to mitigate the risk of uncleared data exposure.\"",
+      "keywords": "\"security measure implementation, protection against exploitation\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "CONFUSED DEPUTY ATTACK PATTERN",
+      "target": "CONFUSED DEPUTY VULNERABILITY",
+      "weight": 9.0,
+      "description": "\"The 'Confused Deputy' attack pattern directly targets the vulnerability where an intermediary system incorrectly forwards requests without maintaining original source information.\"",
+      "keywords": "\"Exploitation, Weakness\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "BULLETIN BOARD SOFTWARE",
+      "target": "REMOTE ATTACKERS",
+      "weight": 16.0,
+      "description": "\"Remote attackers exploit Bulletin Board's different error messages for user checks, aiding brute force password guessing.\"<SEP>\"Remote attackers use Bulletin Board Software's inconsistent error messages to conduct brute force password guessing attacks.\"",
+      "keywords": "\"information leakage, brute force attacks\"<SEP>\"vulnerability exploitation, information leakage\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "source": "ATTACK TECHNIQUES - INFOLEAK FROM UNRELEASED RESOURCES",
+      "target": "TACTIC - EXPLOIT UNCLEARING PRACTICES",
+      "weight": 7.0,
+      "description": "\"An attacker uses the tactic of exploiting uncleared practices by employing specific attack techniques to access sensitive data.\"",
+      "keywords": "\"tactical exploitation, data leakage risk management\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "ATTACK TECHNIQUES - INFOLEAK FROM UNRELEASED RESOURCES",
+      "target": "VULNERABILITY - MEMORY NOT CLEARED POST-USE",
+      "weight": 8.0,
+      "description": "\"This attack technique targets and exploits a vulnerability where memory or other resources are not cleared after use.\"",
+      "keywords": "\"exploitation of security weaknesses, data leakage risk\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "CONFUSED DEPUTY VULNERABILITY",
+      "target": "TARGET SYSTEM",
+      "weight": 8.0,
+      "description": "\"The vulnerability allows an attacker to target a system or service through intermediary software, leading to unauthorized access or activity masking.\"",
+      "keywords": "\"Attack Vector, Security Breach\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "IMPROPER FINITE STATE MACHINES (FSMS)",
+      "target": "JTAG ACCESS VULNERABILITY",
+      "weight": 7.0,
+      "description": "\"Faulty FSMs in conjunction with JTAG access vulnerabilities can lead to system instability and unauthorized privilege escalation scenarios.\"",
+      "keywords": "\"system instability, security compromise\"",
+      "source_id": "chunk-a486a4935548559d90f50ff1c1104c21"
+    },
+    {
+      "source": "VULNERABILITY - MEMORY NOT CLEARED POST-USE",
+      "target": "TARGET OBJECT - MEMORY AND DISK RESOURCES",
+      "weight": 9.0,
+      "description": "\"Memory segments, disk space, and other resources remain vulnerable if not properly cleared after use, risking uncleared data exposure.\"",
+      "keywords": "\"data security risk, potential exploitation hazard\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "FUSES",
+      "target": "SYSTEM-SECURITY STATE DETERMINATION LOGIC",
+      "weight": 8.0,
+      "description": "\"The logic used to determine the system's security state relies heavily on values sensed from fuses. If this logic is compromised, it can lead to an insecure state.\"",
+      "keywords": "\"logic dependency, security impact\"",
+      "source_id": "chunk-3765fb59247c8757d841cb1e549550cf"
+    },
+    {
+      "source": "SYSTEM CALL TRACING UTILITIES (E.G., TRUSS, STRACE)",
+      "target": "SENSITIVE INFORMATION TRANSMISSION IN PLAIN TEXT",
+      "weight": 7.0,
+      "description": "\"These utilities can be used to trace system calls and detect plaintext transmission of sensitive information.\"",
+      "keywords": "\"trace activity\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "SYSTEM-SECURITY STATE DETERMINATION LOGIC",
+      "target": "NEGATIVE LOGIC",
+      "weight": 9.0,
+      "description": "\"Using negative logic in the system-security state determination logic allows attackers to exploit and manipulate fuses for malicious purposes.\"",
+      "keywords": "\"vulnerability exploitation, logical manipulation\"",
+      "source_id": "chunk-3765fb59247c8757d841cb1e549550cf"
+    },
+    {
+      "source": "NETWORK SNIFFERS AND PROTOCOL ANALYZERS",
+      "target": "SENSITIVE INFORMATION TRANSMISSION IN PLAIN TEXT",
+      "weight": 9.0,
+      "description": "\"These tools are used to capture network traffic, including plaintext transmissions of sensitive information.\"",
+      "keywords": "\"capture traffic\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "WORLD-WRITABLE LOG FILES",
+      "target": "ATTACK TECHNIQUE: EVIDENCE TAMPERING",
+      "weight": 8.0,
+      "description": "\"Attackers exploit writable log files to tamper with evidence or hide their tracks by altering logs.\"",
+      "keywords": "\"Tampering, data destruction\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    }
+  ]
+}
