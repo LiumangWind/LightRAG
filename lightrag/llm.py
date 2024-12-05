@@ -478,6 +478,7 @@ class GPTKeywordExtractionFormat(BaseModel):
 async def gpt_4o_complete(
     prompt, system_prompt=None, history_messages=[], keyword_extraction=False, **kwargs
 ) -> str:
+    keyword_extraction = kwargs.pop("keyword_extraction", None)
     if keyword_extraction:
         kwargs["response_format"] = GPTKeywordExtractionFormat
     return await openai_complete_if_cache(
@@ -492,6 +493,7 @@ async def gpt_4o_complete(
 async def gpt_4o_mini_complete(
     prompt, system_prompt=None, history_messages=[], keyword_extraction=False, **kwargs
 ) -> str:
+    keyword_extraction = kwargs.pop("keyword_extraction", None)
     if keyword_extraction:
         kwargs["response_format"] = GPTKeywordExtractionFormat
     return await openai_complete_if_cache(
@@ -502,11 +504,13 @@ async def gpt_4o_mini_complete(
         **kwargs,
     )
 
+
 async def nvidia_openai_complete(
     prompt, system_prompt=None, history_messages=[], keyword_extraction=False, **kwargs
 ) -> str:
+    keyword_extraction = kwargs.pop("keyword_extraction", None)
     result = await openai_complete_if_cache(
-        "nvidia/llama-3.1-nemotron-70b-instruct", #context length 128k
+        "nvidia/llama-3.1-nemotron-70b-instruct",  # context length 128k
         prompt,
         system_prompt=system_prompt,
         history_messages=history_messages,
@@ -517,9 +521,11 @@ async def nvidia_openai_complete(
         return locate_json_string_body_from_string(result)
     return result
 
+
 async def azure_openai_complete(
     prompt, system_prompt=None, history_messages=[], keyword_extraction=False, **kwargs
 ) -> str:
+    keyword_extraction = kwargs.pop("keyword_extraction", None)
     result = await azure_openai_complete_if_cache(
         "conversation-4o-mini",
         prompt,
@@ -535,6 +541,7 @@ async def azure_openai_complete(
 async def bedrock_complete(
     prompt, system_prompt=None, history_messages=[], keyword_extraction=False, **kwargs
 ) -> str:
+    keyword_extraction = kwargs.pop("keyword_extraction", None)
     result = await bedrock_complete_if_cache(
         "anthropic.claude-3-haiku-20240307-v1:0",
         prompt,
@@ -550,6 +557,7 @@ async def bedrock_complete(
 async def hf_model_complete(
     prompt, system_prompt=None, history_messages=[], keyword_extraction=False, **kwargs
 ) -> str:
+    keyword_extraction = kwargs.pop("keyword_extraction", None)
     model_name = kwargs["hashing_kv"].global_config["llm_model_name"]
     result = await hf_model_if_cache(
         model_name,
@@ -566,6 +574,7 @@ async def hf_model_complete(
 async def ollama_model_complete(
     prompt, system_prompt=None, history_messages=[], keyword_extraction=False, **kwargs
 ) -> str:
+    keyword_extraction = kwargs.pop("keyword_extraction", None)
     if keyword_extraction:
         kwargs["format"] = "json"
     model_name = kwargs["hashing_kv"].global_config["llm_model_name"]
@@ -610,12 +619,12 @@ async def openai_embedding(
 )
 async def nvidia_openai_embedding(
     texts: list[str],
-    model: str = "nvidia/llama-3.2-nv-embedqa-1b-v1", #refer to https://build.nvidia.com/nim?filters=usecase%3Ausecase_text_to_embedding
+    model: str = "nvidia/llama-3.2-nv-embedqa-1b-v1",  # refer to https://build.nvidia.com/nim?filters=usecase%3Ausecase_text_to_embedding
     base_url: str = "https://integrate.api.nvidia.com/v1",
     api_key: str = None,
-    input_type: str = "passage", #query for retrieval, passage for embedding
-    trunc: str = "NONE", #NONE or START or END
-    encode: str = "float" #float or base64
+    input_type: str = "passage",  # query for retrieval, passage for embedding
+    trunc: str = "NONE",  # NONE or START or END
+    encode: str = "float",  # float or base64
 ) -> np.ndarray:
     if api_key:
         os.environ["OPENAI_API_KEY"] = api_key
@@ -624,9 +633,13 @@ async def nvidia_openai_embedding(
         AsyncOpenAI() if base_url is None else AsyncOpenAI(base_url=base_url)
     )
     response = await openai_async_client.embeddings.create(
-        model=model, input=texts, encoding_format=encode, extra_body={"input_type": input_type, "truncate": trunc}
+        model=model,
+        input=texts,
+        encoding_format=encode,
+        extra_body={"input_type": input_type, "truncate": trunc},
     )
     return np.array([dp.embedding for dp in response.data])
+
 
 @wrap_embedding_func_with_attrs(embedding_dim=1536, max_token_size=8191)
 @retry(
