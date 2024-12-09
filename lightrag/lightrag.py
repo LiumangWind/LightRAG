@@ -46,6 +46,8 @@ from .kg.oracle_impl import OracleKVStorage, OracleGraphStorage, OracleVectorDBS
 
 from .kg.milvus_impl import MilvusVectorDBStorge
 
+from .kg.mongo_impl import MongoKVStorage
+
 # future KG integrations
 
 # from .kg.ArangoDB_impl import (
@@ -83,7 +85,14 @@ class LightRAG:
     working_dir: str = field(
         default_factory=lambda: f"./lightrag_cache_{datetime.now().strftime('%Y-%m-%d-%H:%M:%S')}"
     )
-
+    # Default not to use embedding cache
+    embedding_cache_config: dict = field(
+        default_factory=lambda: {
+            "enabled": False,
+            "similarity_threshold": 0.95,
+            "use_llm_check": False,
+        }
+    )
     kv_storage: str = field(default="JsonKVStorage")
     vector_storage: str = field(default="NanoVectorDBStorage")
     graph_storage: str = field(default="NetworkXStorage")
@@ -169,7 +178,6 @@ class LightRAG:
             if self.enable_llm_cache
             else None
         )
-
         self.embedding_func = limit_async_func_call(self.embedding_func_max_async)(
             self.embedding_func
         )
@@ -227,6 +235,7 @@ class LightRAG:
             # kv storage
             "JsonKVStorage": JsonKVStorage,
             "OracleKVStorage": OracleKVStorage,
+            "MongoKVStorage": MongoKVStorage,
             # vector storage
             "NanoVectorDBStorage": NanoVectorDBStorage,
             "OracleVectorDBStorage": OracleVectorDBStorage,
@@ -475,6 +484,7 @@ class LightRAG:
                 self.text_chunks,
                 param,
                 asdict(self),
+                hashing_kv=self.llm_response_cache,
             )
         elif param.mode == "naive":
             response = await naive_query(
@@ -483,6 +493,7 @@ class LightRAG:
                 self.text_chunks,
                 param,
                 asdict(self),
+                hashing_kv=self.llm_response_cache,
             )
         else:
             raise ValueError(f"Unknown mode {param.mode}")
