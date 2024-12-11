@@ -17,6 +17,17 @@ import tiktoken
 
 from lightrag.prompt import PROMPTS
 
+
+class UnlimitedSemaphore:
+    """A context manager that allows unlimited access."""
+
+    async def __aenter__(self):
+        pass
+
+    async def __aexit__(self, exc_type, exc, tb):
+        pass
+
+
 ENCODER = None
 
 logger = logging.getLogger("lightrag")
@@ -42,9 +53,17 @@ class EmbeddingFunc:
     embedding_dim: int
     max_token_size: int
     func: callable
+    concurrent_limit: int = 16
+
+    def __post_init__(self):
+        if self.concurrent_limit != 0:
+            self._semaphore = asyncio.Semaphore(self.concurrent_limit)
+        else:
+            self._semaphore = UnlimitedSemaphore()
 
     async def __call__(self, *args, **kwargs) -> np.ndarray:
-        return await self.func(*args, **kwargs)
+        async with self._semaphore:
+            return await self.func(*args, **kwargs)
 
 
 def locate_json_string_body_from_string(content: str) -> Union[str, None]:
@@ -488,7 +507,7 @@ class CacheData:
 
 
 async def save_to_cache(hashing_kv, cache_data: CacheData):
-    if hashing_kv is None:
+    if hashing_kv is None or hasattr(cache_data.content, "__aiter__"):
         return
 
     mode_cache = await hashing_kv.get_by_id(cache_data.mode) or {}
@@ -507,3 +526,20 @@ async def save_to_cache(hashing_kv, cache_data: CacheData):
     }
 
     await hashing_kv.upsert({cache_data.mode: mode_cache})
+
+
+def safe_unicode_decode(content):
+    # Regular expression to find all Unicode escape sequences of the form \uXXXX
+    unicode_escape_pattern = re.compile(r"\\u([0-9a-fA-F]{4})")
+
+    # Function to replace the Unicode escape with the actual character
+    def replace_unicode_escape(match):
+        # Convert the matched hexadecimal value into the actual Unicode character
+        return chr(int(match.group(1), 16))
+
+    # Perform the substitution
+    decoded_content = unicode_escape_pattern.sub(
+        replace_unicode_escape, content.decode("utf-8")
+    )
+
+    return decoded_content

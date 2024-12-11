@@ -27,7 +27,7 @@ Use {language} as output language.
     ("type": "Vulnerability","description": "A software defect or weakness that an attacker can exploit to access a system or network. Vulnerabilities may include flaws and weaknesses, and the relationship between vulnerability and target entities is represented as an 'Exist_in' relationship."),
     ("type": "Target Entity","description": "The entity that an attacker targets in an attack, including applications, systems, platforms, etc.")]
 - entity_description: Comprehensive description of the entity's attributes and activities
-Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>
+Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
 
 2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.
 For each pair of related entities, extract the following information:
@@ -268,12 +268,6 @@ Do not include information where the supporting evidence for it is not provided.
 {content_data}
 
 Add sections and commentary to the response as appropriate for the length and format. Style the response in markdown.
-
----Documents---
-
-{content_data}
-
-Add sections and commentary to the response as appropriate for the length and format. Style the response in markdown.
 """
 
 PROMPTS[
@@ -283,14 +277,19 @@ PROMPTS[
 Question 1: {original_prompt}
 Question 2: {cached_prompt}
 
-Please evaluate:
+Please evaluate the following two points and provide a similarity score between 0 and 1 directly:
 1. Whether these two questions are semantically similar
 2. Whether the answer to Question 2 can be used to answer Question 1
-
-Please provide a similarity score between 0 and 1, where:
-0: Completely unrelated or answer cannot be reused
+Similarity score criteria:
+0: Completely unrelated or answer cannot be reused, including but not limited to:
+   - The questions have different topics
+   - The locations mentioned in the questions are different
+   - The times mentioned in the questions are different
+   - The specific individuals mentioned in the questions are different
+   - The specific events mentioned in the questions are different
+   - The background information in the questions is different
+   - The key conditions in the questions are different
 1: Identical and answer can be directly reused
 0.5: Partially related and answer needs modification to be used
-
 Return only a number between 0-1, without any additional content.
 """

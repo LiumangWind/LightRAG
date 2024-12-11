@@ -222,7 +222,7 @@ async def _merge_edges_then_upsert(
                 },
             )
     description = await _handle_entity_relation_summary(
-        (src_id, tgt_id), description, global_config
+        f"({src_id}, {tgt_id})", description, global_config
     )
     await knowledge_graph_inst.upsert_edge(
         src_id,
@@ -260,6 +260,9 @@ async def extract_entities(
     language = global_config["addon_params"].get(
         "language", PROMPTS["DEFAULT_LANGUAGE"]
     )
+    entity_types = global_config["addon_params"].get(
+        "entity_types", PROMPTS["DEFAULT_ENTITY_TYPES"]
+    )
     example_number = global_config["addon_params"].get("example_number", None)
     if example_number and example_number < len(PROMPTS["entity_extraction_examples"]):
         examples = "\n".join(
@@ -272,7 +275,7 @@ async def extract_entities(
         tuple_delimiter=PROMPTS["DEFAULT_TUPLE_DELIMITER"],
         record_delimiter=PROMPTS["DEFAULT_RECORD_DELIMITER"],
         completion_delimiter=PROMPTS["DEFAULT_COMPLETION_DELIMITER"],
-        entity_types=",".join(PROMPTS["DEFAULT_ENTITY_TYPES"]),
+        entity_types=",".join(entity_types),
         language=language,
     )
     # add example's format
@@ -283,7 +286,7 @@ async def extract_entities(
         tuple_delimiter=PROMPTS["DEFAULT_TUPLE_DELIMITER"],
         record_delimiter=PROMPTS["DEFAULT_RECORD_DELIMITER"],
         completion_delimiter=PROMPTS["DEFAULT_COMPLETION_DELIMITER"],
-        entity_types=",".join(PROMPTS["DEFAULT_ENTITY_TYPES"]),
+        entity_types=",".join(entity_types),
         examples=examples,
         language=language,
     )
@@ -412,14 +415,16 @@ async def extract_entities(
     ):
         all_relationships_data.append(await result)
 
-    if not len(all_entities_data):
-        logger.warning("Didn't extract any entities, maybe your LLM is not working")
-        return None
-    if not len(all_relationships_data):
+    if not len(all_entities_data) and not len(all_relationships_data):
         logger.warning(
-            "Didn't extract any relationships, maybe your LLM is not working"
+            "Didn't extract any entities and relationships, maybe your LLM is not working"
         )
         return None
+
+    if not len(all_entities_data):
+        logger.warning("Didn't extract any entities")
+    if not len(all_relationships_data):
+        logger.warning("Didn't extract any relationships")
 
     if entity_vdb is not None:
         data_for_vdb = {
@@ -572,7 +577,6 @@ async def kg_query(
             mode=query_param.mode,
         ),
     )
-
     return response
 
 
@@ -631,6 +635,13 @@ async def _build_query_context(
                 text_chunks_db,
                 query_param,
             )
+            if (
+                hl_entities_context == ""
+                and hl_relations_context == ""
+                and hl_text_units_context == ""
+            ):
+                logger.warn("No high level context found. Switching to local mode.")
+                query_param.mode = "local"
     if query_param.mode == "hybrid":
         entities_context, relations_context, text_units_context = combine_contexts(
             [hl_entities_context, ll_entities_context],
@@ -866,7 +877,7 @@ async def _get_edge_data(
     results = await relationships_vdb.query(keywords, top_k=query_param.top_k)
 
     if not len(results):
-        return None
+        return "", "", ""
 
     edge_datas = await asyncio.gather(
         *[knowledge_graph_inst.get_edge(r["src_id"], r["tgt_id"]) for r in results]
@@ -990,23 +1001,37 @@ async def _find_related_text_unit_from_relationships(
     for index, unit_list in enumerate(text_units):
         for c_id in unit_list:
             if c_id not in all_text_units_lookup:
-                all_text_units_lookup[c_id] = {
-                    "data": await text_chunks_db.get_by_id(c_id),
-                    "order": index,
-                }
+                chunk_data = await text_chunks_db.get_by_id(c_id)
+                # Only store valid data
+                if chunk_data is not None and "content" in chunk_data:
+                    all_text_units_lookup[c_id] = {
+                        "data": chunk_data,
+                        "order": index,
+                    }
 
-    if any([v is None for v in all_text_units_lookup.values()]):
-        logger.warning("Text chunks are missing, maybe the storage is damaged")
-    all_text_units = [
-        {"id": k, **v} for k, v in all_text_units_lookup.items() if v is not None
-    ]
+    if not all_text_units_lookup:
+        logger.warning("No valid text chunks found")
+        return []
+
+    all_text_units = [{"id": k, **v} for k, v in all_text_units_lookup.items()]
     all_text_units = sorted(all_text_units, key=lambda x: x["order"])
-    all_text_units = truncate_list_by_token_size(
-        all_text_units,
+
+    # Ensure all text chunks have content
+    valid_text_units = [
+        t for t in all_text_units if t["data"] is not None and "content" in t["data"]
+    ]
+
+    if not valid_text_units:
+        logger.warning("No valid text chunks after filtering")
+        return []
+
+    truncated_text_units = truncate_list_by_token_size(
+        valid_text_units,
         key=lambda x: x["data"]["content"],
         max_token_size=query_param.max_token_for_text_unit,
     )
-    all_text_units: list[TextChunkSchema] = [t["data"] for t in all_text_units]
+
+    all_text_units: list[TextChunkSchema] = [t["data"] for t in truncated_text_units]
 
     return all_text_units
 
@@ -1050,24 +1075,43 @@ async def naive_query(
     results = await chunks_vdb.query(query, top_k=query_param.top_k)
     if not len(results):
         return PROMPTS["fail_response"]
+
     chunks_ids = [r["id"] for r in results]
     chunks = await text_chunks_db.get_by_ids(chunks_ids)
 
+    # Filter out invalid chunks
+    valid_chunks = [
+        chunk for chunk in chunks if chunk is not None and "content" in chunk
+    ]
+
+    if not valid_chunks:
+        logger.warning("No valid chunks found after filtering")
+        return PROMPTS["fail_response"]
+
     maybe_trun_chunks = truncate_list_by_token_size(
-        chunks,
+        valid_chunks,
         key=lambda x: x["content"],
         max_token_size=query_param.max_token_for_text_unit,
     )
+
+    if not maybe_trun_chunks:
+        logger.warning("No chunks left after truncation")
+        return PROMPTS["fail_response"]
+
     logger.info(f"Truncate {len(chunks)} to {len(maybe_trun_chunks)} chunks")
     section = "\n--New Chunk--\n".join([c["content"] for c in maybe_trun_chunks])
+
     if query_param.only_need_context:
         return section
+
     sys_prompt_temp = PROMPTS["naive_rag_response"]
     sys_prompt = sys_prompt_temp.format(
         content_data=section, response_type=query_param.response_type
     )
+
     if query_param.only_need_prompt:
         return sys_prompt
+
     response = await use_model_func(
         query,
         system_prompt=sys_prompt,
