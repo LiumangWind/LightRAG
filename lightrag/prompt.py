@@ -8,7 +8,7 @@ PROMPTS["DEFAULT_RECORD_DELIMITER"] = "##"
 PROMPTS["DEFAULT_COMPLETION_DELIMITER"] = "<|COMPLETE|>"
 PROMPTS["process_tickers"] = ["⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏"]
 
-PROMPTS["DEFAULT_ENTITY_TYPES"] = ["attacker", "software", "attack mode", "attack techniques", "mitigation measures", "tactics", "hidden dangers", "target object"]
+PROMPTS["DEFAULT_ENTITY_TYPES"] = ["Attacker", "Software", "Attack Pattern", "Attack Technique", "Mitigation", "Tactic", "Precondition", "Vulnerability", "Postcondition", "Target Entity"]
 
 PROMPTS["entity_extraction"] = """-Goal-
 Given a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.
@@ -24,8 +24,10 @@ Use {language} as output language.
     ("type": "Attack Technique","description": "The specific actions executed by an attacker during an attack. For example, bypassing User Account Control (UAC) to escalate privileges in the system. While attack techniques and attack patterns have overlapping concepts, each has its own characteristics, and the relationship between attack technique and attack pattern is represented as a 'Same_as' relationship."),
     ("type": "Mitigation","description": "Security measures or recommendations that can prevent the successful execution of attack techniques. The relationship between mitigation and attack technique is represented as a 'Mitigate' relationship."),
     ("type": "Tactic","description": "The objective that an attacker seeks to achieve through using techniques or taking actions. For example, an attacker may use phishing messages to gain access to a victim's system. The relationship between tactic and attack technique is represented as an 'Accomplish' relationship."),
-    ("type": "Vulnerability","description": "A software defect or weakness that an attacker can exploit to access a system or network. Vulnerabilities may include flaws and weaknesses, and the relationship between vulnerability and target entities is represented as an 'Exist_in' relationship."),
-    ("type": "Target Entity","description": "The entity that an attacker targets in an attack, including applications, systems, platforms, etc.")]
+    ("type": "Precondition","description": "The preliminary conditions that attackers need to master before exploiting vulnerabilities for attacks. Typically including the acquisition of vulnerability and environmental information, the attacker's tool resources, attack paths, the attacker's abilities, and even the attacker's innovative thinking. The relationship between prerequisites and vulnerabilities is represented as a 'premise' relationship.")
+    ("type": "Vulnerability","description": "Attacker exploitable software vulnerabilities that can access systems or networks. Typically includes weaknesses and vulnerabilities, such as CVE (Common Vulnerabilities and Exposures). The relationship between hidden dangers and target objects is represented as an existence relationship Exist_in."),
+    ("type": "Postcondition","description": "Attackers successfully exploited vulnerabilities to attack the target, resulting in subsequent impacts. These typically include information collection, privilege escalation, lateral expansion, persistent access control, etc. The relationship between the postconditions and the vulnerability is represented as 'affecting'.")
+    ("type": "Target Entity","description": "Attacker's target of attack. Including product name, affected platforms (such as Windows, Linux, etc.), affected version names, etc.")]
 - entity_description: Comprehensive description of the entity's attributes and activities
 Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
 
@@ -62,73 +64,105 @@ Output:
 PROMPTS["entity_extraction_examples"] = [
     """Example 1:
 
-Entity_types: [person, technology, mission, organization, location]
+Entity_types: [Attacker, Software, Attack Pattern, Attack Technique, Mitigation, Tactic, Precondition, Vulnerability, Postcondition, Target Entity]
 Text:
-while Alex clenched his jaw, the buzz of frustration dull against the backdrop of Taylor's authoritarian certainty. It was this competitive undercurrent that kept him alert, the sense that his and Jordan's shared commitment to discovery was an unspoken rebellion against Cruz's narrowing vision of control and order.
+A sophisticated hacking group named "Red Team" has been actively targeting a major financial institution's online banking system. They have been using a custom-developed malware called "BlackViper" to exploit a known vulnerability in the system's web application, which is a SQL injection vulnerability (CVE-2024-1234). The vulnerability allows them to bypass the system's authentication mechanism and gain unauthorized access to customer accounts.
 
-Then Taylor did something unexpected. They paused beside Jordan and, for a moment, observed the device with something akin to reverence. “If this tech can be understood..." Taylor said, their voice quieter, "It could change the game for us. For all of us.”
+The Red Team employs a specific attack pattern where they first gather information about the target system's network topology and user behavior through social engineering and network scanning. Then, they use the BlackViper malware to inject malicious SQL queries into the web application, which is the attack technique they use. Their ultimate tactic is to steal sensitive customer data, such as account numbers and passwords, for financial gain.
 
-The underlying dismissal earlier seemed to falter, replaced by a glimpse of reluctant respect for the gravity of what lay in their hands. Jordan looked up, and for a fleeting heartbeat, their eyes locked with Taylor's, a wordless clash of wills softening into an uneasy truce.
+To mitigate this attack, the financial institution has implemented a security patch for the SQL injection vulnerability and deployed an intrusion detection system (IDS) to monitor and alert on suspicious activities. However, the Red Team has already collected some initial information about the system and is looking for alternative attack paths.
 
-It was a small transformation, barely perceptible, but one that Alex noted with an inward nod. They had all been brought here by different paths
 ################
 Output:
-("entity"{tuple_delimiter}"Alex"{tuple_delimiter}"person"{tuple_delimiter}"Alex is a character who experiences frustration and is observant of the dynamics among other characters."){record_delimiter}
-("entity"{tuple_delimiter}"Taylor"{tuple_delimiter}"person"{tuple_delimiter}"Taylor is portrayed with authoritarian certainty and shows a moment of reverence towards a device, indicating a change in perspective."){record_delimiter}
-("entity"{tuple_delimiter}"Jordan"{tuple_delimiter}"person"{tuple_delimiter}"Jordan shares a commitment to discovery and has a significant interaction with Taylor regarding a device."){record_delimiter}
-("entity"{tuple_delimiter}"Cruz"{tuple_delimiter}"person"{tuple_delimiter}"Cruz is associated with a vision of control and order, influencing the dynamics among other characters."){record_delimiter}
-("entity"{tuple_delimiter}"The Device"{tuple_delimiter}"technology"{tuple_delimiter}"The Device is central to the story, with potential game-changing implications, and is revered by Taylor."){record_delimiter}
-("relationship"{tuple_delimiter}"Alex"{tuple_delimiter}"Taylor"{tuple_delimiter}"Alex is affected by Taylor's authoritarian certainty and observes changes in Taylor's attitude towards the device."{tuple_delimiter}"power dynamics, perspective shift"{tuple_delimiter}7){record_delimiter}
-("relationship"{tuple_delimiter}"Alex"{tuple_delimiter}"Jordan"{tuple_delimiter}"Alex and Jordan share a commitment to discovery, which contrasts with Cruz's vision."{tuple_delimiter}"shared goals, rebellion"{tuple_delimiter}6){record_delimiter}
-("relationship"{tuple_delimiter}"Taylor"{tuple_delimiter}"Jordan"{tuple_delimiter}"Taylor and Jordan interact directly regarding the device, leading to a moment of mutual respect and an uneasy truce."{tuple_delimiter}"conflict resolution, mutual respect"{tuple_delimiter}8){record_delimiter}
-("relationship"{tuple_delimiter}"Jordan"{tuple_delimiter}"Cruz"{tuple_delimiter}"Jordan's commitment to discovery is in rebellion against Cruz's vision of control and order."{tuple_delimiter}"ideological conflict, rebellion"{tuple_delimiter}5){record_delimiter}
-("relationship"{tuple_delimiter}"Taylor"{tuple_delimiter}"The Device"{tuple_delimiter}"Taylor shows reverence towards the device, indicating its importance and potential impact."{tuple_delimiter}"reverence, technological significance"{tuple_delimiter}9){record_delimiter}
-("content_keywords"{tuple_delimiter}"power dynamics, ideological conflict, discovery, rebellion"){completion_delimiter}
+("entity"{tuple_delimiter}"Red Team"{tuple_delimiter}"Attacker"{tuple_delimiter}"Red Team is a sophisticated hacking group targeting a major financial institution's online banking system."){record_delimiter}
+("entity"{tuple_delimiter}"BlackViper"{tuple_delimiter}"Software"{tuple_delimiter}"BlackViper is a custom-developed malware used by Red Team to exploit vulnerabilities and carry out attacks."){record_delimiter}
+("entity"{tuple_delimiter}"SQL Injection Attack Pattern"{tuple_delimiter}"Attack Pattern"{tuple_delimiter}"The attack pattern involves gathering information about the target system and then injecting malicious SQL queries into the web application."){record_delimiter}
+("entity"{tuple_delimiter}"Malicious SQL Query Injection"{tuple_delimiter}"Attack Technique"{tuple_delimiter}"Red Team uses the technique of injecting malicious SQL queries into the web application to exploit the SQL injection vulnerability."){record_delimiter}
+("entity"{tuple_delimiter}"Security Patch and IDS Deployment"{tuple_delimiter}"Mitigation"{tuple_delimiter}"The financial institution implements a security patch for the SQL injection vulnerability and deploys an IDS to monitor and alert on suspicious activities as mitigation measures."){record_delimiter}
+("entity"{tuple_delimiter}"Steal Sensitive Customer Data"{tuple_delimiter}"Tactic"{tuple_delimiter}"Red Team's ultimate tactic is to steal sensitive customer data, such as account numbers and passwords, for financial gain."){record_delimiter}
+("entity"{tuple_delimiter}"Information Gathering and Alternative Attack Path Search"{tuple_delimiter}"Precondition"{tuple_delimiter}"Red Team has already collected some initial information about the system and is looking for alternative attack paths as prerequisites for further attacks."){record_delimiter}
+("entity"{tuple_delimiter}"SQL Injection Vulnerability (CVE-2024-1234) "{tuple_delimiter}"Vulnerability"{tuple_delimiter}"The system's web application has a known SQL injection vulnerability (CVE-2024-1234) that allows attackers to bypass the authentication mechanism."){record_delimiter}
+("entity"{tuple_delimiter}"Unauthorized Access and Data Collection"{tuple_delimiter}"Postcondition"{tuple_delimiter}"Red Team has gained unauthorized access to customer accounts and is in the process of collecting sensitive data as a result of exploiting the vulnerability."){record_delimiter}
+("entity"{tuple_delimiter}"Major Financial Institution's Online Banking System"{tuple_delimiter}"Target Entity"{tuple_delimiter}"The major financial institution's online banking system is the target of Red Team's attack, including its web application and customer accounts."){record_delimiter}
+("relationship"{tuple_delimiter}"Red Team"{tuple_delimiter}"BlackViper"{tuple_delimiter}"Red Team uses BlackViper malware to carry out attacks on the target system."{tuple_delimiter}"Use"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"BlackViper"{tuple_delimiter}"Malicious SQL Query Injection"{tuple_delimiter}"BlackViper implements the attack technique of malicious SQL query injection to exploit the vulnerability."{tuple_delimiter}"Implement"{tuple_delimiter}8){record_delimiter}
+("relationship"{tuple_delimiter}"SQL Injection Attack Pattern"{tuple_delimiter}"SQL Injection Vulnerability (CVE-2024-1234) "{tuple_delimiter}"The SQL injection attack pattern exploits the SQL injection vulnerability in the target system's web application."{tuple_delimiter}"Exploit"{tuple_delimiter}7){record_delimiter}
+("relationship"{tuple_delimiter}"Malicious SQL Query Injection"{tuple_delimiter}"SQL Injection Attack Pattern"{tuple_delimiter}"Malicious SQL query injection is the same as the SQL injection attack pattern in this context."{tuple_delimiter}"Same_as"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"Security Patch and IDS Deployment"{tuple_delimiter}"Malicious SQL Query Injection"{tuple_delimiter}"The security patch and IDS deployment are intended to mitigate the malicious SQL query injection attack technique."{tuple_delimiter}"Mitigate"{tuple_delimiter}8){record_delimiter}
+("relationship"{tuple_delimiter}"Steal Sensitive Customer Data"{tuple_delimiter}"Malicious SQL Query Injection"{tuple_delimiter}"The tactic of stealing sensitive customer data is accomplished through the attack technique of malicious SQL query injection."{tuple_delimiter}"Accomplish"{tuple_delimiter}7){record_delimiter}
+("relationship"{tuple_delimiter}"Information Gathering and Alternative Attack Path Search"{tuple_delimiter}"SQL Injection Vulnerability (CVE-2024-1234) "{tuple_delimiter}"Information gathering and searching for alternative attack paths are prerequisites for exploiting the SQL injection vulnerability."{tuple_delimiter}"premise"{tuple_delimiter}6){record_delimiter}
+("relationship"{tuple_delimiter}"SQL Injection Vulnerability (CVE-2024-1234) "{tuple_delimiter}"Major Financial Institution's Online Banking System"{tuple_delimiter}"The SQL injection vulnerability exists in the major financial institution's online banking system's web application."{tuple_delimiter}"Exist_in"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"Unauthorized Access and Data Collection"{tuple_delimiter}"SQL Injection Vulnerability (CVE-2024-1234) "{tuple_delimiter}"The postcondition of unauthorized access and data collection is a result of exploiting the SQL injection vulnerability."{tuple_delimiter}"affecting"{tuple_delimiter}8){record_delimiter}
+("content_keywords"{tuple_delimiter}"cyber attack, financial institution, malware, SQL injection, vulnerability exploitation, data theft, security mitigation"){completion_delimiter}
+
 #############################""",
     """Example 2:
 
-Entity_types: [person, technology, mission, organization, location]
+Entity_types: [Attacker, Software, Attack Pattern, Attack Technique, Mitigation, Tactic, Precondition, Vulnerability, Postcondition, Target Entity]
 Text:
-They were no longer mere operatives; they had become guardians of a threshold, keepers of a message from a realm beyond stars and stripes. This elevation in their mission could not be shackled by regulations and established protocols—it demanded a new perspective, a new resolve.
+Recently, a group of cybercriminals known as "Shadow Hackers" launched a series of attacks on a popular e-commerce platform. They utilized a widely available hacking tool called "WebCrack" to exploit a buffer overflow vulnerability in the platform's login module. This vulnerability, identified as CVE-2025-5678, could lead to the execution of arbitrary code on the server.
 
-Tension threaded through the dialogue of beeps and static as communications with Washington buzzed in the background. The team stood, a portentous air enveloping them. It was clear that the decisions they made in the ensuing hours could redefine humanity's place in the cosmos or condemn them to ignorance and potential peril.
+The Shadow Hackers followed a common attack pattern, where they first scanned the e-commerce platform for potential vulnerabilities using automated tools. Once they identified the buffer overflow vulnerability, they used WebCrack to craft and send specially designed packets to the login module, which is the attack technique they employed. Their main tactic was to gain unauthorized administrative access to the platform in order to manipulate product prices and inventory levels for their own benefit.
 
-Their connection to the stars solidified, the group moved to address the crystallizing warning, shifting from passive recipients to active participants. Mercer's latter instincts gained precedence— the team's mandate had evolved, no longer solely to observe and report but to interact and prepare. A metamorphosis had begun, and Operation: Dulce hummed with the newfound frequency of their daring, a tone set not by the earthly
-#############
+To counter these attacks, the e-commerce platform implemented a series of security measures. They updated the login module to fix the buffer overflow vulnerability and also deployed a web application firewall (WAF) to detect and block malicious traffic. However, the Shadow Hackers had already gained some initial foothold in the system and were attempting to expand their access.
+
+################
 Output:
-("entity"{tuple_delimiter}"Washington"{tuple_delimiter}"location"{tuple_delimiter}"Washington is a location where communications are being received, indicating its importance in the decision-making process."){record_delimiter}
-("entity"{tuple_delimiter}"Operation: Dulce"{tuple_delimiter}"mission"{tuple_delimiter}"Operation: Dulce is described as a mission that has evolved to interact and prepare, indicating a significant shift in objectives and activities."){record_delimiter}
-("entity"{tuple_delimiter}"The team"{tuple_delimiter}"organization"{tuple_delimiter}"The team is portrayed as a group of individuals who have transitioned from passive observers to active participants in a mission, showing a dynamic change in their role."){record_delimiter}
-("relationship"{tuple_delimiter}"The team"{tuple_delimiter}"Washington"{tuple_delimiter}"The team receives communications from Washington, which influences their decision-making process."{tuple_delimiter}"decision-making, external influence"{tuple_delimiter}7){record_delimiter}
-("relationship"{tuple_delimiter}"The team"{tuple_delimiter}"Operation: Dulce"{tuple_delimiter}"The team is directly involved in Operation: Dulce, executing its evolved objectives and activities."{tuple_delimiter}"mission evolution, active participation"{tuple_delimiter}9){completion_delimiter}
-("content_keywords"{tuple_delimiter}"mission evolution, decision-making, active participation, cosmic significance"){completion_delimiter}
+("entity"{tuple_delimiter}"Shadow Hackers"{tuple_delimiter}"Attacker"{tuple_delimiter}"Shadow Hackers is a group of cybercriminals targeting a popular e-commerce platform."){record_delimiter}
+("entity"{tuple_delimiter}"WebCrack"{tuple_delimiter}"Software"{tuple_delimiter}"WebCrack is a widely available hacking tool used by Shadow Hackers to exploit vulnerabilities."){record_delimiter}
+("entity"{tuple_delimiter}"Buffer Overflow Exploitation Pattern"{tuple_delimiter}"Attack Pattern"{tuple_delimiter}"The attack pattern involves scanning for vulnerabilities and then exploiting a buffer overflow vulnerability using a hacking tool."){record_delimiter}
+("entity"{tuple_delimiter}"Crafted Packet Injection"{tuple_delimiter}"Attack Technique"{tuple_delimiter}"Shadow Hackers use the technique of injecting crafted packets into the login module to exploit the buffer overflow vulnerability."){record_delimiter}
+("entity"{tuple_delimiter}"Login Module Update and WAF Deployment"{tuple_delimiter}"Mitigation"{tuple_delimiter}"The e-commerce platform updates the login module and deploys a WAF to mitigate the attacks by Shadow Hackers."){record_delimiter}
+("entity"{tuple_delimiter}"Unauthorized Administrative Access"{tuple_delimiter}"Tactic"{tuple_delimiter}"Shadow Hackers' main tactic is to gain unauthorized administrative access to manipulate product prices and inventory levels."){record_delimiter}
+("entity"{tuple_delimiter}"Initial Foothold and Access Expansion"{tuple_delimiter}"Precondition"{tuple_delimiter}"Shadow Hackers have gained an initial foothold in the system and are attempting to expand their access as prerequisites for further attacks."){record_delimiter}
+("entity"{tuple_delimiter}"Buffer Overflow Vulnerability (CVE-2025-5678) "{tuple_delimiter}"Vulnerability"{tuple_delimiter}"The e-commerce platform's login module has a buffer overflow vulnerability (CVE-2025-5678) that can be exploited."){record_delimiter}
+("entity"{tuple_delimiter}"Server Code Execution and System Manipulation"{tuple_delimiter}"Postcondition"{tuple_delimiter}"As a result of exploiting the buffer overflow vulnerability, Shadow Hackers can execute arbitrary code on the server and manipulate the system."){record_delimiter}
+("entity"{tuple_delimiter}"Popular E-commerce Platform"{tuple_delimiter}"Target Entity"{tuple_delimiter}"The popular e-commerce platform, including its login module and server, is the target of Shadow Hackers' attacks."){record_delimiter}
+("relationship"{tuple_delimiter}"Shadow Hackers"{tuple_delimiter}"WebCrack"{tuple_delimiter}"Shadow Hackers use WebCrack to carry out attacks on the e-commerce platform."{tuple_delimiter}"Use"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"WebCrack"{tuple_delimiter}"Crafted Packet Injection"{tuple_delimiter}"WebCrack implements the attack technique of crafted packet injection to exploit the vulnerability."{tuple_delimiter}"Implement"{tuple_delimiter}8){record_delimiter}
+("relationship"{tuple_delimiter}"Buffer Overflow Exploitation Pattern"{tuple_delimiter}"Buffer Overflow Vulnerability (CVE-2025-5678) "{tuple_delimiter}"The buffer overflow exploitation pattern exploits the buffer overflow vulnerability in the e-commerce platform's login module."{tuple_delimiter}"Exploit"{tuple_delimiter}7){record_delimiter}
+("relationship"{tuple_delimiter}"Crafted Packet Injection"{tuple_delimiter}"Buffer Overflow Exploitation Pattern"{tuple_delimiter}"Crafted packet injection is the same as the buffer overflow exploitation pattern in this scenario."{tuple_delimiter}"Same_as"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"Login Module Update and WAF Deployment"{tuple_delimiter}"Crafted Packet Injection"{tuple_delimiter}"The login module update and WAF deployment are intended to mitigate the crafted packet injection attack technique."{tuple_delimiter}"Mitigate"{tuple_delimiter}8){record_delimiter}
+("relationship"{tuple_delimiter}"Unauthorized Administrative Access"{tuple_delimiter}"Crafted Packet Injection"{tuple_delimiter}"The tactic of gaining unauthorized administrative access is accomplished through the attack technique of crafted packet injection."{tuple_delimiter}"Accomplish"{tuple_delimiter}7){record_delimiter}
+("relationship"{tuple_delimiter}"Initial Foothold and Access Expansion"{tuple_delimiter}"Buffer Overflow Vulnerability (CVE-2025-5678) "{tuple_delimiter}"Gaining an initial foothold and attempting to expand access are prerequisites for exploiting the buffer overflow vulnerability."{tuple_delimiter}"premise"{tuple_delimiter}6){record_delimiter}
+("relationship"{tuple_delimiter}"Buffer Overflow Vulnerability (CVE-2025-5678) "{tuple_delimiter}"Popular E-commerce Platform"{tuple_delimiter}"The buffer overflow vulnerability exists in the popular e-commerce platform's login module."{tuple_delimiter}"Exist_in"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"Server Code Execution and System Manipulation"{tuple_delimiter}"Buffer Overflow Vulnerability (CVE-2025-5678) "{tuple_delimiter}"The postcondition of server code execution and system manipulation is a result of exploiting the buffer overflow vulnerability."{tuple_delimiter}"affecting"{tuple_delimiter}8){record_delimiter}
+("content_keywords"{tuple_delimiter}"cyber attack, e-commerce, hacking tool, buffer overflow, vulnerability exploitation, administrative access, security measures"){completion_delimiter}
+
 #############################""",
     """Example 3:
 
-Entity_types: [person, role, technology, organization, event, location, concept]
+Entity_types: [Attacker, Software, Attack Pattern, Attack Technique, Mitigation, Tactic, Precondition, Vulnerability, Postcondition, Target Entity]
 Text:
-their voice slicing through the buzz of activity. "Control may be an illusion when facing an intelligence that literally writes its own rules," they stated stoically, casting a watchful eye over the flurry of data.
+A new strain of ransomware called "CryptoLock" has been identified, targeting Windows operating systems. The attackers behind CryptoLock, known as "Shadow Crew", use a combination of phishing emails and exploit kits to distribute the malware. Once the malware infects a system, it exploits a vulnerability in the Windows print spooler service, which allows it to escalate privileges and encrypt user files.
 
-"It's like it's learning to communicate," offered Sam Rivera from a nearby interface, their youthful energy boding a mix of awe and anxiety. "This gives talking to strangers' a whole new meaning."
+The attack pattern of Shadow Crew involves sending phishing emails with malicious attachments to unsuspecting users. When a user opens the attachment, the exploit kit is triggered, which then downloads and installs CryptoLock. The main tactic of Shadow Crew is to extort money from victims by demanding a ransom to decrypt their files.
 
-Alex surveyed his team—each face a study in concentration, determination, and not a small measure of trepidation. "This might well be our first contact," he acknowledged, "And we need to be ready for whatever answers back."
+To mitigate this threat, security experts recommend enabling Windows Defender's ransomware protection feature and keeping the operating system up to date with all security patches. However, some users may still fall victim to the attack if they are not cautious with emails and do not have proper security measures in place.
 
-Together, they stood on the edge of the unknown, forging humanity's response to a message from the heavens. The ensuing silence was palpable—a collective introspection about their role in this grand cosmic play, one that could rewrite human history.
-
-The encrypted dialogue continued to unfold, its intricate patterns showing an almost uncanny anticipation
-#############
+################
 Output:
-("entity"{tuple_delimiter}"Sam Rivera"{tuple_delimiter}"person"{tuple_delimiter}"Sam Rivera is a member of a team working on communicating with an unknown intelligence, showing a mix of awe and anxiety."){record_delimiter}
-("entity"{tuple_delimiter}"Alex"{tuple_delimiter}"person"{tuple_delimiter}"Alex is the leader of a team attempting first contact with an unknown intelligence, acknowledging the significance of their task."){record_delimiter}
-("entity"{tuple_delimiter}"Control"{tuple_delimiter}"concept"{tuple_delimiter}"Control refers to the ability to manage or govern, which is challenged by an intelligence that writes its own rules."){record_delimiter}
-("entity"{tuple_delimiter}"Intelligence"{tuple_delimiter}"concept"{tuple_delimiter}"Intelligence here refers to an unknown entity capable of writing its own rules and learning to communicate."){record_delimiter}
-("entity"{tuple_delimiter}"First Contact"{tuple_delimiter}"event"{tuple_delimiter}"First Contact is the potential initial communication between humanity and an unknown intelligence."){record_delimiter}
-("entity"{tuple_delimiter}"Humanity's Response"{tuple_delimiter}"event"{tuple_delimiter}"Humanity's Response is the collective action taken by Alex's team in response to a message from an unknown intelligence."){record_delimiter}
-("relationship"{tuple_delimiter}"Sam Rivera"{tuple_delimiter}"Intelligence"{tuple_delimiter}"Sam Rivera is directly involved in the process of learning to communicate with the unknown intelligence."{tuple_delimiter}"communication, learning process"{tuple_delimiter}9){record_delimiter}
-("relationship"{tuple_delimiter}"Alex"{tuple_delimiter}"First Contact"{tuple_delimiter}"Alex leads the team that might be making the First Contact with the unknown intelligence."{tuple_delimiter}"leadership, exploration"{tuple_delimiter}10){record_delimiter}
-("relationship"{tuple_delimiter}"Alex"{tuple_delimiter}"Humanity's Response"{tuple_delimiter}"Alex and his team are the key figures in Humanity's Response to the unknown intelligence."{tuple_delimiter}"collective action, cosmic significance"{tuple_delimiter}8){record_delimiter}
-("relationship"{tuple_delimiter}"Control"{tuple_delimiter}"Intelligence"{tuple_delimiter}"The concept of Control is challenged by the Intelligence that writes its own rules."{tuple_delimiter}"power dynamics, autonomy"{tuple_delimiter}7){record_delimiter}
-("content_keywords"{tuple_delimiter}"first contact, control, communication, cosmic significance"){completion_delimiter}
+("entity"{tuple_delimiter}"Shadow Crew"{tuple_delimiter}"Attacker"{tuple_delimiter}"Shadow Crew is the group behind the CryptoLock ransomware, targeting Windows operating systems."){record_delimiter}
+("entity"{tuple_delimiter}"CryptoLock"{tuple_delimiter}"Software"{tuple_delimiter}"CryptoLock is a strain of ransomware used by Shadow Crew to infect systems and encrypt user files."){record_delimiter}
+("entity"{tuple_delimiter}"Phishing and Exploit Kit Distribution Pattern"{tuple_delimiter}"Attack Pattern"{tuple_delimiter}"The attack pattern involves sending phishing emails with malicious attachments and using exploit kits to distribute the ransomware."){record_delimiter}
+("entity"{tuple_delimiter}"Malicious Attachment Triggering"{tuple_delimiter}"Attack Technique"{tuple_delimiter}"When a user opens the malicious attachment in the phishing email, the exploit kit is triggered, leading to the installation of CryptoLock."){record_delimiter}
+("entity"{tuple_delimiter}"Ransomware Protection and Patching"{tuple_delimiter}"Mitigation"{tuple_delimiter}"Enabling Windows Defender's ransomware protection feature and keeping the operating system up to date are recommended mitigations against the threat."){record_delimiter}
+("entity"{tuple_delimiter}"Extortion through Ransom Demand"{tuple_delimiter}"Tactic"{tuple_delimiter}"Shadow Crew's main tactic is to extort money from victims by demanding a ransom to decrypt their encrypted files."){record_delimiter}
+("entity"{tuple_delimiter}"User Cautiousness and Security Measures"{tuple_delimiter}"Precondition"{tuple_delimiter}"Users being cautious with emails and having proper security measures in place are prerequisites for preventing the attack."){record_delimiter}
+("entity"{tuple_delimiter}"Windows Print Spooler Vulnerability"{tuple_delimiter}"Vulnerability"{tuple_delimiter}"There is a vulnerability in the Windows print spooler service that allows privilege escalation and file encryption by the ransomware."{tuple_delimiter}"Exist_in"{tuple_delimiter}9){record_delimiter}
+("entity"{tuple_delimiter}"File Encryption and Ransom Demand"{tuple_delimiter}"Postcondition"{tuple_delimiter}"As a result of exploiting the vulnerability, the ransomware encrypts user files and demands a ransom, affecting the victims."{tuple_delimiter}"affecting"{tuple_delimiter}8){record_delimiter}
+("entity"{tuple_delimiter}"Windows Operating Systems"{tuple_delimiter}"Target Entity"{tuple_delimiter}"Windows operating systems are the target entities of the CryptoLock ransomware attack."{record_delimiter}
+("relationship"{tuple_delimiter}"Shadow Crew"{tuple_delimiter}"CryptoLock"{tuple_delimiter}"Shadow Crew uses CryptoLock to carry out ransomware attacks on Windows systems."{tuple_delimiter}"Use"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"CryptoLock"{tuple_delimiter}"Malicious Attachment Triggering"{tuple_delimiter}"CryptoLock is installed through the attack technique of malicious attachment triggering in phishing emails."{tuple_delimiter}"Implement"{tuple_delimiter}8){record_delimiter}
+("relationship"{tuple_delimiter}"Phishing and Exploit Kit Distribution Pattern"{tuple_delimiter}"Windows Print Spooler Vulnerability"{tuple_delimiter}"The phishing and exploit kit distribution pattern exploits the Windows print spooler vulnerability to infect systems."{tuple_delimiter}"Exploit"{tuple_delimiter}7){record_delimiter}
+("relationship"{tuple_delimiter}"Malicious Attachment Triggering"{tuple_delimiter}"Phishing and Exploit Kit Distribution Pattern"{tuple_delimiter}"Malicious attachment triggering is a part of the phishing and exploit kit distribution pattern."{tuple_delimiter}"Same_as"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"Ransomware Protection and Patching"{tuple_delimiter}"Malicious Attachment Triggering"{tuple_delimiter}"Ransomware protection and patching are intended to mitigate the attack technique of malicious attachment triggering."{tuple_delimiter}"Mitigate"{tuple_delimiter}8){record_delimiter}
+("relationship"{tuple_delimiter}"Extortion through Ransom Demand"{tuple_delimiter}"Malicious Attachment Triggering"{tuple_delimiter}"The tactic of extortion through ransom demand is accomplished through the attack technique of malicious attachment triggering."{tuple_delimiter}"Accomplish"{tuple_delimiter}7){record_delimiter}
+("relationship"{tuple_delimiter}"User Cautiousness and Security Measures"{tuple_delimiter}"Windows Print Spooler Vulnerability"{tuple_delimiter}"User cautiousness and security measures are prerequisites for preventing the exploitation of the Windows print spooler vulnerability."{tuple_delimiter}"premise"{tuple_delimiter}6){record_delimiter}
+("relationship"{tuple_delimiter}"Windows Print Spooler Vulnerability"{tuple_delimiter}"Windows Operating Systems"{tuple_delimiter}"The Windows print spooler vulnerability exists in Windows operating systems, making them susceptible to attacks."{tuple_delimiter}"Exist_in"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"File Encryption and Ransom Demand"{tuple_delimiter}"Windows Print Spooler Vulnerability"{tuple_delimiter}"The postcondition of file encryption and ransom demand is a result of exploiting the Windows print spooler vulnerability."{tuple_delimiter}"affecting"{tuple_delimiter}8){record_delimiter}
+("content_keywords"{tuple_delimiter}"ransomware, Windows, phishing, exploit kit, extortion, security patch, user awareness"){completion_delimiter}
+
 #############################""",
 ]
 
