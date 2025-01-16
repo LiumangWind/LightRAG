@@ -1,0 +1,10 @@
+{
+  "doc-b52d5ba0ec70055972561c47c33f1dc7": {
+    "content_summary": "CWE-ID,Name,Weakness Abstraction,Status,Description,Extended Description,Related Weaknesses,Weakness...",
+    "content_length": 82651,
+    "status": "processed",
+    "created_at": "2025-01-16T01:58:39.383194",
+    "updated_at": "2025-01-16T02:51:46.391476",
+    "chunks_count": 17
+  }
+}
