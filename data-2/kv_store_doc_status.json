@@ -6,5 +6,13 @@
     "created_at": "2025-01-16T01:58:39.383194",
     "updated_at": "2025-01-16T02:51:46.391476",
     "chunks_count": 17
+  },
+  "doc-4f9d810586e157f22786e26a6c417638": {
+    "content_summary": "CWE-ID,Name,Weakness Abstraction,Status,Description,Extended Description,Related Weaknesses,Weakness...",
+    "content_length": 85275,
+    "status": "processed",
+    "created_at": "2025-01-16T06:51:53.607432",
+    "updated_at": "2025-01-16T07:33:45.706295",
+    "chunks_count": 17
   }
 }
