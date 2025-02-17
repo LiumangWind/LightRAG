@@ -1,0 +1,2040 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;FIXING DESIGN FLAWS IN HARDWARE TESTING&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Implementing fixes during pre-silicon and post-silicon testing to ensure lock bits function correctly."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;SHARED RESOURCE ISOLATION FAILURE&quot;">
+  <data key="d0">"PRECONDITION"</data>
+  <data key="d1">"Failure to isolate shared resources between trusted and untrusted agents is a prerequisite for exploiting SoC vulnerabilities."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;AUTHENTICATED DEBUG MODES AND ZEROIZATION MECHANISMS&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Implementing authenticated debug modes and ensuring proper zeroization of hardware registers can mitigate the risks associated with improper zeroization and bypass attempts."</data>
+  <data key="d2">chunk-80f8e2a782d3784f549ab8a8418f64bd</data>
+</node>
+<node id="&quot;CERT ORACLE SECURE CODING STANDARD FOR JAVA (2011)&quot;">
+  <data key="d0">"TAXONOMY"</data>
+  <data key="d1">"Provides guidelines to prevent common security issues in Java code, including secure data handling."&lt;SEP&gt;"Security guidelines for secure coding in Java, including entries like SEC06-J and SER02-J."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;OPERATING SYSTEM&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"The operating system is the target entity of the vulnerability described in CVE-2004-0243."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;BYPASS PROTECTION MECHANISM AND UNAUTHORIZED ACCESS&quot;">
+  <data key="d0">"TACTIC"</data>
+  <data key="d1">"Attackers aim to bypass protection mechanisms to gain unauthorized access to system configuration and sensitive information."</data>
+  <data key="d2">chunk-80f8e2a782d3784f549ab8a8418f64bd</data>
+</node>
+<node id="&quot;DEBUGGERS&quot;">
+  <data key="d0">"SOFTWARE"</data>
+  <data key="d1">"Debuggers are used for monitoring program execution, aiding in identifying vulnerabilities by tracking data flow."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;CVE-1999-0017&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"FTP bounce attack vulnerability where an attacker can modify the PORT command to connect to other machines."</data>
+  <data key="d2">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</node>
+<node id="&quot;CVE-2001-1387&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Product may generate different responses than specified by the administrator, possibly leading to an information leak."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CWE-2077&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Common Weakness Enumeration (CWE) identifier for the 'Uncleared Sensitive Information Before Use' weakness."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;SYSTEM-CALL TRACING UTILITIES&quot;">
+  <data key="d0">"SOFTWARE"</data>
+  <data key="d1">"These tools track system calls to detect potential security issues, enhancing vulnerability identification."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;CVE-1999-0168&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"RPC portmapper vulnerability allowing requests to be redirected from an attacker to another entity."</data>
+  <data key="d2">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</node>
+<node id="&quot;CVE-2004-0778&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Version control system allows remote attackers to determine the existence of arbitrary files and directories via the -X command for an alternate history file, which causes different error messages to be returned."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;PLOVER TAXONOMY ENTRY:SENSITIVE INFORMATION UNCLEARED BEFORE USE&quot;">
+  <data key="d0">"PRECONDITION"</data>
+  <data key="d1">"This taxonomy entry describes the precondition where sensitive information is uncleared before reuse, creating a vulnerability."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;NETWORK SNIFFERS AND PROTOCOL ANALYZERS&quot;">
+  <data key="d0">"SOFTWARE"</data>
+  <data key="d1">"Used to monitor network traffic for signs of exploitation or insecure data transmission."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;CERT ORACLE SECURE CODING STANDARD FOR JAVA: FIO01-J&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"The CERT Oracle Secure Coding Standard for Java emphasizes creating files with appropriate access permissions as a mitigation strategy."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;CERT C SECURE CODING TAXONOMY:MEM03-C&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"A mitigation measure that emphasizes clearing sensitive information in reusable resources to prevent exposure."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;PLOVER TAXONOMY&quot;">
+  <data key="d0">"TAXONOMY"</data>
+  <data key="d1">"Focuses on the transmission of sensitive information in plaintext, highlighting vulnerabilities in communication protocols."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;WINDOWS OPERATING SYSTEMS&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"Windows systems are targeted due to their vulnerabilities."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;SOFTWARE FAULT PATTERNS:SFP23:EXPOSED DATA &quot;">
+  <data key="d0">"ATTACK PATTERN"</data>
+  <data key="d1">"An attack pattern related to exposed data due to improper handling of sensitive information."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;MISSING CRYPTOGRAPHIC STEP&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A missing required step in a cryptographic algorithm weakens encryption, making it easier for attackers to bypass security measures."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;CVE-2005-0315&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"FTP server vulnerability where the IP address in PORT command isn't verified against the user's session, enabling port scanning by proxy."</data>
+  <data key="d2">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</node>
+<node id="&quot;SSL IMPLEMENTATION&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"The SSL implementation is the target entity of the vulnerability described in CVE-2003-0078."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;NETWORK PACKETS AND LOCAL MEMORY ALLOCATION &quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"The target entities include network packets, local memory allocation, files, and other resources where the vulnerability can manifest."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;EXPECTED BEHAVIOR VIOLATION&quot;">
+  <data key="d0">"PRECONDITION"</data>
+  <data key="d1">"Unexpected behavior in software can create opportunities for attackers to exploit system inconsistencies."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;CVE-2002-1484&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Web server vulnerability allowing attackers to request URLs from another server, including other ports, enabling proxied scanning."</data>
+  <data key="d2">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</node>
+<node id="&quot;VERSION CONTROL SYSTEM&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"The version control system is the target entity of the vulnerability described in CVE-2004-0778."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;NETWORKING&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"Network packets are target entities where the vulnerability can manifest due to improper handling of data transmission."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;UNINTENDED PROXY OR 'CONFUSED DEPUTY'">
+  <data key="d0">'ATTACK TECHNIQUE'</data>
+  <data key="d1">"This technique involves an attacker manipulating a component to act on behalf of another without proper authentication, leading to unauthorized actions."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;CVE-2004-2061&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"CGI script accepting and retrieving incoming URLs without proper validation."</data>
+  <data key="d2">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</node>
+<node id="&quot;UNAUTHORIZED ACCESS TO BMC PHYSICAL ADDRESS SPACE&quot;">
+  <data key="d0">"POSTCONDITION"</data>
+  <data key="d1">"Exploitation of vulnerabilities in the BMC leads to unauthorized access to its physical address space, compromising system integrity."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;CWE-212:EXPOSED DATA &quot;">
+  <data key="d0">"ATTACK PATTERN"</data>
+  <data key="d1">"An attack pattern related to exposed data in resources that are still active, distinct from CWE-2077 but related to sensitive information exposure."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;FILEMON&quot;">
+  <data key="d0">"SOFTWARE"</data>
+  <data key="d1">"FileMon is a Windows utility for monitoring file system activity, aiding in vulnerability detection and analysis."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;CVE-2001-1484&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Bounce attack allowing access to TFTP from trusted side through misconfigured servers."</data>
+  <data key="d2">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</node>
+<node id="&quot;BASEBOARD MANAGEMENT CONTROLLER (BMC)&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"The Baseboard Management Controller (BMC) is a target entity with vulnerabilities related to unauthorized access to physical address space."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;TRANSFER TO A DIFFERENT CONTROL SPHERE&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"The technique involves transferring sensitive data to a different control sphere, where the original contents are no longer relevant, exploiting the vulnerability."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;STRACE (LINUX)&quot;">
+  <data key="d0">"SOFTWARE"</data>
+  <data key="d1">"Strace is a Linux tool that traces system calls made by processes, helping in identifying vulnerabilities through monitoring."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;LOCK BIT NOT SET AFTER BOOT&quot;">
+  <data key="d0">"PRECONDITION"</data>
+  <data key="d1">"A precondition where the lock bit is unset after system reboot, allowing attackers to exploit it."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;CWE-2077:SENSITIVE INFORMATION UNCLEARED BEFORE USE &quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A specific instance of CWE-2077 related to sensitive information uncleared before reuse in memory management."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;CVE-2004-0294&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A vulnerability where systems reveal user existence through inconsistent error messages, aiding brute force password attacks."&lt;SEP&gt;"Bulletin Board displays different error messages when a user exists or not, which makes it easier for remote attackers to identify valid users and conduct a brute force password guessing attack."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0&lt;SEP&gt;chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2002-0514&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Product allows remote attackers to determine if a port is being filtered because the response packet TTL is different than the default TTL."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CWE-1000:CWE RESEARCH VIEW TAXONOMY&quot;">
+  <data key="d0">"TACTIC"</data>
+  <data key="d1">"The CWE research view (CWE-1000) is a tactic used to categorize and understand software weaknesses from a research perspective."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;CVE-2004-2150&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A vulnerability where systems display inconsistent error messages for existing and non-existing users, aiding enumeration."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CWE-284: IMPROPER DEFAULT CREDENTIALS, WEAK AUTHENTICATION&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A vulnerability where default access control policies lack granularity, allowing unauthorized accesses."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;CERT C SECURE CODING:FIO06-C&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"The CERT C Secure Coding standard recommends creating files with appropriate access permissions to mitigate vulnerabilities."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;CVE-2005-1941:EXECUTABLES INSTALLED WORLD-WRITABLE &quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A specific vulnerability where executables are installed with world-writable permissions, creating an exposure point for attackers."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;DEBUG FEATURES IN HARDWARE DESIGN&quot;">
+  <data key="d0">"PRECONDITION"</data>
+  <data key="d1">"The presence of debug features or internal modes in hardware design can allow attackers to bypass lock protection and access configuration information."</data>
+  <data key="d2">chunk-80f8e2a782d3784f549ab8a8418f64bd</data>
+</node>
+<node id="&quot;HOST-BASED VULNERABILITY SCANNERS &quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Security measures like host-based vulnerability scanners can detect and mitigate issues related to improper memory management and file permissions."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;REGMON&quot;">
+  <data key="d0">"SOFTWARE"</data>
+  <data key="d1">"RegMon is a tool for tracking registry changes on Windows systems, useful for detecting malicious activities and vulnerabilities."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;SYSTEM-ON-A-CHIP (SOC)&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"The System-On-a-Chip (SoC) is a target entity affected by improper isolation of shared resources between trusted and untrusted agents."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;FORMAL METHODS/CORRECT-BY-CONSTRUCTION &quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"A formal method used to ensure proper initialization and handling of resources, serving as a mitigation for vulnerabilities."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;INSPECTION (IEEE 1028 STANDARD)&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"A mitigation technique involving inspections during the architecture and design phase to identify and address vulnerabilities early in development."</data>
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</node>
+<node id="&quot;CVE-2008-3289&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Product sends password hash in cleartext, violating security policies."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;BULLETIN BOARD&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"The Bulletin Board system is the target entity of the vulnerability described in CVE-2004-0294."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2010-1637&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Web-based mail program vulnerability enabling internal network scanning using modified POP3 port numbers."&lt;SEP&gt;"Web-based mail program vulnerability that allows internal network scanning using a modified POP3 port number."</data>
+  <data key="d2">chunk-cf2bb615b405ec5f79b3729ede5b6486&lt;SEP&gt;chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;EARLY BOOT PHASE EXPLOITATION&quot;">
+  <data key="d0">"ATTACK PATTERN"</data>
+  <data key="d1">"An attack pattern involves exploiting devices enabled during the early boot phase before security configurations are established."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;CVE-2009-0037&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"URL-downloading library automatically following redirects to file:// and scp:// URLs, bypassing intended restrictions."&lt;SEP&gt;"URL-downloading library automatically follows redirects to file:// and scp:// URLs, bypassing intended restrictions."&lt;SEP&gt;"URL-downloading library automatically follows redirects to file:// and scp:// URLs, exposing the system to potential attacks."</data>
+  <data key="d2">chunk-cf2bb615b405ec5f79b3729ede5b6486&lt;SEP&gt;chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;CVE-2001-0497&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Insecure permissions for a shared secret key file. Overlaps cryptographic problem."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;CWE-610&quot;">
+  <data key="d0">"ATTACK PATTERN"</data>
+  <data key="d1">"The product receives a request from an upstream component but does not sufficiently preserve the original source before forwarding it to an external actor, leading it to act as a proxy."</data>
+  <data key="d2">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</node>
+<node id="&quot;CVE-2004-1428&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"FTP server generates an error message if the user name does not exist instead of prompting for a password, which allows remote attackers to determine valid usernames."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;ACCOUNT NUMBER ENUMERATION VIA INCONSISTENT RESPONSES&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Exploiting discrepancies in system responses to enumerate account numbers or sensitive data."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;SIDE CHANNEL ATTACK PATTERN&quot;">
+  <data key="d0">"ATTACK PATTERN"</data>
+  <data key="d1">"A method where attackers analyze system behavior, such as timing or resource usage, to extract sensitive information."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CVE-2003-0637&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Product uses a shorter timeout for a non-existent user than a valid user, which makes it easier for remote attackers to guess usernames and conduct brute force password guessing."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;EXPLOITING OBSERVABLE DISCREPANCIES&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"The technique involves detecting and exploiting inconsistencies in system responses to infer internal states or data."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;REMOTE ATTACKERS&quot;">
+  <data key="d0">"ATTACKER"</data>
+  <data key="d1">"Remote attackers exploit the Bulletin Board's error messages to identify valid users and conduct brute force password guessing attacks."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;SECURE COMPARTMENTALIZATION AND ERROR HANDLING&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Implementing secure error handling and compartmentalizing sensitive areas to prevent information leakage."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CVE-2002-1713&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Home directories installed world-readable."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;STATE TRANSITION MANAGEMENT IN SOFTWARE SYSTEMS&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"Systems undergoing state transitions, like memory de-allocation or OS state changes."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;TRUSTED FIRMWARE/SOFTWARE MODULE&quot;">
+  <data key="d0">"MODULE"</data>
+  <data key="d1">"Includes BIOS/bootloader that sets secure values during system initialization."</data>
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</node>
+<node id="&quot;INFORMATION DISCLOSURE&quot;">
+  <data key="d0">"TACTIC"</data>
+  <data key="d1">"Attackers aim to extract sensitive data through side channel attacks, compromising confidentiality."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;BROWSER&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"The browser is the target entity of the vulnerability described in CVE-2005-0918."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2001-1483&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A vulnerability where systems display different error messages for existing and non-existing users, enabling user enumeration."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;SYSTEM BEHAVIOR ANALYSIS&quot;">
+  <data key="d0">"PRECONDITION"</data>
+  <data key="d1">"Attackers must analyze system behavior to identify exploitable discrepancies as a prerequisite for an attack."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"The System-On-a-Chip (SoC) does not properly isolate shared resources between trusted and untrusted agents."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;INSECURE DEFAULT PERMISSIONS&quot;">
+  <data key="d0">"PRECONDITION"</data>
+  <data key="d1">"Insecure default permissions are a precondition that attackers exploit to gain unauthorized access."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;USER ENUMERATION VIA INCONSISTENT ERROR MESSAGES&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Exploiting variations in error messages to identify valid user accounts or sensitive information."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;OBSERVABLE DISCREPANCY VULNERABILITY (CWE-203) &quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A flaw where system inconsistencies reveal sensitive information, enabling side channel attacks."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;INSECURE FILE CREATION PERMISSIONS&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Files are created with insecure permissions, allowing unauthorized access."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;INFORMATION LEAKAGE AND SYSTEM COMPROMISE&quot;">
+  <data key="d0">"POSTCONDITION"</data>
+  <data key="d1">"Exploiting the vulnerability can lead to unauthorized access or data exposure, affecting system integrity."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CVE-2003-0078&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"SSL implementation does not perform a MAC computation if an incorrect block cipher padding is used, which causes an information leak (timing discrepancy) that may make it easier to launch cryptographic attacks that rely on distinguishing between padding and MAC verification errors, possibly leading to extraction of the original plaintext, aka the Vaudenay timing attack."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;SYSTEMS WITH OBSERVABLE DISCREPANCIES (E.G., SOFTWARE, HARDWARE)&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"The target is systems where attackers can detect behavioral inconsistencies to exploit vulnerabilities."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;PLOVER: INSECURE DEFAULT PERMISSIONS&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"The PLOVER taxonomy addresses insecure default permissions as a mitigation measure."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;CVE-2022-31204&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Programmable Logic Controller (PLC) sends password in plaintext."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;CVE-2020-8695&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A vulnerability in Intel processors' RAPL interface that allows information disclosure via observable discrepancies."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;BRUTE FORCE PASSWORD GUESSING ATTACK&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"The technique of conducting a brute force password guessing attack is used by remote attackers to exploit the Bulletin Board vulnerability."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2002-2094&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A vulnerability where attackers use .. attacks and monitor error responses to exploit system behavior."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CRYPTO HARDWARE WALLET POWER CONSUMPTION SIDE CHANNEL ATTACK&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Exploiting variations in power consumption to reveal sensitive data like PIN numbers or passwords."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CVE-1999-0426&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Default permissions of a device allow IP spoofing."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;CWE-668&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Exposure of Resource to Wrong Sphere: This weakness allows attackers to access resources that they are not authorized to access, such as files or network interfaces."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;HARDWARE DESCRIPTION LANGUAGE (HDL)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Used in describing hardware units and register implementations."</data>
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</node>
+<node id="&quot;CVE-2019-14353&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A vulnerability in crypto hardware wallets where power consumption correlates with pixel illumination, enabling side channel attacks."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CVE-2002-1711&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"World-readable directory."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;EXPLOIT KIT TRIGGERING&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Exploits are triggered by malicious attachments leading to ransomware installation."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;FTP SERVER&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"The FTP server is the target entity of the vulnerability described in CVE-2004-1428."&lt;SEP&gt;"The FTP server is the target entity of the vulnerability described in CVE-2004-1602."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;ARCHITECTURE AND DESIGN PHASE&quot;">
+  <data key="d0">"PHASE"</data>
+  <data key="d1">"Key phase for hardware design decisions impacting security, where issues like insufficient granularity arise."</data>
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</node>
+<node id="&quot;CVE-2002-1844&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Windows product uses insecure permissions when installing on Solaris (genesis: port error)."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;FILE ENCRYPTION AND RANSOM DEMAND&quot;">
+  <data key="d0">"POSTCONDITION"</data>
+  <data key="d1">"Exploitation leads to encrypted files and ransom demands."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;TESTING PHASE&quot;">
+  <data key="d0">"PHASE"</data>
+  <data key="d1">"Involves using automated tools to test that values are configured per design specifications."</data>
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</node>
+<node id="&quot;CLEARTEXT TRANSMISSION OF SENSITIVE INFORMATION&quot;">
+  <data key="d0">"ATTACK PATTERN"</data>
+  <data key="d1">"An attack pattern involving the transmission of sensitive information in cleartext over insecure communication channels, making it vulnerable to interception by unauthorized actors."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;AUTOMATED STATIC ANALYSIS (SAST)&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"A method for finding vulnerabilities by analyzing source code without execution, enhancing security measures."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;EXPECTED BEHAVIOR VIOLATION (CWE-440)&quot;">
+  <data key="d0">"PRECONDITION"</data>
+  <data key="d1">"Unexpected behavior in software can create opportunities for attackers to exploit system inconsistencies."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;WINDOWS PRINT SPOOLER VULNERABILITY&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A vulnerability allowing privilege escalation and file encryption exists in Windows systems."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;CVE-2005-1941&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Executables installed world-writable."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;ENCRYPTED CHANNELS CONFIGURATION&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Configuring servers to use SSL or other secure protocols ensures data transmission is protected."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;INSUFFICIENT TECHNICAL DOCUMENTATION&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A lack of sufficient technical documentation indirectly affects security by making it harder to find and fix vulnerabilities, especially when consultants are involved in security assessments."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;CVE-2001-1550&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"World-writable log files allow information loss; world-readable file has cleartext passwords."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;CVE-2022-30312&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Building Controller uses a protocol that transmits authentication credentials in plaintext."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;ATTACKER EXPLOITATION OF BUFFER OVERFLOW VULNERABILITY&quot;">
+  <data key="d0">"TACTIC"</data>
+  <data key="d1">"Attackers exploit buffer overflow vulnerabilities to gain unauthorized access or execute malicious code on the system."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;PRODUCT&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"The product is the target entity of the vulnerability described in CVE-2001-1387."&lt;SEP&gt;"The product is the target entity of the vulnerability described in CVE-2002-0208."&lt;SEP&gt;"The product is the target entity of the vulnerability described in CVE-2002-0514."&lt;SEP&gt;"The product is the target entity of the vulnerability described in CVE-2002-0515."&lt;SEP&gt;"The product is the target entity of the vulnerability described in CVE-2003-0190."&lt;SEP&gt;"The product is the target entity of the vulnerability described in CVE-2003-0637."&lt;SEP&gt;"The product is the target entity of the vulnerability described in CVE-2004-2252."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2022-29519&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Programmable Logic Controller (PLC) sends sensitive information in plaintext, including passwords and session tokens."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;BUFFER OVERFLOW EXPLOITATION PATTERN&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Attackers can exploit buffer overflow vulnerabilities in software with insufficient documentation to escalate privileges or execute arbitrary code."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;CVE-2003-0190&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Product immediately sends an error message when a user does not exist, which allows remote attackers to determine valid usernames via a timing attack."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CVE-2020-8698&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Processor has improper isolation of shared resources allowing for information disclosure."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;UNINTENDED PROXY OR 'CONFUSED DEPUTY' (CWE-441)&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"This technique involves an attacker manipulating a component to act on behalf of another without proper authentication, leading to unauthorized actions."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;CVE-2002-0208&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Product modifies TCP/IP stack and ICMP error messages in unusual ways that show the product is in use."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;SUFFICIENT TECHNICAL DOCUMENTATION FOR DESIGN AND MAINTENANCE&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Having detailed technical documentation can help consultants focus on finding vulnerabilities rather than learning the product's structure."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;CVE-2008-4122&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Chain: Use of HTTPS cookie without secure flag causes it to be transmitted across unencrypted HTTP."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;CVE-2002-0515&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Product sets a different TTL when a port is being filtered than when it is not being filtered, which allows remote attackers to identify filtered ports by comparing TTLs."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;DIRECTORY TRAVERSAL VIA OBSERVABLE DISCREPANCIES&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Exploiting inconsistencies in error messages to enumerate directory structures and files."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;LOSS OF CONFIDENTIALITY AND INTEGRITY&quot;">
+  <data key="d0">"POSTCONDITION"</data>
+  <data key="d1">"Exploitation leads to leaks of sensitive data or unauthorized modifications of system configurations."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;INSUFFICIENT INPUT VALIDATION&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Lack of proper input validation mechanisms allows attackers to inject malicious data, such as SQL queries or commands, into the system."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE &quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"The product enables a Direct Memory Access (DMA) capable device before the security configuration settings are established, which allows an attacker to extract data from or gain privileges on the product."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;CVE-2019-6260&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Baseboard Management Controller (BMC) device implements Advanced High-performance Bus (AHB) bridges that do not require authentication for arbitrary read and write access to the BMC's physical address space from the host."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;UNAUTHORIZED JTAG ACCESS&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Accessing JTAG without proper authentication."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;UNTRUSTED AGENTS&quot;">
+  <data key="d0">"ATTACKER"</data>
+  <data key="d1">"Entities that exploit vulnerabilities in hardware access controls."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;CVE-2005-0918&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Browser allows remote attackers to determine the existence of arbitrary files by setting the src property to the target filename and using Javascript to determine if the web page immediately stops loading, which indicates whether the file exists or not."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CWE-912&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Activation of Undisclosed Telnet Server: An undocumented telnet server is activated by default, exposing the system to unauthorized access."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;AUTHENTICATION IMPLEMENTATION AND JTAG DISABLING&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Measures to secure debug interfaces by adding auth and disabling JTAG."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;UNAUTHORIZED ACCESS TO SYSTEM CONFIGURATION&quot;">
+  <data key="d0">"TACTIC"</data>
+  <data key="d1">"The tactic of gaining unauthorized access or modifying hardware configurations through exploit techniques."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;INFORMATION DISCLOSURE VIA SHARED RESOURCES&quot;">
+  <data key="d0">"TACTIC"</data>
+  <data key="d1">"Attackers aim to disclose sensitive information by exploiting improperly isolated shared resources on SoCs."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;INSUFFICIENT OUTPUT VALIDATION&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Lack of proper output validation can lead to information exposure or command injection vulnerabilities, enabling attackers to exploit the system."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;RACE CONDITION FOR WRITE-ONCE ATTRIBUTES&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A write-once register in hardware design is programmable by an untrusted software component earlier than the trusted software component, resulting in a race condition issue."</data>
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</node>
+<node id="&quot;CVE-2004-0243&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A vulnerability where systems display different responses for valid and invalid accounts, aiding in unauthorized access attempts."&lt;SEP&gt;"Operating System, when direct remote login is disabled, displays a different message if the password is correct, which allows remote attackers to guess the password via brute force methods."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0&lt;SEP&gt;chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;DIRECT MEMORY ACCESS (DMA)&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"An attacker can exploit DMA capabilities to directly access memory without OS interaction, leading to data extraction or privilege escalation."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;WEAK SESSION MANAGEMENT&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"The product does not properly manage authentication sessions, making it easier for attackers to hijack sessions or bypass authentication mechanisms."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;LACK OF UNIQUE IP IDENTIFIERS IN SOC&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Missing unique identifiers for SoC components, CWE-1192."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;OVERWRITING MEMORY WITH FIXED PATTERNS&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Recommendation to overwrite memory post-resource release."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;ISA/IEC 62443:REQ SP.03.08&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"The ISA/IEC 62443 standard requires secure coding practices to mitigate vulnerabilities in industrial control systems."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;INSUFFICIENT LOGGING AND MONITORING&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Implementing proper logging and monitoring can help detect and respond to attacks in a timely manner, reducing the impact of vulnerabilities."</data>
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</node>
+<node id="&quot;SYSTEM-ON-CHIP (SOC)&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"The SoC with a vulnerable debug/test interface."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;CVE-2004-1602&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"FTP server responds in a different amount of time when a given username exists, which allows remote attackers to identify valid usernames by timing the server response."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;CRYPTOLOCK&quot;">
+  <data key="d0">"SOFTWARE"</data>
+  <data key="d1">"CryptoLock is a strain of ransomware used to infect systems and encrypt files."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;UNAUTHORIZED DATA EXTRACTION OR CODE EXECUTION&quot;">
+  <data key="d0">"POSTCONDITION"</data>
+  <data key="d1">"Consequences of exploiting debug interface vulnerabilities."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;PRODUCT ACCESS CONTROL IMPLEMENTATION&quot;">
+  <data key="d0">"SOFTWARE"</data>
+  <data key="d1">"The product implements access controls via policies to manage asset accesses from untrusted agents."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;IOMMU-BASED MITIGATION STRATEGY&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Utilizing an IOMMU to orchestrate IO access from the start of system initialization is a mitigation against DMA attacks."</data>
+  <data key="d2">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</node>
+<node id="&quot;CWE-1191 AND CVE-2019-18827&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Vulnerabilities related to improper access control on JTAG interfaces."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;INSUFFICIENT GRANULARITY OF ACCESS CONTROL POLICY&quot;">
+  <data key="d0">"ATTACK PATTERN"</data>
+  <data key="d1">"A weakness where the access control policy lacks granularity, allowing unauthorized accesses."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;CVE-2004-2252&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Behavioral infoleak by responding to SYN-FIN packets."</data>
+  <data key="d2">chunk-307fbbaf9cc5087b5dba49fab909abc3</data>
+</node>
+<node id="&quot;ADVERSARY&quot;">
+  <data key="d0">"ATTACKER"</data>
+  <data key="d1">"An attacker who exploits hardware weaknesses to gain unauthorized access or modify system configurations."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;LACK OF AUTHENTICATION IN DEBUG INTERFACES&quot;">
+  <data key="d0">"PRECONDITION"</data>
+  <data key="d1">"Condition where debug interfaces lack proper authorization mechanisms."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;BYPASS AUTHENTICATION EXPLOIT&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Exploiting insufficient authentication checks to gain unauthorized access (e.g., CVE-2022-24985)."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;UNAUTHORIZED MODIFICATION OF HARDWARE CONFIGURATION&quot;">
+  <data key="d0">"POSTCONDITION"</data>
+  <data key="d1">"The result of exploiting lock bit weaknesses, leading to unauthorized system modifications."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;ISA/IEC 62443:REQ CR 2.1&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"The ISA/IEC 62443 standard mandates the use of cryptographic techniques to protect sensitive data and communications."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;CVE-2005-3140&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Product sends file with cleartext passwords in e-mail message intended for diagnostic purposes."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;GAINING UNAUTHORIZED SYSTEM ACCESS&quot;">
+  <data key="d0">"TACTIC"</data>
+  <data key="d1">"The goal of accessing system internals through vulnerabilities."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;REVIEW AND TEST ACCESS CONTROL POLICIES&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Recommendation includes reviewing and testing the granularity of access control policies during hardware design and testing phases."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;SECURE DELETION FUNCTIONS AND APIS&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Techniques like SDelete on Windows for secure data removal."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;NETWORK SNIFFING &quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"The technique of monitoring and capturing data packets over a network to extract sensitive information."</data>
+  <data key="d2">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</node>
+<node id="&quot;EXPLOITING DEBUG INTERFACES&quot;">
+  <data key="d0">"ATTACK PATTERN"</data>
+  <data key="d1">"The method of bypassing access control through debug interfaces."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;UNAUTHORIZED ACCESS AND DATA MODIFICATION&quot;">
+  <data key="d0">"TACTIC"</data>
+  <data key="d1">"The goal is to gain unauthorized access or modify sensitive data, such as device configurations and keys."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;ATTACKERS&quot;">
+  <data key="d0">"ATTACKER"</data>
+  <data key="d1">"Attackers who exploit vulnerabilities in hardware lock bits to gain unauthorized access."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;MISSING CRYPTOGRAPHIC STEP (CWE-325)&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A missing required step in a cryptographic algorithm weakens encryption, making it easier for attackers to bypass security measures."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;DEBUG/TEST INTERFACE TOOLS&quot;">
+  <data key="d0">"SOFTWARE"</data>
+  <data key="d1">"Tools used to access JTAG interfaces without proper authorization."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;INSECURE HARDWARE DEFAULTS&quot;">
+  <data key="d0">"PRECONDITION"</data>
+  <data key="d1">"Hardware starts with default values in registers that may be insecure upon power reset."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;FIRMWARE/BOOTLOADER SOFTWARE&quot;">
+  <data key="d0">"SOFTWARE"</data>
+  <data key="d1">"The firmware or bootloader software is used to configure system settings during hardware initialization."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;UNTRUSTED SOFTWARE COMPONENT&quot;">
+  <data key="d0">"COMPONENT"</data>
+  <data key="d1">"Can potentially exploit vulnerabilities by writing to registers."</data>
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</node>
+<node id="&quot;CVE-2022-24985, CVE-2021-36934&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Security weaknesses related to authentication bypass and overly permissive access control lists (ACLs)."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;EXTORTION VIA RANSOM DEMAND&quot;">
+  <data key="d0">"TACTIC"</data>
+  <data key="d1">"The main tactic is to demand ransoms for file decryption."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;IMPROPER PREVENTION OF LOCK BIT MODIFICATION&quot;">
+  <data key="d0">"ATTACK PATTERN"</data>
+  <data key="d1">"The attack pattern involves exploiting vulnerabilities in lock bit implementation to modify protected registers."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;INTERNAL REGISTERS AND ASSETS&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"Exposed through debug interfaces, vulnerable to unauthorized access."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;CWE-1419: INCORRECT REGISTER DEFAULTS OR MODULE PARAMETERS&quot;">
+  <data key="d0">"PRECONDITION"</data>
+  <data key="d1">"Incorrect hardware description language (HDL) code defines register defaults or IP parameters to insecure values."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;MODIFICATION OF PROTECTED REGISTERS&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Attackers use the technique of modifying protected registers after power state transitions to bypass security measures."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;PROCESS MONITOR (SYSINTERNALS)&quot;">
+  <data key="d0">"SOFTWARE"</data>
+  <data key="d1">"Process Monitor by Sysinternals provides detailed process monitoring to identify potential security issues."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;AUTOMATED DESIGN TOOLS FOR REGISTER DEFAULTS TESTING&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Tools used to review and test security-sensitive settings during hardware design and implementation phases."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;INFORMATION LEAK VIA UNCLEARED RESOURCES&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Exploiting un-cleared resources to access sensitive data."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;SECURITY LOCK BIT PROTECTION IMPLEMENTATION &quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Implementing secure lock bit protection and regular testing can mitigate such vulnerabilities."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;SNIFFERS AND PROTOCOL ANALYZERS&quot;">
+  <data key="d0">"SOFTWARE"</data>
+  <data key="d1">"These tools monitor network traffic for signs of encryption usage or malicious activity, aiding in vulnerability detection."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;EXPLOIT KITS FOR CVE EXPLOITATION&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Techniques used to exploit vulnerabilities like bypassing authentication (e.g., CVE-2022-24985)."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;HARDWARE SYSTEMS WITH LOCK BITS&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"The target hardware systems that use register lock bits for security protection."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;UNAUTHORIZED ACCESS CONTROL BYPASS&quot;">
+  <data key="d0">"TACTIC"</data>
+  <data key="d1">"The tactic involves bypassing access control mechanisms by exploiting improper lock behavior after power state transitions."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;IMPROPER RESTRICTION OF WRITE-ONCE BIT FIELDS&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"The hardware design control register sticky bits or write-once bit fields are improperly implemented, allowing them to be reprogrammed by software."</data>
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</node>
+<node id="&quot;ACCESS CONTROL POLICY IMPLEMENTATION WEAKNESS&quot;">
+  <data key="d0">"ATTACK PATTERN"</data>
+  <data key="d1">"A pattern where access control policies are insufficiently granular, enabling unauthorized accesses."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;LACK OF WRITE-ONCE RESTRICTIONS IN HARDWARE DESIGN &quot;">
+  <data key="d0">"PRECONDITION"</data>
+  <data key="d1">"Failure to implement write-once restrictions creates a precondition for attackers to exploit hardware vulnerabilities."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;INSUFFICIENT GRANULARITY OF ADDRESS REGIONS PROTECTED BY REGISTER LOCKS&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"The product defines a large address region protected from modification by the same register lock control bit, leading to conflicts between functional and security requirements."</data>
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</node>
+<node id="&quot;VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) &quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"The hardware's lock bit protection mechanism has a known vulnerability (CWE-284, CVE-2017-6283) that allows unauthorized modification of protected registers."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;CVE-2001-1528&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A vulnerability where systems display different messages for valid and invalid accounts, aiding attacker enumeration."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;UNINTENDED CHANGES TO SYSTEM CONFIGURATION POST-POWER TRANSITION &quot;">
+  <data key="d0">"POSTCONDITION"</data>
+  <data key="d1">"Exploiting the lock bit vulnerability can lead to unintended changes in system configuration after power state transitions, compromising security."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;CWE-667 AND CVE-2018-9085&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Known vulnerabilities related to missing lock bit protection, allowing unauthorized modifications."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;TIMING ATTACK RESISTANCE IMPLEMENTATION&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Enhancing authentication to resist timing attacks."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;CVE-2008-0374&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Printer sends configuration information, including administrative password, in cleartext."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;PHISHING EMAILS WITH MALICIOUS ATTACHMENTS&quot;">
+  <data key="d0">"ATTACK PATTERN"</data>
+  <data key="d1">"The attack pattern involves sending phishing emails to distribute ransomware."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;HARDWARE DESIGN AND INTEGRATED CIRCUITS &quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"The target entity is hardware designs and integrated circuits that lack proper lock bit protection mechanisms."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;RANSOMWARE PROTECTION AND PATCHING&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Recommendations include enabling protection features and keeping systems updated."</data>
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</node>
+<node id="&quot;CVE-2007-4786&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Product sends passwords in cleartext to a log server, exposing sensitive data."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;CWE-284&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Common Weakness Enumeration (CWE) ID 284 describes vulnerabilities related to improper lock bit protection mechanisms in hardware designs."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;SIGN THEN SEAL SENSITIVE OBJECTS&quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"A mitigation strategy where sensitive objects are signed and sealed before transmission to prevent tampering or interception."</data>
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</node>
+<node id="&quot;CWE-667&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Common Weakness Enumeration (CWE) ID 667 addresses issues where protected registers or lock bits become programmable after power state transitions."&lt;SEP&gt;"The lock bit protection bypass allows attackers to access and modify system configuration even when the lock bit is set."</data>
+  <data key="d2">chunk-80f8e2a782d3784f549ab8a8418f64bd&lt;SEP&gt;chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;CVE-2017-6283&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"CVE-2017-6283 is a specific vulnerability where chip reset clears critical read/write lock permissions for RSA functions."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;HARDWARE DESCRIPTION LANGUAGE (HDL) CODE &quot;">
+  <data key="d0">"PRECONDITION"</data>
+  <data key="d1">"HDL code defines hardware behavior, including register initialization and protection mechanisms, which must be carefully reviewed to prevent vulnerabilities."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;JAVA-ORIENTED FRAMEWORK HMAC COMPARISON TIMING DISCREPANCY&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Using timing discrepancies in HMAC comparisons to infer sensitive information."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;TESTING PHASE PROTECTION MECHANISMS &quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Automated testing during the Testing phase can identify issues with lock bit write-once fields and ensure they are functioning correctly."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;CVE-2005-1650&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A vulnerability where systems display different responses to requests related to valid or invalid user accounts, enabling enumeration."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CVE-2007-5626&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Backup routine sends password in cleartext via email, exposing sensitive data."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;MANUAL ANALYSIS OF LOCK BIT BEHAVIOR &quot;">
+  <data key="d0">"MITIGATION"</data>
+  <data key="d1">"Conducting manual analysis to test lock bit behavior after power cycling helps verify the integrity of security measures."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;CVE-2008-4390&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Remote management feature sends sensitive information including passwords in cleartext."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;VHDL AND VERILOG LANGUAGES &quot;">
+  <data key="d0">"TECHNOLOGY CLASS"</data>
+  <data key="d1">"The use of VHDL and Verilog languages in hardware design introduces potential vulnerabilities if not properly secured."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;CVE-2007-4961&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Chain: cleartext transmission of the MD5 hash of password enables attacks against a server susceptible to replay (CWE-294)."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;SYSTEM ON CHIP (SOC) DESIGN &quot;">
+  <data key="d0">"TECHNOLOGY CLASS"</data>
+  <data key="d1">"System on Chip (SoC) designs are vulnerable to lock bit exploitation due to their complexity and integration of multiple components."</data>
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</node>
+<node id="&quot;EXPLOITING LOCK BIT WEAKNESSES&quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Technique used by attackers to bypass lock bit protections and modify system registers."</data>
+  <data key="d2">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</node>
+<node id="&quot;INSUFFICIENT IDENTIFIER MECHANISM (CWE-657)&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A missing or insufficient identifier mechanism in a System-on-Chip (SoC) can allow attackers to bypass protection mechanisms and exploit the system."</data>
+  <data key="d2">chunk-0e7e0a03ef0aaa003fbaeb20b6671acf</data>
+</node>
+<node id="&quot;USER ENUMERATION VIA ERROR MESSAGE DISCREPANCIES &quot;">
+  <data key="d0">"ATTACK TECHNIQUE"</data>
+  <data key="d1">"Exploiting differences in error messages to identify valid user accounts and conduct brute force attacks."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CVE-2004-1852&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Product transmits Blowfish encryption key in cleartext, a critical security flaw."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;POWER-ON OF UNTRUSTED EXECUTION CORE BEFORE ENABLING FABRIC ACCESS CONTROL (CWE-1193)&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Enabling untrusted execution cores before securing fabric access controls during the boot sequence allows adversaries to compromise the SoC's firmware."</data>
+  <data key="d2">chunk-0e7e0a03ef0aaa003fbaeb20b6671acf</data>
+</node>
+<node id="&quot;PLOVER&quot;">
+  <data key="d0">"TAXONOMY"</data>
+  <data key="d1">"A taxonomy related to plaintext transmission of sensitive information, focusing on security vulnerabilities."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;FAILURE TO DISABLE RESERVED BITS (CWE-1209)&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Reserved bits in hardware designs that are not disabled can be exploited by attackers to induce unintended behavior or bypass security measures."</data>
+  <data key="d2">chunk-0e7e0a03ef0aaa003fbaeb20b6671acf</data>
+</node>
+<node id="&quot;INSUFFICIENT GRANULARITY OF ACCESS CONTROL (CWE-1220)&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Lack of granularity in access controls allows unauthorized agents to access sensitive assets, such as device configuration or encryption keys."</data>
+  <data key="d2">chunk-0e7e0a03ef0aaa003fbaeb20b6671acf</data>
+</node>
+<node id="&quot;DATA EXTRACTION VIA ENCRYPTION KEYS&quot;">
+  <data key="d0">"TACTIC"</data>
+  <data key="d1">"Extracting sensitive data by exploiting encryption key vulnerabilities."</data>
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</node>
+<node id="&quot;CVE-2019-10071&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"A vulnerability in a Java framework where String.equals() causes timing discrepancies exploitable for side channel attacks."</data>
+  <data key="d2">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</node>
+<node id="&quot;CVE-2002-1949&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Passwords transmitted in cleartext, a security risk for sensitive data exposure."</data>
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</node>
+<node id="&quot;CWE-1239&quot;">
+  <data key="d0">"VULNERABILITY"</data>
+  <data key="d1">"Hardware registers do not properly clear sensitive information, leading to potential data exposure when hardware users change."</data>
+  <data key="d2">chunk-80f8e2a782d3784f549ab8a8418f64bd</data>
+</node>
+<node id="&quot;INTEGRATED CIRCUITS AND HARDWARE ENGINES&quot;">
+  <data key="d0">"TARGET ENTITY"</data>
+  <data key="d1">"Hardware systems with exposed accesses to assets, such as device configuration and keys, that are targeted by attackers."</data>
+  <data key="d2">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</node>
+<node id="&quot;MODIFICATION OF PROTECTED REGISTERS &quot;">
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+  <data key="d1">"Implementing proper lock bit protection mitigates the risk of unauthorized modification of protected registers."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;UNAUTHORIZED ACCESS CONTROL BYPASS &quot;">
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+  <data key="d1">"The tactic of bypassing access control is achieved through the attack technique of modifying protected registers."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;NETWORK TRAFFIC SECURITY&quot;">
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+  <data key="d1">"Configuring servers with SSL ensures secure data transmission, mitigating plaintext traffic risks."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')&quot;">
+  <data key="d2">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+  <data key="d1">"The pattern exploits CVE-2005-0315 FTP server vulnerability to enable port scanning via proxy."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;VULNERABILITY DETECTION&quot;">
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+  <data key="d1">"These utilities implement techniques for detecting vulnerabilities by monitoring system calls."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;INSECURE NETWORK TRAFFIC &quot;">
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+  <data key="d1">"Attackers use these tools to exploit plaintext data transmission vulnerabilities."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;HDL CODE &quot;">
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+  <data key="d1">"Improper implementation of HDL code can lead to vulnerabilities like CWE-284 and CVE-2017-6283."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="'MISSING CRYPTOGRAPHIC STEP'">
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+  <data key="d1">"Attackers can exploit the missing cryptographic step vulnerability using unintended proxy techniques to gain unauthorized access."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SIGN THEN SEAL SENSITIVE OBJECTS'">
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+  <data key="d1">"This mitigation involves sealing sensitive information to prevent plaintext transmission and protect data integrity."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="'PLAINTEXT TRANSMISSION OF SENSITIVE INFORMATION'">
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+  <data key="d1">"This mitigation involves sealing sensitive information to prevent plaintext transmission and protect data integrity."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;MEMORY MANAGEMENT&quot;">
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+  <data key="d1">"Inspections during the architecture phase address memory management issues as a precondition for preventing vulnerabilities."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="'PLAINTEXT TRANSMISSION OF SENSITIVE INFORMATION (CWE-651)'">
+  <data key="d2">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+  <data key="d1">"This mitigation involves sealing sensitive information to prevent plaintext transmission and protect data integrity."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CVE-2010-1637 AND CVE-2009-0037 VULNERABILITIES&quot;">
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+  <data key="d1">"Lack of proper output validation allows attackers to exploit vulnerabilities like CVE-2010-1637 and CVE-2009-0037."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CVE-2019-18827&quot;">
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+  <data key="d1">"Exploits this vulnerability to extract keys."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;RACE CONDITION EXPLOITATION&quot;">
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+  <data key="d1">"Exploits this vulnerability to extract keys."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;UNCLEARED SENSITIVE INFORMATION BEFORE RESOURCE REUSE&quot;">
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+  <data key="d1">"Vulnerability exists in systems managing state transitions."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;HDL&quot;">
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+  <data key="d1">"Hardware Description Language is used to implement registers with write-once attributes, which can lead to race conditions."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;WRITE-ONCE ATTRIBUTES&quot;">
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+  <data key="d1">"Hardware Description Language is used to implement registers with write-once attributes, which can lead to race conditions."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;ATTACKER&quot;">
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+  <data key="d1">"Attackers use these tools to exploit the vulnerability."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CWE-667 AND CWE-1239&quot;">
+  <data key="d2">chunk-80f8e2a782d3784f549ab8a8418f64bd</data>
+  <data key="d1">"Attackers exploit these vulnerabilities to achieve their tactic of unauthorized access, bypassing protection mechanisms."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;TRUSS (SOLARIS)&quot;">
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+  <data key="d1">"Attackers may use truss to monitor system calls and identify potential vulnerabilities."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;MEMORY NOT PROPERLY CLEARED BEFORE REUSE&quot;">
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+  <data key="d1">"The 'Memory Not Properly Cleared Before Reuse' issue is classified under CWE-2077 as a vulnerability."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;PLOVER TAXONOMY ENTRY:SENSITIVE INFORMATION UNCLEARED BEFORE USE &quot;">
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+  <data key="d1">"The PLOVER taxonomy entry describes the same concept as CWE-2077, which involves sensitive information uncleared before use."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;VULNERABILITY&quot;">
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+  <data key="d1">"The testing phase uses automated tools to validate configurations and mitigate potential vulnerabilities."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CERT C SECURE CODING TAXONOMY:MEM03-C &quot;">
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+  <data key="d1">"The mitigation measure described in MEM03-C is intended to address the 'Memory Not Properly Cleared Before Reuse' issue."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;IMPROPER PREVENTION OF LOCK BIT MODIFICATION &quot;">
+  <data key="d2">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+  <data key="d1">"Modifying protected registers is part of the attack technique related to improper lock bit prevention exploitation."&lt;SEP&gt;"The modification of protected registers is a technique used in the attack pattern of improper lock bit prevention exploitation."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;TRANSFER TO A DIFFERENT CONTROL SPHERE &quot;">
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+  <data key="d1">"The technique of transferring sensitive data to a different control sphere is often exploited in network packet handling."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CWE-1000:CWE RESEARCH VIEW TAXONOMY &quot;">
+  <data key="d2">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+  <data key="d1">"The CWE research view (CWE-1000) categorizes and understands the 'Sensitive Information Uncleared Before Use' vulnerability."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SYSTEM-CALL TRACING TECHNIQUE&quot;">
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+  <data key="d1">"Strace implements the same system-call tracing technique used by attackers for vulnerability detection."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;DESIGN REVIEW PHASE&quot;">
+  <data key="d2">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+  <data key="d1">"The design review phase ensures that security-sensitive settings are defined correctly, which is crucial for preventing such vulnerabilities."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;FILE SYSTEM MONITORING&quot;">
+  <data key="d2">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+  <data key="d1">"FileMon is used to monitor file activity, which can be part of an attack pattern or mitigation strategy."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SOC&quot;">
+  <data key="d2">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+  <data key="d1">"Vulnerability exists within the SoC design."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SHADOW CREW&quot;">
+  <data key="d2">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+  <data key="d1">"Shadow Crew uses CryptoLock for attacks."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;MISSING DOCUMENTATION FOR DESIGN&quot;">
+  <data key="d2">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+  <data key="d1">"The absence of proper documentation is a prerequisite that indirectly leads to the Insufficient Technical Documentation vulnerability."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;FIXING DESIGN FLAWS IN HARDWARE TESTING&quot;" target="&quot;CWE-667 AND CVE-2018-9085&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Mitigations aim to prevent these vulnerabilities by ensuring proper lock bit functionality."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</edge>
+<edge source="&quot;SHARED RESOURCE ISOLATION FAILURE&quot;" target="&quot;SYSTEM-ON-A-CHIP (SOC)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Failure to isolate shared resources on the SoC creates vulnerabilities that can be exploited by attackers."</data>
+  <data key="d5">"Exist_in"</data>
+  <data key="d6">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</edge>
+<edge source="&quot;AUTHENTICATED DEBUG MODES AND ZEROIZATION MECHANISMS&quot;" target="&quot;CWE-1239&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"These mitigation measures are intended to prevent unauthorized access by ensuring sensitive information in hardware registers is properly cleared."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-80f8e2a782d3784f549ab8a8418f64bd</data>
+</edge>
+<edge source="&quot;BYPASS PROTECTION MECHANISM AND UNAUTHORIZED ACCESS&quot;" target="&quot;CWE-667 AND CWE-1239&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Attackers exploit these vulnerabilities to achieve their tactic of unauthorized access, bypassing protection mechanisms."</data>
+  <data key="d5">"Accomplish"</data>
+  <data key="d6">chunk-80f8e2a782d3784f549ab8a8418f64bd</data>
+</edge>
+<edge source="&quot;DEBUGGERS&quot;" target="&quot;ATTACKERS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Attackers may use debuggers to inject malicious code or intercept data during program execution."</data>
+  <data key="d5">"Use"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;CVE-1999-0017&quot;" target="&quot;UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Confused Deputy attack pattern exploits CVE-1999-0017 FTP bounce vulnerability to misroute requests."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;CVE-1999-0017&quot;" target="&quot;CWE-610&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attack pattern CWE-610 exploits CVE-1999-0017 FTP bounce vulnerability to misroute requests."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;CWE-2077&quot;" target="&quot;MEMORY NOT PROPERLY CLEARED BEFORE REUSE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The 'Memory Not Properly Cleared Before Reuse' issue is classified under CWE-2077 as a vulnerability."</data>
+  <data key="d5">"Exist_in"</data>
+  <data key="d6">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</edge>
+<edge source="&quot;CWE-2077&quot;" target="&quot;PLOVER TAXONOMY ENTRY:SENSITIVE INFORMATION UNCLEARED BEFORE USE &quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The PLOVER taxonomy entry describes the same concept as CWE-2077, which involves sensitive information uncleared before use."</data>
+  <data key="d5">"Same_as"</data>
+  <data key="d6">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</edge>
+<edge source="&quot;CWE-2077&quot;" target="&quot;SOFTWARE FAULT PATTERNS:SFP23:EXPOSED DATA &quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The exposed data attack pattern (SFP23) is related to the CWE-2077 vulnerability, as both involve sensitive information handling."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</edge>
+<edge source="&quot;SYSTEM-CALL TRACING UTILITIES&quot;" target="&quot;VULNERABILITY DETECTION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"These utilities implement techniques for detecting vulnerabilities by monitoring system calls."</data>
+  <data key="d5">"Implement"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;CVE-1999-0168&quot;" target="&quot;UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attack pattern exploits CVE-1999-0168 RPC portmapper vulnerability to redirect service requests."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;CVE-1999-0168&quot;" target="&quot;CWE-610&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attack pattern CWE-610 exploits CVE-1999-0168 RPC portmapper vulnerability to redirect service requests."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;NETWORK SNIFFERS AND PROTOCOL ANALYZERS&quot;" target="&quot;INSECURE NETWORK TRAFFIC &quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Attackers use these tools to exploit plaintext data transmission vulnerabilities."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;WINDOWS OPERATING SYSTEMS&quot;" target="&quot;WINDOWS PRINT SPOOLER VULNERABILITY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Vulnerability exists in Windows systems."</data>
+  <data key="d5">"Exist_in"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;CVE-2005-0315&quot;" target="&quot;UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The pattern exploits CVE-2005-0315 FTP server vulnerability to enable port scanning via proxy."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;CVE-2005-0315&quot;" target="&quot;CWE-610&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attack pattern CWE-610 exploits CVE-2005-0315 FTP server vulnerability to enable port scanning via proxy."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;CVE-2002-1484&quot;" target="&quot;CWE-610&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attack pattern CWE-610 exploits CVE-2002-1484 web server vulnerability for proxied scanning."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;CVE-2002-1484&quot;" target="&quot;UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attack pattern exploits CVE-2002-1484 web server vulnerability for proxied scanning."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;NETWORKING&quot;" target="&quot;TRANSFER TO A DIFFERENT CONTROL SPHERE &quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The technique of transferring sensitive data to a different control sphere is often exploited in network packet handling."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</edge>
+<edge source="&quot;UNINTENDED PROXY OR 'CONFUSED DEPUTY'" target="'MISSING CRYPTOGRAPHIC STEP'">
+  <data key="d3">8.0</data>
+  <data key="d4">"Attackers can exploit the missing cryptographic step vulnerability using unintended proxy techniques to gain unauthorized access."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</edge>
+<edge source="&quot;CVE-2004-2061&quot;" target="&quot;UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The pattern exploits CVE-2004-2061 CGI script vulnerability to accept malicious URLs."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;CVE-2004-2061&quot;" target="&quot;CWE-610&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attack pattern CWE-610 exploits CVE-2004-2061 CGI script vulnerability to accept malicious URLs."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;UNAUTHORIZED ACCESS TO BMC PHYSICAL ADDRESS SPACE&quot;" target="&quot;CVE-2019-6260&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Exploitation of CVE-2019-6260 results in unauthorized access to the BMC's physical address space."</data>
+  <data key="d5">"affecting"</data>
+  <data key="d6">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</edge>
+<edge source="&quot;FILEMON&quot;" target="&quot;FILE SYSTEM MONITORING&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"FileMon is used to monitor file activity, which can be part of an attack pattern or mitigation strategy."</data>
+  <data key="d5">"Implement"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;CVE-2001-1484&quot;" target="&quot;CWE-610&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attack pattern CWE-610 exploits CVE-2001-1484 bounce attack vulnerability to access TFTP from trusted sides."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;CVE-2001-1484&quot;" target="&quot;UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attack pattern exploits CVE-2001-1484 bounce attack vulnerability to access TFTP from trusted sides."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;STRACE (LINUX)&quot;" target="&quot;SYSTEM-CALL TRACING TECHNIQUE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Strace implements the same system-call tracing technique used by attackers for vulnerability detection."</data>
+  <data key="d5">"Same_as"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;STRACE (LINUX)&quot;" target="&quot;ATTACKERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Attackers can employ strace to trace system calls and exploit identified vulnerabilities."</data>
+  <data key="d5">"Use"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;LOCK BIT NOT SET AFTER BOOT&quot;" target="&quot;EXPLOITING LOCK BIT WEAKNESSES&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"This technique exploits the precondition where lock bits are unset after reboot."</data>
+  <data key="d5">"premise"</data>
+  <data key="d6">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</edge>
+<edge source="&quot;LOCK BIT NOT SET AFTER BOOT&quot;" target="&quot;HARDWARE SYSTEMS WITH LOCK BITS&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"The vulnerability exists within these systems, making them targets."</data>
+  <data key="d5">"Exist_in"</data>
+  <data key="d6">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</edge>
+<edge source="&quot;CWE-2077:SENSITIVE INFORMATION UNCLEARED BEFORE USE &quot;" target="&quot;HOST-BASED VULNERABILITY SCANNERS &quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Host-based vulnerability scanners are used to detect and mitigate the 'Sensitive Information Uncleared Before Use' issue."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</edge>
+<edge source="&quot;CWE-2077:SENSITIVE INFORMATION UNCLEARED BEFORE USE &quot;" target="&quot;MEMORY MANAGEMENT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The CWE-2077 vulnerability arises due to improper memory management practices."</data>
+  <data key="d5">"premise"</data>
+  <data key="d6">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</edge>
+<edge source="&quot;CWE-2077:SENSITIVE INFORMATION UNCLEARED BEFORE USE &quot;" target="&quot;CWE-1000:CWE RESEARCH VIEW TAXONOMY &quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The CWE research view (CWE-1000) categorizes and understands the 'Sensitive Information Uncleared Before Use' vulnerability."</data>
+  <data key="d5">"Same_as"</data>
+  <data key="d6">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</edge>
+<edge source="&quot;CWE-2077:SENSITIVE INFORMATION UNCLEARED BEFORE USE &quot;" target="&quot;FORMAL METHODS/CORRECT-BY-CONSTRUCTION &quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The formal method ensures proper resource handling, mitigating the risk of CWE-2077 vulnerabilities."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</edge>
+<edge source="&quot;CVE-2004-0294&quot;" target="&quot;USER ENUMERATION VIA INCONSISTENT ERROR MESSAGES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Attackers exploit this precondition in CVE-2004-0294 to enumerate valid users through error message differences."</data>
+  <data key="d5">"premise"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;CERT C SECURE CODING:FIO06-C&quot;" target="&quot;INSECURE FILE CREATION PERMISSIONS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The CERT C Secure Coding standard recommends creating files with appropriate access permissions to mitigate the risk of insecure file creation permissions."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</edge>
+<edge source="&quot;DEBUG FEATURES IN HARDWARE DESIGN&quot;" target="&quot;CWE-667&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The presence of debug features is a prerequisite for exploiting the lock bit protection bypass vulnerability."</data>
+  <data key="d5">"premise"</data>
+  <data key="d6">chunk-80f8e2a782d3784f549ab8a8418f64bd</data>
+</edge>
+<edge source="&quot;INSPECTION (IEEE 1028 STANDARD)&quot;" target="&quot;MEMORY MANAGEMENT&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Inspections during the architecture phase address memory management issues as a precondition for preventing vulnerabilities."</data>
+  <data key="d5">"premise"</data>
+  <data key="d6">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</edge>
+<edge source="&quot;CVE-2010-1637&quot;" target="&quot;UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The pattern exploits CVE-2010-1637 mail program vulnerability to enable internal network scanning."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;CVE-2010-1637&quot;" target="&quot;CWE-610&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attack pattern CWE-610 exploits CVE-2010-1637 mail program vulnerability to enable internal network scanning."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;EARLY BOOT PHASE EXPLOITATION&quot;" target="&quot;DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE &quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attack technique of exploiting DMA devices during the early boot phase aligns with the attack pattern of enabling devices too early."</data>
+  <data key="d5">"Same_as"</data>
+  <data key="d6">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</edge>
+<edge source="&quot;CVE-2009-0037&quot;" target="&quot;UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attack pattern exploits CVE-2009-0037 URL-downloading library vulnerability to bypass restrictions."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;CVE-2009-0037&quot;" target="&quot;CWE-610&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attack pattern CWE-610 exploits CVE-2009-0037 URL-downloading library vulnerability to bypass restrictions."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-cf2bb615b405ec5f79b3729ede5b6486</data>
+</edge>
+<edge source="&quot;CVE-2001-0497&quot;" target="&quot;CLEARTEXT TRANSMISSION OF SENSITIVE INFORMATION&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The cleartext transmission attack pattern exploits the CVE-2001-0497 vulnerability related to insecure permissions for a shared secret key file."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</edge>
+<edge source="&quot;SIDE CHANNEL ATTACK PATTERN&quot;" target="&quot;EXPLOITING OBSERVABLE DISCREPANCIES&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"The attack technique aligns with the side channel attack pattern, where behavior analysis is central."</data>
+  <data key="d5">"Same_as"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;EXPLOITING OBSERVABLE DISCREPANCIES&quot;" target="&quot;ATTACKERS&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"Attackers use the technique of exploiting observable discrepancies to gain unauthorized access."</data>
+  <data key="d5">"Use"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;EXPLOITING OBSERVABLE DISCREPANCIES&quot;" target="&quot;INFORMATION DISCLOSURE&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"Attackers achieve information disclosure through the technique of exploiting observable discrepancies."</data>
+  <data key="d5">"Accomplish"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;EXPLOITING OBSERVABLE DISCREPANCIES&quot;" target="&quot;SECURE COMPARTMENTALIZATION AND ERROR HANDLING&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Mitigations prevent attackers from successfully exploiting observable discrepancies."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;STATE TRANSITION MANAGEMENT IN SOFTWARE SYSTEMS&quot;" target="&quot;UNCLEARED SENSITIVE INFORMATION BEFORE RESOURCE REUSE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Vulnerability exists in systems managing state transitions."</data>
+  <data key="d5">"Exist_in"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;TRUSTED FIRMWARE/SOFTWARE MODULE&quot;" target="&quot;UNTRUSTED SOFTWARE COMPONENT&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Interaction between trusted and untrusted modules leads to potential race condition vulnerabilities."</data>
+  <data key="d5">"Conflict"</data>
+  <data key="d6">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</edge>
+<edge source="&quot;SYSTEM BEHAVIOR ANALYSIS&quot;" target="&quot;OBSERVABLE DISCREPANCY VULNERABILITY (CWE-203) &quot;">
+  <data key="d3">12.0</data>
+  <data key="d4">"Understanding system behavior is a prerequisite for attackers to exploit this vulnerability."</data>
+  <data key="d5">"premise"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)&quot;" target="&quot;CVE-2019-6260&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The improper isolation vulnerability in SoCs is exploited as described in CVE-2019-6260, which involves unauthorized BMC access."&lt;SEP&gt;"The improper isolation vulnerability in SoCs is related to CVE-2019-6260, which involves unauthorized access to BMC physical address space."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</edge>
+<edge source="&quot;IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)&quot;" target="&quot;CVE-2020-8698&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The improper isolation vulnerability in SoCs is exploited as described in CVE-2020-8698, which involves information disclosure."&lt;SEP&gt;"The improper isolation vulnerability in SoCs is related to CVE-2020-8698, which involves information disclosure due to improper resource isolation."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</edge>
+<edge source="&quot;OBSERVABLE DISCREPANCY VULNERABILITY (CWE-203) &quot;" target="&quot;SYSTEMS WITH OBSERVABLE DISCREPANCIES (E.G., SOFTWARE, HARDWARE)&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"This vulnerability exists within systems where observable discrepancies can be detected and exploited."</data>
+  <data key="d5">"Exist_in"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;OBSERVABLE DISCREPANCY VULNERABILITY (CWE-203) &quot;" target="&quot;CVE-2020-8695&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"CVE-2020-8695 is a specific instance of the observable discrepancy vulnerability in Intel processors."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;OBSERVABLE DISCREPANCY VULNERABILITY (CWE-203) &quot;" target="&quot;INFORMATION LEAKAGE AND SYSTEM COMPROMISE&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Exploiting this vulnerability leads to information leakage and potential system compromise."</data>
+  <data key="d5">"affecting"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;PLOVER: INSECURE DEFAULT PERMISSIONS&quot;" target="&quot;CVE-2005-1941&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The PLOVER taxonomy addresses the CVE-2005-1941 vulnerability related to executables installed world-writable by enforcing secure default permissions."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-e75a1595db4670470ac4e28b2363c830</data>
+</edge>
+<edge source="&quot;CRYPTO HARDWARE WALLET POWER CONSUMPTION SIDE CHANNEL ATTACK&quot;" target="&quot;CVE-2019-14353&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"This attack technique exploits CVE-2019-14353 to reveal sensitive data via power consumption variations."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;CWE-668&quot;" target="&quot;CVE-2010-1637 AND CVE-2009-0037 VULNERABILITIES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The exposure of resources to unauthorized access (CWE-668) is exploited through vulnerabilities like CVE-2010-1637 and CVE-2009-0037."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</edge>
+<edge source="&quot;EXPLOIT KIT TRIGGERING&quot;" target="&quot;EXTORTION VIA RANSOM DEMAND&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Tactic accomplished through exploitation."</data>
+  <data key="d5">"Accomplish"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;EXPLOIT KIT TRIGGERING&quot;" target="&quot;PHISHING EMAILS WITH MALICIOUS ATTACHMENTS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Same technique as phishing pattern."</data>
+  <data key="d5">"Same_as"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;EXPLOIT KIT TRIGGERING&quot;" target="&quot;CRYPTOLOCK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"CryptoLock is implemented via exploit kit triggering."</data>
+  <data key="d5">"Implement"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;EXPLOIT KIT TRIGGERING&quot;" target="&quot;RANSOMWARE PROTECTION AND PATCHING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Mitigations counteract exploit techniques."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;ARCHITECTURE AND DESIGN PHASE&quot;" target="&quot;IMPROPER RESTRICTION OF WRITE-ONCE BIT FIELDS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Such vulnerabilities originate from decisions made during the architecture and design phase."</data>
+  <data key="d5">"premise"</data>
+  <data key="d6">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</edge>
+<edge source="&quot;FILE ENCRYPTION AND RANSOM DEMAND&quot;" target="&quot;WINDOWS PRINT SPOOLER VULNERABILITY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Postcondition results from exploitation."</data>
+  <data key="d5">"affecting"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;TESTING PHASE&quot;" target="&quot;VULNERABILITY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The testing phase uses automated tools to validate configurations and mitigate potential vulnerabilities."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</edge>
+<edge source="&quot;AUTOMATED STATIC ANALYSIS (SAST)&quot;" target="&quot;VULNERABILITY DETECTION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"SAST detects vulnerabilities by analyzing source code without execution, mitigating potential attacks."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;WINDOWS PRINT SPOOLER VULNERABILITY&quot;" target="&quot;PHISHING EMAILS WITH MALICIOUS ATTACHMENTS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Phishing exploits the vulnerability."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;ENCRYPTED CHANNELS CONFIGURATION&quot;" target="&quot;NETWORK TRAFFIC SECURITY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Configuring servers with SSL ensures secure data transmission, mitigating plaintext traffic risks."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;INSUFFICIENT TECHNICAL DOCUMENTATION&quot;" target="&quot;CVE-2010-1637 AND CVE-2009-0037 VULNERABILITIES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The lack of sufficient documentation makes it harder to identify and fix vulnerabilities like CVE-2010-1637 and CVE-2009-0037."</data>
+  <data key="d5">"affecting"</data>
+  <data key="d6">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</edge>
+<edge source="&quot;INSUFFICIENT TECHNICAL DOCUMENTATION&quot;" target="&quot;MISSING DOCUMENTATION FOR DESIGN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The absence of proper documentation is a prerequisite that indirectly leads to the Insufficient Technical Documentation vulnerability."</data>
+  <data key="d5">"premise"</data>
+  <data key="d6">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</edge>
+<edge source="&quot;CVE-2020-8698&quot;" target="&quot;DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE &quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The DMA device vulnerability is related to CVE-2020-8698, as both involve improper isolation of resources and potential information disclosure."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</edge>
+<edge source="&quot;UNINTENDED PROXY OR 'CONFUSED DEPUTY' (CWE-441)&quot;" target="&quot;MISSING CRYPTOGRAPHIC STEP (CWE-325)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Attackers can exploit the missing cryptographic step vulnerability using unintended proxy techniques to gain unauthorized access."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</edge>
+<edge source="&quot;SUFFICIENT TECHNICAL DOCUMENTATION FOR DESIGN AND MAINTENANCE&quot;" target="&quot;INSUFFICIENT INPUT VALIDATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Having proper documentation helps mitigate the risk of insufficient input validation by enabling better understanding of system vulnerabilities."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</edge>
+<edge source="&quot;LOSS OF CONFIDENTIALITY AND INTEGRITY&quot;" target="&quot;CVE-2022-24985, CVE-2021-36934&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Exploitation results in unauthorized access or data modification affecting confidentiality and integrity."</data>
+  <data key="d5">"affecting"</data>
+  <data key="d6">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</edge>
+<edge source="&quot;INSUFFICIENT INPUT VALIDATION&quot;" target="&quot;CVE-2010-1637 AND CVE-2009-0037 VULNERABILITIES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The absence of proper input validation mechanisms allows attackers to exploit vulnerabilities like CVE-2010-1637 and CVE-2009-0037."</data>
+  <data key="d5">"Accomplish"</data>
+  <data key="d6">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</edge>
+<edge source="&quot;DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE &quot;" target="&quot;IOMMU-BASED MITIGATION STRATEGY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Using an IOMMU-based strategy mitigates the risk of DMA attacks during the early boot phase."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</edge>
+<edge source="&quot;DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE &quot;" target="&quot;CVE-2019-6260&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The DMA device vulnerability is related to CVE-2019-6260, as both involve unauthorized access to system resources."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-155e5cca5e90d88780b67dd7b487829a</data>
+</edge>
+<edge source="&quot;UNAUTHORIZED JTAG ACCESS&quot;" target="&quot;DEBUG/TEST INTERFACE TOOLS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Tools implement this attack technique."</data>
+  <data key="d5">"Implement"</data>
+  <data key="d6">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</edge>
+<edge source="&quot;UNAUTHORIZED JTAG ACCESS&quot;" target="&quot;EXPLOITING DEBUG INTERFACES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Same attack technique as the pattern."</data>
+  <data key="d5">"Same_as"</data>
+  <data key="d6">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</edge>
+<edge source="&quot;UNAUTHORIZED JTAG ACCESS&quot;" target="&quot;AUTHENTICATION IMPLEMENTATION AND JTAG DISABLING&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Mitigates this attack technique."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</edge>
+<edge source="&quot;UNAUTHORIZED JTAG ACCESS&quot;" target="&quot;GAINING UNAUTHORIZED SYSTEM ACCESS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Accomplishes the tactic through this technique."</data>
+  <data key="d5">"Accomplish"</data>
+  <data key="d6">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</edge>
+<edge source="&quot;UNAUTHORIZED ACCESS TO SYSTEM CONFIGURATION&quot;" target="&quot;EXPLOITING LOCK BIT WEAKNESSES&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"This tactic is achieved through exploiting hardware vulnerabilities."</data>
+  <data key="d5">"Accomplish"</data>
+  <data key="d6">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</edge>
+<edge source="&quot;INSUFFICIENT OUTPUT VALIDATION&quot;" target="&quot;CVE-2010-1637 AND CVE-2009-0037 VULNERABILITIES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Lack of proper output validation allows attackers to exploit vulnerabilities like CVE-2010-1637 and CVE-2009-0037."</data>
+  <data key="d5">"Implement"</data>
+  <data key="d6">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</edge>
+<edge source="&quot;WEAK SESSION MANAGEMENT&quot;" target="&quot;INSUFFICIENT LOGGING AND MONITORING&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Proper logging and monitoring can mitigate risks associated with weak session management by detecting unauthorized access attempts."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-511f3baaabb0ab2809dad9343c0d0238</data>
+</edge>
+<edge source="&quot;LACK OF UNIQUE IP IDENTIFIERS IN SOC&quot;" target="&quot;SOC&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Vulnerability exists within the SoC design."</data>
+  <data key="d5">"Exist_in"</data>
+  <data key="d6">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</edge>
+<edge source="&quot;OVERWRITING MEMORY WITH FIXED PATTERNS&quot;" target="&quot;INFORMATION LEAK VIA UNCLEARED RESOURCES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Mitigation prevents data leaks by clearing memory."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;SYSTEM-ON-CHIP (SOC)&quot;" target="&quot;CWE-1191 AND CVE-2019-18827&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Vulnerabilities exist in the SoC's debug interface."</data>
+  <data key="d5">"Exist_in"</data>
+  <data key="d6">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</edge>
+<edge source="&quot;CRYPTOLOCK&quot;" target="&quot;SHADOW CREW&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Shadow Crew uses CryptoLock for attacks."</data>
+  <data key="d5">"Use"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;UNAUTHORIZED DATA EXTRACTION OR CODE EXECUTION&quot;" target="&quot;CWE-1191 AND CVE-2019-18827&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Postconditions resulting from exploiting these vulnerabilities."</data>
+  <data key="d5">"affecting"</data>
+  <data key="d6">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</edge>
+<edge source="&quot;CWE-1191 AND CVE-2019-18827&quot;" target="&quot;EXPLOITING DEBUG INTERFACES&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Attack pattern exploits these vulnerabilities."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</edge>
+<edge source="&quot;CWE-1191 AND CVE-2019-18827&quot;" target="&quot;LACK OF AUTHENTICATION IN DEBUG INTERFACES&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"This precondition allows vulnerability exploitation."</data>
+  <data key="d5">"premise"</data>
+  <data key="d6">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</edge>
+<edge source="&quot;INSUFFICIENT GRANULARITY OF ACCESS CONTROL POLICY&quot;" target="&quot;CVE-2022-24985, CVE-2021-36934&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The attack pattern exploits insufficient granularity in access control policies."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</edge>
+<edge source="&quot;ADVERSARY&quot;" target="&quot;CWE-667 AND CVE-2018-9085&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"Attackers exploit these vulnerabilities to gain unauthorized access."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</edge>
+<edge source="&quot;BYPASS AUTHENTICATION EXPLOIT&quot;" target="&quot;CVE-2022-24985, CVE-2021-36934&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The attack technique exploits vulnerabilities in access control mechanisms."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</edge>
+<edge source="&quot;BYPASS AUTHENTICATION EXPLOIT&quot;" target="&quot;REVIEW AND TEST ACCESS CONTROL POLICIES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Mitigation measures aim to prevent unauthorized access by ensuring proper access control implementation."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</edge>
+<edge source="&quot;BYPASS AUTHENTICATION EXPLOIT&quot;" target="&quot;UNAUTHORIZED ACCESS AND DATA MODIFICATION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The tactic is achieved through exploiting authentication weaknesses in the system."</data>
+  <data key="d5">"Accomplish"</data>
+  <data key="d6">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</edge>
+<edge source="&quot;UNAUTHORIZED MODIFICATION OF HARDWARE CONFIGURATION&quot;" target="&quot;CWE-667 AND CVE-2018-9085&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Exploiting these vulnerabilities leads to unauthorized system modifications."</data>
+  <data key="d5">"affecting"</data>
+  <data key="d6">chunk-2ccff7f000ca8ceb65b49c7c3183348d</data>
+</edge>
+<edge source="&quot;ATTACKERS&quot;" target="&quot;TRUSS (SOLARIS)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Attackers may use truss to monitor system calls and identify potential vulnerabilities."</data>
+  <data key="d5">"Use"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;ATTACKERS&quot;" target="&quot;FIRMWARE/BOOTLOADER SOFTWARE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Attackers may exploit firmware or bootloader software configurations to bypass security measures."</data>
+  <data key="d5">"Use"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;DEBUG/TEST INTERFACE TOOLS&quot;" target="&quot;ATTACKER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Attackers use these tools to exploit the vulnerability."</data>
+  <data key="d5">"Use"</data>
+  <data key="d6">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</edge>
+<edge source="&quot;INSECURE HARDWARE DEFAULTS&quot;" target="&quot;CVE-2022-24985, CVE-2021-36934&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Weak defaults act as a prerequisite for exploiting access control vulnerabilities."</data>
+  <data key="d5">"premise"</data>
+  <data key="d6">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</edge>
+<edge source="&quot;CVE-2022-24985, CVE-2021-36934&quot;" target="&quot;INTEGRATED CIRCUITS AND HARDWARE ENGINES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Vulnerabilities exist within hardware systems with exposed accesses to sensitive assets."</data>
+  <data key="d5">"Exist_in"</data>
+  <data key="d6">chunk-0f1339a1fe7a6f1e0feebb426140abf0</data>
+</edge>
+<edge source="&quot;INFORMATION LEAK VIA UNCLEARED RESOURCES&quot;" target="&quot;UNCLEARED SENSITIVE INFORMATION BEFORE RESOURCE REUSE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Attack technique exploits this vulnerability."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-97f0fe12f43fe0952f114af5f3d4a0a1</data>
+</edge>
+<edge source="&quot;SECURITY LOCK BIT PROTECTION IMPLEMENTATION &quot;" target="&quot;MODIFICATION OF PROTECTED REGISTERS &quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Implementing proper lock bit protection mitigates the risk of unauthorized modification of protected registers."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;LACK OF WRITE-ONCE RESTRICTIONS IN HARDWARE DESIGN &quot;" target="&quot;VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) &quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The lack of write-once restrictions is a prerequisite for the vulnerability in lock bit protection mechanisms."</data>
+  <data key="d5">"premise"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;INSUFFICIENT GRANULARITY OF ADDRESS REGIONS PROTECTED BY REGISTER LOCKS&quot;" target="&quot;DESIGN REVIEW PHASE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The design review phase ensures that security-sensitive settings are defined correctly, which is crucial for preventing such vulnerabilities."</data>
+  <data key="d5">"premise"</data>
+  <data key="d6">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</edge>
+<edge source="&quot;VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) &quot;" target="&quot;HARDWARE DESIGN AND INTEGRATED CIRCUITS &quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The vulnerability exists within hardware designs and integrated circuits, particularly in their lock bit protection mechanisms."</data>
+  <data key="d5">"Exist_in"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) &quot;" target="&quot;UNINTENDED CHANGES TO SYSTEM CONFIGURATION POST-POWER TRANSITION &quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The postcondition of unintended changes to system configuration is a direct result of exploiting the lock bit vulnerability."</data>
+  <data key="d5">"affecting"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) &quot;" target="&quot;CWE-284&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"CWE-284 is a general vulnerability class that includes the specific CVE-2017-6283 vulnerability."</data>
+  <data key="d5">"Same_as"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) &quot;" target="&quot;CVE-2017-6283&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"CVE-2017-6283 is a specific instance of the CWE-284 vulnerability."</data>
+  <data key="d5">"Same_as"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) &quot;" target="&quot;HDL CODE &quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Improper implementation of HDL code can lead to vulnerabilities like CWE-284 and CVE-2017-6283."</data>
+  <data key="d5">"premise"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) &quot;" target="&quot;TESTING PHASE PROTECTION MECHANISMS &quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Automated testing during the Testing phase helps identify and mitigate vulnerabilities like CWE-284 and CVE-2017-6283."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) &quot;" target="&quot;MANUAL ANALYSIS OF LOCK BIT BEHAVIOR &quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Manual analysis is used to test and mitigate the vulnerability in lock bit behavior."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) &quot;" target="&quot;IMPROPER PREVENTION OF LOCK BIT MODIFICATION &quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The attack pattern exploits the vulnerability in lock bit protection mechanisms."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;JAVA-ORIENTED FRAMEWORK HMAC COMPARISON TIMING DISCREPANCY&quot;" target="&quot;CVE-2019-10071&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"This attack technique exploits CVE-2019-10071 to infer sensitive information from timing discrepancies."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-60f96cbfcdc863307fe7ed2450e4fab0</data>
+</edge>
+<edge source="&quot;DATA EXTRACTION VIA ENCRYPTION KEYS&quot;" target="&quot;RACE CONDITION EXPLOITATION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Tactic achieved through this technique."</data>
+  <data key="d5">"Accomplish"</data>
+  <data key="d6">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</edge>
+<edge source="&quot;MODIFICATION OF PROTECTED REGISTERS &quot;" target="&quot;UNAUTHORIZED ACCESS CONTROL BYPASS &quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The tactic of bypassing access control is achieved through the attack technique of modifying protected registers."</data>
+  <data key="d5">"Accomplish"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;MODIFICATION OF PROTECTED REGISTERS &quot;" target="&quot;IMPROPER PREVENTION OF LOCK BIT MODIFICATION &quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Modifying protected registers is part of the attack technique related to improper lock bit prevention exploitation."&lt;SEP&gt;"The modification of protected registers is a technique used in the attack pattern of improper lock bit prevention exploitation."</data>
+  <data key="d5">"Implement"&lt;SEP&gt;"Same_as"</data>
+  <data key="d6">chunk-edc0b7b8ef9d117a05387c6abf439ce2</data>
+</edge>
+<edge source="&quot;SIGN THEN SEAL SENSITIVE OBJECTS'" target="'PLAINTEXT TRANSMISSION OF SENSITIVE INFORMATION'">
+  <data key="d3">7.0</data>
+  <data key="d4">"This mitigation involves sealing sensitive information to prevent plaintext transmission and protect data integrity."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</edge>
+<edge source="&quot;SIGN THEN SEAL SENSITIVE OBJECTS'" target="'PLAINTEXT TRANSMISSION OF SENSITIVE INFORMATION (CWE-651)'">
+  <data key="d3">7.0</data>
+  <data key="d4">"This mitigation involves sealing sensitive information to prevent plaintext transmission and protect data integrity."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-ce9349a8e53d18b31a1043da3b9bb4bc</data>
+</edge>
+<edge source="&quot;CVE-2019-18827&quot;" target="&quot;RACE CONDITION EXPLOITATION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Exploits this vulnerability to extract keys."</data>
+  <data key="d5">"Exploit"</data>
+  <data key="d6">chunk-b2db9bd0b7df158579fa4f955ca5f332</data>
+</edge>
+<edge source="&quot;HDL&quot;" target="&quot;WRITE-ONCE ATTRIBUTES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Hardware Description Language is used to implement registers with write-once attributes, which can lead to race conditions."</data>
+  <data key="d5">"Implement"</data>
+  <data key="d6">chunk-2383be72a89b6aa12cccddc9b5c9b0d8</data>
+</edge>
+<edge source="&quot;TRUSS (SOLARIS)&quot;" target="&quot;SYSTEM-CALL TRACING TECHNIQUE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Truss implements the attack technique of system-call tracing to detect vulnerabilities."</data>
+  <data key="d5">"Implement"</data>
+  <data key="d6">chunk-5ba67b7953cc742d67bd66028d9840d5</data>
+</edge>
+<edge source="&quot;MEMORY NOT PROPERLY CLEARED BEFORE REUSE&quot;" target="&quot;CERT C SECURE CODING TAXONOMY:MEM03-C &quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The mitigation measure described in MEM03-C is intended to address the 'Memory Not Properly Cleared Before Reuse' issue."</data>
+  <data key="d5">"Mitigate"</data>
+  <data key="d6">chunk-eb9580695df69206d5ae3cb8f9e396f5</data>
+</edge>
+</graph></graphml>

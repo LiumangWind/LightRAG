@@ -1,0 +1,2544 @@
+{
+  "nodes": [
+    {
+      "id": "FIXING DESIGN FLAWS IN HARDWARE TESTING",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing fixes during pre-silicon and post-silicon testing to ensure lock bits function correctly.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "SHARED RESOURCE ISOLATION FAILURE",
+      "entity_type": "PRECONDITION",
+      "description": "\"Failure to isolate shared resources between trusted and untrusted agents is a prerequisite for exploiting SoC vulnerabilities.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "AUTHENTICATED DEBUG MODES AND ZEROIZATION MECHANISMS",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing authenticated debug modes and ensuring proper zeroization of hardware registers can mitigate the risks associated with improper zeroization and bypass attempts.\"",
+      "source_id": "chunk-80f8e2a782d3784f549ab8a8418f64bd"
+    },
+    {
+      "id": "CERT ORACLE SECURE CODING STANDARD FOR JAVA (2011)",
+      "entity_type": "TAXONOMY",
+      "description": "\"Provides guidelines to prevent common security issues in Java code, including secure data handling.\"<SEP>\"Security guidelines for secure coding in Java, including entries like SEC06-J and SER02-J.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "OPERATING SYSTEM",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The operating system is the target entity of the vulnerability described in CVE-2004-0243.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "BYPASS PROTECTION MECHANISM AND UNAUTHORIZED ACCESS",
+      "entity_type": "TACTIC",
+      "description": "\"Attackers aim to bypass protection mechanisms to gain unauthorized access to system configuration and sensitive information.\"",
+      "source_id": "chunk-80f8e2a782d3784f549ab8a8418f64bd"
+    },
+    {
+      "id": "DEBUGGERS",
+      "entity_type": "SOFTWARE",
+      "description": "\"Debuggers are used for monitoring program execution, aiding in identifying vulnerabilities by tracking data flow.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "CVE-1999-0017",
+      "entity_type": "VULNERABILITY",
+      "description": "\"FTP bounce attack vulnerability where an attacker can modify the PORT command to connect to other machines.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "CVE-2001-1387",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Product may generate different responses than specified by the administrator, possibly leading to an information leak.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CWE-2077",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Common Weakness Enumeration (CWE) identifier for the 'Uncleared Sensitive Information Before Use' weakness.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "SYSTEM-CALL TRACING UTILITIES",
+      "entity_type": "SOFTWARE",
+      "description": "\"These tools track system calls to detect potential security issues, enhancing vulnerability identification.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "CVE-1999-0168",
+      "entity_type": "VULNERABILITY",
+      "description": "\"RPC portmapper vulnerability allowing requests to be redirected from an attacker to another entity.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "CVE-2004-0778",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Version control system allows remote attackers to determine the existence of arbitrary files and directories via the -X command for an alternate history file, which causes different error messages to be returned.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "PLOVER TAXONOMY ENTRY:SENSITIVE INFORMATION UNCLEARED BEFORE USE",
+      "entity_type": "PRECONDITION",
+      "description": "\"This taxonomy entry describes the precondition where sensitive information is uncleared before reuse, creating a vulnerability.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "NETWORK SNIFFERS AND PROTOCOL ANALYZERS",
+      "entity_type": "SOFTWARE",
+      "description": "\"Used to monitor network traffic for signs of exploitation or insecure data transmission.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "CERT ORACLE SECURE CODING STANDARD FOR JAVA: FIO01-J",
+      "entity_type": "MITIGATION",
+      "description": "\"The CERT Oracle Secure Coding Standard for Java emphasizes creating files with appropriate access permissions as a mitigation strategy.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "CERT C SECURE CODING TAXONOMY:MEM03-C",
+      "entity_type": "MITIGATION",
+      "description": "\"A mitigation measure that emphasizes clearing sensitive information in reusable resources to prevent exposure.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "PLOVER TAXONOMY",
+      "entity_type": "TAXONOMY",
+      "description": "\"Focuses on the transmission of sensitive information in plaintext, highlighting vulnerabilities in communication protocols.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "WINDOWS OPERATING SYSTEMS",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Windows systems are targeted due to their vulnerabilities.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "SOFTWARE FAULT PATTERNS:SFP23:EXPOSED DATA ",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern related to exposed data due to improper handling of sensitive information.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "MISSING CRYPTOGRAPHIC STEP",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A missing required step in a cryptographic algorithm weakens encryption, making it easier for attackers to bypass security measures.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "CVE-2005-0315",
+      "entity_type": "VULNERABILITY",
+      "description": "\"FTP server vulnerability where the IP address in PORT command isn't verified against the user's session, enabling port scanning by proxy.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "SSL IMPLEMENTATION",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The SSL implementation is the target entity of the vulnerability described in CVE-2003-0078.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "NETWORK PACKETS AND LOCAL MEMORY ALLOCATION ",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The target entities include network packets, local memory allocation, files, and other resources where the vulnerability can manifest.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "EXPECTED BEHAVIOR VIOLATION",
+      "entity_type": "PRECONDITION",
+      "description": "\"Unexpected behavior in software can create opportunities for attackers to exploit system inconsistencies.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "CVE-2002-1484",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Web server vulnerability allowing attackers to request URLs from another server, including other ports, enabling proxied scanning.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "VERSION CONTROL SYSTEM",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The version control system is the target entity of the vulnerability described in CVE-2004-0778.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "NETWORKING",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Network packets are target entities where the vulnerability can manifest due to improper handling of data transmission.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "UNINTENDED PROXY OR 'CONFUSED DEPUTY'",
+      "entity_type": "'ATTACK TECHNIQUE'",
+      "description": "\"This technique involves an attacker manipulating a component to act on behalf of another without proper authentication, leading to unauthorized actions.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "CVE-2004-2061",
+      "entity_type": "VULNERABILITY",
+      "description": "\"CGI script accepting and retrieving incoming URLs without proper validation.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "UNAUTHORIZED ACCESS TO BMC PHYSICAL ADDRESS SPACE",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploitation of vulnerabilities in the BMC leads to unauthorized access to its physical address space, compromising system integrity.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "CWE-212:EXPOSED DATA ",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern related to exposed data in resources that are still active, distinct from CWE-2077 but related to sensitive information exposure.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "FILEMON",
+      "entity_type": "SOFTWARE",
+      "description": "\"FileMon is a Windows utility for monitoring file system activity, aiding in vulnerability detection and analysis.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "CVE-2001-1484",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Bounce attack allowing access to TFTP from trusted side through misconfigured servers.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "BASEBOARD MANAGEMENT CONTROLLER (BMC)",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The Baseboard Management Controller (BMC) is a target entity with vulnerabilities related to unauthorized access to physical address space.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "TRANSFER TO A DIFFERENT CONTROL SPHERE",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"The technique involves transferring sensitive data to a different control sphere, where the original contents are no longer relevant, exploiting the vulnerability.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "STRACE (LINUX)",
+      "entity_type": "SOFTWARE",
+      "description": "\"Strace is a Linux tool that traces system calls made by processes, helping in identifying vulnerabilities through monitoring.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "LOCK BIT NOT SET AFTER BOOT",
+      "entity_type": "PRECONDITION",
+      "description": "\"A precondition where the lock bit is unset after system reboot, allowing attackers to exploit it.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "CWE-2077:SENSITIVE INFORMATION UNCLEARED BEFORE USE ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A specific instance of CWE-2077 related to sensitive information uncleared before reuse in memory management.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "CVE-2004-0294",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where systems reveal user existence through inconsistent error messages, aiding brute force password attacks.\"<SEP>\"Bulletin Board displays different error messages when a user exists or not, which makes it easier for remote attackers to identify valid users and conduct a brute force password guessing attack.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0<SEP>chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2002-0514",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Product allows remote attackers to determine if a port is being filtered because the response packet TTL is different than the default TTL.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CWE-1000:CWE RESEARCH VIEW TAXONOMY",
+      "entity_type": "TACTIC",
+      "description": "\"The CWE research view (CWE-1000) is a tactic used to categorize and understand software weaknesses from a research perspective.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "CVE-2004-2150",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where systems display inconsistent error messages for existing and non-existing users, aiding enumeration.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CWE-284: IMPROPER DEFAULT CREDENTIALS, WEAK AUTHENTICATION",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where default access control policies lack granularity, allowing unauthorized accesses.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "CERT C SECURE CODING:FIO06-C",
+      "entity_type": "MITIGATION",
+      "description": "\"The CERT C Secure Coding standard recommends creating files with appropriate access permissions to mitigate vulnerabilities.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "CVE-2005-1941:EXECUTABLES INSTALLED WORLD-WRITABLE ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A specific vulnerability where executables are installed with world-writable permissions, creating an exposure point for attackers.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "DEBUG FEATURES IN HARDWARE DESIGN",
+      "entity_type": "PRECONDITION",
+      "description": "\"The presence of debug features or internal modes in hardware design can allow attackers to bypass lock protection and access configuration information.\"",
+      "source_id": "chunk-80f8e2a782d3784f549ab8a8418f64bd"
+    },
+    {
+      "id": "HOST-BASED VULNERABILITY SCANNERS ",
+      "entity_type": "MITIGATION",
+      "description": "\"Security measures like host-based vulnerability scanners can detect and mitigate issues related to improper memory management and file permissions.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "REGMON",
+      "entity_type": "SOFTWARE",
+      "description": "\"RegMon is a tool for tracking registry changes on Windows systems, useful for detecting malicious activities and vulnerabilities.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "SYSTEM-ON-A-CHIP (SOC)",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The System-On-a-Chip (SoC) is a target entity affected by improper isolation of shared resources between trusted and untrusted agents.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "FORMAL METHODS/CORRECT-BY-CONSTRUCTION ",
+      "entity_type": "MITIGATION",
+      "description": "\"A formal method used to ensure proper initialization and handling of resources, serving as a mitigation for vulnerabilities.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "INSPECTION (IEEE 1028 STANDARD)",
+      "entity_type": "MITIGATION",
+      "description": "\"A mitigation technique involving inspections during the architecture and design phase to identify and address vulnerabilities early in development.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "CVE-2008-3289",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Product sends password hash in cleartext, violating security policies.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "BULLETIN BOARD",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The Bulletin Board system is the target entity of the vulnerability described in CVE-2004-0294.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2010-1637",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Web-based mail program vulnerability enabling internal network scanning using modified POP3 port numbers.\"<SEP>\"Web-based mail program vulnerability that allows internal network scanning using a modified POP3 port number.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486<SEP>chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "EARLY BOOT PHASE EXPLOITATION",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern involves exploiting devices enabled during the early boot phase before security configurations are established.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "CVE-2009-0037",
+      "entity_type": "VULNERABILITY",
+      "description": "\"URL-downloading library automatically following redirects to file:// and scp:// URLs, bypassing intended restrictions.\"<SEP>\"URL-downloading library automatically follows redirects to file:// and scp:// URLs, bypassing intended restrictions.\"<SEP>\"URL-downloading library automatically follows redirects to file:// and scp:// URLs, exposing the system to potential attacks.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486<SEP>chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "CVE-2001-0497",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Insecure permissions for a shared secret key file. Overlaps cryptographic problem.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "CWE-610",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"The product receives a request from an upstream component but does not sufficiently preserve the original source before forwarding it to an external actor, leading it to act as a proxy.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "CVE-2004-1428",
+      "entity_type": "VULNERABILITY",
+      "description": "\"FTP server generates an error message if the user name does not exist instead of prompting for a password, which allows remote attackers to determine valid usernames.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "ACCOUNT NUMBER ENUMERATION VIA INCONSISTENT RESPONSES",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Exploiting discrepancies in system responses to enumerate account numbers or sensitive data.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "SIDE CHANNEL ATTACK PATTERN",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"A method where attackers analyze system behavior, such as timing or resource usage, to extract sensitive information.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CVE-2003-0637",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Product uses a shorter timeout for a non-existent user than a valid user, which makes it easier for remote attackers to guess usernames and conduct brute force password guessing.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "EXPLOITING OBSERVABLE DISCREPANCIES",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"The technique involves detecting and exploiting inconsistencies in system responses to infer internal states or data.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "REMOTE ATTACKERS",
+      "entity_type": "ATTACKER",
+      "description": "\"Remote attackers exploit the Bulletin Board's error messages to identify valid users and conduct brute force password guessing attacks.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "SECURE COMPARTMENTALIZATION AND ERROR HANDLING",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing secure error handling and compartmentalizing sensitive areas to prevent information leakage.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CVE-2002-1713",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Home directories installed world-readable.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "STATE TRANSITION MANAGEMENT IN SOFTWARE SYSTEMS",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Systems undergoing state transitions, like memory de-allocation or OS state changes.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "TRUSTED FIRMWARE/SOFTWARE MODULE",
+      "entity_type": "MODULE",
+      "description": "\"Includes BIOS/bootloader that sets secure values during system initialization.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "INFORMATION DISCLOSURE",
+      "entity_type": "TACTIC",
+      "description": "\"Attackers aim to extract sensitive data through side channel attacks, compromising confidentiality.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "BROWSER",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The browser is the target entity of the vulnerability described in CVE-2005-0918.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2001-1483",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where systems display different error messages for existing and non-existing users, enabling user enumeration.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "SYSTEM BEHAVIOR ANALYSIS",
+      "entity_type": "PRECONDITION",
+      "description": "\"Attackers must analyze system behavior to identify exploitable discrepancies as a prerequisite for an attack.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The System-On-a-Chip (SoC) does not properly isolate shared resources between trusted and untrusted agents.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "INSECURE DEFAULT PERMISSIONS",
+      "entity_type": "PRECONDITION",
+      "description": "\"Insecure default permissions are a precondition that attackers exploit to gain unauthorized access.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "USER ENUMERATION VIA INCONSISTENT ERROR MESSAGES",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Exploiting variations in error messages to identify valid user accounts or sensitive information.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "OBSERVABLE DISCREPANCY VULNERABILITY (CWE-203) ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A flaw where system inconsistencies reveal sensitive information, enabling side channel attacks.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "INSECURE FILE CREATION PERMISSIONS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Files are created with insecure permissions, allowing unauthorized access.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "INFORMATION LEAKAGE AND SYSTEM COMPROMISE",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploiting the vulnerability can lead to unauthorized access or data exposure, affecting system integrity.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CVE-2003-0078",
+      "entity_type": "VULNERABILITY",
+      "description": "\"SSL implementation does not perform a MAC computation if an incorrect block cipher padding is used, which causes an information leak (timing discrepancy) that may make it easier to launch cryptographic attacks that rely on distinguishing between padding and MAC verification errors, possibly leading to extraction of the original plaintext, aka the Vaudenay timing attack.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "SYSTEMS WITH OBSERVABLE DISCREPANCIES (E.G., SOFTWARE, HARDWARE)",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The target is systems where attackers can detect behavioral inconsistencies to exploit vulnerabilities.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "PLOVER: INSECURE DEFAULT PERMISSIONS",
+      "entity_type": "MITIGATION",
+      "description": "\"The PLOVER taxonomy addresses insecure default permissions as a mitigation measure.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "CVE-2022-31204",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Programmable Logic Controller (PLC) sends password in plaintext.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "CVE-2020-8695",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability in Intel processors' RAPL interface that allows information disclosure via observable discrepancies.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "BRUTE FORCE PASSWORD GUESSING ATTACK",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"The technique of conducting a brute force password guessing attack is used by remote attackers to exploit the Bulletin Board vulnerability.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2002-2094",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where attackers use .. attacks and monitor error responses to exploit system behavior.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CRYPTO HARDWARE WALLET POWER CONSUMPTION SIDE CHANNEL ATTACK",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Exploiting variations in power consumption to reveal sensitive data like PIN numbers or passwords.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CVE-1999-0426",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Default permissions of a device allow IP spoofing.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "CWE-668",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Exposure of Resource to Wrong Sphere: This weakness allows attackers to access resources that they are not authorized to access, such as files or network interfaces.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "HARDWARE DESCRIPTION LANGUAGE (HDL)",
+      "entity_type": "TECHNOLOGY",
+      "description": "\"Used in describing hardware units and register implementations.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "CVE-2019-14353",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability in crypto hardware wallets where power consumption correlates with pixel illumination, enabling side channel attacks.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CVE-2002-1711",
+      "entity_type": "VULNERABILITY",
+      "description": "\"World-readable directory.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "EXPLOIT KIT TRIGGERING",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Exploits are triggered by malicious attachments leading to ransomware installation.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "FTP SERVER",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The FTP server is the target entity of the vulnerability described in CVE-2004-1428.\"<SEP>\"The FTP server is the target entity of the vulnerability described in CVE-2004-1602.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "ARCHITECTURE AND DESIGN PHASE",
+      "entity_type": "PHASE",
+      "description": "\"Key phase for hardware design decisions impacting security, where issues like insufficient granularity arise.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "CVE-2002-1844",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Windows product uses insecure permissions when installing on Solaris (genesis: port error).\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "FILE ENCRYPTION AND RANSOM DEMAND",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploitation leads to encrypted files and ransom demands.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "TESTING PHASE",
+      "entity_type": "PHASE",
+      "description": "\"Involves using automated tools to test that values are configured per design specifications.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "CLEARTEXT TRANSMISSION OF SENSITIVE INFORMATION",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern involving the transmission of sensitive information in cleartext over insecure communication channels, making it vulnerable to interception by unauthorized actors.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "AUTOMATED STATIC ANALYSIS (SAST)",
+      "entity_type": "MITIGATION",
+      "description": "\"A method for finding vulnerabilities by analyzing source code without execution, enhancing security measures.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "EXPECTED BEHAVIOR VIOLATION (CWE-440)",
+      "entity_type": "PRECONDITION",
+      "description": "\"Unexpected behavior in software can create opportunities for attackers to exploit system inconsistencies.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "WINDOWS PRINT SPOOLER VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability allowing privilege escalation and file encryption exists in Windows systems.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "CVE-2005-1941",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Executables installed world-writable.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "ENCRYPTED CHANNELS CONFIGURATION",
+      "entity_type": "MITIGATION",
+      "description": "\"Configuring servers to use SSL or other secure protocols ensures data transmission is protected.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "INSUFFICIENT TECHNICAL DOCUMENTATION",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A lack of sufficient technical documentation indirectly affects security by making it harder to find and fix vulnerabilities, especially when consultants are involved in security assessments.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "CVE-2001-1550",
+      "entity_type": "VULNERABILITY",
+      "description": "\"World-writable log files allow information loss; world-readable file has cleartext passwords.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "CVE-2022-30312",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Building Controller uses a protocol that transmits authentication credentials in plaintext.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "ATTACKER EXPLOITATION OF BUFFER OVERFLOW VULNERABILITY",
+      "entity_type": "TACTIC",
+      "description": "\"Attackers exploit buffer overflow vulnerabilities to gain unauthorized access or execute malicious code on the system.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "PRODUCT",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The product is the target entity of the vulnerability described in CVE-2001-1387.\"<SEP>\"The product is the target entity of the vulnerability described in CVE-2002-0208.\"<SEP>\"The product is the target entity of the vulnerability described in CVE-2002-0514.\"<SEP>\"The product is the target entity of the vulnerability described in CVE-2002-0515.\"<SEP>\"The product is the target entity of the vulnerability described in CVE-2003-0190.\"<SEP>\"The product is the target entity of the vulnerability described in CVE-2003-0637.\"<SEP>\"The product is the target entity of the vulnerability described in CVE-2004-2252.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2022-29519",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Programmable Logic Controller (PLC) sends sensitive information in plaintext, including passwords and session tokens.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "BUFFER OVERFLOW EXPLOITATION PATTERN",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Attackers can exploit buffer overflow vulnerabilities in software with insufficient documentation to escalate privileges or execute arbitrary code.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "CVE-2003-0190",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Product immediately sends an error message when a user does not exist, which allows remote attackers to determine valid usernames via a timing attack.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CVE-2020-8698",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Processor has improper isolation of shared resources allowing for information disclosure.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "UNINTENDED PROXY OR 'CONFUSED DEPUTY' (CWE-441)",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"This technique involves an attacker manipulating a component to act on behalf of another without proper authentication, leading to unauthorized actions.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "CVE-2002-0208",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Product modifies TCP/IP stack and ICMP error messages in unusual ways that show the product is in use.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "SUFFICIENT TECHNICAL DOCUMENTATION FOR DESIGN AND MAINTENANCE",
+      "entity_type": "MITIGATION",
+      "description": "\"Having detailed technical documentation can help consultants focus on finding vulnerabilities rather than learning the product's structure.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "CVE-2008-4122",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Chain: Use of HTTPS cookie without secure flag causes it to be transmitted across unencrypted HTTP.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "CVE-2002-0515",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Product sets a different TTL when a port is being filtered than when it is not being filtered, which allows remote attackers to identify filtered ports by comparing TTLs.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "DIRECTORY TRAVERSAL VIA OBSERVABLE DISCREPANCIES",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Exploiting inconsistencies in error messages to enumerate directory structures and files.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "LOSS OF CONFIDENTIALITY AND INTEGRITY",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploitation leads to leaks of sensitive data or unauthorized modifications of system configurations.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "INSUFFICIENT INPUT VALIDATION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Lack of proper input validation mechanisms allows attackers to inject malicious data, such as SQL queries or commands, into the system.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The product enables a Direct Memory Access (DMA) capable device before the security configuration settings are established, which allows an attacker to extract data from or gain privileges on the product.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "CVE-2019-6260",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Baseboard Management Controller (BMC) device implements Advanced High-performance Bus (AHB) bridges that do not require authentication for arbitrary read and write access to the BMC's physical address space from the host.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "UNAUTHORIZED JTAG ACCESS",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Accessing JTAG without proper authentication.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "UNTRUSTED AGENTS",
+      "entity_type": "ATTACKER",
+      "description": "\"Entities that exploit vulnerabilities in hardware access controls.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "CVE-2005-0918",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Browser allows remote attackers to determine the existence of arbitrary files by setting the src property to the target filename and using Javascript to determine if the web page immediately stops loading, which indicates whether the file exists or not.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CWE-912",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Activation of Undisclosed Telnet Server: An undocumented telnet server is activated by default, exposing the system to unauthorized access.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "AUTHENTICATION IMPLEMENTATION AND JTAG DISABLING",
+      "entity_type": "MITIGATION",
+      "description": "\"Measures to secure debug interfaces by adding auth and disabling JTAG.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "UNAUTHORIZED ACCESS TO SYSTEM CONFIGURATION",
+      "entity_type": "TACTIC",
+      "description": "\"The tactic of gaining unauthorized access or modifying hardware configurations through exploit techniques.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "INFORMATION DISCLOSURE VIA SHARED RESOURCES",
+      "entity_type": "TACTIC",
+      "description": "\"Attackers aim to disclose sensitive information by exploiting improperly isolated shared resources on SoCs.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "INSUFFICIENT OUTPUT VALIDATION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Lack of proper output validation can lead to information exposure or command injection vulnerabilities, enabling attackers to exploit the system.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "RACE CONDITION FOR WRITE-ONCE ATTRIBUTES",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A write-once register in hardware design is programmable by an untrusted software component earlier than the trusted software component, resulting in a race condition issue.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "CVE-2004-0243",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where systems display different responses for valid and invalid accounts, aiding in unauthorized access attempts.\"<SEP>\"Operating System, when direct remote login is disabled, displays a different message if the password is correct, which allows remote attackers to guess the password via brute force methods.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0<SEP>chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "DIRECT MEMORY ACCESS (DMA)",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"An attacker can exploit DMA capabilities to directly access memory without OS interaction, leading to data extraction or privilege escalation.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "WEAK SESSION MANAGEMENT",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The product does not properly manage authentication sessions, making it easier for attackers to hijack sessions or bypass authentication mechanisms.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "LACK OF UNIQUE IP IDENTIFIERS IN SOC",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Missing unique identifiers for SoC components, CWE-1192.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "OVERWRITING MEMORY WITH FIXED PATTERNS",
+      "entity_type": "MITIGATION",
+      "description": "\"Recommendation to overwrite memory post-resource release.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "ISA/IEC 62443:REQ SP.03.08",
+      "entity_type": "MITIGATION",
+      "description": "\"The ISA/IEC 62443 standard requires secure coding practices to mitigate vulnerabilities in industrial control systems.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "INSUFFICIENT LOGGING AND MONITORING",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing proper logging and monitoring can help detect and respond to attacks in a timely manner, reducing the impact of vulnerabilities.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "SYSTEM-ON-CHIP (SOC)",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The SoC with a vulnerable debug/test interface.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "CVE-2004-1602",
+      "entity_type": "VULNERABILITY",
+      "description": "\"FTP server responds in a different amount of time when a given username exists, which allows remote attackers to identify valid usernames by timing the server response.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "CRYPTOLOCK",
+      "entity_type": "SOFTWARE",
+      "description": "\"CryptoLock is a strain of ransomware used to infect systems and encrypt files.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "UNAUTHORIZED DATA EXTRACTION OR CODE EXECUTION",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Consequences of exploiting debug interface vulnerabilities.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "PRODUCT ACCESS CONTROL IMPLEMENTATION",
+      "entity_type": "SOFTWARE",
+      "description": "\"The product implements access controls via policies to manage asset accesses from untrusted agents.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "IOMMU-BASED MITIGATION STRATEGY",
+      "entity_type": "MITIGATION",
+      "description": "\"Utilizing an IOMMU to orchestrate IO access from the start of system initialization is a mitigation against DMA attacks.\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "id": "CWE-1191 AND CVE-2019-18827",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Vulnerabilities related to improper access control on JTAG interfaces.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "INSUFFICIENT GRANULARITY OF ACCESS CONTROL POLICY",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"A weakness where the access control policy lacks granularity, allowing unauthorized accesses.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "CVE-2004-2252",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Behavioral infoleak by responding to SYN-FIN packets.\"",
+      "source_id": "chunk-307fbbaf9cc5087b5dba49fab909abc3"
+    },
+    {
+      "id": "ADVERSARY",
+      "entity_type": "ATTACKER",
+      "description": "\"An attacker who exploits hardware weaknesses to gain unauthorized access or modify system configurations.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "LACK OF AUTHENTICATION IN DEBUG INTERFACES",
+      "entity_type": "PRECONDITION",
+      "description": "\"Condition where debug interfaces lack proper authorization mechanisms.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "BYPASS AUTHENTICATION EXPLOIT",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Exploiting insufficient authentication checks to gain unauthorized access (e.g., CVE-2022-24985).\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "UNAUTHORIZED MODIFICATION OF HARDWARE CONFIGURATION",
+      "entity_type": "POSTCONDITION",
+      "description": "\"The result of exploiting lock bit weaknesses, leading to unauthorized system modifications.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "ISA/IEC 62443:REQ CR 2.1",
+      "entity_type": "MITIGATION",
+      "description": "\"The ISA/IEC 62443 standard mandates the use of cryptographic techniques to protect sensitive data and communications.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "CVE-2005-3140",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Product sends file with cleartext passwords in e-mail message intended for diagnostic purposes.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "GAINING UNAUTHORIZED SYSTEM ACCESS",
+      "entity_type": "TACTIC",
+      "description": "\"The goal of accessing system internals through vulnerabilities.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "REVIEW AND TEST ACCESS CONTROL POLICIES",
+      "entity_type": "MITIGATION",
+      "description": "\"Recommendation includes reviewing and testing the granularity of access control policies during hardware design and testing phases.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "SECURE DELETION FUNCTIONS AND APIS",
+      "entity_type": "MITIGATION",
+      "description": "\"Techniques like SDelete on Windows for secure data removal.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "NETWORK SNIFFING ",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"The technique of monitoring and capturing data packets over a network to extract sensitive information.\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "id": "EXPLOITING DEBUG INTERFACES",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"The method of bypassing access control through debug interfaces.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "UNAUTHORIZED ACCESS AND DATA MODIFICATION",
+      "entity_type": "TACTIC",
+      "description": "\"The goal is to gain unauthorized access or modify sensitive data, such as device configurations and keys.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "ATTACKERS",
+      "entity_type": "ATTACKER",
+      "description": "\"Attackers who exploit vulnerabilities in hardware lock bits to gain unauthorized access.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "MISSING CRYPTOGRAPHIC STEP (CWE-325)",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A missing required step in a cryptographic algorithm weakens encryption, making it easier for attackers to bypass security measures.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "DEBUG/TEST INTERFACE TOOLS",
+      "entity_type": "SOFTWARE",
+      "description": "\"Tools used to access JTAG interfaces without proper authorization.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "INSECURE HARDWARE DEFAULTS",
+      "entity_type": "PRECONDITION",
+      "description": "\"Hardware starts with default values in registers that may be insecure upon power reset.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "FIRMWARE/BOOTLOADER SOFTWARE",
+      "entity_type": "SOFTWARE",
+      "description": "\"The firmware or bootloader software is used to configure system settings during hardware initialization.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "UNTRUSTED SOFTWARE COMPONENT",
+      "entity_type": "COMPONENT",
+      "description": "\"Can potentially exploit vulnerabilities by writing to registers.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "CVE-2022-24985, CVE-2021-36934",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Security weaknesses related to authentication bypass and overly permissive access control lists (ACLs).\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "EXTORTION VIA RANSOM DEMAND",
+      "entity_type": "TACTIC",
+      "description": "\"The main tactic is to demand ransoms for file decryption.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "IMPROPER PREVENTION OF LOCK BIT MODIFICATION",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"The attack pattern involves exploiting vulnerabilities in lock bit implementation to modify protected registers.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "INTERNAL REGISTERS AND ASSETS",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Exposed through debug interfaces, vulnerable to unauthorized access.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "CWE-1419: INCORRECT REGISTER DEFAULTS OR MODULE PARAMETERS",
+      "entity_type": "PRECONDITION",
+      "description": "\"Incorrect hardware description language (HDL) code defines register defaults or IP parameters to insecure values.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "MODIFICATION OF PROTECTED REGISTERS",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Attackers use the technique of modifying protected registers after power state transitions to bypass security measures.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "PROCESS MONITOR (SYSINTERNALS)",
+      "entity_type": "SOFTWARE",
+      "description": "\"Process Monitor by Sysinternals provides detailed process monitoring to identify potential security issues.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "AUTOMATED DESIGN TOOLS FOR REGISTER DEFAULTS TESTING",
+      "entity_type": "MITIGATION",
+      "description": "\"Tools used to review and test security-sensitive settings during hardware design and implementation phases.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "INFORMATION LEAK VIA UNCLEARED RESOURCES",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Exploiting un-cleared resources to access sensitive data.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "SECURITY LOCK BIT PROTECTION IMPLEMENTATION ",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing secure lock bit protection and regular testing can mitigate such vulnerabilities.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "SNIFFERS AND PROTOCOL ANALYZERS",
+      "entity_type": "SOFTWARE",
+      "description": "\"These tools monitor network traffic for signs of encryption usage or malicious activity, aiding in vulnerability detection.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "EXPLOIT KITS FOR CVE EXPLOITATION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Techniques used to exploit vulnerabilities like bypassing authentication (e.g., CVE-2022-24985).\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "HARDWARE SYSTEMS WITH LOCK BITS",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The target hardware systems that use register lock bits for security protection.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "UNAUTHORIZED ACCESS CONTROL BYPASS",
+      "entity_type": "TACTIC",
+      "description": "\"The tactic involves bypassing access control mechanisms by exploiting improper lock behavior after power state transitions.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "IMPROPER RESTRICTION OF WRITE-ONCE BIT FIELDS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The hardware design control register sticky bits or write-once bit fields are improperly implemented, allowing them to be reprogrammed by software.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "ACCESS CONTROL POLICY IMPLEMENTATION WEAKNESS",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"A pattern where access control policies are insufficiently granular, enabling unauthorized accesses.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "LACK OF WRITE-ONCE RESTRICTIONS IN HARDWARE DESIGN ",
+      "entity_type": "PRECONDITION",
+      "description": "\"Failure to implement write-once restrictions creates a precondition for attackers to exploit hardware vulnerabilities.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "INSUFFICIENT GRANULARITY OF ADDRESS REGIONS PROTECTED BY REGISTER LOCKS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The product defines a large address region protected from modification by the same register lock control bit, leading to conflicts between functional and security requirements.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The hardware's lock bit protection mechanism has a known vulnerability (CWE-284, CVE-2017-6283) that allows unauthorized modification of protected registers.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "CVE-2001-1528",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where systems display different messages for valid and invalid accounts, aiding attacker enumeration.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "UNINTENDED CHANGES TO SYSTEM CONFIGURATION POST-POWER TRANSITION ",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploiting the lock bit vulnerability can lead to unintended changes in system configuration after power state transitions, compromising security.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "CWE-667 AND CVE-2018-9085",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Known vulnerabilities related to missing lock bit protection, allowing unauthorized modifications.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "TIMING ATTACK RESISTANCE IMPLEMENTATION",
+      "entity_type": "MITIGATION",
+      "description": "\"Enhancing authentication to resist timing attacks.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "CVE-2008-0374",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Printer sends configuration information, including administrative password, in cleartext.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "PHISHING EMAILS WITH MALICIOUS ATTACHMENTS",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"The attack pattern involves sending phishing emails to distribute ransomware.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "HARDWARE DESIGN AND INTEGRATED CIRCUITS ",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The target entity is hardware designs and integrated circuits that lack proper lock bit protection mechanisms.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "RANSOMWARE PROTECTION AND PATCHING",
+      "entity_type": "MITIGATION",
+      "description": "\"Recommendations include enabling protection features and keeping systems updated.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "CVE-2007-4786",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Product sends passwords in cleartext to a log server, exposing sensitive data.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "CWE-284",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Common Weakness Enumeration (CWE) ID 284 describes vulnerabilities related to improper lock bit protection mechanisms in hardware designs.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "SIGN THEN SEAL SENSITIVE OBJECTS",
+      "entity_type": "MITIGATION",
+      "description": "\"A mitigation strategy where sensitive objects are signed and sealed before transmission to prevent tampering or interception.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "CWE-667",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Common Weakness Enumeration (CWE) ID 667 addresses issues where protected registers or lock bits become programmable after power state transitions.\"<SEP>\"The lock bit protection bypass allows attackers to access and modify system configuration even when the lock bit is set.\"",
+      "source_id": "chunk-80f8e2a782d3784f549ab8a8418f64bd<SEP>chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "CVE-2017-6283",
+      "entity_type": "VULNERABILITY",
+      "description": "\"CVE-2017-6283 is a specific vulnerability where chip reset clears critical read/write lock permissions for RSA functions.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "HARDWARE DESCRIPTION LANGUAGE (HDL) CODE ",
+      "entity_type": "PRECONDITION",
+      "description": "\"HDL code defines hardware behavior, including register initialization and protection mechanisms, which must be carefully reviewed to prevent vulnerabilities.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "JAVA-ORIENTED FRAMEWORK HMAC COMPARISON TIMING DISCREPANCY",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Using timing discrepancies in HMAC comparisons to infer sensitive information.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "TESTING PHASE PROTECTION MECHANISMS ",
+      "entity_type": "MITIGATION",
+      "description": "\"Automated testing during the Testing phase can identify issues with lock bit write-once fields and ensure they are functioning correctly.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "CVE-2005-1650",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where systems display different responses to requests related to valid or invalid user accounts, enabling enumeration.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CVE-2007-5626",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Backup routine sends password in cleartext via email, exposing sensitive data.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "MANUAL ANALYSIS OF LOCK BIT BEHAVIOR ",
+      "entity_type": "MITIGATION",
+      "description": "\"Conducting manual analysis to test lock bit behavior after power cycling helps verify the integrity of security measures.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "CVE-2008-4390",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Remote management feature sends sensitive information including passwords in cleartext.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "VHDL AND VERILOG LANGUAGES ",
+      "entity_type": "TECHNOLOGY CLASS",
+      "description": "\"The use of VHDL and Verilog languages in hardware design introduces potential vulnerabilities if not properly secured.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "CVE-2007-4961",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Chain: cleartext transmission of the MD5 hash of password enables attacks against a server susceptible to replay (CWE-294).\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "SYSTEM ON CHIP (SOC) DESIGN ",
+      "entity_type": "TECHNOLOGY CLASS",
+      "description": "\"System on Chip (SoC) designs are vulnerable to lock bit exploitation due to their complexity and integration of multiple components.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "EXPLOITING LOCK BIT WEAKNESSES",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Technique used by attackers to bypass lock bit protections and modify system registers.\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "id": "INSUFFICIENT IDENTIFIER MECHANISM (CWE-657)",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A missing or insufficient identifier mechanism in a System-on-Chip (SoC) can allow attackers to bypass protection mechanisms and exploit the system.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "USER ENUMERATION VIA ERROR MESSAGE DISCREPANCIES ",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Exploiting differences in error messages to identify valid user accounts and conduct brute force attacks.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CVE-2004-1852",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Product transmits Blowfish encryption key in cleartext, a critical security flaw.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "POWER-ON OF UNTRUSTED EXECUTION CORE BEFORE ENABLING FABRIC ACCESS CONTROL (CWE-1193)",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Enabling untrusted execution cores before securing fabric access controls during the boot sequence allows adversaries to compromise the SoC's firmware.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "PLOVER",
+      "entity_type": "TAXONOMY",
+      "description": "\"A taxonomy related to plaintext transmission of sensitive information, focusing on security vulnerabilities.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "FAILURE TO DISABLE RESERVED BITS (CWE-1209)",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Reserved bits in hardware designs that are not disabled can be exploited by attackers to induce unintended behavior or bypass security measures.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "INSUFFICIENT GRANULARITY OF ACCESS CONTROL (CWE-1220)",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Lack of granularity in access controls allows unauthorized agents to access sensitive assets, such as device configuration or encryption keys.\"",
+      "source_id": "chunk-0e7e0a03ef0aaa003fbaeb20b6671acf"
+    },
+    {
+      "id": "DATA EXTRACTION VIA ENCRYPTION KEYS",
+      "entity_type": "TACTIC",
+      "description": "\"Extracting sensitive data by exploiting encryption key vulnerabilities.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "CVE-2019-10071",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability in a Java framework where String.equals() causes timing discrepancies exploitable for side channel attacks.\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "id": "CVE-2002-1949",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Passwords transmitted in cleartext, a security risk for sensitive data exposure.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "CWE-1239",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Hardware registers do not properly clear sensitive information, leading to potential data exposure when hardware users change.\"",
+      "source_id": "chunk-80f8e2a782d3784f549ab8a8418f64bd"
+    },
+    {
+      "id": "INTEGRATED CIRCUITS AND HARDWARE ENGINES",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Hardware systems with exposed accesses to assets, such as device configuration and keys, that are targeted by attackers.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "id": "MODIFICATION OF PROTECTED REGISTERS ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Implementing proper lock bit protection mitigates the risk of unauthorized modification of protected registers.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "UNAUTHORIZED ACCESS CONTROL BYPASS ",
+      "entity_type": "UNKNOWN",
+      "description": "\"The tactic of bypassing access control is achieved through the attack technique of modifying protected registers.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "NETWORK TRAFFIC SECURITY",
+      "entity_type": "UNKNOWN",
+      "description": "\"Configuring servers with SSL ensures secure data transmission, mitigating plaintext traffic risks.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')",
+      "entity_type": "UNKNOWN",
+      "description": "\"The pattern exploits CVE-2005-0315 FTP server vulnerability to enable port scanning via proxy.\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "id": "VULNERABILITY DETECTION",
+      "entity_type": "UNKNOWN",
+      "description": "\"These utilities implement techniques for detecting vulnerabilities by monitoring system calls.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "INSECURE NETWORK TRAFFIC ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Attackers use these tools to exploit plaintext data transmission vulnerabilities.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "HDL CODE ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Improper implementation of HDL code can lead to vulnerabilities like CWE-284 and CVE-2017-6283.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "'MISSING CRYPTOGRAPHIC STEP'",
+      "entity_type": "UNKNOWN",
+      "description": "\"Attackers can exploit the missing cryptographic step vulnerability using unintended proxy techniques to gain unauthorized access.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "SIGN THEN SEAL SENSITIVE OBJECTS'",
+      "entity_type": "UNKNOWN",
+      "description": "\"This mitigation involves sealing sensitive information to prevent plaintext transmission and protect data integrity.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "'PLAINTEXT TRANSMISSION OF SENSITIVE INFORMATION'",
+      "entity_type": "UNKNOWN",
+      "description": "\"This mitigation involves sealing sensitive information to prevent plaintext transmission and protect data integrity.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "MEMORY MANAGEMENT",
+      "entity_type": "UNKNOWN",
+      "description": "\"Inspections during the architecture phase address memory management issues as a precondition for preventing vulnerabilities.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "'PLAINTEXT TRANSMISSION OF SENSITIVE INFORMATION (CWE-651)'",
+      "entity_type": "UNKNOWN",
+      "description": "\"This mitigation involves sealing sensitive information to prevent plaintext transmission and protect data integrity.\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "id": "CVE-2010-1637 AND CVE-2009-0037 VULNERABILITIES",
+      "entity_type": "UNKNOWN",
+      "description": "\"Lack of proper output validation allows attackers to exploit vulnerabilities like CVE-2010-1637 and CVE-2009-0037.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "id": "CVE-2019-18827",
+      "entity_type": "UNKNOWN",
+      "description": "\"Exploits this vulnerability to extract keys.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "RACE CONDITION EXPLOITATION",
+      "entity_type": "UNKNOWN",
+      "description": "\"Exploits this vulnerability to extract keys.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "UNCLEARED SENSITIVE INFORMATION BEFORE RESOURCE REUSE",
+      "entity_type": "UNKNOWN",
+      "description": "\"Vulnerability exists in systems managing state transitions.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "HDL",
+      "entity_type": "UNKNOWN",
+      "description": "\"Hardware Description Language is used to implement registers with write-once attributes, which can lead to race conditions.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "WRITE-ONCE ATTRIBUTES",
+      "entity_type": "UNKNOWN",
+      "description": "\"Hardware Description Language is used to implement registers with write-once attributes, which can lead to race conditions.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "ATTACKER",
+      "entity_type": "UNKNOWN",
+      "description": "\"Attackers use these tools to exploit the vulnerability.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "CWE-667 AND CWE-1239",
+      "entity_type": "UNKNOWN",
+      "description": "\"Attackers exploit these vulnerabilities to achieve their tactic of unauthorized access, bypassing protection mechanisms.\"",
+      "source_id": "chunk-80f8e2a782d3784f549ab8a8418f64bd"
+    },
+    {
+      "id": "TRUSS (SOLARIS)",
+      "entity_type": "UNKNOWN",
+      "description": "\"Attackers may use truss to monitor system calls and identify potential vulnerabilities.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "MEMORY NOT PROPERLY CLEARED BEFORE REUSE",
+      "entity_type": "UNKNOWN",
+      "description": "\"The 'Memory Not Properly Cleared Before Reuse' issue is classified under CWE-2077 as a vulnerability.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "PLOVER TAXONOMY ENTRY:SENSITIVE INFORMATION UNCLEARED BEFORE USE ",
+      "entity_type": "UNKNOWN",
+      "description": "\"The PLOVER taxonomy entry describes the same concept as CWE-2077, which involves sensitive information uncleared before use.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "VULNERABILITY",
+      "entity_type": "UNKNOWN",
+      "description": "\"The testing phase uses automated tools to validate configurations and mitigate potential vulnerabilities.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "CERT C SECURE CODING TAXONOMY:MEM03-C ",
+      "entity_type": "UNKNOWN",
+      "description": "\"The mitigation measure described in MEM03-C is intended to address the 'Memory Not Properly Cleared Before Reuse' issue.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "IMPROPER PREVENTION OF LOCK BIT MODIFICATION ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Modifying protected registers is part of the attack technique related to improper lock bit prevention exploitation.\"<SEP>\"The modification of protected registers is a technique used in the attack pattern of improper lock bit prevention exploitation.\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "id": "TRANSFER TO A DIFFERENT CONTROL SPHERE ",
+      "entity_type": "UNKNOWN",
+      "description": "\"The technique of transferring sensitive data to a different control sphere is often exploited in network packet handling.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "CWE-1000:CWE RESEARCH VIEW TAXONOMY ",
+      "entity_type": "UNKNOWN",
+      "description": "\"The CWE research view (CWE-1000) categorizes and understands the 'Sensitive Information Uncleared Before Use' vulnerability.\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "id": "SYSTEM-CALL TRACING TECHNIQUE",
+      "entity_type": "UNKNOWN",
+      "description": "\"Strace implements the same system-call tracing technique used by attackers for vulnerability detection.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "DESIGN REVIEW PHASE",
+      "entity_type": "UNKNOWN",
+      "description": "\"The design review phase ensures that security-sensitive settings are defined correctly, which is crucial for preventing such vulnerabilities.\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "id": "FILE SYSTEM MONITORING",
+      "entity_type": "UNKNOWN",
+      "description": "\"FileMon is used to monitor file activity, which can be part of an attack pattern or mitigation strategy.\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "id": "SOC",
+      "entity_type": "UNKNOWN",
+      "description": "\"Vulnerability exists within the SoC design.\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "id": "SHADOW CREW",
+      "entity_type": "UNKNOWN",
+      "description": "\"Shadow Crew uses CryptoLock for attacks.\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "id": "MISSING DOCUMENTATION FOR DESIGN",
+      "entity_type": "UNKNOWN",
+      "description": "\"The absence of proper documentation is a prerequisite that indirectly leads to the Insufficient Technical Documentation vulnerability.\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    }
+  ],
+  "edges": [
+    {
+      "source": "FIXING DESIGN FLAWS IN HARDWARE TESTING",
+      "target": "CWE-667 AND CVE-2018-9085",
+      "weight": 16.0,
+      "description": "\"Mitigations aim to prevent these vulnerabilities by ensuring proper lock bit functionality.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "source": "SHARED RESOURCE ISOLATION FAILURE",
+      "target": "SYSTEM-ON-A-CHIP (SOC)",
+      "weight": 9.0,
+      "description": "\"Failure to isolate shared resources on the SoC creates vulnerabilities that can be exploited by attackers.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "AUTHENTICATED DEBUG MODES AND ZEROIZATION MECHANISMS",
+      "target": "CWE-1239",
+      "weight": 14.0,
+      "description": "\"These mitigation measures are intended to prevent unauthorized access by ensuring sensitive information in hardware registers is properly cleared.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-80f8e2a782d3784f549ab8a8418f64bd"
+    },
+    {
+      "source": "BYPASS PROTECTION MECHANISM AND UNAUTHORIZED ACCESS",
+      "target": "CWE-667 AND CWE-1239",
+      "weight": 16.0,
+      "description": "\"Attackers exploit these vulnerabilities to achieve their tactic of unauthorized access, bypassing protection mechanisms.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-80f8e2a782d3784f549ab8a8418f64bd"
+    },
+    {
+      "source": "DEBUGGERS",
+      "target": "ATTACKERS",
+      "weight": 7.0,
+      "description": "\"Attackers may use debuggers to inject malicious code or intercept data during program execution.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "CVE-1999-0017",
+      "target": "UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')",
+      "weight": 8.0,
+      "description": "\"The Confused Deputy attack pattern exploits CVE-1999-0017 FTP bounce vulnerability to misroute requests.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "CVE-1999-0017",
+      "target": "CWE-610",
+      "weight": 8.0,
+      "description": "\"The attack pattern CWE-610 exploits CVE-1999-0017 FTP bounce vulnerability to misroute requests.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "CWE-2077",
+      "target": "MEMORY NOT PROPERLY CLEARED BEFORE REUSE",
+      "weight": 9.0,
+      "description": "\"The 'Memory Not Properly Cleared Before Reuse' issue is classified under CWE-2077 as a vulnerability.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "CWE-2077",
+      "target": "PLOVER TAXONOMY ENTRY:SENSITIVE INFORMATION UNCLEARED BEFORE USE ",
+      "weight": 9.0,
+      "description": "\"The PLOVER taxonomy entry describes the same concept as CWE-2077, which involves sensitive information uncleared before use.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "CWE-2077",
+      "target": "SOFTWARE FAULT PATTERNS:SFP23:EXPOSED DATA ",
+      "weight": 7.0,
+      "description": "\"The exposed data attack pattern (SFP23) is related to the CWE-2077 vulnerability, as both involve sensitive information handling.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "SYSTEM-CALL TRACING UTILITIES",
+      "target": "VULNERABILITY DETECTION",
+      "weight": 8.0,
+      "description": "\"These utilities implement techniques for detecting vulnerabilities by monitoring system calls.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "CVE-1999-0168",
+      "target": "UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')",
+      "weight": 8.0,
+      "description": "\"The attack pattern exploits CVE-1999-0168 RPC portmapper vulnerability to redirect service requests.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "CVE-1999-0168",
+      "target": "CWE-610",
+      "weight": 8.0,
+      "description": "\"The attack pattern CWE-610 exploits CVE-1999-0168 RPC portmapper vulnerability to redirect service requests.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "NETWORK SNIFFERS AND PROTOCOL ANALYZERS",
+      "target": "INSECURE NETWORK TRAFFIC ",
+      "weight": 7.0,
+      "description": "\"Attackers use these tools to exploit plaintext data transmission vulnerabilities.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "WINDOWS OPERATING SYSTEMS",
+      "target": "WINDOWS PRINT SPOOLER VULNERABILITY",
+      "weight": 9.0,
+      "description": "\"Vulnerability exists in Windows systems.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "CVE-2005-0315",
+      "target": "UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')",
+      "weight": 8.0,
+      "description": "\"The pattern exploits CVE-2005-0315 FTP server vulnerability to enable port scanning via proxy.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "CVE-2005-0315",
+      "target": "CWE-610",
+      "weight": 8.0,
+      "description": "\"The attack pattern CWE-610 exploits CVE-2005-0315 FTP server vulnerability to enable port scanning via proxy.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "CVE-2002-1484",
+      "target": "CWE-610",
+      "weight": 8.0,
+      "description": "\"The attack pattern CWE-610 exploits CVE-2002-1484 web server vulnerability for proxied scanning.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "CVE-2002-1484",
+      "target": "UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')",
+      "weight": 8.0,
+      "description": "\"The attack pattern exploits CVE-2002-1484 web server vulnerability for proxied scanning.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "NETWORKING",
+      "target": "TRANSFER TO A DIFFERENT CONTROL SPHERE ",
+      "weight": 7.0,
+      "description": "\"The technique of transferring sensitive data to a different control sphere is often exploited in network packet handling.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "UNINTENDED PROXY OR 'CONFUSED DEPUTY'",
+      "target": "'MISSING CRYPTOGRAPHIC STEP'",
+      "weight": 8.0,
+      "description": "\"Attackers can exploit the missing cryptographic step vulnerability using unintended proxy techniques to gain unauthorized access.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "source": "CVE-2004-2061",
+      "target": "UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')",
+      "weight": 8.0,
+      "description": "\"The pattern exploits CVE-2004-2061 CGI script vulnerability to accept malicious URLs.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "CVE-2004-2061",
+      "target": "CWE-610",
+      "weight": 8.0,
+      "description": "\"The attack pattern CWE-610 exploits CVE-2004-2061 CGI script vulnerability to accept malicious URLs.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "UNAUTHORIZED ACCESS TO BMC PHYSICAL ADDRESS SPACE",
+      "target": "CVE-2019-6260",
+      "weight": 8.0,
+      "description": "\"Exploitation of CVE-2019-6260 results in unauthorized access to the BMC's physical address space.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "FILEMON",
+      "target": "FILE SYSTEM MONITORING",
+      "weight": 7.0,
+      "description": "\"FileMon is used to monitor file activity, which can be part of an attack pattern or mitigation strategy.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "CVE-2001-1484",
+      "target": "CWE-610",
+      "weight": 8.0,
+      "description": "\"The attack pattern CWE-610 exploits CVE-2001-1484 bounce attack vulnerability to access TFTP from trusted sides.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "CVE-2001-1484",
+      "target": "UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')",
+      "weight": 8.0,
+      "description": "\"The attack pattern exploits CVE-2001-1484 bounce attack vulnerability to access TFTP from trusted sides.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "STRACE (LINUX)",
+      "target": "SYSTEM-CALL TRACING TECHNIQUE",
+      "weight": 8.0,
+      "description": "\"Strace implements the same system-call tracing technique used by attackers for vulnerability detection.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "STRACE (LINUX)",
+      "target": "ATTACKERS",
+      "weight": 8.0,
+      "description": "\"Attackers can employ strace to trace system calls and exploit identified vulnerabilities.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "LOCK BIT NOT SET AFTER BOOT",
+      "target": "EXPLOITING LOCK BIT WEAKNESSES",
+      "weight": 16.0,
+      "description": "\"This technique exploits the precondition where lock bits are unset after reboot.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "source": "LOCK BIT NOT SET AFTER BOOT",
+      "target": "HARDWARE SYSTEMS WITH LOCK BITS",
+      "weight": 18.0,
+      "description": "\"The vulnerability exists within these systems, making them targets.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "source": "CWE-2077:SENSITIVE INFORMATION UNCLEARED BEFORE USE ",
+      "target": "HOST-BASED VULNERABILITY SCANNERS ",
+      "weight": 8.0,
+      "description": "\"Host-based vulnerability scanners are used to detect and mitigate the 'Sensitive Information Uncleared Before Use' issue.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "CWE-2077:SENSITIVE INFORMATION UNCLEARED BEFORE USE ",
+      "target": "MEMORY MANAGEMENT",
+      "weight": 8.0,
+      "description": "\"The CWE-2077 vulnerability arises due to improper memory management practices.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "CWE-2077:SENSITIVE INFORMATION UNCLEARED BEFORE USE ",
+      "target": "CWE-1000:CWE RESEARCH VIEW TAXONOMY ",
+      "weight": 9.0,
+      "description": "\"The CWE research view (CWE-1000) categorizes and understands the 'Sensitive Information Uncleared Before Use' vulnerability.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "CWE-2077:SENSITIVE INFORMATION UNCLEARED BEFORE USE ",
+      "target": "FORMAL METHODS/CORRECT-BY-CONSTRUCTION ",
+      "weight": 8.0,
+      "description": "\"The formal method ensures proper resource handling, mitigating the risk of CWE-2077 vulnerabilities.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "CVE-2004-0294",
+      "target": "USER ENUMERATION VIA INCONSISTENT ERROR MESSAGES",
+      "weight": 7.0,
+      "description": "\"Attackers exploit this precondition in CVE-2004-0294 to enumerate valid users through error message differences.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "CERT C SECURE CODING:FIO06-C",
+      "target": "INSECURE FILE CREATION PERMISSIONS",
+      "weight": 7.0,
+      "description": "\"The CERT C Secure Coding standard recommends creating files with appropriate access permissions to mitigate the risk of insecure file creation permissions.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "DEBUG FEATURES IN HARDWARE DESIGN",
+      "target": "CWE-667",
+      "weight": 16.0,
+      "description": "\"The presence of debug features is a prerequisite for exploiting the lock bit protection bypass vulnerability.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-80f8e2a782d3784f549ab8a8418f64bd"
+    },
+    {
+      "source": "INSPECTION (IEEE 1028 STANDARD)",
+      "target": "MEMORY MANAGEMENT",
+      "weight": 6.0,
+      "description": "\"Inspections during the architecture phase address memory management issues as a precondition for preventing vulnerabilities.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    },
+    {
+      "source": "CVE-2010-1637",
+      "target": "UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')",
+      "weight": 8.0,
+      "description": "\"The pattern exploits CVE-2010-1637 mail program vulnerability to enable internal network scanning.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "CVE-2010-1637",
+      "target": "CWE-610",
+      "weight": 8.0,
+      "description": "\"The attack pattern CWE-610 exploits CVE-2010-1637 mail program vulnerability to enable internal network scanning.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "EARLY BOOT PHASE EXPLOITATION",
+      "target": "DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE ",
+      "weight": 8.0,
+      "description": "\"The attack technique of exploiting DMA devices during the early boot phase aligns with the attack pattern of enabling devices too early.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "CVE-2009-0037",
+      "target": "UNINTENDED PROXY OR INTERMEDIARY ('CONFUSED DEPUTY')",
+      "weight": 8.0,
+      "description": "\"The attack pattern exploits CVE-2009-0037 URL-downloading library vulnerability to bypass restrictions.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "CVE-2009-0037",
+      "target": "CWE-610",
+      "weight": 8.0,
+      "description": "\"The attack pattern CWE-610 exploits CVE-2009-0037 URL-downloading library vulnerability to bypass restrictions.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-cf2bb615b405ec5f79b3729ede5b6486"
+    },
+    {
+      "source": "CVE-2001-0497",
+      "target": "CLEARTEXT TRANSMISSION OF SENSITIVE INFORMATION",
+      "weight": 16.0,
+      "description": "\"The cleartext transmission attack pattern exploits the CVE-2001-0497 vulnerability related to insecure permissions for a shared secret key file.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "SIDE CHANNEL ATTACK PATTERN",
+      "target": "EXPLOITING OBSERVABLE DISCREPANCIES",
+      "weight": 18.0,
+      "description": "\"The attack technique aligns with the side channel attack pattern, where behavior analysis is central.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "EXPLOITING OBSERVABLE DISCREPANCIES",
+      "target": "ATTACKERS",
+      "weight": 18.0,
+      "description": "\"Attackers use the technique of exploiting observable discrepancies to gain unauthorized access.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "EXPLOITING OBSERVABLE DISCREPANCIES",
+      "target": "INFORMATION DISCLOSURE",
+      "weight": 14.0,
+      "description": "\"Attackers achieve information disclosure through the technique of exploiting observable discrepancies.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "EXPLOITING OBSERVABLE DISCREPANCIES",
+      "target": "SECURE COMPARTMENTALIZATION AND ERROR HANDLING",
+      "weight": 16.0,
+      "description": "\"Mitigations prevent attackers from successfully exploiting observable discrepancies.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "STATE TRANSITION MANAGEMENT IN SOFTWARE SYSTEMS",
+      "target": "UNCLEARED SENSITIVE INFORMATION BEFORE RESOURCE REUSE",
+      "weight": 9.0,
+      "description": "\"Vulnerability exists in systems managing state transitions.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "TRUSTED FIRMWARE/SOFTWARE MODULE",
+      "target": "UNTRUSTED SOFTWARE COMPONENT",
+      "weight": 6.0,
+      "description": "\"Interaction between trusted and untrusted modules leads to potential race condition vulnerabilities.\"",
+      "keywords": "\"Conflict\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "source": "SYSTEM BEHAVIOR ANALYSIS",
+      "target": "OBSERVABLE DISCREPANCY VULNERABILITY (CWE-203) ",
+      "weight": 12.0,
+      "description": "\"Understanding system behavior is a prerequisite for attackers to exploit this vulnerability.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)",
+      "target": "CVE-2019-6260",
+      "weight": 16.0,
+      "description": "\"The improper isolation vulnerability in SoCs is exploited as described in CVE-2019-6260, which involves unauthorized BMC access.\"<SEP>\"The improper isolation vulnerability in SoCs is related to CVE-2019-6260, which involves unauthorized access to BMC physical address space.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "IMPROPER ISOLATION OF SHARED RESOURCES ON SYSTEM-ON-A-CHIP (SOC)",
+      "target": "CVE-2020-8698",
+      "weight": 16.0,
+      "description": "\"The improper isolation vulnerability in SoCs is exploited as described in CVE-2020-8698, which involves information disclosure.\"<SEP>\"The improper isolation vulnerability in SoCs is related to CVE-2020-8698, which involves information disclosure due to improper resource isolation.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "OBSERVABLE DISCREPANCY VULNERABILITY (CWE-203) ",
+      "target": "SYSTEMS WITH OBSERVABLE DISCREPANCIES (E.G., SOFTWARE, HARDWARE)",
+      "weight": 18.0,
+      "description": "\"This vulnerability exists within systems where observable discrepancies can be detected and exploited.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "OBSERVABLE DISCREPANCY VULNERABILITY (CWE-203) ",
+      "target": "CVE-2020-8695",
+      "weight": 7.0,
+      "description": "\"CVE-2020-8695 is a specific instance of the observable discrepancy vulnerability in Intel processors.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "OBSERVABLE DISCREPANCY VULNERABILITY (CWE-203) ",
+      "target": "INFORMATION LEAKAGE AND SYSTEM COMPROMISE",
+      "weight": 16.0,
+      "description": "\"Exploiting this vulnerability leads to information leakage and potential system compromise.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "PLOVER: INSECURE DEFAULT PERMISSIONS",
+      "target": "CVE-2005-1941",
+      "weight": 16.0,
+      "description": "\"The PLOVER taxonomy addresses the CVE-2005-1941 vulnerability related to executables installed world-writable by enforcing secure default permissions.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-e75a1595db4670470ac4e28b2363c830"
+    },
+    {
+      "source": "CRYPTO HARDWARE WALLET POWER CONSUMPTION SIDE CHANNEL ATTACK",
+      "target": "CVE-2019-14353",
+      "weight": 8.0,
+      "description": "\"This attack technique exploits CVE-2019-14353 to reveal sensitive data via power consumption variations.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "CWE-668",
+      "target": "CVE-2010-1637 AND CVE-2009-0037 VULNERABILITIES",
+      "weight": 8.0,
+      "description": "\"The exposure of resources to unauthorized access (CWE-668) is exploited through vulnerabilities like CVE-2010-1637 and CVE-2009-0037.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "source": "EXPLOIT KIT TRIGGERING",
+      "target": "EXTORTION VIA RANSOM DEMAND",
+      "weight": 7.0,
+      "description": "\"Tactic accomplished through exploitation.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "EXPLOIT KIT TRIGGERING",
+      "target": "PHISHING EMAILS WITH MALICIOUS ATTACHMENTS",
+      "weight": 9.0,
+      "description": "\"Same technique as phishing pattern.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "EXPLOIT KIT TRIGGERING",
+      "target": "CRYPTOLOCK",
+      "weight": 8.0,
+      "description": "\"CryptoLock is implemented via exploit kit triggering.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "EXPLOIT KIT TRIGGERING",
+      "target": "RANSOMWARE PROTECTION AND PATCHING",
+      "weight": 8.0,
+      "description": "\"Mitigations counteract exploit techniques.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "ARCHITECTURE AND DESIGN PHASE",
+      "target": "IMPROPER RESTRICTION OF WRITE-ONCE BIT FIELDS",
+      "weight": 6.0,
+      "description": "\"Such vulnerabilities originate from decisions made during the architecture and design phase.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "source": "FILE ENCRYPTION AND RANSOM DEMAND",
+      "target": "WINDOWS PRINT SPOOLER VULNERABILITY",
+      "weight": 8.0,
+      "description": "\"Postcondition results from exploitation.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "TESTING PHASE",
+      "target": "VULNERABILITY",
+      "weight": 7.0,
+      "description": "\"The testing phase uses automated tools to validate configurations and mitigate potential vulnerabilities.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "source": "AUTOMATED STATIC ANALYSIS (SAST)",
+      "target": "VULNERABILITY DETECTION",
+      "weight": 8.0,
+      "description": "\"SAST detects vulnerabilities by analyzing source code without execution, mitigating potential attacks.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "WINDOWS PRINT SPOOLER VULNERABILITY",
+      "target": "PHISHING EMAILS WITH MALICIOUS ATTACHMENTS",
+      "weight": 7.0,
+      "description": "\"Phishing exploits the vulnerability.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "ENCRYPTED CHANNELS CONFIGURATION",
+      "target": "NETWORK TRAFFIC SECURITY",
+      "weight": 9.0,
+      "description": "\"Configuring servers with SSL ensures secure data transmission, mitigating plaintext traffic risks.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "INSUFFICIENT TECHNICAL DOCUMENTATION",
+      "target": "CVE-2010-1637 AND CVE-2009-0037 VULNERABILITIES",
+      "weight": 7.0,
+      "description": "\"The lack of sufficient documentation makes it harder to identify and fix vulnerabilities like CVE-2010-1637 and CVE-2009-0037.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "source": "INSUFFICIENT TECHNICAL DOCUMENTATION",
+      "target": "MISSING DOCUMENTATION FOR DESIGN",
+      "weight": 8.0,
+      "description": "\"The absence of proper documentation is a prerequisite that indirectly leads to the Insufficient Technical Documentation vulnerability.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "source": "CVE-2020-8698",
+      "target": "DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE ",
+      "weight": 7.0,
+      "description": "\"The DMA device vulnerability is related to CVE-2020-8698, as both involve improper isolation of resources and potential information disclosure.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "UNINTENDED PROXY OR 'CONFUSED DEPUTY' (CWE-441)",
+      "target": "MISSING CRYPTOGRAPHIC STEP (CWE-325)",
+      "weight": 8.0,
+      "description": "\"Attackers can exploit the missing cryptographic step vulnerability using unintended proxy techniques to gain unauthorized access.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "source": "SUFFICIENT TECHNICAL DOCUMENTATION FOR DESIGN AND MAINTENANCE",
+      "target": "INSUFFICIENT INPUT VALIDATION",
+      "weight": 9.0,
+      "description": "\"Having proper documentation helps mitigate the risk of insufficient input validation by enabling better understanding of system vulnerabilities.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "source": "LOSS OF CONFIDENTIALITY AND INTEGRITY",
+      "target": "CVE-2022-24985, CVE-2021-36934",
+      "weight": 8.0,
+      "description": "\"Exploitation results in unauthorized access or data modification affecting confidentiality and integrity.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "INSUFFICIENT INPUT VALIDATION",
+      "target": "CVE-2010-1637 AND CVE-2009-0037 VULNERABILITIES",
+      "weight": 8.0,
+      "description": "\"The absence of proper input validation mechanisms allows attackers to exploit vulnerabilities like CVE-2010-1637 and CVE-2009-0037.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "source": "DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE ",
+      "target": "IOMMU-BASED MITIGATION STRATEGY",
+      "weight": 8.0,
+      "description": "\"Using an IOMMU-based strategy mitigates the risk of DMA attacks during the early boot phase.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "DMA DEVICE ENABLED TOO EARLY IN BOOT PHASE ",
+      "target": "CVE-2019-6260",
+      "weight": 7.0,
+      "description": "\"The DMA device vulnerability is related to CVE-2019-6260, as both involve unauthorized access to system resources.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+    },
+    {
+      "source": "UNAUTHORIZED JTAG ACCESS",
+      "target": "DEBUG/TEST INTERFACE TOOLS",
+      "weight": 7.0,
+      "description": "\"Tools implement this attack technique.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "UNAUTHORIZED JTAG ACCESS",
+      "target": "EXPLOITING DEBUG INTERFACES",
+      "weight": 8.0,
+      "description": "\"Same attack technique as the pattern.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "UNAUTHORIZED JTAG ACCESS",
+      "target": "AUTHENTICATION IMPLEMENTATION AND JTAG DISABLING",
+      "weight": 7.0,
+      "description": "\"Mitigates this attack technique.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "UNAUTHORIZED JTAG ACCESS",
+      "target": "GAINING UNAUTHORIZED SYSTEM ACCESS",
+      "weight": 6.0,
+      "description": "\"Accomplishes the tactic through this technique.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "UNAUTHORIZED ACCESS TO SYSTEM CONFIGURATION",
+      "target": "EXPLOITING LOCK BIT WEAKNESSES",
+      "weight": 14.0,
+      "description": "\"This tactic is achieved through exploiting hardware vulnerabilities.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "source": "INSUFFICIENT OUTPUT VALIDATION",
+      "target": "CVE-2010-1637 AND CVE-2009-0037 VULNERABILITIES",
+      "weight": 8.0,
+      "description": "\"Lack of proper output validation allows attackers to exploit vulnerabilities like CVE-2010-1637 and CVE-2009-0037.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "source": "WEAK SESSION MANAGEMENT",
+      "target": "INSUFFICIENT LOGGING AND MONITORING",
+      "weight": 9.0,
+      "description": "\"Proper logging and monitoring can mitigate risks associated with weak session management by detecting unauthorized access attempts.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-511f3baaabb0ab2809dad9343c0d0238"
+    },
+    {
+      "source": "LACK OF UNIQUE IP IDENTIFIERS IN SOC",
+      "target": "SOC",
+      "weight": 9.0,
+      "description": "\"Vulnerability exists within the SoC design.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "OVERWRITING MEMORY WITH FIXED PATTERNS",
+      "target": "INFORMATION LEAK VIA UNCLEARED RESOURCES",
+      "weight": 8.0,
+      "description": "\"Mitigation prevents data leaks by clearing memory.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "CWE-1191 AND CVE-2019-18827",
+      "weight": 9.0,
+      "description": "\"Vulnerabilities exist in the SoC's debug interface.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "CRYPTOLOCK",
+      "target": "SHADOW CREW",
+      "weight": 9.0,
+      "description": "\"Shadow Crew uses CryptoLock for attacks.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "UNAUTHORIZED DATA EXTRACTION OR CODE EXECUTION",
+      "target": "CWE-1191 AND CVE-2019-18827",
+      "weight": 7.0,
+      "description": "\"Postconditions resulting from exploiting these vulnerabilities.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "CWE-1191 AND CVE-2019-18827",
+      "target": "EXPLOITING DEBUG INTERFACES",
+      "weight": 6.0,
+      "description": "\"Attack pattern exploits these vulnerabilities.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "CWE-1191 AND CVE-2019-18827",
+      "target": "LACK OF AUTHENTICATION IN DEBUG INTERFACES",
+      "weight": 5.0,
+      "description": "\"This precondition allows vulnerability exploitation.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "INSUFFICIENT GRANULARITY OF ACCESS CONTROL POLICY",
+      "target": "CVE-2022-24985, CVE-2021-36934",
+      "weight": 7.0,
+      "description": "\"The attack pattern exploits insufficient granularity in access control policies.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "ADVERSARY",
+      "target": "CWE-667 AND CVE-2018-9085",
+      "weight": 18.0,
+      "description": "\"Attackers exploit these vulnerabilities to gain unauthorized access.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "source": "BYPASS AUTHENTICATION EXPLOIT",
+      "target": "CVE-2022-24985, CVE-2021-36934",
+      "weight": 7.0,
+      "description": "\"The attack technique exploits vulnerabilities in access control mechanisms.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "BYPASS AUTHENTICATION EXPLOIT",
+      "target": "REVIEW AND TEST ACCESS CONTROL POLICIES",
+      "weight": 8.0,
+      "description": "\"Mitigation measures aim to prevent unauthorized access by ensuring proper access control implementation.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "BYPASS AUTHENTICATION EXPLOIT",
+      "target": "UNAUTHORIZED ACCESS AND DATA MODIFICATION",
+      "weight": 7.0,
+      "description": "\"The tactic is achieved through exploiting authentication weaknesses in the system.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "UNAUTHORIZED MODIFICATION OF HARDWARE CONFIGURATION",
+      "target": "CWE-667 AND CVE-2018-9085",
+      "weight": 16.0,
+      "description": "\"Exploiting these vulnerabilities leads to unauthorized system modifications.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "TRUSS (SOLARIS)",
+      "weight": 7.0,
+      "description": "\"Attackers may use truss to monitor system calls and identify potential vulnerabilities.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "FIRMWARE/BOOTLOADER SOFTWARE",
+      "weight": 8.0,
+      "description": "\"Attackers may exploit firmware or bootloader software configurations to bypass security measures.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "DEBUG/TEST INTERFACE TOOLS",
+      "target": "ATTACKER",
+      "weight": 8.0,
+      "description": "\"Attackers use these tools to exploit the vulnerability.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "INSECURE HARDWARE DEFAULTS",
+      "target": "CVE-2022-24985, CVE-2021-36934",
+      "weight": 6.0,
+      "description": "\"Weak defaults act as a prerequisite for exploiting access control vulnerabilities.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "CVE-2022-24985, CVE-2021-36934",
+      "target": "INTEGRATED CIRCUITS AND HARDWARE ENGINES",
+      "weight": 9.0,
+      "description": "\"Vulnerabilities exist within hardware systems with exposed accesses to sensitive assets.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+    },
+    {
+      "source": "INFORMATION LEAK VIA UNCLEARED RESOURCES",
+      "target": "UNCLEARED SENSITIVE INFORMATION BEFORE RESOURCE REUSE",
+      "weight": 7.0,
+      "description": "\"Attack technique exploits this vulnerability.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "SECURITY LOCK BIT PROTECTION IMPLEMENTATION ",
+      "target": "MODIFICATION OF PROTECTED REGISTERS ",
+      "weight": 8.0,
+      "description": "\"Implementing proper lock bit protection mitigates the risk of unauthorized modification of protected registers.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "LACK OF WRITE-ONCE RESTRICTIONS IN HARDWARE DESIGN ",
+      "target": "VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) ",
+      "weight": 6.0,
+      "description": "\"The lack of write-once restrictions is a prerequisite for the vulnerability in lock bit protection mechanisms.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "INSUFFICIENT GRANULARITY OF ADDRESS REGIONS PROTECTED BY REGISTER LOCKS",
+      "target": "DESIGN REVIEW PHASE",
+      "weight": 8.0,
+      "description": "\"The design review phase ensures that security-sensitive settings are defined correctly, which is crucial for preventing such vulnerabilities.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "source": "VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) ",
+      "target": "HARDWARE DESIGN AND INTEGRATED CIRCUITS ",
+      "weight": 9.0,
+      "description": "\"The vulnerability exists within hardware designs and integrated circuits, particularly in their lock bit protection mechanisms.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) ",
+      "target": "UNINTENDED CHANGES TO SYSTEM CONFIGURATION POST-POWER TRANSITION ",
+      "weight": 8.0,
+      "description": "\"The postcondition of unintended changes to system configuration is a direct result of exploiting the lock bit vulnerability.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) ",
+      "target": "CWE-284",
+      "weight": 9.0,
+      "description": "\"CWE-284 is a general vulnerability class that includes the specific CVE-2017-6283 vulnerability.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) ",
+      "target": "CVE-2017-6283",
+      "weight": 9.0,
+      "description": "\"CVE-2017-6283 is a specific instance of the CWE-284 vulnerability.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) ",
+      "target": "HDL CODE ",
+      "weight": 8.0,
+      "description": "\"Improper implementation of HDL code can lead to vulnerabilities like CWE-284 and CVE-2017-6283.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) ",
+      "target": "TESTING PHASE PROTECTION MECHANISMS ",
+      "weight": 8.0,
+      "description": "\"Automated testing during the Testing phase helps identify and mitigate vulnerabilities like CWE-284 and CVE-2017-6283.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) ",
+      "target": "MANUAL ANALYSIS OF LOCK BIT BEHAVIOR ",
+      "weight": 7.0,
+      "description": "\"Manual analysis is used to test and mitigate the vulnerability in lock bit behavior.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "VULNERABILITY IN LOCK BIT PROTECTION MECHANISM (CWE-284, CVE-2017-6283) ",
+      "target": "IMPROPER PREVENTION OF LOCK BIT MODIFICATION ",
+      "weight": 7.0,
+      "description": "\"The attack pattern exploits the vulnerability in lock bit protection mechanisms.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "JAVA-ORIENTED FRAMEWORK HMAC COMPARISON TIMING DISCREPANCY",
+      "target": "CVE-2019-10071",
+      "weight": 8.0,
+      "description": "\"This attack technique exploits CVE-2019-10071 to infer sensitive information from timing discrepancies.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-60f96cbfcdc863307fe7ed2450e4fab0"
+    },
+    {
+      "source": "DATA EXTRACTION VIA ENCRYPTION KEYS",
+      "target": "RACE CONDITION EXPLOITATION",
+      "weight": 7.0,
+      "description": "\"Tactic achieved through this technique.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "MODIFICATION OF PROTECTED REGISTERS ",
+      "target": "UNAUTHORIZED ACCESS CONTROL BYPASS ",
+      "weight": 7.0,
+      "description": "\"The tactic of bypassing access control is achieved through the attack technique of modifying protected registers.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "MODIFICATION OF PROTECTED REGISTERS ",
+      "target": "IMPROPER PREVENTION OF LOCK BIT MODIFICATION ",
+      "weight": 16.0,
+      "description": "\"Modifying protected registers is part of the attack technique related to improper lock bit prevention exploitation.\"<SEP>\"The modification of protected registers is a technique used in the attack pattern of improper lock bit prevention exploitation.\"",
+      "keywords": "\"Implement\"<SEP>\"Same_as\"",
+      "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
+    },
+    {
+      "source": "SIGN THEN SEAL SENSITIVE OBJECTS'",
+      "target": "'PLAINTEXT TRANSMISSION OF SENSITIVE INFORMATION'",
+      "weight": 7.0,
+      "description": "\"This mitigation involves sealing sensitive information to prevent plaintext transmission and protect data integrity.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "source": "SIGN THEN SEAL SENSITIVE OBJECTS'",
+      "target": "'PLAINTEXT TRANSMISSION OF SENSITIVE INFORMATION (CWE-651)'",
+      "weight": 7.0,
+      "description": "\"This mitigation involves sealing sensitive information to prevent plaintext transmission and protect data integrity.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-ce9349a8e53d18b31a1043da3b9bb4bc"
+    },
+    {
+      "source": "CVE-2019-18827",
+      "target": "RACE CONDITION EXPLOITATION",
+      "weight": 7.0,
+      "description": "\"Exploits this vulnerability to extract keys.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
+    },
+    {
+      "source": "HDL",
+      "target": "WRITE-ONCE ATTRIBUTES",
+      "weight": 7.0,
+      "description": "\"Hardware Description Language is used to implement registers with write-once attributes, which can lead to race conditions.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-2383be72a89b6aa12cccddc9b5c9b0d8"
+    },
+    {
+      "source": "TRUSS (SOLARIS)",
+      "target": "SYSTEM-CALL TRACING TECHNIQUE",
+      "weight": 7.0,
+      "description": "\"Truss implements the attack technique of system-call tracing to detect vulnerabilities.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-5ba67b7953cc742d67bd66028d9840d5"
+    },
+    {
+      "source": "MEMORY NOT PROPERLY CLEARED BEFORE REUSE",
+      "target": "CERT C SECURE CODING TAXONOMY:MEM03-C ",
+      "weight": 8.0,
+      "description": "\"The mitigation measure described in MEM03-C is intended to address the 'Memory Not Properly Cleared Before Reuse' issue.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-eb9580695df69206d5ae3cb8f9e396f5"
+    }
+  ]
+}
