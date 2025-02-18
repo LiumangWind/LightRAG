@@ -297,8 +297,8 @@
     {
       "id": "SYSTEM-ON-A-CHIP (SOC)",
       "entity_type": "TARGET ENTITY",
-      "description": "\"The System-On-a-Chip (SoC) is a target entity affected by improper isolation of shared resources between trusted and untrusted agents.\"",
-      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+      "description": "\"The System-On-a-Chip (SoC) is a target entity affected by improper isolation of shared resources between trusted and untrusted agents.\"<SEP>\"The System-on-a-Chip (SoC) is the target entity that lacks proper security version number handling and update mechanisms.\"",
+      "source_id": "chunk-892ec830b66f6437796b41d9204bf489<SEP>chunk-155e5cca5e90d88780b67dd7b487829a"
     },
     {
       "id": "FORMAL METHODS/CORRECT-BY-CONSTRUCTION ",
@@ -747,8 +747,8 @@
     {
       "id": "UNTRUSTED AGENTS",
       "entity_type": "ATTACKER",
-      "description": "\"Entities that exploit vulnerabilities in hardware access controls.\"",
-      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+      "description": "\"Entities that exploit vulnerabilities in hardware access controls.\"<SEP>\"Untrusted agents can disable alerts about signal conditions exceeding limits or manipulate response mechanisms.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0<SEP>chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
     },
     {
       "id": "CVE-2005-0918",
@@ -837,8 +837,8 @@
     {
       "id": "SYSTEM-ON-CHIP (SOC)",
       "entity_type": "TARGET ENTITY",
-      "description": "\"SoCs are targets for attacks due to their integrated hardware components.\"<SEP>\"The SoC with a vulnerable debug/test interface.\"<SEP>\"The SoC is targeted by adversaries due to its vulnerabilities in secure boot and transaction handling.\"<SEP>\"The SoC is the target entity where vulnerabilities in attestation data and security identifiers exist, making it susceptible to attacks.\"<SEP>\"The SoC's ROM code authenticates bootloader code from NVM and transfers it to Volatile Memory (VM).\"<SEP>\"The target entity of these vulnerabilities is the System-On-Chip (SoC",
-      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973<SEP>chunk-b2db9bd0b7df158579fa4f955ca5f332<SEP>chunk-7acaf7b7bfc562c3e9176c41d3a30307<SEP>chunk-1ea2cd26ef91f5c526781b17429acd7f<SEP>chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+      "description": "\"SoCs are targets for attacks due to their integrated hardware components.\"<SEP>\"The SoC with a vulnerable debug/test interface.\"<SEP>\"The SoC is targeted by adversaries due to its vulnerabilities in secure boot and transaction handling.\"<SEP>\"The SoC is the target entity where vulnerabilities in attestation data and security identifiers exist, making it susceptible to attacks.\"<SEP>\"The SoC's ROM code authenticates bootloader code from NVM and transfers it to Volatile Memory (VM).\"<SEP>\"The target entity of these vulnerabilities is the System-On-Chip (SoC<SEP>\"The SoC is the target entity of attacks exploiting hardware vulnerabilities related to RoT and security version numbers.\"<SEP>\"The System-on-Chip (SoC) is the target entity for attack, as it contains sensitive trace data and internal signals that can be exploited.\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84<SEP>chunk-b2db9bd0b7df158579fa4f955ca5f332<SEP>chunk-283c54bf2a04113b4e93bd42620f4973<SEP>chunk-7acaf7b7bfc562c3e9176c41d3a30307<SEP>chunk-2a08effb4baf9d8f8c63cdfd2d107514<SEP>chunk-4f02d3a2ccd36e011af08f781e28e3e4<SEP>chunk-1ea2cd26ef91f5c526781b17429acd7f"
     },
     {
       "id": "CVE-2004-1602",
@@ -1436,9 +1436,9 @@
     },
     {
       "id": "ATTACKER",
-      "entity_type": "ATTACKER",
-      "description": "\"An attacker can exploit vulnerabilities in systems where shadow copies are out of sync with the original copy.\"<SEP>\"Attackers use these tools to exploit the vulnerability.\"",
-      "source_id": "chunk-6c031a7ff8a513b1dd7b59f833f1ac53<SEP>chunk-b2db9bd0b7df158579fa4f955ca5f332"
+      "entity_type": "AN ATTACKER EXPLOITING HARDWARE VULNERABILITIES IN COMPUTING UNITS (E.G., CPUS, GPUS) THROUGH TRANSIENT EXECUTION WEAKNESSES.",
+      "description": "\"An attacker can exploit vulnerabilities in systems where shadow copies are out of sync with the original copy.\"<SEP>\"Attackers use these tools to exploit the vulnerability.\"<SEP>\"The attacker takes advantage of weaknesses in hardware components like processors that allow operations to execute transiently without committing to architectural state, enabling unauthorized access or data exposure.\"",
+      "source_id": "chunk-6c031a7ff8a513b1dd7b59f833f1ac53<SEP>chunk-b2db9bd0b7df158579fa4f955ca5f332<SEP>chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
     },
     {
       "id": "CWE-667 AND CWE-1239",
@@ -1976,9 +1976,9 @@
     },
     {
       "id": "FAULT INJECTION ATTACKS",
-      "entity_type": "ATTACK PATTERN",
-      "description": "\"Fault injection attacks involve deliberately introducing faults, such as voltage or clock glitches, to compromise system security.\"",
-      "source_id": "chunk-3d2fd26674527134e3c7fbd5cc806bf4"
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Fault injection attacks involve deliberately introducing faults, such as voltage or clock glitches, to compromise system security.\"<SEP>\"Fault injection attacks involve manipulating hardware to cause unintended behavior, such as bypassing protection mechanisms or gaining unauthorized access.\"",
+      "source_id": "chunk-3d2fd26674527134e3c7fbd5cc806bf4<SEP>chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
     },
     {
       "id": "CWE ID 693",
@@ -2445,8 +2445,8 @@
     {
       "id": "DENIAL OF SERVICE (DOS)",
       "entity_type": "TACTIC",
-      "description": "\"Exploiting memory region overlaps can lead to system instability and denial of service conditions.\"<SEP>\"The tactic involves causing a denial of service by exploiting vulnerabilities in processor hardware.\"",
-      "source_id": "chunk-c164a155c6861d928b9e41ab73c39e80<SEP>chunk-31ce69f5b7b26b01bc270585046c09e7"
+      "description": "\"Attackers may use fault injection to cause DoS conditions, such as system instability or resource consumption.\"<SEP>\"Exploiting memory region overlaps can lead to system instability and denial of service conditions.\"<SEP>\"The tactic involves causing a denial of service by exploiting vulnerabilities in processor hardware.\"<SEP>\"Exploiting vulnerabilities can lead to service disruption and degraded system performance.\"",
+      "source_id": "chunk-ae5449d3f107a69d5a261a02a07bc486<SEP>chunk-31ce69f5b7b26b01bc270585046c09e7<SEP>chunk-15c8c399ec268b8c32e12c790903a8f4<SEP>chunk-c164a155c6861d928b9e41ab73c39e80"
     },
     {
       "id": "UNTRUSTED AGENT ACCESS TO ALIASED MEMORY REGIONS ",
@@ -3381,8 +3381,8 @@
     {
       "id": "NETWORK-ATTACHED STORAGE (NAS) DEVICE",
       "entity_type": "TARGET ENTITY",
-      "description": "\"The NAS device is the target entity of attacks due to its firmware updateability issue and vulnerability exploitation.\"",
-      "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3"
+      "description": "\"The NAS device has a critical OS command injection vulnerability that can be exploited to form botnets.\"<SEP>\"The NAS device is the target entity of attacks due to its firmware updateability issue and vulnerability exploitation.\"",
+      "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3<SEP>chunk-9c2d736840493af6c8eeeed13f45ae1a"
     },
     {
       "id": "HARDWARE SYSTEMS WITH PATCHING LIMITATIONS AND FABRIC BRIDGES ",
@@ -4005,8 +4005,8 @@
     {
       "id": "CVE-2020-9054",
       "entity_type": "VULNERABILITY",
-      "description": "\"A critical OS command injection vulnerability in network-attached storage (NAS) devices that is actively exploited to place IoT devices into a botnet.\"",
-      "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3"
+      "description": "\"A critical OS command injection vulnerability (CWE-78) exploited to place IoT devices into a botnet, affecting NAS devices.\"<SEP>\"A critical OS command injection vulnerability in network-attached storage (NAS) devices that is actively exploited to place IoT devices into a botnet.\"<SEP>\"A critical OS command injection vulnerability in network-attached storage (NAS) devices, actively exploited to create botnets, with some products being end-of-support and unpatchable.\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab<SEP>chunk-bc102d9f54bb50e60fe4796c747399e3<SEP>chunk-9c2d736840493af6c8eeeed13f45ae1a"
     },
     {
       "id": "SECURE-BOOT PROCESS",
@@ -4649,6 +4649,1344 @@
       "entity_type": "UNKNOWN",
       "description": "\"The product software's failure to set a flag as per TPM specifications leads to the CVE-2020-12926 vulnerability.\"",
       "source_id": "chunk-48f47fa4c06f4f21169acdc6421f3964"
+    },
+    {
+      "id": "CRYPTOGRAPHIC ERASE",
+      "entity_type": "MITIGATION",
+      "description": "\"Using cryptographic erase in self-encrypting devices is another mitigation to protect against data recovery.\"",
+      "source_id": "chunk-9c2d736840493af6c8eeeed13f45ae1a"
+    },
+    {
+      "id": "BRANCH TARGET INJECTION (BTI)",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"A method where shared branch prediction state is exploited to influence transient execution across process boundaries.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "UNTRUSTED DEBUGGERS",
+      "entity_type": "ATTACKER",
+      "description": "\"Untrusted debuggers can access trace data collected from sensitive sources such as CPU and crypto coprocessors if proper protections are not in place.\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
+      "id": "REQ SP.03.02 RE(2)",
+      "entity_type": "PRECONDITION",
+      "description": "\"This requirement focuses on maintaining a Software Bill of Materials (SBOM) for software components to track dependencies and ensure trustworthiness.\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "id": "CVE-2021-33149",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Return Stack Buffer underflow (RSB underflow), or Retbleed, where shared return stack buffer state can be exploited to leak data accessible beyond a prediction barrier.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "REQ HDR 3.12",
+      "entity_type": "PRECONDITION",
+      "description": "\"This requirement ensures that security components are properly integrated into the overall system design and architecture.\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "id": "INDIRECT BRANCH PREDICTION BARRIER",
+      "entity_type": "MITIGATION",
+      "description": "\"A hardware-based mitigation that resets branch prediction when transitioning contexts, preventing cross-context influence.\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "id": "IMMUTABLE ROOT OF TRUST REQUIREMENT",
+      "entity_type": "MITIGATION",
+      "description": "\"Ensuring the RoT is stored in immutable memory prevents adversaries from modifying it and executing unauthorized code during boot.\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "id": "REQ NDR 3.12",
+      "entity_type": "PRECONDITION",
+      "description": "\"This requirement focuses on ensuring that security requirements are clearly defined and implemented in the development process.\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "id": "KERNEL PAGE TABLE ISOLATION (KPTI)",
+      "entity_type": "MITIGATION",
+      "description": "\"KPTI mitigates Meltdown by isolating user-mode and kernel-mode page tables, preventing unauthorized memory access.\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "id": "INFORMATION DISCLOSURE VIA SIDE-CHANNEL ANALYSIS ",
+      "entity_type": "TACTIC",
+      "description": "\"The tactic of extracting sensitive information from microarchitectural state exposure vulnerabilities using techniques like Load Value Injection (LVI).\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "id": "ELECTROMAGNETIC PULSE INJECTION CIRCUIT",
+      "entity_type": "SOFTWARE",
+      "description": "\"A tool used to generate high current transients for inducing faults in devices via Electromagnetic Fault Injection (EM-FI).\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "id": "REQ EDR 3.13",
+      "entity_type": "PRECONDITION",
+      "description": "\"This requirement ensures that security measures are in place to detect and respond to potential threats during operation.\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "id": "VICTIM SOFTWARE COMPONENT",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The victim software component is targeted by the malicious software due to shared microarchitectural predictors.\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "id": "DEBUGGING INFRASTRUCTURE",
+      "entity_type": "MITIGATION",
+      "description": "\"Debugging infrastructure must be secured to prevent unauthorized access to trace data, which could lead to exploitation of the SoC's internal behavior.\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
+      "id": "REQ HDR 3.13",
+      "entity_type": "PRECONDITION",
+      "description": "\"This requirement focuses on ensuring that security requirements are properly implemented and tested during the design phase.\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "id": "FIRMWARE DATA DELETION VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A firmware data deletion vulnerability in base station factory resets might not delete all user information, exposing previous owner's network details.\"",
+      "source_id": "chunk-9c2d736840493af6c8eeeed13f45ae1a"
+    },
+    {
+      "id": "HARDWARE FUSES OR TRUSTED SOFTWARE (E.G., BIOS)",
+      "entity_type": "PRECONDITION",
+      "description": "\"Hardware fuses or trusted software are necessary for properly managing alert signals and thresholds to prevent exploitation by attackers.\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
+      "id": "IMPROPER PROTECTION FOR OUTBOUND ERROR MESSAGES AND ALERT SIGNALS",
+      "entity_type": "TACTIC",
+      "description": "\"Attackers can exploit improper protection mechanisms to disable or manipulate alert signals, leading to DoS attacks.\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
+      "id": "REQ NDR 3.13",
+      "entity_type": "PRECONDITION",
+      "description": "\"This requirement ensures that security requirements are clearly defined and enforced throughout the product lifecycle.\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "id": "HARDWARE SENSORS",
+      "entity_type": "MITIGATION",
+      "description": "\"Hardware sensors are used to detect variations in voltage and current as a protective measure against fault injection attacks.\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
+      "id": "SANDBOX ISOLATION BOUNDARY VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability exists where an attacker can exploit processor events or mis-predictions to access confidential data across sandbox boundaries.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "REQ CR-7.8",
+      "entity_type": "PRECONDITION",
+      "description": "\"This requirement focuses on ensuring that security requirements are robust and address potential risks associated with component interactions.\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "id": "PROCESSOR MIS-PREDICTION AND EVENT EXPLOITATION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"This technique involves triggering processor events or exploiting mis-predictions to read private data from another sandbox.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "REQ SM-6",
+      "entity_type": "PRECONDITION",
+      "description": "\"This requirement ensures that security requirements are properly integrated into the system's maintenance and operational processes.\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "id": "ACCESS CONTROL CHECKS OUT-OF-ORDER EXECUTION",
+      "entity_type": "PRECONDITION",
+      "description": "\"The presence of out-of-order access control checks in hardware creates a prerequisite for exploitation via mis-predictions.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "HARDWARE-ENFORCED BOUNDARY VIOLATION DETECTION",
+      "entity_type": "MITIGATION",
+      "description": "\"Detecting hardware weaknesses through manual analysis of processor specifications and academic research.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "REQ SM-9",
+      "entity_type": "PRECONDITION",
+      "description": "\"This requirement focuses on ensuring that security measures are in place to address potential risks during maintenance activities.\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "id": "TRANSIENT EXECUTION DATA LEAK PREVENTION",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing serialization instructions (e.g., LFENCE) to prevent transient execution from exposing data.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "REQ SM-10",
+      "entity_type": "PRECONDITION",
+      "description": "\"This requirement ensures that security requirements are properly documented and maintained throughout the product lifecycle.\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "id": "CVE-2022-0001",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Branch History Injection (BHI), also known as Spectre-BHB, allowing user-mode code to manipulate kernel data through a covert channel via shared branch history state.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "RETPOLINE IMPLEMENTATION",
+      "entity_type": "MITIGATION",
+      "description": "\"A software-based mitigation that replaces vulnerable instructions with safe alternatives, such as in the case of CVE-2018-3639.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "ISOLATION OF SANDBOXES IN SEPARATE ADDRESS SPACES",
+      "entity_type": "MITIGATION",
+      "description": "\"This mitigation involves isolating sandboxes or managed runtimes in separate address spaces to prevent data exposure across components.\"",
+      "source_id": "chunk-140a05ee49c5f31da6d98039d787968f"
+    },
+    {
+      "id": "PRIORITY-BASED ARBITRATION AND DEDICATED BUFFERS",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing these mitigates improper resource sharing in NoC systems.\"",
+      "source_id": "chunk-ae5449d3f107a69d5a261a02a07bc486"
+    },
+    {
+      "id": "ADDRESS MASKING FOR OUT-OF-BOUNDS READS",
+      "entity_type": "MITIGATION",
+      "description": "\"Applying address masking to prevent out-of-bounds transient reads during processor events.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "SHARED MICROARCHITECTURAL PREDICTOR STATE VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"CVE-2020-0551 and CVE-2020-8698 are vulnerabilities where shared predictor state allows attackers to influence transient execution, leading to data exposure.\"",
+      "source_id": "chunk-140a05ee49c5f31da6d98039d787968f"
+    },
+    {
+      "id": "RETURN STACK BUFFER UNDERFLOW (RSB UNDERFLOW)",
+      "entity_type": "ATTACK TECHNIQUE, VULNERABILITY",
+      "description": "\"A technique where return stack buffer state is exploited to leak sensitive data accessible beyond a prediction barrier.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "HARDWARE COVERT CHANNEL RESTRICTION",
+      "entity_type": "MITIGATION",
+      "description": "\"Limiting high-resolution timer access to reduce opportunities for data monitoring via covert channels.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "DATA EXPOSURE VIA COVERT CHANNELS",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Successful exploitation of vulnerabilities leads to the postcondition of sensitive data exposure over covert communication channels.\"",
+      "source_id": "chunk-140a05ee49c5f31da6d98039d787968f"
+    },
+    {
+      "id": "TRANSIENT EXECUTION OPERATIONS",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Transient execution operations may forward incorrect or stale data, leading to potential exposure of sensitive information.\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "id": "MICROARCHITECTURAL PREDICTORS AND ACCESS CONTROL CHECKS",
+      "entity_type": "PRECONDITION",
+      "description": "\"The presence of microarchitectural predictors or out-of-order access control checks in hardware creates a prerequisite for exploitation.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "KERNEL MEMORY ACCESS EXPLOITATION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Exploiting vulnerabilities like Meltdown to gain unauthorized access to kernel memory.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "COMMODITY PROCESSORS WITH SHARED PREDICTOR STATES",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"These processors are targets due to their microarchitectural features that allow shared predictor states and transient execution, making them vulnerable to attacks.\"",
+      "source_id": "chunk-140a05ee49c5f31da6d98039d787968f"
+    },
+    {
+      "id": "CVE-2017-5754 (SPECTRE)",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability exploiting speculative execution side channels to extract secrets from programs running on a processor.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "HARDWARE DEVICE EXPLOITATION",
+      "entity_type": "TACTIC",
+      "description": "\"The tactic of exploiting hardware weaknesses to gain unauthorized access or manipulate system behavior.\"",
+      "source_id": "chunk-27764142320ab4a55340af1abbe3d713"
+    },
+    {
+      "id": "SYSTEM SOFTWARE VENDORS",
+      "entity_type": "ATTACKER",
+      "description": "\"System software vendors may fail to address hardware weaknesses, making them complicit in attack scenarios.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "NETWORK-ON-CHIP (NOC)",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Multicore Systems-on-Chip (SoCs) with integrated NoC are the targets of these attacks.\"",
+      "source_id": "chunk-ae5449d3f107a69d5a261a02a07bc486"
+    },
+    {
+      "id": "SPECULATIVE EXECUTION SIDE CHANNELS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A class of vulnerabilities where speculative execution exposes sensitive data via side channels.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "PREDICTION STATE MANIPULATION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"The technique involves manipulating microarchitectural prediction states to influence system behavior.\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "id": "MICROARCHITECTURAL STATE EXPOSURE VIA TRANSIENT EXECUTION ",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern involving exploitation of microarchitectural state after transient execution, such as Load Value Injection (LVI), to expose sensitive information.\"<SEP>\"An attack pattern involving the exploitation of microarchitectural state after transient execution, leading to information exposure via side-channel analysis.\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "id": "LACK OF THERMAL PROTECTION MECHANISMS ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A hardware vulnerability where devices lack protections against thermal sensors, adequate platform cooling, or thermal insulation, making them susceptible to overheating attacks.\"<SEP>\"A hardware vulnerability where devices lack thermal protection mechanisms, making them susceptible to overheating attacks.\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "id": "TRANSIENT EXECUTION VULNERABILITY MITIGATION MEASURES",
+      "entity_type": "MITIGATION",
+      "description": "\"Mitigations involve proper hardware design, state sanitization during context switches, and following hardware vendor recommendations to prevent exploitation of transient execution vulnerabilities.\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "id": "HARDWARE-ENFORCED BOUNDARIES",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing shielding or other hardware-based measures to increase the adversary's workload and reduce the likelihood of successfully triggering security-related failures.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "MICROARCHITECTURAL STATE AFTER TRANSIENT EXECUTION ",
+      "entity_type": "POSTCONDITION",
+      "description": "\"The postcondition of exploiting microarchitectural state after transient execution is the exposure of sensitive information to attackers via side-channel analysis.\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "id": "PROCESSOR MIS-PREDICTIONS AND EVENTS",
+      "entity_type": "PRECONDITION",
+      "description": "\"Adversaries exploit processor mis-predictions (e.g., branch target predictions) and events (e.g., exceptions, microcode assists) to trigger transient execution attacks.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "CVE-2022-0002",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Microarchitectural indirect branch predictors may allow incorrect operations to execute transiently after a misprediction, potentially exposing data over a covert channel.\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "id": "BRANCH HISTORY INJECTION (BHI)",
+      "entity_type": "ATTACK PATTERN, VULNERABILITY",
+      "description": "\"Exploits shared branch history for covert channel data exposure in user-mode code.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "EXPOSURE OF SENSITIVE INFORMATION IN SHARED MICROARCHITECTURAL STRUCTURES DURING TRANSIENT EXECUTION",
+      "entity_type": "TACTIC",
+      "description": "\"The tactic involves attackers exploiting vulnerabilities in shared microarchitectural structures to expose sensitive information through transient execution and covert channels.\"<SEP>\"This tactic involves attackers exploiting vulnerabilities in shared microarchitectural structures to expose sensitive information through transient execution and covert channels.\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "id": "ARCHITECTURE DOCUMENTATION",
+      "entity_type": "MITIGATION",
+      "description": "\"Documentation revealing microarchitectural details to inform users about potential vulnerabilities and mitigations.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "SERIALIZATION INSTRUCTIONS",
+      "entity_type": "MITIGATION",
+      "description": "\"Instructions used to reduce the number of transiently executed instructions after a processor event or misprediction.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "LOAD VALUE INJECTION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"The technique of injecting load values into speculative execution pipelines to exploit side-channel vulnerabilities.\"",
+      "source_id": "chunk-27764142320ab4a55340af1abbe3d713"
+    },
+    {
+      "id": "REPTOLINE",
+      "entity_type": "MITIGATION",
+      "description": "\"A compiler-level fix to avoid vulnerable indirect jumps by inserting non-vulnerable code sequences.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "MELTDOWN VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Another major vulnerability enabling unauthorized access to kernel memory from user space.\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "id": "CWE-1319 - IMPROPER PROTECTION AGAINST ELECTROMAGNETIC FAULT INJECTION (EM-FI)",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Devices are susceptible to electromagnetic fault injection attacks, which can compromise internal information and bypass security mechanisms.\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "id": "RESTRICTION OF HIGH-RESOLUTION TIMER ACCESS",
+      "entity_type": "MITIGATION",
+      "description": "\"Limiting access to high-resolution timers prevents their misuse in monitoring covert channels for data exposure.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "FABRIC RTL REVIEW AND MITIGATION IMPLEMENTATION",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing security checks in bridges or connecting peripherals with security assets to separate fabrics as mitigations against vulnerabilities.\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "id": "BYPASSING SECURITY MECHANISMS",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"The pattern involves using EM-FI attacks to bypass security features like secure JTAG or Secure Boot.\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "id": "PROCESSOR HARDWARE WITH MICROCODE ASSISTANCE ",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Processor hardware that uses microcode assists or speculative execution, which can be exploited to expose microarchitectural state.\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "id": "MICROARCHITECTURAL PREDICTOR SHARING VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A hardware-based vulnerability where shared microarchitectural predictors can be exploited by malicious software components.\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "id": "MALICIOUS EXPLOITATION OF CVE-2020-0551",
+      "entity_type": "SOFTWARE",
+      "description": "\"Exploitation of the Load Value Injection (LVI) vulnerability in processors (CVE-2020-0551) to expose sensitive information via side-channel analysis.\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "id": "DATA COVERT CHANNEL EXPLOITATION VIA TRANSIENT EXECUTION",
+      "entity_type": "POSTCONDITION",
+      "description": "\"The postcondition involves attackers successfully exploiting vulnerabilities to expose sensitive information over covert channels during transient execution.\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "id": "THERMAL SENSORS AND PLATFORM COOLING SOLUTIONS ",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing thermal sensors, fans, and cooling mechanisms to prevent malicious overheating attacks on hardware devices.\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "id": "MUTABLE SECURITY VERSION NUMBER (CWE-1328) ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"If security version numbers are mutable, adversaries can downgrade firmware versions, exposing systems to known vulnerabilities.\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "id": "IMPLEMENTING SECURITY CHECKS IN BRIDGES OR SEPARATE FABRICS",
+      "entity_type": "MITIGATION",
+      "description": "\"Security measures involve implementing checks in bridges or connecting peripherals with security assets to different fabrics to mitigate CWE-1318.\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "id": "CVE-2019-1135",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A processor event or prediction may allow incorrect or stale data to be forwarded to transient operations, potentially exposing data over a covert channel.\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "id": "HIGH-RESOLUTION TIMER MONITORING",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Using high-resolution timers to monitor covert channels and extract data during transient execution.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "SECURE VERSION NUMBER MANAGEMENT",
+      "entity_type": "MITIGATION",
+      "description": "\"Proper management of security version numbers, including preventing rollback attacks, enhances system security against downgrade exploits.\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "id": "SPECULATIVE EXECUTION SIDE-CHANNEL VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability in some processors utilizing speculative execution that allows an authenticated user to enable information disclosure via a side-channel with local access.\"",
+      "source_id": "chunk-27764142320ab4a55340af1abbe3d713"
+    },
+    {
+      "id": "COVERT CHANNEL ENUMERATION",
+      "entity_type": "MITIGATION",
+      "description": "\"Limiting the ability of unprivileged software to access high-resolution timers used for monitoring covert channels.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "HARDWARE REDUNDANCY DEGRADATION",
+      "entity_type": "POSTCONDITION",
+      "description": "\"The postcondition of unauthorized error injection can degrade hardware redundancy and put the system in a degraded operating mode.\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "id": "DATA EXTRACTION VIA PREDICTION INFLUENCE",
+      "entity_type": "TACTIC",
+      "description": "\"The tactic involves extracting data by influencing prediction outcomes through malicious software.\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "id": "CVE-2021-0089",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A machine clear triggered by self-modifying code may allow incorrect operations to execute transiently, potentially exposing data over a covert channel.\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "id": "UNPRIVILEGED SOFTWARE",
+      "entity_type": "ATTACKER",
+      "description": "\"Software running with lower privileges can exploit certain vulnerabilities to gain unauthorized access or influence system behavior.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "L1D CACHE",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The L1D cache is the target entity where SGX enclave data is cached and potentially exposed.\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "id": "THERMAL OVERHEATING DENIAL OF SERVICE (DOS) ",
+      "entity_type": "POSTCONDITION",
+      "description": "\"The postcondition of exploiting thermal vulnerabilities is the achievement of denial of service or permanent denial of service (PDoS) through device overheating.\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "id": "FAULT INJECTION ATTACK PATTERN",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"A fault injection attack bypasses the verification mode, potentially allowing arbitrary code execution.\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "id": "MICROARCHITECTURAL STATE EXPLOITATION VULNERABILITY ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability in processor architecture where microarchitectural state after transient execution can be exploited for information disclosure (CVE-2020-0551).\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "id": "COMPROMISED SYSTEM INTEGRITY AND AVAILABILITY",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploitation leads to system integrity compromise, unauthorized access, and potential unavailability due to faulty operations.\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "id": "ON-CHIP FABRICS AND BUSES",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The target of these vulnerabilities are on-chip fabrics and buses used in integrated circuits.\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "id": "MALICIOUS SOFTWARE EXPLOITING CVE-2020-0551",
+      "entity_type": "SOFTWARE",
+      "description": "\"Malicious software that exploits the microarchitectural state exposure vulnerability (CVE-2020-0551) to gain unauthorized access and expose sensitive information.\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "id": "TRANSIENT EXECUTION VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability related to transient execution weaknesses in computing units, where operations may expose sensitive information through covert channels or bypass security mechanisms (e.g., secure boot).\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "SECURE BOOT BYPASS",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"An attack technique involving the exploitation of vulnerabilities like CVE-2019-17391 to bypass secure boot and read protected eFuses.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "CONTROL-FLOW INTEGRITY (CFI)",
+      "entity_type": "MITIGATION",
+      "description": "\"A security measure that constrains indirect branch instructions to only allowed targets, reducing the risk of control-flow hijacking attacks.\"<SEP>\"A technique that constrains indirect branch instructions to only allowed targets, mitigating control-flow hijacking.\"<SEP>\"Using CFI techniques to constrain instruction pointer redirection and mitigate exploitation.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079<SEP>chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "PROCESSOR DESIGNERS AND SYSTEM SOFTWARE VENDORS",
+      "entity_type": "PRECONDITION",
+      "description": "\"These entities must implement mitigations to prevent exploitation of vulnerabilities related to microarchitectural predictor state sharing.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "MICROARCHITECTURAL STATE RETENTION",
+      "entity_type": "PRECONDITION",
+      "description": "\"The retention of microarchitectural state in hardware components during power cycling, which can be exploited by attackers.\"",
+      "source_id": "chunk-27764142320ab4a55340af1abbe3d713"
+    },
+    {
+      "id": "COLD BOOT ATTACKS",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"A technique where RAM or other storage is super-cooled to extract sensitive data from volatile memory.\"",
+      "source_id": "chunk-27764142320ab4a55340af1abbe3d713"
+    },
+    {
+      "id": "PUF PRIMITIVE WEAKNESS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Weakness in Physical Unclonable Functions (PUFs) when paired with temperature-sensitive entropy sources, leading to predictable seed data for cryptographic operations.\"",
+      "source_id": "chunk-27764142320ab4a55340af1abbe3d713"
+    },
+    {
+      "id": "SHARED MICROARCHITECTURAL STRUCTURES EXPLOITATION TECHNIQUE",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"The technique involves leveraging microarchitectural features to execute transient operations that access restricted data, potentially exposing it over a covert channel.\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "id": "RELIANCE ON INSUFFICIENTLY TRUSTWORTHY COMPONENT",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern where a product uses a component that is not sufficiently trusted, leading to vulnerabilities or other risks.\"",
+      "source_id": "chunk-27764142320ab4a55340af1abbe3d713"
+    },
+    {
+      "id": "CVE-2019-8575 AND CVE-2021-33096",
+      "entity_type": "VULNERABILITY",
+      "description": "\"These CVEs highlight improper isolation issues in NoC leading to security risks.\"",
+      "source_id": "chunk-ae5449d3f107a69d5a261a02a07bc486"
+    },
+    {
+      "id": "CVE-2019-15894",
+      "entity_type": "VULNERABILITY",
+      "description": "\"This vulnerability allows unauthorized agents to inject errors into hardware blocks, leading to potential system degradation or exploitation.\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "id": "CVE-2017-5715, CVE-2018-3615",
+      "entity_type": "VULNERABILITY",
+      "description": "\"These CVEs represent hardware weaknesses allowing transient user-mode operations to access restricted kernel or enclave data.\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "id": "UNAUTHORIZED ACCESS AND INFORMATION LEAKAGE",
+      "entity_type": "TACTIC",
+      "description": "\"Attackers seek unauthorized access to system resources and information through exploitation of hardware vulnerabilities.\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "id": "SECURE ROLLBACK PROTECTION",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing mechanisms to prevent firmware version rollbacks mitigates security risks associated with mutable version numbers.\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "id": "MALICIOUS SOFTWARE OPERATIONS",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Malicious software can deliberately operate hardware in modes that result in overheating, leading to system instability or damage.\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "id": "HARDWARE MICROARCHITECTURAL FEATURES",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The target entities are hardware microarchitectural features susceptible to transient execution attacks.\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "id": "LACK OF SECURITY FEATURES IN ON-CHIP FABRICS",
+      "entity_type": "PRECONDITION",
+      "description": "\"The absence of security features in on-chip fabrics creates a prerequisite for attackers to exploit these vulnerabilities.\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "id": "MISSING IMMUTABLE ROOT OF TRUST (CWE-284) ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability arises when the RoT is not stored in immutable memory, allowing adversaries to tamper with it and execute malicious code.\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "id": "CWE-1420",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"A processor event or prediction may allow incorrect or stale data to be forwarded to transient operations, potentially exposing data over a covert channel.\"<SEP>\"A vulnerability related to transient execution weaknesses, where operations may expose sensitive information through covert channels or bypass security mechanisms.\"<SEP>\"The postcondition involves exposing sensitive information during transient execution, potentially leading to unauthorized data access or system manipulation.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5<SEP>chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "id": "TAMPERING WITH ROOT OF TRUST",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Adversaries tamper with the root of trust to execute unauthorized code during the boot process.\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "id": "IMPROPER HANDLING OF HARDWARE BEHAVIOR IN EXCEPTIONALLY COLD ENVIRONMENTS",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern where hardware or firmware components fail to account for altered behavior at low temperatures, leading to vulnerabilities.\"",
+      "source_id": "chunk-27764142320ab4a55340af1abbe3d713"
+    },
+    {
+      "id": "IMPROPER THERMAL PROTECTIONS",
+      "entity_type": "PRECONDITION",
+      "description": "\"Hardware devices lacking adequate thermal protection features are susceptible to overheating attacks by malicious software.\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "id": "AUTOMATED ANALYSIS METHODS",
+      "entity_type": "SOFTWARE",
+      "description": "\"Automated analysis methods employ static or dynamic taint analysis to detect vulnerabilities in hardware systems.\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "id": "PREDICTOR STATE ISOLATION",
+      "entity_type": "MITIGATION",
+      "description": "\"A mitigation strategy that isolates predictor states between different execution contexts to prevent exploitation.\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "id": "SHARED MICROARCHITECTURAL FEATURES BETWEEN THREADS",
+      "entity_type": "PRECONDITION",
+      "description": "\"Shared features between hardware threads are a prerequisite for exploiting predictor state.",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "id": "EXPLOITING HARDWARE VULNERABILITIES FOR UNAUTHORIZED ACCESS",
+      "entity_type": "TACTIC",
+      "description": "\"Attackers exploit hardware vulnerabilities to gain unauthorized access and expose sensitive data.\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "id": "HARDWARE ARCHITECTURE AND DESIGN FLAWS",
+      "entity_type": "PRECONDITION",
+      "description": "\"The precondition involves hardware architectures with features that allow operations to execute before access control checks complete, creating race conditions for exploitation.\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "id": "INSTRUCTION POINTER REDIRECT MITIGATION",
+      "entity_type": "MITIGATION",
+      "description": "\"Using control-flow integrity (CFI) to constrain indirect branch instructions and prevent unauthorized redirects.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "THERMAL PROTECTION MECHANISMS",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing thermal sensors, adequate platform cooling, or thermal insulation can mitigate overheating risks caused by malicious software operations.\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "id": "MALICIOUS SOFTWARE OPERATORS",
+      "entity_type": "ATTACKER",
+      "description": "\"Attackers who exploit hardware vulnerabilities to cause thermal overheating or microarchitectural state exposure.\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "id": "ISA EXTENSIONS FOR MITIGATION",
+      "entity_type": "MITIGATION",
+      "description": "\"New instructions added to the instruction set architecture enabling software to toggle specific security mitigations.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "SERIALIZATION INSTRUCTIONS (E.G., LFENCE)",
+      "entity_type": "SOFTWARE",
+      "description": "\"A software technique that prevents processor events or mis-predictions from causing transient execution after the instruction.\"<SEP>\"Software techniques like serialization instructions are used to mitigate transient execution attacks by preventing mispredictions from affecting subsequent operations.\"",
+      "source_id": "chunk-140a05ee49c5f31da6d98039d787968f<SEP>chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "CVE-2017-5715",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A fault may allow transient non-enclave operations to access SGX enclave data cached in the L1D, potentially exposing the data over a covert channel.\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "id": "MICROARCHITECTURAL PREDICTORS EXPLOITATION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Exploiting microarchitectural predictors to manipulate processor behavior and extract confidential information.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "IMMUTABLE MEMORY STORAGE FOR ROT",
+      "entity_type": "MITIGATION",
+      "description": "\"Storing the root of trust in immutable memory prevents adversaries from modifying it, ensuring secure boot processes.\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "id": "CWE-1422",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Exposure of Sensitive Information caused by Incorrect Data Forwarding during Transient Execution\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "id": "REDUNDANCY AND ERROR DETECTION CODES",
+      "entity_type": "MITIGATION",
+      "description": "\"Mitigations include adding redundancy and using error detection codes to protect against electromagnetic fault injection attacks as described in CWE-1319.\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "id": "EXPLOITING MICROARCHITECTURAL PREDICTOR SHARING",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern where malicious actors exploit shared predictors in hardware threads.\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "id": "UNAUTHORIZED DATA EXPOSURE VIA COVERT CHANNELS",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploiting vulnerabilities leads to unauthorized data exposure through covert channels in hardware systems.\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "id": "WPA2 SECURITY KEY EXPOSURE",
+      "entity_type": "POSTCONDITION",
+      "description": "\"The exploitation of the firmware data deletion vulnerability can lead to exposure of WPA2 security keys.\"",
+      "source_id": "chunk-9c2d736840493af6c8eeeed13f45ae1a"
+    },
+    {
+      "id": "TAGGING MECHANISM FOR PREDICTOR ENTRIES",
+      "entity_type": "MITIGATION",
+      "description": "\"Hardware implementation tagging predictor entries with mode bits to restrict their usage across different execution contexts.\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "id": "TRACE SINKS (E.G., DEBUG-TRACE PORTS)",
+      "entity_type": "MITIGATION",
+      "description": "\"Trace sinks are used to aggregate and forward trace data collected from various sources on the SoC, but they must be protected against untrusted access.\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
+      "id": "STATE-SANITIZING OPERATIONS",
+      "entity_type": "MITIGATION",
+      "description": "\"These operations sanitize microarchitectural state during context transitions, mitigating transient execution attacks.\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "id": "COMPILER CONFIGURATIONS",
+      "entity_type": "MITIGATION",
+      "description": "\"Compilers can be configured to eliminate vulnerable instructions, preventing certain types of speculative execution attacks.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "HARDWARE OR TRUSTED FIRMWARE MODULES",
+      "entity_type": "PRECONDITION",
+      "description": "\"Hardware or trusted firmware modules are necessary for altering alert configurations and preventing unauthorized access to critical systems.\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
+      "id": "LACK OF PREDICTOR STATE ISOLATION",
+      "entity_type": "PRECONDITION",
+      "description": "\"A precondition where the absence of isolation mechanisms allows predictor state exploitation.\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "id": "SECURITY VERSION NUMBER MANIPULATION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Adversaries downgrade the security version number to vulnerable firmware versions, enabling exploitation of known vulnerabilities.\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "id": "HARDWARE DESIGN CHANGES",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Modifications to processor design to prevent architecturally restricted data from being used transiently.\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "id": "HARDWARE VENDOR RECOMMENDATIONS",
+      "entity_type": "MITIGATION",
+      "description": "\"Vendors provide specific configurations or patches to secure their hardware against vulnerabilities like Spectre and Meltdown.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "CWE-1342",
+      "entity_type": "PRECONDITION",
+      "description": "\"The exploitation of hardware behavior in exceptionally cold environments, leading to weaknesses in security primitives when devices are cooled below standard operating temperatures.\"",
+      "source_id": "chunk-27764142320ab4a55340af1abbe3d713"
+    },
+    {
+      "id": "SYSTEM SOFTWARE",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"System software is targeted for invoking state-sanitizing operations based on hardware vendor recommendations.\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "id": "BIOS CONFIGURATION AND MODEL-SPECIFIC REGISTERS (MSRS)",
+      "entity_type": "MITIGATION",
+      "description": "\"Hardware configurations that disable predictor sharing, enhancing security against vulnerabilities.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "FAULT INJECTION TECHNIQUES",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Used to skip security-critical instructions, bypassing protection mechanisms.\"",
+      "source_id": "chunk-ae5449d3f107a69d5a261a02a07bc486"
+    },
+    {
+      "id": "THERMAL PROTECTION MECHANISMS ",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing thermal sensors, adequate platform cooling, or thermal insulation to prevent malicious overheating attacks on hardware devices.\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "id": "COMMODITY PROCESSORS AND THEIR MICROARCHITECTURAL RESOURCES",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Commodity processors, including their microarchitectural resources like CPU caches, are the target entities for attacks exploiting transient execution vulnerabilities.\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "id": "MICROARCHITECTURAL DATA COVERT CHANNEL EXPLOITATION TECHNIQUE",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"This technique involves leveraging microarchitectural features to execute transient operations that access restricted data, potentially exposing it over a covert channel.\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "id": "INFORMATION DISCLOSURE VIA SIDE-CHANNEL ANALYSIS",
+      "entity_type": "TACTIC",
+      "description": "\"The tactic of using side-channel analysis to extract sensitive information from microarchitectural state exposure vulnerabilities.\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "id": "PATCH TO SANITIZE PREDICTOR STATE",
+      "entity_type": "MITIGATION",
+      "description": "\"Hardware patches that modify predictor behavior to prevent state leakage across contexts.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "ROOT OF TRUST EXPLOITATION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Adversaries exploit mutable or unprotected roots of trust to execute unauthorized boot code and bypass secure boot mechanisms.\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "id": "THERMAL RUNAWAY",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Overheating due to improper thermal protections can lead to thermal runaway and permanent damage to hardware components.\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "id": "COVERT CHANNEL EXPOSURE",
+      "entity_type": "POSTCONDITION",
+      "description": "\"The postcondition involves the exposure of sensitive information over a covert channel as a result of exploiting vulnerabilities in transient execution.\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "id": "TIMING CHANNELS",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern involving the exploitation of timing channels for data inference.\"",
+      "source_id": "chunk-ae5449d3f107a69d5a261a02a07bc486"
+    },
+    {
+      "id": "COVERT CHANNELS VIA DATA CACHES",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern where adversaries use timing or power analysis techniques to detect observable discrepancies in data caches, enabling them to infer sensitive information.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "REDUNDANCY MECHANISMS",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing redundant hardware blocks or fail-safety mechanisms can mitigate the risk of system degradation caused by fault injection attacks.\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "id": "PROCESSOR DESIGN FLAWS",
+      "entity_type": "PRECONDITION",
+      "description": "\"Flaws in processor design allow incorrect or stale data to be forwarded to transient operations, making them susceptible to exploitation.\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "id": "CVE-2020-27211",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability in the microcontroller system-on-chip where it uses a register value stored in flash to set product protection state on the memory bus without protection against fault injection, leading to an unprotected state.\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
+      "id": "OUT-OF-BOUNDS ARRAY ACCESS EXPLOITATION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Exploiting out-of-bounds array accesses to bypass bounds checking and gain unauthorized access to protected data within the same address space or across architectural boundaries.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "ACCESS CONTROL LAYER",
+      "entity_type": "MITIGATION",
+      "description": "\"Adding an access control layer on interfaces for injecting errors can prevent unauthorized agents from exploiting hardware vulnerabilities.\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "id": "CVE-2018-3615",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A TSX Asynchronous Abort may allow transient operations to access architecturally restricted data, potentially exposing the data over a covert channel.\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "id": "CWE-1421",
+      "entity_type": "PRECONDITION",
+      "description": "\"A vulnerability where adversaries exploit transient execution weaknesses to bypass hardware-enforced boundaries, allowing unauthorized access to architecturally inaccessible data.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "SYSTEM DEGRADATION MODE",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploitation of improper protections against hardware overheating can lead to system degradation or instability.\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "id": "PROCESSOR COMPONENTS (E.G., CPUS, GPUS)",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Computing units like processors are the target entities for attacks exploiting transient execution weaknesses and related vulnerabilities.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "PATCH IMPLEMENTATIONS",
+      "entity_type": "MITIGATION",
+      "description": "\"Patches and architectural changes are recommended to mitigate vulnerabilities related to transient execution and data exposure.\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "id": "ADDRESS MASKING FOR DATA PROTECTION",
+      "entity_type": "MITIGATION",
+      "description": "\"Applying address masking to prevent out-of-bounds transient reads during processor events.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "OVER-CURRENT AND UNDER-CURRENT CONDITIONS",
+      "entity_type": "PRECONDITION",
+      "description": "\"These electrical imbalances create vulnerabilities in hardware components, making them susceptible to exploitation.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "SECURE ERASE COMMANDS",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing secure erase commands is a mitigation to prevent data remanence after memory clear or erase operations.\"",
+      "source_id": "chunk-9c2d736840493af6c8eeeed13f45ae1a"
+    },
+    {
+      "id": "FUZZING TOOLS",
+      "entity_type": "SOFTWARE",
+      "description": "\"Fuzzing tools are used to detect hardware vulnerabilities by treating the underlying hardware as a black box.\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "id": "USER SPACE TO KERNEL SPACE PRIVILEGE ESCALATION",
+      "entity_type": "TACTIC",
+      "description": "\"The goal of attackers is to escalate privileges from user space to kernel space via predictor state manipulation.\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "id": "CLOCK STRETCHING AND OVERCLOCKING",
+      "entity_type": "PRECONDITION",
+      "description": "\"Manipulating clock speeds can destabilize system operations, creating opportunities for attackers to exploit timing-based weaknesses.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "LACK OF UPDATE CAPABILITY",
+      "entity_type": "PRECONDITION",
+      "description": "\"The precondition involves the lack of update capability for certain components, making them vulnerable to exploitation.\"",
+      "source_id": "chunk-892ec830b66f6437796b41d9204bf489"
+    },
+    {
+      "id": "THERMAL OVERHEATING ATTACK TECHNIQUE",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"A technique where malicious actors intentionally cause devices to overheat through improper exploitation of power management controls.\"<SEP>\"A technique where malicious software operates devices in modes that result in overheating, causing denial of service (DoS) or permanent denial of service (PDoS).\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "id": "CVE-2017-5753",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Microarchitectural conditional branch predictors may allow operations to execute transiently after a misprediction, potentially exposing data over a covert channel.\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "id": "COMPONENT AGING AND DEGRADATION",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Aging hardware components may exhibit unpredictable behavior, leading to exploitable vulnerabilities in computing units.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "SECURE STORAGE AND TESTING RECOMMENDATIONS",
+      "entity_type": "MITIGATION",
+      "description": "\"Recommendations include secure storage of security version numbers and automated testing for mutability in system components.\"",
+      "source_id": "chunk-892ec830b66f6437796b41d9204bf489"
+    },
+    {
+      "id": "PROCESSOR VULNERABILITIES IN MICROARCHITECTURAL FEATURES",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Processor vulnerabilities arise from microarchitectural features that enable transient execution of incorrect operations, potentially exposing sensitive data.\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "id": "FOCUSED ION BEAMS (FIB)",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Advanced manufacturing tools like FIB can be used to physically manipulate hardware, enabling attackers to alter circuitry and exploit vulnerabilities.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "SECURITY VERSION NUMBER VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability exists when the security version number is modifiable, allowing attackers to perform roll-back or Denial-of-Service (DoS) attacks.\"",
+      "source_id": "chunk-892ec830b66f6437796b41d9204bf489"
+    },
+    {
+      "id": "SPECULATIVE STORE BYPASS VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where stores are not committed before being accessed speculatively, leading to data leaks.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "EXPOSURE TO RADIATION (E.G., X-RAYS, COSMIC RADIATION)",
+      "entity_type": "PRECONDITION",
+      "description": "\"Environmental radiation exposure can cause hardware failures or malfunctions, serving as a prerequisite for attacks.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "TRANSIENT EXECUTION WEAKNESSES",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where transient operations in computing units expose sensitive information through observable discrepancies in covert channels.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "HIGH-RESOLUTION TIMERS",
+      "entity_type": "MITIGATION",
+      "description": "\"Restricting access to high-resolution timers can mitigate covert channel attacks by preventing monitoring of sensitive operations.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "TAINT ANALYSIS METHODS",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Taint analysis methods label data and track its flow to detect potential vulnerabilities in hardware systems.\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "id": "UNAUTHORIZED DATA ACCESS AND SYSTEM COMPROMISE",
+      "entity_type": "POSTCONDITION",
+      "description": "\"The postcondition resulting from exploiting the vulnerability, leading to data leakage or system compromise.\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "id": "BOUNDS-CHECK BYPASS EXPLOITATION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Exploiting out-of-bounds array accesses to bypass bounds checking and gain unauthorized access to protected data.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "TRANSIENT EXECUTION ATTACK PATTERN",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"The attack pattern involves exploiting hardware weaknesses through transient execution, allowing unauthorized data access.\"<SEP>\"The attack pattern involves exploiting microarchitectural predictors to cause transient operations that expose sensitive data through covert channels.\"",
+      "source_id": "chunk-140a05ee49c5f31da6d98039d787968f<SEP>chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "id": "COVERT CHANNEL EXPLOITATION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Exploiting shared predictors to create covert channels for data exfiltration.\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "id": "HARDWARE-BASED PROTECTION MECHANISMS",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing shielding or other hardware-based measures to increase the adversary's workload and reduce the likelihood of successfully triggering security-related failures.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "PROCESSOR EVENT HANDLING",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern where adversaries exploit processor events (e.g., exceptions, microcode assists) to trigger transient execution attacks.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "CVE-2017-5754",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Branch Target Injection (BTI), also known as Spectre v2, where shared microarchitectural indirect branch predictor state can be exploited to influence transient execution across process boundaries.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "MICROARCHITECTURAL STATE SANITIZATION",
+      "entity_type": "MITIGATION",
+      "description": "\"Sanitizing microarchitectural state when transitioning contexts reduces the risk of data leakage via transient attacks.\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "id": "EXPLOITING MUTABLE SECURITY VERSION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Adversaries exploit mutable security version numbers to downgrade firmware versions and expose systems to vulnerabilities.\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "id": "IMPROPER HANDLING OF PHYSICAL OR ENVIRONMENTAL CONDITIONS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability exists when a product does not properly handle unexpected physical or environmental conditions, potentially leading to security weaknesses.\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "id": "REQ SP.03.02 RE(1)",
+      "entity_type": "PRECONDITION",
+      "description": "\"This requirement ensures that security components are developed and maintained by reputable vendors as part of the supply chain control process.\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "id": "DATA REMANENCE WEAKNESS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Confidential information stored in memory circuits is readable or recoverable after being cleared or erased.\"",
+      "source_id": "chunk-9c2d736840493af6c8eeeed13f45ae1a"
+    },
+    {
+      "id": "INDUCING FAULTS IN DEVICE WIRES",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Attackers inject high current transients into device wires to perturb hardware modules and leak information.\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "id": "ALERT SIGNALS",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Alert signals generated by critical events can be exploited by attackers to cause denial-of-service (DoS) attacks if not properly protected.\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
+      "id": "ATTACKERS EXPLOITING HARDWARE VULNERABILITIES",
+      "entity_type": "UNKNOWN",
+      "description": "\"Attackers use EM pulse injection circuits to carry out electromagnetic fault injection attacks.\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "id": "COVERT CHANNEL ATTACKS",
+      "entity_type": "UNKNOWN",
+      "description": "\"Limiting timer access prevents their misuse in monitoring covert channels for data exposure.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "ADVERSARY GROUP",
+      "entity_type": "UNKNOWN",
+      "description": "\"Adversaries exploit the security version number vulnerability to downgrade firmware versions and execute attacks.\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "id": "CVE-2018-3639",
+      "entity_type": "UNKNOWN",
+      "description": "\"The retpoline implementation is a mitigation for CVE-2018-3639, replacing vulnerable instructions with safe alternatives to prevent exploitation.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "ALERT CONFIGURATIONS",
+      "entity_type": "UNKNOWN",
+      "description": "\"Hardware or trusted firmware modules are necessary for properly managing and securing alert configurations against unauthorized access.\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
+      "id": "DENIAL-OF-SERVICE (DOS) ATTACKS",
+      "entity_type": "UNKNOWN",
+      "description": "\"Exploitation of alert signals can lead to denial-of-service attacks, where attackers disable or manipulate critical system responses.\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
+      "id": "CVE-2019-17391",
+      "entity_type": "UNKNOWN",
+      "description": "\"The secure boot bypass technique exploited in CVE-2019-17391 is used to read protected eFuses and bypass security mechanisms.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "CVE-2017-5753 (MELTDOWN)",
+      "entity_type": "UNKNOWN",
+      "description": "\"The sandbox isolation boundary vulnerability is related to the Meltdown attack pattern and can be exploited similarly through speculative execution.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "INDIRECT BRANCH PREDICTION BARRIER ON INTEL X86",
+      "entity_type": "UNKNOWN",
+      "description": "\"Vendors provide recommendations to secure Intel x86 processors against vulnerabilities like Spectre and Meltdown.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "CWE-1318 - MISSING SUPPORT FOR SECURITY FEATURES IN ON-CHIP FABRICS OR BUSES",
+      "entity_type": "UNKNOWN",
+      "description": "\"This mitigation addresses the vulnerability by ensuring secure connections and checks.\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "id": "ATTACKERS EXPLOITING THERMAL VULNERABILITIES",
+      "entity_type": "UNKNOWN",
+      "description": "\"Attackers use thermal overheating as an attack technique to achieve denial of service (DoS) or permanent denial of service (PDoS).\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "id": "VULNERABILITY DISCLOSURE",
+      "entity_type": "UNKNOWN",
+      "description": "\"Documentation reveals microarchitectural details, enabling informed mitigation strategies against vulnerabilities.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "CVE-2017-5715, CVE-2018-3615, CVE-2019-1135",
+      "entity_type": "UNKNOWN",
+      "description": "\"Patches and architectural changes mitigate the vulnerabilities related to transient execution.\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "id": "UNAUTHORIZED AGENT",
+      "entity_type": "UNKNOWN",
+      "description": "\"Unauthorized agents use malicious software operations to exploit hardware vulnerabilities and achieve their objectives.\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "id": "PROCESSOR DESIGNERS",
+      "entity_type": "UNKNOWN",
+      "description": "\"Processor designers may inadvertently introduce vulnerabilities in hardware that can be exploited through speculative execution side channels.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "TRANSIENT EXECUTION",
+      "entity_type": "UNKNOWN",
+      "description": "\"These instructions reduce the number of transiently executed instructions after processor events, mitigating speculative execution attacks.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "RETPOLINE",
+      "entity_type": "UNKNOWN",
+      "description": "\"Retpoline is a mitigation technique that prevents the generation of vulnerable instructions related to BTI.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "ATTACKER GROUP",
+      "entity_type": "UNKNOWN",
+      "description": "\"The attacker group exploits the CVE-2020-9054 vulnerability to compromise NAS devices.\"",
+      "source_id": "chunk-9c2d736840493af6c8eeeed13f45ae1a"
+    },
+    {
+      "id": "VOLTAGE GLITCHES",
+      "entity_type": "UNKNOWN",
+      "description": "\"Attackers exploit voltage glitches as environmental prerequisites to destabilize system operations and trigger vulnerabilities.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "TRANSITION BETWEEN CONTEXTS",
+      "entity_type": "UNKNOWN",
+      "description": "\"This mitigation resets prediction state during context switches to prevent exploitation.\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "id": "INDIRECT BRANCH INSTRUCTIONS",
+      "entity_type": "UNKNOWN",
+      "description": "\"CFI constrains indirect branch instructions to only allowed targets, mitigating control-flow attacks.\"<SEP>\"CFI constrains indirect branch instructions to only allowed targets, mitigating control-flow hijacking.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "MELTDOWN (CVE-2017-5753)",
+      "entity_type": "UNKNOWN",
+      "description": "\"The speculative execution side channels vulnerability is directly related to the Meltdown attack pattern and can be exploited similarly through speculative execution.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "PREDICTOR SHARING",
+      "entity_type": "UNKNOWN",
+      "description": "\"BIOS settings and MSRs disable predictor sharing to mitigate vulnerabilities like Spectre.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "COMPONENT MANIPULATION",
+      "entity_type": "UNKNOWN",
+      "description": "\"Attackers use FIBs to physically alter hardware components, exploiting vulnerabilities in aging or degraded systems.\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "id": "SPECTRE (CVE-2017-5754)",
+      "entity_type": "UNKNOWN",
+      "description": "\"The microarchitectural predictors exploitation technique is directly related to the Spectre attack pattern and can be exploited similarly through side-channel attacks.\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "id": "SHARED MICROARCHITECTURAL STATE",
+      "entity_type": "UNKNOWN",
+      "description": "\"Hardware patches sanitize predictor state when transitioning contexts, preventing cross-context attacks.\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "id": "MALICIOUS SOFTWARE COMPONENT",
+      "entity_type": "UNKNOWN",
+      "description": "\"Malicious software uses prediction state manipulation to exploit shared predictors.\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
     }
   ],
   "edges": [
@@ -4955,6 +6293,14 @@
       "description": "\"The presence of debug features is a prerequisite for exploiting the lock bit protection bypass vulnerability.\"",
       "keywords": "\"premise\"",
       "source_id": "chunk-80f8e2a782d3784f549ab8a8418f64bd"
+    },
+    {
+      "source": "SYSTEM-ON-A-CHIP (SOC)",
+      "target": "LACK OF UPDATE CAPABILITY",
+      "weight": 7.0,
+      "description": "\"The lack of update capability in the SoC is a prerequisite that makes it vulnerable to exploitation.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-892ec830b66f6437796b41d9204bf489"
     },
     {
       "source": "INSPECTION (IEEE 1028 STANDARD)",
@@ -5365,6 +6711,22 @@
       "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
     },
     {
+      "source": "UNTRUSTED AGENTS",
+      "target": "ALERT SIGNALS",
+      "weight": 16.0,
+      "description": "\"Untrusted agents can disable or manipulate alert signals generated by critical events, leading to potential DoS attacks.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
+      "source": "UNTRUSTED AGENTS",
+      "target": "TRACE SINKS (E.G., DEBUG-TRACE PORTS)",
+      "weight": 14.0,
+      "description": "\"Untrusted agents can exploit trace sinks to gain unauthorized access to sensitive trace data collected from the SoC.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
       "source": "UNAUTHORIZED ACCESS TO SYSTEM CONFIGURATION",
       "target": "EXPLOITING LOCK BIT WEAKNESSES",
       "weight": 14.0,
@@ -5451,6 +6813,14 @@
       "description": "\"The SoC is the target entity where weaknesses in bus-transaction signal conversions and security identifier mappings exist.\"",
       "keywords": "\"Exist_in\"",
       "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "CVE-2020-27211",
+      "weight": 18.0,
+      "description": "\"The vulnerability exists in the System-on-Chip (SoC), specifically in its memory bus protection mechanism, making it a target for exploitation.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
     },
     {
       "source": "CRYPTOLOCK",
@@ -5565,6 +6935,14 @@
       "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
     },
     {
+      "source": "ADVERSARY",
+      "target": "SECURITY VERSION NUMBER VULNERABILITY",
+      "weight": 9.0,
+      "description": "\"Attackers exploit the vulnerability in the security version number to perform roll-back or downgrade attacks.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-892ec830b66f6437796b41d9204bf489"
+    },
+    {
       "source": "BYPASS AUTHENTICATION EXPLOIT",
       "target": "CVE-2022-24985, CVE-2021-36934",
       "weight": 7.0,
@@ -5635,6 +7013,14 @@
       "description": "\"Attackers use the exploit kit to carry out attacks on NAS devices.\"",
       "keywords": "\"Use\"",
       "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "CVE-2019-8575 AND CVE-2021-33096",
+      "weight": 18.0,
+      "description": "\"Attackers exploit these vulnerabilities to carry out attacks.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-ae5449d3f107a69d5a261a02a07bc486"
     },
     {
       "source": "DEBUG/TEST INTERFACE TOOLS",
@@ -5899,6 +7285,46 @@
       "description": "\"Attackers use the technique of exploiting test/debug features to compromise system integrity.\"",
       "keywords": "\"Use\"",
       "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "SHARED MICROARCHITECTURAL PREDICTOR STATE VULNERABILITY",
+      "weight": 18.0,
+      "description": "\"Attackers exploit this vulnerability to influence transient execution and gain unauthorized access.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-140a05ee49c5f31da6d98039d787968f"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "PROCESSOR MIS-PREDICTION AND EVENT EXPLOITATION",
+      "weight": 9.0,
+      "description": "\"Attackers use the technique of triggering processor mis-predictions or events to exploit vulnerabilities in hardware boundaries.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "VOLTAGE GLITCHES",
+      "weight": 8.0,
+      "description": "\"Attackers exploit voltage glitches as environmental prerequisites to destabilize system operations and trigger vulnerabilities.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "TRANSIENT EXECUTION VULNERABILITY",
+      "weight": 9.0,
+      "description": "\"Attackers exploit transient execution vulnerabilities to gain unauthorized access or expose sensitive information.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "TRANSIENT EXECUTION ATTACK PATTERN",
+      "weight": 18.0,
+      "description": "\"Attackers use the Transient Execution attack pattern to exploit vulnerabilities in shared microarchitectural predictors.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-140a05ee49c5f31da6d98039d787968f"
     },
     {
       "source": "TRUSS (SOLARIS)",
@@ -6293,6 +7719,22 @@
       "source_id": "chunk-c164a155c6861d928b9e41ab73c39e80"
     },
     {
+      "source": "FAULT INJECTION ATTACKS",
+      "target": "CVE-2020-27211",
+      "weight": 14.0,
+      "description": "\"Fault injection attacks exploit the vulnerability in the microcontroller system-on-chip, leading to an unprotected state on the memory bus.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
+      "source": "FAULT INJECTION ATTACKS",
+      "target": "HARDWARE SENSORS",
+      "weight": 16.0,
+      "description": "\"Hardware sensors are used to detect variations in voltage and current, which can help mitigate fault injection attacks by providing real-time data for protection mechanisms.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
       "source": "CVE-2005-2946",
       "target": "MD5 HASH USAGE",
       "weight": 7.0,
@@ -6605,6 +8047,14 @@
       "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
     },
     {
+      "source": "DENIAL OF SERVICE (DOS)",
+      "target": "CVE-2019-8575 AND CVE-2021-33096",
+      "weight": 16.0,
+      "description": "\"Exploiting these vulnerabilities results in DoS conditions.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-ae5449d3f107a69d5a261a02a07bc486"
+    },
+    {
       "source": "PLUNDERVOLT AND CLKSCREW ATTACKS",
       "target": "BYPASSING SECURITY MEASURES",
       "weight": 7.0,
@@ -6731,6 +8181,14 @@
       "description": "\"Improper handling or usage can also result in mirrored regions with different values, leading to hardware design flaws.\"",
       "keywords": "\"premise\"",
       "source_id": "chunk-f00f3b378bd7c23eedd4f2e92b0714ea"
+    },
+    {
+      "source": "HARDWARE DESIGN FLAWS",
+      "target": "FAULT INJECTION ATTACK PATTERN",
+      "weight": 7.0,
+      "description": "\"The fault injection attack pattern exploits hardware design flaws, such as improper thermal protections, to degrade system availability.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
     },
     {
       "source": "DENIAL OF SERVICE (DOS) INSTABILITY",
@@ -7501,6 +8959,14 @@
       "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3"
     },
     {
+      "source": "CVE-2020-9054",
+      "target": "ATTACKER GROUP",
+      "weight": 16.0,
+      "description": "\"The attacker group exploits the CVE-2020-9054 vulnerability to compromise NAS devices.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-9c2d736840493af6c8eeeed13f45ae1a"
+    },
+    {
       "source": "CWE-1303:NON-TRANSPARENT SHARING OF MICROARCHITECTURAL RESOURCES",
       "target": "MICROARCHITECTURE EXPLOITATION",
       "weight": 7.0,
@@ -7747,6 +9213,1038 @@
       "description": "\"The attack pattern exploits the missing protection for mirrored regions to achieve its goal.\"",
       "keywords": "\"Exploit\"",
       "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "source": "CRYPTOGRAPHIC ERASE",
+      "target": "DATA REMANENCE WEAKNESS",
+      "weight": 16.0,
+      "description": "\"Cryptographic erase mitigates the data remanence weakness by protecting encrypted data through key management.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-9c2d736840493af6c8eeeed13f45ae1a"
+    },
+    {
+      "source": "BRANCH TARGET INJECTION (BTI)",
+      "target": "RETPOLINE",
+      "weight": 8.0,
+      "description": "\"Retpoline is a mitigation technique that prevents the generation of vulnerable instructions related to BTI.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "source": "BRANCH TARGET INJECTION (BTI)",
+      "target": "REPTOLINE",
+      "weight": 9.0,
+      "description": "\"Reptoline is a compiler-based mitigation against BTI by avoiding vulnerable jumps.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "source": "BRANCH TARGET INJECTION (BTI)",
+      "target": "COMPILER CONFIGURATIONS",
+      "weight": 8.0,
+      "description": "\"Configuring compilers prevents the generation of instructions vulnerable to BTI attacks.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "source": "REQ SP.03.02 RE(2)",
+      "target": "IMPROPER HANDLING OF PHYSICAL OR ENVIRONMENTAL CONDITIONS",
+      "weight": 14.0,
+      "description": "\"Maintaining SBOMs and tracking dependencies are prerequisites for addressing vulnerabilities related to improper environmental condition handling.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "source": "REQ HDR 3.12",
+      "target": "IMPROPER HANDLING OF PHYSICAL OR ENVIRONMENTAL CONDITIONS",
+      "weight": 8.0,
+      "description": "\"Ensuring proper integration of security components is a prerequisite for addressing vulnerabilities in handling physical/environmental conditions.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "source": "INDIRECT BRANCH PREDICTION BARRIER",
+      "target": "TRANSITION BETWEEN CONTEXTS",
+      "weight": 8.0,
+      "description": "\"This mitigation resets prediction state during context switches to prevent exploitation.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "source": "IMMUTABLE ROOT OF TRUST REQUIREMENT",
+      "target": "ROOT OF TRUST EXPLOITATION",
+      "weight": 8.0,
+      "description": "\"Implementing an immutable root of trust mitigates the exploitation of RoT vulnerabilities by adversaries.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "source": "REQ NDR 3.12",
+      "target": "IMPROPER HANDLING OF PHYSICAL OR ENVIRONMENTAL CONDITIONS",
+      "weight": 7.0,
+      "description": "\"Clearly defining and implementing security requirements is a prerequisite for addressing vulnerabilities related to environmental condition handling.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "source": "KERNEL PAGE TABLE ISOLATION (KPTI)",
+      "target": "CVE-2017-5715",
+      "weight": 9.0,
+      "description": "\"KPTI mitigates Meltdown by isolating user-mode and kernel-mode memory spaces affected by CVE-2017-5715.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "source": "INFORMATION DISCLOSURE VIA SIDE-CHANNEL ANALYSIS ",
+      "target": "MICROARCHITECTURAL STATE AFTER TRANSIENT EXECUTION ",
+      "weight": 8.0,
+      "description": "\"The tactic of information disclosure is accomplished through the postcondition of microarchitectural state exposure after transient execution.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "source": "ELECTROMAGNETIC PULSE INJECTION CIRCUIT",
+      "target": "ATTACKERS EXPLOITING HARDWARE VULNERABILITIES",
+      "weight": 9.0,
+      "description": "\"Attackers use EM pulse injection circuits to carry out electromagnetic fault injection attacks.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "source": "REQ EDR 3.13",
+      "target": "IMPROPER HANDLING OF PHYSICAL OR ENVIRONMENTAL CONDITIONS",
+      "weight": 8.0,
+      "description": "\"Ensuring detection and response measures are in place is a prerequisite for mitigating vulnerabilities in environmental condition handling.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "source": "VICTIM SOFTWARE COMPONENT",
+      "target": "MICROARCHITECTURAL PREDICTOR SHARING VULNERABILITY",
+      "weight": 9.0,
+      "description": "\"The vulnerability exists in victim software components due to shared predictors.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "source": "REQ HDR 3.13",
+      "target": "IMPROPER HANDLING OF PHYSICAL OR ENVIRONMENTAL CONDITIONS",
+      "weight": 7.0,
+      "description": "\"Proper implementation and testing of security requirements during design is a prerequisite for addressing environmental condition vulnerabilities.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "source": "REQ NDR 3.13",
+      "target": "IMPROPER HANDLING OF PHYSICAL OR ENVIRONMENTAL CONDITIONS",
+      "weight": 8.0,
+      "description": "\"Enforcing security requirements throughout the product lifecycle is a prerequisite for mitigating environmental condition vulnerabilities.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "source": "SANDBOX ISOLATION BOUNDARY VULNERABILITY",
+      "target": "CVE-2017-5753 (MELTDOWN)",
+      "weight": 8.0,
+      "description": "\"The sandbox isolation boundary vulnerability is related to the Meltdown attack pattern and can be exploited similarly through speculative execution.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "source": "SANDBOX ISOLATION BOUNDARY VULNERABILITY",
+      "target": "CVE-2017-5754 (SPECTRE)",
+      "weight": 8.0,
+      "description": "\"The sandbox isolation boundary vulnerability is related to the Spectre attack pattern and can be exploited through side-channel attacks.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "source": "SANDBOX ISOLATION BOUNDARY VULNERABILITY",
+      "target": "ADDRESS MASKING FOR OUT-OF-BOUNDS READS",
+      "weight": 7.0,
+      "description": "\"Address masking is a mitigation technique that prevents out-of-bounds reads during transient execution in the sandbox isolation boundary vulnerability context.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "source": "REQ CR-7.8",
+      "target": "IMPROPER HANDLING OF PHYSICAL OR ENVIRONMENTAL CONDITIONS",
+      "weight": 8.0,
+      "description": "\"Addressing risks associated with component interactions is a prerequisite for handling physical/environmental conditions vulnerabilities.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "source": "PROCESSOR MIS-PREDICTION AND EVENT EXPLOITATION",
+      "target": "TRANSIENT EXECUTION DATA LEAK PREVENTION",
+      "weight": 9.0,
+      "description": "\"Mitigation measures like serialization instructions prevent transient execution from exposing data during mis-predictions.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "source": "REQ SM-6",
+      "target": "IMPROPER HANDLING OF PHYSICAL OR ENVIRONMENTAL CONDITIONS",
+      "weight": 7.0,
+      "description": "\"Integrating security requirements into maintenance processes is a prerequisite for addressing environmental condition vulnerabilities.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "source": "REQ SM-9",
+      "target": "IMPROPER HANDLING OF PHYSICAL OR ENVIRONMENTAL CONDITIONS",
+      "weight": 8.0,
+      "description": "\"Ensuring robust security measures during maintenance is a prerequisite for mitigating environmental condition vulnerabilities.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "source": "REQ SM-10",
+      "target": "IMPROPER HANDLING OF PHYSICAL OR ENVIRONMENTAL CONDITIONS",
+      "weight": 7.0,
+      "description": "\"Documenting and maintaining security requirements throughout the lifecycle is a prerequisite for addressing environmental condition vulnerabilities.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "source": "RETPOLINE IMPLEMENTATION",
+      "target": "CVE-2018-3639",
+      "weight": 8.0,
+      "description": "\"The retpoline implementation is a mitigation for CVE-2018-3639, replacing vulnerable instructions with safe alternatives to prevent exploitation.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "source": "SHARED MICROARCHITECTURAL PREDICTOR STATE VULNERABILITY",
+      "target": "COMMODITY PROCESSORS WITH SHARED PREDICTOR STATES",
+      "weight": 18.0,
+      "description": "\"This vulnerability exists within commodity processors, making them targets for exploitation.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-140a05ee49c5f31da6d98039d787968f"
+    },
+    {
+      "source": "DATA EXPOSURE VIA COVERT CHANNELS",
+      "target": "TRANSIENT EXECUTION ATTACK PATTERN",
+      "weight": 16.0,
+      "description": "\"The attack pattern leads to the postcondition of data exposure over covert channels.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-140a05ee49c5f31da6d98039d787968f"
+    },
+    {
+      "source": "TRANSIENT EXECUTION OPERATIONS",
+      "target": "CWE-1420",
+      "weight": 18.0,
+      "description": "\"Transient execution operations implement the attack technique described in CWE-1420.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "source": "SYSTEM SOFTWARE VENDORS",
+      "target": "MICROARCHITECTURAL PREDICTORS EXPLOITATION",
+      "weight": 7.0,
+      "description": "\"System software vendors may fail to address hardware weaknesses, making them complicit in attack scenarios involving microarchitectural predictors.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "source": "NETWORK-ON-CHIP (NOC)",
+      "target": "CVE-2019-8575 AND CVE-2021-33096",
+      "weight": 18.0,
+      "description": "\"The vulnerabilities exist in NoC systems, making them targets.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-ae5449d3f107a69d5a261a02a07bc486"
+    },
+    {
+      "source": "SPECULATIVE EXECUTION SIDE CHANNELS",
+      "target": "PROCESSOR DESIGNERS",
+      "weight": 8.0,
+      "description": "\"Processor designers may inadvertently introduce vulnerabilities in hardware that can be exploited through speculative execution side channels.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "source": "SPECULATIVE EXECUTION SIDE CHANNELS",
+      "target": "MELTDOWN (CVE-2017-5753)",
+      "weight": 9.0,
+      "description": "\"The speculative execution side channels vulnerability is directly related to the Meltdown attack pattern and can be exploited similarly through speculative execution.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "source": "PREDICTION STATE MANIPULATION",
+      "target": "DATA EXTRACTION VIA PREDICTION INFLUENCE",
+      "weight": 7.0,
+      "description": "\"The tactic is achieved through the attack technique.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "source": "PREDICTION STATE MANIPULATION",
+      "target": "MICROARCHITECTURAL PREDICTOR SHARING VULNERABILITY",
+      "weight": 8.0,
+      "description": "\"The attack technique exploits the vulnerability in hardware.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "source": "PREDICTION STATE MANIPULATION",
+      "target": "PREDICTOR STATE ISOLATION",
+      "weight": 8.0,
+      "description": "\"Mitigation strategies isolate states to counteract the attack technique.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "source": "PREDICTION STATE MANIPULATION",
+      "target": "MALICIOUS SOFTWARE COMPONENT",
+      "weight": 9.0,
+      "description": "\"Malicious software uses prediction state manipulation to exploit shared predictors.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "source": "MICROARCHITECTURAL STATE EXPOSURE VIA TRANSIENT EXECUTION ",
+      "target": "MALICIOUS SOFTWARE EXPLOITING CVE-2020-0551",
+      "weight": 7.0,
+      "description": "\"Malicious software exploits microarchitectural state exposure vulnerabilities to extract sensitive information via side-channel analysis.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "source": "MICROARCHITECTURAL STATE EXPOSURE VIA TRANSIENT EXECUTION ",
+      "target": "MICROARCHITECTURAL STATE EXPLOITATION VULNERABILITY ",
+      "weight": 7.0,
+      "description": "\"The attack pattern of microarchitectural state exposure after transient execution exploits the microarchitectural state exploitation vulnerability (CVE-2020-0551).\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "source": "LACK OF THERMAL PROTECTION MECHANISMS ",
+      "target": "THERMAL PROTECTION MECHANISMS ",
+      "weight": 9.0,
+      "description": "\"Implementing thermal protection mechanisms mitigates the risk of thermal overheating attacks by addressing this vulnerability.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "source": "TRANSIENT EXECUTION VULNERABILITY MITIGATION MEASURES",
+      "target": "MICROARCHITECTURAL DATA COVERT CHANNEL EXPLOITATION TECHNIQUE",
+      "weight": 7.0,
+      "description": "\"Mitigations implement measures to prevent the microarchitectural data covert channel exploitation technique by ensuring proper hardware design and state sanitization.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "source": "TRANSIENT EXECUTION VULNERABILITY MITIGATION MEASURES",
+      "target": "SHARED MICROARCHITECTURAL STRUCTURES EXPLOITATION TECHNIQUE",
+      "weight": 7.0,
+      "description": "\"Mitigations implement measures to prevent the shared microarchitectural structures exploitation technique by ensuring proper hardware design and state sanitization.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "source": "HARDWARE-ENFORCED BOUNDARIES",
+      "target": "CWE-1421",
+      "weight": 7.0,
+      "description": "\"Implementing hardware-enforced boundaries mitigates the exploitation of CWE-1421, where adversaries bypass architectural protections.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "source": "MICROARCHITECTURAL STATE AFTER TRANSIENT EXECUTION ",
+      "target": "INFORMATION DISCLOSURE VIA SIDE-CHANNEL ANALYSIS",
+      "weight": 8.0,
+      "description": "\"The tactic of information disclosure is accomplished through the postcondition of microarchitectural state exposure after transient execution.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "source": "CVE-2022-0002",
+      "target": "HARDWARE ARCHITECTURE AND DESIGN FLAWS",
+      "weight": 12.0,
+      "description": "\"Hardware architecture flaws, such as those leading to CVE-2022-0002, are prerequisites for the exploitation of shared microarchitectural structures.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "source": "CVE-2022-0002",
+      "target": "SHARED MICROARCHITECTURAL STRUCTURES EXPLOITATION TECHNIQUE",
+      "weight": 8.0,
+      "description": "\"The attack technique of exploiting shared microarchitectural structures implements the CVE-2022-0002 vulnerability.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "source": "CVE-2022-0002",
+      "target": "EXPOSURE OF SENSITIVE INFORMATION IN SHARED MICROARCHITECTURAL STRUCTURES DURING TRANSIENT EXECUTION",
+      "weight": 16.0,
+      "description": "\"The tactic of exposing sensitive information leverages the CVE-2022-0002 vulnerability, which involves microarchitectural indirect branch predictors.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "source": "CVE-2022-0002",
+      "target": "MICROARCHITECTURAL DATA COVERT CHANNEL EXPLOITATION TECHNIQUE",
+      "weight": 8.0,
+      "description": "\"The attack technique of exploiting microarchitectural data covert channels implements the CVE-2022-0002 vulnerability.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "source": "EXPOSURE OF SENSITIVE INFORMATION IN SHARED MICROARCHITECTURAL STRUCTURES DURING TRANSIENT EXECUTION",
+      "target": "CVE-2021-0089",
+      "weight": 16.0,
+      "description": "\"The tactic of exposing sensitive information leverages the CVE-2021-0089 vulnerability, which involves a machine clear triggered by self-modifying code.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "source": "EXPOSURE OF SENSITIVE INFORMATION IN SHARED MICROARCHITECTURAL STRUCTURES DURING TRANSIENT EXECUTION",
+      "target": "CVE-2017-5753",
+      "weight": 16.0,
+      "description": "\"The tactic of exposing sensitive information leverages the CVE-2017-5753 vulnerability, which involves microarchitectural conditional branch predictors.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "source": "ARCHITECTURE DOCUMENTATION",
+      "target": "VULNERABILITY DISCLOSURE",
+      "weight": 7.0,
+      "description": "\"Documentation reveals microarchitectural details, enabling informed mitigation strategies against vulnerabilities.\"",
+      "keywords": "\"Inform\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "source": "SERIALIZATION INSTRUCTIONS",
+      "target": "TRANSIENT EXECUTION",
+      "weight": 8.0,
+      "description": "\"These instructions reduce the number of transiently executed instructions after processor events, mitigating speculative execution attacks.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "source": "LOAD VALUE INJECTION",
+      "target": "SPECULATIVE EXECUTION SIDE-CHANNEL VULNERABILITY",
+      "weight": 9.0,
+      "description": "\"The load value injection technique exploits the speculative execution side-channel vulnerability to enable information disclosure.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-27764142320ab4a55340af1abbe3d713"
+    },
+    {
+      "source": "CWE-1319 - IMPROPER PROTECTION AGAINST ELECTROMAGNETIC FAULT INJECTION (EM-FI)",
+      "target": "REDUNDANCY AND ERROR DETECTION CODES",
+      "weight": 8.0,
+      "description": "\"These mitigations help protect against EM-FI attacks by detecting and correcting errors.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "source": "RESTRICTION OF HIGH-RESOLUTION TIMER ACCESS",
+      "target": "COVERT CHANNEL ATTACKS",
+      "weight": 9.0,
+      "description": "\"Limiting timer access prevents their misuse in monitoring covert channels for data exposure.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "source": "FABRIC RTL REVIEW AND MITIGATION IMPLEMENTATION",
+      "target": "LACK OF SECURITY FEATURES IN ON-CHIP FABRICS",
+      "weight": 8.0,
+      "description": "\"Mitigations involve reviewing fabric RTL designs to address missing security features and implementing protective measures.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "source": "BYPASSING SECURITY MECHANISMS",
+      "target": "INDUCING FAULTS IN DEVICE WIRES",
+      "weight": 8.0,
+      "description": "\"The attack pattern of bypassing security mechanisms is achieved through the technique of inducing faults in device wires via EM-FI.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "source": "MICROARCHITECTURAL PREDICTOR SHARING VULNERABILITY",
+      "target": "COVERT CHANNEL EXPLOITATION",
+      "weight": 9.0,
+      "description": "\"The attack technique exploits this vulnerability to create covert channels.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "source": "MICROARCHITECTURAL PREDICTOR SHARING VULNERABILITY",
+      "target": "LACK OF PREDICTOR STATE ISOLATION",
+      "weight": 6.0,
+      "description": "\"Lack of isolation is a prerequisite for exploiting the vulnerability.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "source": "MICROARCHITECTURAL PREDICTOR SHARING VULNERABILITY",
+      "target": "UNAUTHORIZED DATA ACCESS AND SYSTEM COMPROMISE",
+      "weight": 8.0,
+      "description": "\"Exploitation leads to these postconditions.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "source": "MICROARCHITECTURAL PREDICTOR SHARING VULNERABILITY",
+      "target": "EXPLOITING MICROARCHITECTURAL PREDICTOR SHARING",
+      "weight": 7.0,
+      "description": "\"The attack pattern targets this specific vulnerability.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "source": "MICROARCHITECTURAL PREDICTOR SHARING VULNERABILITY",
+      "target": "SHARED MICROARCHITECTURAL FEATURES BETWEEN THREADS",
+      "weight": 9.0,
+      "description": "\"Shared features enable the exploitation of this vulnerability.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "source": "MUTABLE SECURITY VERSION NUMBER (CWE-1328) ",
+      "target": "SECURITY VERSION NUMBER MANIPULATION",
+      "weight": 7.0,
+      "description": "\"The security version number manipulation technique exploits the vulnerability of having mutable security version numbers in hardware.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "source": "MUTABLE SECURITY VERSION NUMBER (CWE-1328) ",
+      "target": "EXPLOITING MUTABLE SECURITY VERSION",
+      "weight": 9.0,
+      "description": "\"The exploiting technique targets the vulnerability of having mutable security version numbers in hardware.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "source": "IMPLEMENTING SECURITY CHECKS IN BRIDGES OR SEPARATE FABRICS",
+      "target": "CWE-1318 - MISSING SUPPORT FOR SECURITY FEATURES IN ON-CHIP FABRICS OR BUSES",
+      "weight": 8.0,
+      "description": "\"This mitigation addresses the vulnerability by ensuring secure connections and checks.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-f6c74e67f17b8af08b42ae24be006e39"
+    },
+    {
+      "source": "HIGH-RESOLUTION TIMER MONITORING",
+      "target": "COVERT CHANNEL ENUMERATION",
+      "weight": 8.0,
+      "description": "\"Covert channels can be monitored using high-resolution timers, creating a direct relationship between these entities.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "source": "SECURE VERSION NUMBER MANAGEMENT",
+      "target": "SECURITY VERSION NUMBER MANIPULATION",
+      "weight": 8.0,
+      "description": "\"Proper management of security version numbers prevents adversaries from exploiting mutable version numbers.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "source": "SPECULATIVE EXECUTION SIDE-CHANNEL VULNERABILITY",
+      "target": "CWE-1342",
+      "weight": 8.0,
+      "description": "\"The exploitation of hardware behavior in exceptionally cold environments (CWE-1342) can create additional risks for existing speculative execution side-channel vulnerabilities.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-27764142320ab4a55340af1abbe3d713"
+    },
+    {
+      "source": "HARDWARE REDUNDANCY DEGRADATION",
+      "target": "CVE-2019-15894",
+      "weight": 8.0,
+      "description": "\"The postcondition of hardware redundancy degradation is a result of exploiting the CVE-2019-15894 vulnerability.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "source": "CVE-2021-0089",
+      "target": "HARDWARE ARCHITECTURE AND DESIGN FLAWS",
+      "weight": 12.0,
+      "description": "\"Hardware architecture flaws, such as those leading to CVE-2021-0089, are prerequisites for the exploitation of shared microarchitectural structures.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "source": "CVE-2021-0089",
+      "target": "MICROARCHITECTURAL DATA COVERT CHANNEL EXPLOITATION TECHNIQUE",
+      "weight": 8.0,
+      "description": "\"The attack technique of exploiting microarchitectural data covert channels implements the CVE-2021-0089 vulnerability.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "source": "CVE-2021-0089",
+      "target": "SHARED MICROARCHITECTURAL STRUCTURES EXPLOITATION TECHNIQUE",
+      "weight": 8.0,
+      "description": "\"The attack technique of exploiting shared microarchitectural structures implements the CVE-2021-0089 vulnerability.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "source": "UNPRIVILEGED SOFTWARE",
+      "target": "HIGH-RESOLUTION TIMERS",
+      "weight": 7.0,
+      "description": "\"Unprivileged software can exploit unrestricted timer access to monitor sensitive operations via covert channels.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "source": "FAULT INJECTION ATTACK PATTERN",
+      "target": "REDUNDANCY MECHANISMS",
+      "weight": 8.0,
+      "description": "\"Implementing redundancy mechanisms mitigates the fault injection attack pattern by ensuring system availability despite component failures.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "source": "FAULT INJECTION ATTACK PATTERN",
+      "target": "CVE-2019-15894",
+      "weight": 7.0,
+      "description": "\"The fault injection attack pattern exploits the CVE-2019-15894 vulnerability to bypass verification mechanisms and execute arbitrary code.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "source": "FAULT INJECTION ATTACK PATTERN",
+      "target": "UNAUTHORIZED AGENT",
+      "weight": 9.0,
+      "description": "\"Unauthorized agents use the fault injection attack pattern to exploit hardware vulnerabilities.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "source": "TRANSIENT EXECUTION VULNERABILITY",
+      "target": "OVER-CURRENT AND UNDER-CURRENT CONDITIONS",
+      "weight": 7.0,
+      "description": "\"Electrical imbalances create the conditions necessary for exploiting transient execution weaknesses in hardware.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "source": "TRANSIENT EXECUTION VULNERABILITY",
+      "target": "COVERT CHANNELS VIA DATA CACHES",
+      "weight": 8.0,
+      "description": "\"Adversaries use covert channels in data caches to exploit transient execution vulnerabilities and infer sensitive information.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "source": "SECURE BOOT BYPASS",
+      "target": "CVE-2019-17391",
+      "weight": 8.0,
+      "description": "\"The secure boot bypass technique exploited in CVE-2019-17391 is used to read protected eFuses and bypass security mechanisms.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "source": "CONTROL-FLOW INTEGRITY (CFI)",
+      "target": "INDIRECT BRANCH INSTRUCTIONS",
+      "weight": 18.0,
+      "description": "\"CFI constrains indirect branch instructions to only allowed targets, mitigating control-flow attacks.\"<SEP>\"CFI constrains indirect branch instructions to only allowed targets, mitigating control-flow hijacking.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "source": "CONTROL-FLOW INTEGRITY (CFI)",
+      "target": "INSTRUCTION POINTER REDIRECT MITIGATION",
+      "weight": 9.0,
+      "description": "\"Control-flow integrity techniques constrain indirect branch instructions to prevent unauthorized redirects, aligning with the goal of instruction pointer redirect mitigation.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "source": "PROCESSOR DESIGNERS AND SYSTEM SOFTWARE VENDORS",
+      "target": "CVE-2017-5754",
+      "weight": 7.0,
+      "description": "\"These entities must implement patches or configurations to mitigate BTI vulnerabilities in hardware.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "source": "MICROARCHITECTURAL STATE RETENTION",
+      "target": "COLD BOOT ATTACKS",
+      "weight": 7.0,
+      "description": "\"The retention of microarchitectural state during power cycling enables the success of cold boot attacks to extract sensitive data.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-27764142320ab4a55340af1abbe3d713"
+    },
+    {
+      "source": "PUF PRIMITIVE WEAKNESS",
+      "target": "RELIANCE ON INSUFFICIENTLY TRUSTWORTHY COMPONENT",
+      "weight": 6.0,
+      "description": "\"Weakness in PUF primitives due to improper handling of entropy sources aligns with the attack pattern of relying on insufficiently trustworthy components.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-27764142320ab4a55340af1abbe3d713"
+    },
+    {
+      "source": "SHARED MICROARCHITECTURAL STRUCTURES EXPLOITATION TECHNIQUE",
+      "target": "CVE-2017-5753",
+      "weight": 8.0,
+      "description": "\"The attack technique of exploiting shared microarchitectural structures implements the CVE-2017-5753 vulnerability.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "source": "CVE-2017-5715, CVE-2018-3615",
+      "target": "TAINT ANALYSIS METHODS",
+      "weight": 7.0,
+      "description": "\"Taint analysis identifies data flow issues related to these vulnerabilities, aiding in their detection.\"",
+      "keywords": "\"Identify, Mitigate\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "source": "SECURE ROLLBACK PROTECTION",
+      "target": "SECURITY VERSION NUMBER MANIPULATION",
+      "weight": 8.0,
+      "description": "\"Implementing secure rollback protection mitigates the exploitation of mutable security version numbers by adversaries.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "source": "MALICIOUS SOFTWARE OPERATIONS",
+      "target": "UNAUTHORIZED AGENT",
+      "weight": 8.0,
+      "description": "\"Unauthorized agents use malicious software operations to exploit hardware vulnerabilities and achieve their objectives.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "source": "MISSING IMMUTABLE ROOT OF TRUST (CWE-284) ",
+      "target": "ROOT OF TRUST EXPLOITATION",
+      "weight": 7.0,
+      "description": "\"The root of trust exploitation technique targets the vulnerability of having a mutable or unprotected RoT in hardware.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "source": "MISSING IMMUTABLE ROOT OF TRUST (CWE-284) ",
+      "target": "TAMPERING WITH ROOT OF TRUST",
+      "weight": 9.0,
+      "description": "\"The tampering technique exploits the vulnerability of having a mutable or unprotected root of trust in hardware.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "source": "CWE-1420",
+      "target": "COMPONENT AGING AND DEGRADATION",
+      "weight": 8.0,
+      "description": "\"Aging components contribute to the vulnerability of transient execution weaknesses, enabling attackers to exploit sensitive information exposure.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "source": "CWE-1420",
+      "target": "CWE-1422",
+      "weight": 8.0,
+      "description": "\"The attack pattern described in CWE-1420 can lead to the exposure of sensitive information, which is classified as CWE-1422.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "source": "CWE-1420",
+      "target": "CVE-2017-5715, CVE-2018-3615, CVE-2019-1135",
+      "weight": 16.0,
+      "description": "\"The attack pattern described in CWE-1420 exploits these specific vulnerabilities to expose sensitive information.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "source": "TAMPERING WITH ROOT OF TRUST",
+      "target": "ADVERSARY GROUP",
+      "weight": 9.0,
+      "description": "\"Adversaries use the tampering technique to exploit the root of trust vulnerability and execute unauthorized code.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "source": "IMPROPER HANDLING OF HARDWARE BEHAVIOR IN EXCEPTIONALLY COLD ENVIRONMENTS",
+      "target": "CWE-1342",
+      "weight": 8.0,
+      "description": "\"CWE-1342 addresses vulnerabilities related to hardware behavior in cold environments, which align with the attack pattern of improper handling of such conditions.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-27764142320ab4a55340af1abbe3d713"
+    },
+    {
+      "source": "IMPROPER THERMAL PROTECTIONS",
+      "target": "THERMAL PROTECTION MECHANISMS",
+      "weight": 8.0,
+      "description": "\"Implementing thermal protection mechanisms mitigates the precondition of improper thermal protections in hardware designs.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "source": "IMPROPER THERMAL PROTECTIONS",
+      "target": "THERMAL RUNAWAY",
+      "weight": 6.0,
+      "description": "\"Improper thermal protections are a prerequisite for the postcondition of thermal runaway in hardware systems.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-15c8c399ec268b8c32e12c790903a8f4"
+    },
+    {
+      "source": "AUTOMATED ANALYSIS METHODS",
+      "target": "TRANSIENT EXECUTION ATTACK PATTERN",
+      "weight": 8.0,
+      "description": "\"Automated methods detect and exploit the attack pattern by analyzing data flow.\"",
+      "keywords": "\"Detect, Exploit\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "source": "PREDICTOR STATE ISOLATION",
+      "target": "TAGGING MECHANISM FOR PREDICTOR ENTRIES",
+      "weight": 7.0,
+      "description": "\"Tags ensure predictor entries are only used by the thread that created them, enhancing isolation.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "source": "EXPLOITING HARDWARE VULNERABILITIES FOR UNAUTHORIZED ACCESS",
+      "target": "TRANSIENT EXECUTION ATTACK PATTERN",
+      "weight": 8.0,
+      "description": "\"The tactic of exploiting hardware weaknesses is carried out through the transient execution attack pattern.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "source": "HARDWARE ARCHITECTURE AND DESIGN FLAWS",
+      "target": "CVE-2017-5753",
+      "weight": 12.0,
+      "description": "\"Hardware architecture flaws, such as those leading to CVE-2017-5753, are prerequisites for the exploitation of shared microarchitectural structures.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "source": "MALICIOUS SOFTWARE OPERATORS",
+      "target": "THERMAL OVERHEATING ATTACK TECHNIQUE",
+      "weight": 8.0,
+      "description": "\"Attackers use thermal overheating as an attack technique to achieve denial of service (DoS) or permanent denial of service (PDoS).\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "source": "CVE-2017-5715",
+      "target": "STATE-SANITIZING OPERATIONS",
+      "weight": 9.0,
+      "description": "\"These operations mitigate Meltdown by preventing unauthorized access to kernel memory as per CVE-2017-5715.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "source": "MICROARCHITECTURAL PREDICTORS EXPLOITATION",
+      "target": "SPECTRE (CVE-2017-5754)",
+      "weight": 9.0,
+      "description": "\"The microarchitectural predictors exploitation technique is directly related to the Spectre attack pattern and can be exploited similarly through side-channel attacks.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-508c1dc38fedf7a8a2b552939936e945"
+    },
+    {
+      "source": "IMMUTABLE MEMORY STORAGE FOR ROT",
+      "target": "ROOT OF TRUST EXPLOITATION",
+      "weight": 8.0,
+      "description": "\"Implementing immutable memory storage mitigates the root of trust exploitation by ensuring the RoT cannot be tampered with.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "source": "HARDWARE OR TRUSTED FIRMWARE MODULES",
+      "target": "ALERT CONFIGURATIONS",
+      "weight": 12.0,
+      "description": "\"Hardware or trusted firmware modules are necessary for properly managing and securing alert configurations against unauthorized access.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
+    },
+    {
+      "source": "SECURITY VERSION NUMBER MANIPULATION",
+      "target": "ADVERSARY GROUP",
+      "weight": 8.0,
+      "description": "\"Adversaries exploit the security version number vulnerability to downgrade firmware versions and execute attacks.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "source": "HARDWARE DESIGN CHANGES",
+      "target": "TRANSIENT EXECUTION ATTACK PATTERN",
+      "weight": 8.0,
+      "description": "\"Design changes prevent the attack pattern from succeeding by modifying processor behavior.\"",
+      "keywords": "\"Prevent, Mitigate\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "source": "HARDWARE VENDOR RECOMMENDATIONS",
+      "target": "INDIRECT BRANCH PREDICTION BARRIER ON INTEL X86",
+      "weight": 9.0,
+      "description": "\"Vendors provide recommendations to secure Intel x86 processors against vulnerabilities like Spectre and Meltdown.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "source": "BIOS CONFIGURATION AND MODEL-SPECIFIC REGISTERS (MSRS)",
+      "target": "PREDICTOR SHARING",
+      "weight": 9.0,
+      "description": "\"BIOS settings and MSRs disable predictor sharing to mitigate vulnerabilities like Spectre.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "source": "FAULT INJECTION TECHNIQUES",
+      "target": "TIMING CHANNELS",
+      "weight": 16.0,
+      "description": "\"These techniques facilitate the timing channel attack pattern.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-ae5449d3f107a69d5a261a02a07bc486"
+    },
+    {
+      "source": "THERMAL PROTECTION MECHANISMS ",
+      "target": "THERMAL OVERHEATING ATTACK TECHNIQUE",
+      "weight": 9.0,
+      "description": "\"Implementing thermal protection mechanisms mitigates the risk of thermal overheating attacks.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "source": "COMMODITY PROCESSORS AND THEIR MICROARCHITECTURAL RESOURCES",
+      "target": "PROCESSOR VULNERABILITIES IN MICROARCHITECTURAL FEATURES",
+      "weight": 18.0,
+      "description": "\"The processor vulnerabilities exist in commodity processors' microarchitectural resources, such as CPU caches and branch predictors.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "source": "MICROARCHITECTURAL DATA COVERT CHANNEL EXPLOITATION TECHNIQUE",
+      "target": "CVE-2017-5753",
+      "weight": 8.0,
+      "description": "\"The attack technique of exploiting microarchitectural data covert channels implements the CVE-2017-5753 vulnerability.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-5b8399f81d264b899c6b1465888065e8"
+    },
+    {
+      "source": "PATCH TO SANITIZE PREDICTOR STATE",
+      "target": "SHARED MICROARCHITECTURAL STATE",
+      "weight": 8.0,
+      "description": "\"Hardware patches sanitize predictor state when transitioning contexts, preventing cross-context attacks.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "source": "ROOT OF TRUST EXPLOITATION",
+      "target": "ADVERSARY GROUP",
+      "weight": 8.0,
+      "description": "\"Adversaries use root of trust exploitation techniques to bypass secure boot mechanisms and execute unauthorized code.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "source": "COVERT CHANNEL EXPOSURE",
+      "target": "CVE-2017-5715, CVE-2018-3615, CVE-2019-1135",
+      "weight": 14.0,
+      "description": "\"Exploiting these vulnerabilities results in the postcondition of sensitive data exposure through a covert channel.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "source": "PROCESSOR DESIGN FLAWS",
+      "target": "CVE-2017-5715, CVE-2018-3615, CVE-2019-1135",
+      "weight": 12.0,
+      "description": "\"These preconditions enable the exploitation of the mentioned vulnerabilities through transient execution.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "source": "CVE-2018-3615",
+      "target": "MICROARCHITECTURAL STATE SANITIZATION",
+      "weight": 9.0,
+      "description": "\"Sanitizing microarchitectural state prevents data leakage from SGX enclave vulnerabilities as per CVE-2018-3615.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "source": "PATCH IMPLEMENTATIONS",
+      "target": "CVE-2017-5715, CVE-2018-3615, CVE-2019-1135",
+      "weight": 16.0,
+      "description": "\"Patches and architectural changes mitigate the vulnerabilities related to transient execution.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-2dabf9c98bc69986dc24d5e304324dc0"
+    },
+    {
+      "source": "SECURE ERASE COMMANDS",
+      "target": "DATA REMANENCE WEAKNESS",
+      "weight": 14.0,
+      "description": "\"Secure erase commands mitigate the data remanence weakness by ensuring complete erasure of memory content.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-9c2d736840493af6c8eeeed13f45ae1a"
+    },
+    {
+      "source": "FUZZING TOOLS",
+      "target": "TRANSIENT EXECUTION ATTACK PATTERN",
+      "weight": 8.0,
+      "description": "\"Fuzzing tools detect and exploit transient execution attack patterns in hardware.\"",
+      "keywords": "\"Detect, Exploit\"",
+      "source_id": "chunk-4b4769576f3d49059f5913c5015f2b57"
+    },
+    {
+      "source": "USER SPACE TO KERNEL SPACE PRIVILEGE ESCALATION",
+      "target": "COVERT CHANNEL EXPLOITATION",
+      "weight": 8.0,
+      "description": "\"The tactic is achieved through exploiting covert channels created via this technique.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-dbcb85b28b2b7826ec21a7b6bc0bbc99"
+    },
+    {
+      "source": "THERMAL OVERHEATING ATTACK TECHNIQUE",
+      "target": "ATTACKERS EXPLOITING THERMAL VULNERABILITIES",
+      "weight": 8.0,
+      "description": "\"Attackers use thermal overheating as an attack technique to achieve denial of service (DoS) or permanent denial of service (PDoS).\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-39463d74b58144a60cc5b1e541b1fd64"
+    },
+    {
+      "source": "SECURE STORAGE AND TESTING RECOMMENDATIONS",
+      "target": "SECURITY VERSION NUMBER VULNERABILITY",
+      "weight": 8.0,
+      "description": "\"Mitigation measures aim to prevent attackers from exploiting the security version number vulnerability by ensuring secure storage and testing protocols.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-892ec830b66f6437796b41d9204bf489"
+    },
+    {
+      "source": "FOCUSED ION BEAMS (FIB)",
+      "target": "COMPONENT MANIPULATION",
+      "weight": 9.0,
+      "description": "\"Attackers use FIBs to physically alter hardware components, exploiting vulnerabilities in aging or degraded systems.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-7cc46f06a193cf4755fa7fcda9c4b0c5"
+    },
+    {
+      "source": "HIGH-RESOLUTION TIMERS",
+      "target": "COVERT CHANNEL ATTACKS",
+      "weight": 8.0,
+      "description": "\"Restriction of access to high-resolution timers mitigates the risk of data exposure via covert channels.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-28e02dab88fa91661f517389729e7079"
+    },
+    {
+      "source": "EXPLOITING MUTABLE SECURITY VERSION",
+      "target": "ADVERSARY GROUP",
+      "weight": 9.0,
+      "description": "\"Adversaries use the exploitation technique to target systems with mutable security version numbers and execute attacks.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-4f02d3a2ccd36e011af08f781e28e3e4"
+    },
+    {
+      "source": "IMPROPER HANDLING OF PHYSICAL OR ENVIRONMENTAL CONDITIONS",
+      "target": "REQ SP.03.02 RE(1)",
+      "weight": 16.0,
+      "description": "\"The requirement ensures that components are reputable, serving as a prerequisite for preventing vulnerabilities in handling physical/environmental conditions.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-13bd6432c4df3bd5f3b022c47fe7c1ab"
+    },
+    {
+      "source": "ALERT SIGNALS",
+      "target": "DENIAL-OF-SERVICE (DOS) ATTACKS",
+      "weight": 14.0,
+      "description": "\"Exploitation of alert signals can lead to denial-of-service attacks, where attackers disable or manipulate critical system responses.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-ad4951d6ca9a7d70179fc77a5b4c7b84"
     }
   ]
 }
