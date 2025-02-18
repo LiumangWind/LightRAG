@@ -6,7 +6,7 @@ import sys
 sys.path.append('/LightRAG')
 
 # Constants
-WORKING_DIR = "./data-3"
+WORKING_DIR = "./data-2"
 BATCH_SIZE_NODES = 500
 BATCH_SIZE_EDGES = 100
 

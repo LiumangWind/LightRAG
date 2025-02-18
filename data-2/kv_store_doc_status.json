@@ -30,5 +30,13 @@
     "created_at": "2025-01-16T09:22:52.416697",
     "updated_at": "2025-01-16T10:16:13.191243",
     "chunks_count": 18
+  },
+  "doc-865590069d2a09ba39e89c780d9e9027": {
+    "content_summary": "'ID,Name,Abstraction,Status,Description,Alternate Terms,Likelihood Of Attack,Typical Severity,Relate...",
+    "content_length": 108488,
+    "status": "processed",
+    "created_at": "2025-02-18T07:12:55.080507",
+    "updated_at": "2025-02-18T08:22:11.251132",
+    "chunks_count": 21
   }
 }
