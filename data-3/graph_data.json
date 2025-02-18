@@ -111,8 +111,8 @@
     {
       "id": "WINDOWS OPERATING SYSTEMS",
       "entity_type": "TARGET ENTITY",
-      "description": "\"Windows systems are targeted due to their vulnerabilities.\"",
-      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+      "description": "\"Windows operating systems are targeted by the vulnerability in hardware-enforced access control.\"<SEP>\"Windows systems are targeted due to their vulnerabilities.\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98<SEP>chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
     },
     {
       "id": "SOFTWARE FAULT PATTERNS:SFP23:EXPOSED DATA ",
@@ -579,8 +579,8 @@
     {
       "id": "FILE ENCRYPTION AND RANSOM DEMAND",
       "entity_type": "POSTCONDITION",
-      "description": "\"Exploitation leads to encrypted files and ransom demands.\"",
-      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+      "description": "\"As a result of exploiting the vulnerability, the ransomware encrypts user files and demands a ransom, affecting the victims.\"<SEP>\"Exploitation leads to encrypted files and ransom demands.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b<SEP>chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
     },
     {
       "id": "TESTING PHASE",
@@ -609,8 +609,8 @@
     {
       "id": "WINDOWS PRINT SPOOLER VULNERABILITY",
       "entity_type": "VULNERABILITY",
-      "description": "\"A vulnerability allowing privilege escalation and file encryption exists in Windows systems.\"",
-      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+      "description": "\"A vulnerability allowing privilege escalation and file encryption exists in Windows systems.\"<SEP>\"There is a vulnerability in the Windows print spooler service that allows privilege escalation and file encryption by the ransomware.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b<SEP>chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
     },
     {
       "id": "CVE-2005-1941",
@@ -735,8 +735,8 @@
     {
       "id": "CVE-2019-6260",
       "entity_type": "VULNERABILITY",
-      "description": "\"Baseboard Management Controller (BMC) device implements Advanced High-performance Bus (AHB) bridges that do not require authentication for arbitrary read and write access to the BMC's physical address space from the host.\"",
-      "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
+      "description": "\"A vulnerability in the Baseboard Management Controller (BMC) device's AHB bridges, allowing arbitrary read and write access without authentication.\"<SEP>\"Baseboard Management Controller (BMC) device implements Advanced High-performance Bus (AHB) bridges that do not require authentication for arbitrary read and write access to the BMC's physical address space from the host.\"",
+      "source_id": "chunk-af35a9635813405deb7665cfe32b1124<SEP>chunk-155e5cca5e90d88780b67dd7b487829a"
     },
     {
       "id": "UNAUTHORIZED JTAG ACCESS",
@@ -837,8 +837,8 @@
     {
       "id": "SYSTEM-ON-CHIP (SOC)",
       "entity_type": "TARGET ENTITY",
-      "description": "\"SoCs are targets for attacks due to their integrated hardware components.\"<SEP>\"The SoC with a vulnerable debug/test interface.\"",
-      "source_id": "chunk-1ea2cd26ef91f5c526781b17429acd7f<SEP>chunk-b2db9bd0b7df158579fa4f955ca5f332"
+      "description": "\"SoCs are targets for attacks due to their integrated hardware components.\"<SEP>\"The SoC with a vulnerable debug/test interface.\"<SEP>\"The SoC is targeted by adversaries due to its vulnerabilities in secure boot and transaction handling.\"<SEP>\"The SoC is the target entity where vulnerabilities in attestation data and security identifiers exist, making it susceptible to attacks.\"<SEP>\"The SoC's ROM code authenticates bootloader code from NVM and transfers it to Volatile Memory (VM).\"<SEP>\"The target entity of these vulnerabilities is the System-On-Chip (SoC",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973<SEP>chunk-b2db9bd0b7df158579fa4f955ca5f332<SEP>chunk-7acaf7b7bfc562c3e9176c41d3a30307<SEP>chunk-1ea2cd26ef91f5c526781b17429acd7f<SEP>chunk-2a08effb4baf9d8f8c63cdfd2d107514"
     },
     {
       "id": "CVE-2004-1602",
@@ -849,8 +849,8 @@
     {
       "id": "CRYPTOLOCK",
       "entity_type": "SOFTWARE",
-      "description": "\"CryptoLock is a strain of ransomware used to infect systems and encrypt files.\"",
-      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+      "description": "\"CryptoLock is a strain of ransomware used to infect systems and encrypt files.\"<SEP>\"CryptoLock is a strain of ransomware used to infect systems and encrypt user files.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b<SEP>chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
     },
     {
       "id": "UNAUTHORIZED DATA EXTRACTION OR CODE EXECUTION",
@@ -891,8 +891,8 @@
     {
       "id": "ADVERSARY",
       "entity_type": "ATTACKER",
-      "description": "\"An attacker who exploits hardware weaknesses to gain unauthorized access or modify system configurations.\"",
-      "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+      "description": "\"An adversary exploits vulnerabilities in hardware systems such as improper translation of security attributes and missing patching abilities.\"<SEP>\"An attacker who exploits hardware weaknesses to gain unauthorized access or modify system configurations.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf<SEP>chunk-2ccff7f000ca8ceb65b49c7c3183348d"
     },
     {
       "id": "LACK OF AUTHENTICATION IN DEBUG INTERFACES",
@@ -1155,8 +1155,8 @@
     {
       "id": "RANSOMWARE PROTECTION AND PATCHING",
       "entity_type": "MITIGATION",
-      "description": "\"Recommendations include enabling protection features and keeping systems updated.\"",
-      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+      "description": "\"Enabling Windows Defender's ransomware protection feature and keeping the operating system up to date are recommended mitigations against the threat.\"<SEP>\"Recommendations include enabling protection features and keeping systems updated.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b<SEP>chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
     },
     {
       "id": "CVE-2007-4786",
@@ -1323,8 +1323,8 @@
     {
       "id": "INTEGRATED CIRCUITS AND HARDWARE ENGINES",
       "entity_type": "TARGET ENTITY",
-      "description": "\"Hardware systems with exposed accesses to assets, such as device configuration and keys, that are targeted by attackers.\"",
-      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0"
+      "description": "\"Hardware systems with exposed accesses to assets, such as device configuration and keys, that are targeted by attackers.\"<SEP>\"These components provide access to resources belonging to trusted firmware or software modules.\"",
+      "source_id": "chunk-0f1339a1fe7a6f1e0feebb426140abf0<SEP>chunk-5c85b903657707af65465947038efc98"
     },
     {
       "id": "MODIFICATION OF PROTECTED REGISTERS ",
@@ -2421,8 +2421,8 @@
     {
       "id": "CWE-1316",
       "entity_type": "VULNERABILITY",
-      "description": "\"A processor design flaw that allows ring 0 code to access more privileged rings by causing a register window overlap with protected system RAM.\"",
-      "source_id": "chunk-25f73985e28c5422bb14dc5727705f9e"
+      "description": "\"A processor design flaw that allows ring 0 code to access more privileged rings by causing a register window overlap with protected system RAM.\"<SEP>\"A vulnerability where protected and unprotected address ranges overlap, allowing attackers to bypass access controls.\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c<SEP>chunk-25f73985e28c5422bb14dc5727705f9e"
     },
     {
       "id": "SPOOFED UPDATE REQUEST INJECTION",
@@ -2444,9 +2444,9 @@
     },
     {
       "id": "DENIAL OF SERVICE (DOS)",
-      "entity_type": "POSTCONDITION",
-      "description": "\"Exploiting memory region overlaps can lead to system instability and denial of service conditions.\"",
-      "source_id": "chunk-c164a155c6861d928b9e41ab73c39e80"
+      "entity_type": "TACTIC",
+      "description": "\"Exploiting memory region overlaps can lead to system instability and denial of service conditions.\"<SEP>\"The tactic involves causing a denial of service by exploiting vulnerabilities in processor hardware.\"",
+      "source_id": "chunk-c164a155c6861d928b9e41ab73c39e80<SEP>chunk-31ce69f5b7b26b01bc270585046c09e7"
     },
     {
       "id": "UNTRUSTED AGENT ACCESS TO ALIASED MEMORY REGIONS ",
@@ -3020,9 +3020,9 @@
     },
     {
       "id": "BLINDING/MASKING TECHNIQUES",
-      "entity_type": "UNKNOWN",
-      "description": "\"These techniques mitigate side-channel attacks by obscuring sensitive operations.\"",
-      "source_id": "chunk-a6dc7fbf8ba2eb5753ca8bd31a3928a8"
+      "entity_type": "MITIGATION",
+      "description": "\"Techniques applied during design to disrupt side-channel leakage, such as randomizing operations or introducing noise.\"<SEP>\"These techniques mitigate side-channel attacks by obscuring sensitive operations.\"",
+      "source_id": "chunk-a6dc7fbf8ba2eb5753ca8bd31a3928a8<SEP>chunk-350f1de43053ea2973652d98a983f7fb"
     },
     {
       "id": "DES ENCRYPTION",
@@ -3092,9 +3092,9 @@
     },
     {
       "id": "FINITE STATE MACHINES (FSM)",
-      "entity_type": "UNKNOWN",
-      "description": "\"These techniques mitigate attacks by obscuring sensitive operations related to FSM vulnerabilities.\"",
-      "source_id": "chunk-a6dc7fbf8ba2eb5753ca8bd31a3928a8"
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Finite state machines implemented in security-sensitive flows are potential targets for attacks.\"<SEP>\"These techniques mitigate attacks by obscuring sensitive operations related to FSM vulnerabilities.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322<SEP>chunk-a6dc7fbf8ba2eb5753ca8bd31a3928a8"
     },
     {
       "id": "DEBUG INTERFACES (JTAG)",
@@ -3104,9 +3104,9 @@
     },
     {
       "id": "SECURE BOOT PROCESS",
-      "entity_type": "UNKNOWN",
-      "description": "\"The vulnerability allows attackers to bypass secure boot by exploiting pre-ROM execution states.\"",
-      "source_id": "chunk-a6dc7fbf8ba2eb5753ca8bd31a3928a8"
+      "entity_type": "TARGET ENTITY",
+      "description": "\"A process in the SoC that measures code authenticity but is susceptible to exploitation via CWE-1283.\"<SEP>\"The secure boot process in the SoC measures code authenticity using hashing algorithms but can be exploited due to mutable measurement data.\"<SEP>\"The vulnerability allows attackers to bypass secure boot by exploiting pre-ROM execution states.\"",
+      "source_id": "chunk-a6dc7fbf8ba2eb5753ca8bd31a3928a8<SEP>chunk-2a08effb4baf9d8f8c63cdfd2d107514"
     },
     {
       "id": "ATTACK PATTERN",
@@ -3173,6 +3173,1482 @@
       "entity_type": "UNKNOWN",
       "description": "\"Exploiting DVFS interfaces enables these attacks.\"",
       "source_id": "chunk-1ea2cd26ef91f5c526781b17429acd7f"
+    },
+    {
+      "id": "HARDWARE ALLOWS ACTIVATION OF TEST OR DEBUG LOGIC AT RUNTIME",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Test/debug features accessible during runtime can be exploited by adversaries to modify system behavior.\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "id": "MEASURED LAUNCH ENVIRONMENT ",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"A secure environment during which VT-d protection is applied, targeted by attacks via MCHBAR modification.\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "id": "ADDRESS MAP DESIGN FLAW ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A design flaw in the system's address map that allows overlaps, exploited by attackers.\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "id": "EXPLOITING TEST/DEBUG FEATURES ",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Attackers exploit test/debug features to alter system behavior or access sensitive data.\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "id": "OVERLAPPING ADDRESS RANGES ",
+      "entity_type": "PRECONDITION",
+      "description": "\"A prerequisite for attack, where protected and unprotected regions overlap in the address map.\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "id": "UNAUTHORIZED ACCESS OR DATA EXPOSURE ",
+      "entity_type": "POSTCONDITION",
+      "description": "\"The result of exploiting overlapping address ranges, leading to system compromise.\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "id": "LOGIC ERRORS DURING DESIGN OR SYNTHESIS",
+      "entity_type": "PRECONDITION",
+      "description": "\"Logic errors during design can misconfigure debug components, providing improper authorization to sensitive information.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "id": "ATTACK ON ADDRESS MAP OVERLAPS ",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"The method by which attackers exploit overlapping address ranges to bypass system protections.\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "id": "PRODUCTION KEY USAGE",
+      "entity_type": "MITIGATION",
+      "description": "\"Using a different public key for production code signing mitigates the risk of debug firmware being used on production systems.\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "id": "DEVICE PERIPHERALS",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Pluggable device peripherals should not have write access to volatile memory regions used for storing executable programs.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "PHYSICAL SIDE CHANNEL MONITORING AND INFERENCE",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"Adversaries can monitor physical phenomena like power consumption or electromagnetic emissions to make inferences about sensitive data, even without digital extraction.\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
+      "id": "REMOVAL OF SENSITIVE INFORMATION DURING STATE TRANSITIONS",
+      "entity_type": "MITIGATION",
+      "description": "\"During state transitions, information not needed in the next state should be removed before the transition to mitigate potential vulnerabilities.\"",
+      "source_id": "chunk-48f47fa4c06f4f21169acdc6421f3964"
+    },
+    {
+      "id": "HARDWARE IP COMMUNICATION",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Signals between a hardware IP and the parent system design are critical for secure communication during boot.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "CWE-1276",
+      "entity_type": "VULNERABILITY",
+      "description": "\"CWE-1276: Hardware child block incorrectly connected to parent system, causing security risks.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "INCORRECT CONVERSION OF SECURITY IDENTIFIERS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The product implements an incorrect conversion mechanism for bus-transaction signals to security identifiers, potentially allowing untrusted agents unauthorized access to assets.\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "id": "SECURITY IDENTIFIER MECHANISM VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The System-on-Chip (SoC) implements a Security Identifier mechanism, but it is not correctly implemented, leading to potential exploitation.\"",
+      "source_id": "chunk-87fc8cd680673c7b0399cfaa4acf73d6"
+    },
+    {
+      "id": "SECURE MANUFACTURING PROCESSES",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing secure manufacturing processes can prevent unauthorized access to debug components during production.\"",
+      "source_id": "chunk-f6f4c668b2aeaa26c41427011a11b6d8"
+    },
+    {
+      "id": "MODERN PROCESSORS WITH OUT-OF-ORDER EXECUTION ",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Modern processors are targeted due to their use of techniques like out-of-order execution, which can be exploited via microarchitectural covert channels.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "BUS PROTOCOL MISIMPLEMENTATION",
+      "entity_type": "PRECONDITION",
+      "description": "\"Improper implementation of bus protocol conversions between leader and follower agents can create vulnerabilities in system-on-chip (SoC) architectures.\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "id": "CVE-2009-4419",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Specific vulnerability related to MCHBAR register modification, enabling attacks on VT-d protection during a Measured Launch Environment.\"<SEP>\"This CVE record is related to a hardware vulnerability that may be connected to improper access controls in fabric bridges.\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c<SEP>chunk-af35a9635813405deb7665cfe32b1124"
+    },
+    {
+      "id": "INSECURE SECURITY IDENTIFIER MECHANISM",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"This attack pattern involves exploiting the incorrect implementation of security identifiers in the SoC to gain unauthorized access or privileges.\"",
+      "source_id": "chunk-87fc8cd680673c7b0399cfaa4acf73d6"
+    },
+    {
+      "id": "INFORMATION LEAKAGE (E.G., CRYPTOGRAPHIC KEYS, ALSR OFFSETS)",
+      "entity_type": "POSTCONDITION",
+      "description": "\"The postcondition of exploiting shared resources results in unauthorized information leakage from the system.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "PROTOCOL CONVERSION BRIDGE",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing proper protocol conversion bridges with correct security identifier mappings can prevent unauthorized access to assets in SoC environments.\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "id": "UNAUTHORIZED ACCESS AND BMC EXPLOITATION",
+      "entity_type": "TACTIC",
+      "description": "\"The tactic involves exploiting vulnerabilities in fabric bridges or BMC devices to gain unauthorized access to system resources.\"",
+      "source_id": "chunk-af35a9635813405deb7665cfe32b1124"
+    },
+    {
+      "id": "FABRIC BRIDGE VULNERABILITY IDENTIFICATION",
+      "entity_type": "PRECONDITION",
+      "description": "\"Attackers must identify vulnerabilities in fabric bridges or BMC devices as a prerequisite for exploitation.\"",
+      "source_id": "chunk-af35a9635813405deb7665cfe32b1124"
+    },
+    {
+      "id": "EXPLOITATION OF DEBUG FIRMWARE CAPABILITIES",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Attackers exploit debug firmware capabilities by leveraging the same public key for signing both debug and production code, enabling unauthorized system control.\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "id": "INCORRECT DECODING MECHANISM VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"An issue in security identifier decoding that allows untrusted agents to gain unauthorized access to assets.\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "id": "MALICIOUS INSIDER ATTACK",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"A malicious insider at an OSAT facility could carry out attacks to gain unauthorized access or steal information.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "id": "BUS PROTOCOL CONVERSION MISIMPLEMENTATION",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Incorrect conversion mechanisms for bus protocols create openings for untrusted agents to manipulate transactions in SoC environments.\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "id": "UNAUTHORIZED ACCESS TO HIDDEN FUNCTIONALITIES",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Compromised credentials allow attackers to unlock the device and gain unauthorized access to hidden functionalities.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "PARTITIONED CACHES, BARRIER/FLUSH INSTRUCTIONS, DISABLING HIGH-RESOLUTION COUNTERS ",
+      "entity_type": "MITIGATION",
+      "description": "\"These measures help mitigate microarchitectural covert channels by reducing shared resources and controlling speculative execution.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "SYSTEM-ON-CHIP (SOC) VULNERABILITY EXPLOITATION",
+      "entity_type": "TACTIC",
+      "description": "\"Attackers aim to gain unauthorized access to SoC assets by exploiting incorrect bus-transaction signal conversions and security identifier mappings.\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "id": "VOLATILE-MEMORY PROTECTIONS",
+      "entity_type": "MITIGATION",
+      "description": "\"Ensure the volatile-memory protections are sufficient to prevent modifications from adversaries or untrusted code.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "ACCESS CONTROL BYPASS",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploiting vulnerabilities like race conditions can lead to unauthorized access or bypass of protection mechanisms.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "id": "NETWORK-ATTACHED STORAGE (NAS) DEVICE",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The NAS device is the target entity of attacks due to its firmware updateability issue and vulnerability exploitation.\"",
+      "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3"
+    },
+    {
+      "id": "HARDWARE SYSTEMS WITH PATCHING LIMITATIONS AND FABRIC BRIDGES ",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The target entities are hardware systems with ROM patching limitations and fabric bridge components vulnerable to improper attribute translation.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "INSUFFICIENT OR INCOMPLETE DATA REMOVAL WITHIN HARDWARE COMPONENT VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The product's data removal process does not completely delete all data and potentially sensitive information within hardware components.\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
+      "id": "ACCESS PROTECTION MECHANISMS ",
+      "entity_type": "MITIGATION",
+      "description": "\"Security measures designed to control access to sensitive resources in the address map.\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "id": "DEBUG AND PRODUCTION CODE SIGNING PROCESS",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing separate public keys for debug and production code signing processes mitigates the risk of unauthorized access via public key reuse.\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "id": "DEBUG MESSAGES VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The product fails to adequately prevent the revealing of unnecessary and potentially sensitive system information within debugging messages, exposing internal states that could aid attackers.\"",
+      "source_id": "chunk-87fc8cd680673c7b0399cfaa4acf73d6"
+    },
+    {
+      "id": "PROPER BUS PROTOCOL CONVERSION IMPLEMENTATION",
+      "entity_type": "MITIGATION",
+      "description": "\"Ensuring correct implementation of bus protocol conversions prevents unauthorized agent access to SoC assets.\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "id": "MISSING SECURITY IDENTIFIERS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The absence of proper security identifiers in the SoC implementation creates opportunities for attackers to bypass protection mechanisms.\"",
+      "source_id": "chunk-87fc8cd680673c7b0399cfaa4acf73d6"
+    },
+    {
+      "id": "POWER SAVE/RESTORE CONFIGURATION STATE INTEGRITY ",
+      "entity_type": "PRECONDITION",
+      "description": "\"Attackers may alter configuration states during power save operations without proper integrity checks, creating a prerequisite for exploitation.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "BUS/INTERFACE HARDWARE WEAKNESSES",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Improper implementation of bus-transaction signal conversions creates a vulnerability in SoC environments, allowing untrusted agents to exploit system assets.\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "id": "ENSURING NON-OVERLAPPING RANGES AND SECURE CONFIGURATIONS ",
+      "entity_type": "MITIGATION",
+      "description": "\"Measures to prevent overlap during design and ensure secure system configurations.\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "id": "CWE-693: MISSING PROTECTION AGAINST HARDWARE REVERSE ENGINEERING USING INTEGRATED CIRCUIT (IC) IMAGING TECHNIQUES",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where hardware lacks protection against reverse engineering via IC imaging techniques, exposing embedded secrets to extraction.\"",
+      "source_id": "chunk-1fafa91fe4e5dff2ece171cb782b7c74"
+    },
+    {
+      "id": "CVE-2018-4251",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Laptops with Intel chipsets were running in Manufacturing Mode, providing unauthorized access to an interface until patched.\"",
+      "source_id": "chunk-413f231b6fa3e23dd4a25e4c2ca5b59e"
+    },
+    {
+      "id": "PROCESSOR HARDWARE",
+      "entity_type": "SOFTWARE",
+      "description": "\"The processor hardware is the software component that executes instruction sequences and handles data storage.\"",
+      "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
+    },
+    {
+      "id": "EXPLOITING ADDRESS OVERLAPS ",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Technique used by attackers to send transactions targeting overlapped regions, compromising system security.\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "id": "DISABLING HIGH-RESOLUTION COUNTERS ",
+      "entity_type": "MITIGATION",
+      "description": "\"A mitigation measure that disables performance counters/timers to prevent certain types of side-channel attacks.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "MISSING PROTECTION FOR MIRRORED REGIONS IN ON-CHIP FABRIC FIREWALL",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The firewall fails to protect mirrored memory regions, allowing attackers to bypass read/write protections.\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "id": "NON-VOLATILE MEMORY (NVM)",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"NVM is external to the SoC and contains bootloader code that is transferred to Volatile Memory during boot.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "CVE-2021-3011 VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A microcontroller system-on-chip is susceptible to electromagnetic-wave side-channel attacks, allowing the extraction of private keys.\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
+      "id": "SPECULATIVE AND OUT-OF-ORDER EXECUTION ",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Attackers use speculative and out-of-order execution to control the data leaked through covert channels, enhancing their ability to extract information.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "<ENTITY_NAME>",
+      "entity_type": "<ENTITY_TYPE>",
+      "description": "<entity_description>",
+      "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
+    },
+    {
+      "id": "SOC FABRIC BRIDGE AND BMC DEVICES",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The target entities include System on Chip (SoC) fabric bridges and Baseboard Management Controller (BMC) devices with AHB bridges.\"",
+      "source_id": "chunk-af35a9635813405deb7665cfe32b1124"
+    },
+    {
+      "id": "LOGIC REDUNDANCY IMPLEMENTATION",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing logic redundancy can help eliminate race conditions in hardware logic.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "id": "ACCESS CONTROL CHECK AFTER ASSET ACCESS",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Attackers can exploit access control checks implemented after asset access to compromise system security by accessing resources before proper authorization.\"",
+      "source_id": "chunk-1fafa91fe4e5dff2ece171cb782b7c74"
+    },
+    {
+      "id": "ROOT-OF-TRUST (ROT) MECHANISM ",
+      "entity_type": "PRECONDITION",
+      "description": "\"The Root-of-Trust mechanism is a prerequisite for secure system boot processes.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "UNAUTHORIZED ACCESS TO PHYSICAL ADDRESS SPACE",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploiting the vulnerability can result in unauthorized access to BMC physical address space or system memory modification.\"",
+      "source_id": "chunk-af35a9635813405deb7665cfe32b1124"
+    },
+    {
+      "id": "ON-CHIP FABRIC AND HARDWARE SYSTEMS",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The target entities are on-chip fabric and hardware systems that contain exploitable vulnerabilities.\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "id": "TRANSACTION ROUTING WEAKNESSES IN SOCS",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"Attackers exploit weaknesses in transaction routing and security identifier mappings to manipulate bus transactions in SoC environments.\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "id": "UNAUTHORIZED ACCESS",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploiting vulnerabilities like race conditions can lead to unauthorized access or bypass of protection mechanisms.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "id": "ACCESS CONTROL CHECK IMPLEMENTED AFTER ASSET IS ACCESSED",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Attackers can exploit access control checks implemented after asset access to compromise system security by accessing resources before proper authorization.\"",
+      "source_id": "chunk-1fafa91fe4e5dff2ece171cb782b7c74"
+    },
+    {
+      "id": "IC CAMOUFLAGING AND OBFUSCATION",
+      "entity_type": "MITIGATION",
+      "description": "\"Techniques like IC camouflaging, obfuscation, and tamper-proof packaging can be used to mitigate the risk of hardware reverse engineering attacks.\"",
+      "source_id": "chunk-1fafa91fe4e5dff2ece171cb782b7c74"
+    },
+    {
+      "id": "DEBUG MODE RESET",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Adversaries can exploit debug mode resets to violate data integrity within hardware IPs.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "SPECIFIC INSTRUCTION SEQUENCES (E.G., X86 INSTRUCTIONS)",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"The attack pattern involves executing specific instruction sequences to trigger unexpected behavior in the processor.\"",
+      "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
+    },
+    {
+      "id": "DEVICE",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The device is targeted by attackers seeking unauthorized access to its confidential information during production.\"",
+      "source_id": "chunk-f6f4c668b2aeaa26c41427011a11b6d8"
+    },
+    {
+      "id": "UNAUTHORIZED SYSTEM MODIFICATIONS AND DATA LEAKAGE ",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploiting the vulnerability results in unauthorized system changes and potential data leakage.\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "id": "KNOWLEDGE OF VULNERABILITIES",
+      "entity_type": "PRECONDITION",
+      "description": "\"Attackers must have knowledge of specific vulnerabilities to exploit them effectively.\"",
+      "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
+    },
+    {
+      "id": "DEBUG COMPONENT CHAINING VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The product does not adequately protect confidential information on the device from being accessed by OSAT vendors due to improper chaining of debug components.\"",
+      "source_id": "chunk-f6f4c668b2aeaa26c41427011a11b6d8"
+    },
+    {
+      "id": "ACCESS CONTROL POLICY EXPLOITATION PATTERN",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"The attack pattern involves exploiting improperly defined access control policies to gain unauthorized access.\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "id": "BARRIER/FLUSH INSTRUCTIONS ",
+      "entity_type": "MITIGATION",
+      "description": "\"Special instructions used to reset or clear specific hardware components, mitigating microarchitectural vulnerabilities.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "CWE-2021-26339 AND CVE-1999-1476",
+      "entity_type": "VULNERABILITY",
+      "description": "\"These are known processor vulnerabilities that can be exploited through specific instruction sequences.\"",
+      "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
+    },
+    {
+      "id": "CHIPMAKER'S DESIGN PRACTICES",
+      "entity_type": "MITIGATION",
+      "description": "\"Adopting design practices like Karnaugh maps can reduce the occurrence of race conditions and related vulnerabilities.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "id": "CVE-2020-1791",
+      "entity_type": "VULNERABILITY",
+      "description": "\"There is an improper authorization vulnerability in several smartphones, allowing attackers to switch to third desktop after a series of operations in ADB mode.\"",
+      "source_id": "chunk-f6f4c668b2aeaa26c41427011a11b6d8"
+    },
+    {
+      "id": "UNAUTHORIZED DEVICE ACCESS VIA CREDENTIALS",
+      "entity_type": "TACTIC",
+      "description": "\"The tactic involves using credentials necessary for unlocking a device to gain unauthorized access or modify system capabilities.\"",
+      "source_id": "chunk-48f47fa4c06f4f21169acdc6421f3964"
+    },
+    {
+      "id": "SYSTEM HANGS OR DOS CONDITIONS",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploiting processor vulnerabilities leads to postconditions such as system hangs or denial of service scenarios.\"",
+      "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
+    },
+    {
+      "id": "IMPROPER PROTECTION OF PHYSICAL SIDE CHANNELS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The device lacks sufficient protection mechanisms against physical side channels, enabling adversaries to extract sensitive information via power consumption or electromagnetic emissions.\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
+      "id": "ACCESS CONTROL LOGIC",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Vulnerabilities in access control logic can be exploited to bypass existing protections.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "id": "BOTNET CREATION",
+      "entity_type": "TACTIC",
+      "description": "\"Attackers exploit vulnerabilities in NAS devices to create a botnet, achieving their goal of controlling multiple devices.\"",
+      "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3"
+    },
+    {
+      "id": "PROCESSOR (AMD/CPU)",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The processor hardware, including specific CPU models (e.g., AMD CPUs), is the target entity for attacks involving instruction sequences.\"",
+      "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
+    },
+    {
+      "id": "HARDWARE CHILD BLOCK CONNECTION ISSUES",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Signals between a hardware IP and the parent system are incorrectly connected, causing security risks.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "PARTITIONED CACHES ",
+      "entity_type": "MITIGATION",
+      "description": "\"A mitigation technique involving the use of separate memory caches to prevent data leakage between contexts.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "CVE-2021-33150",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Hardware processor allows activation of test or debug logic at runtime.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "PATCH SUPPORT IMPLEMENTATION ",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing in-field patching or hardware fuses can mitigate vulnerabilities by allowing limited post-deployment fixes.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "VOLATILE MEMORY REGIONS",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Volatile memory regions are used for storing loaded system executable programs during boot.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "EXPLOIT KIT",
+      "entity_type": "SOFTWARE",
+      "description": "\"The exploit kit is used by attackers to exploit CVE-2020-9054 in NAS devices.\"",
+      "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3"
+    },
+    {
+      "id": "CWE-203: INSECURE KERNEL MODE BUFFER HANDLING ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"This entry highlights a historical CWE related to insecure handling of kernel mode buffers, now deprecated and replaced by CWE-1189.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "SENSOR HARDWARE MISCONFIGURATION",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"An attack pattern where improper configuration of sensor hardware allows manipulation of operational limits and data values.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "IMPROPER ACCESS CONTROL FOR VOLATILE MEMORY CONTAINING BOOT CODE",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The product does not have sufficient access control or protections for the Volatile Memory, allowing adversaries to bypass the secure-boot process.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "CHIPMAKER",
+      "entity_type": "ATTACKER",
+      "description": "\"Chipmakers must trust OSAT vendors but face risks due to potential vulnerabilities and insider attacks.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "id": "FIRMWARE UPDATE MECHANISM",
+      "entity_type": "MITIGATION",
+      "description": "\"Enabling firmware updates would mitigate the vulnerability (CWE-1277) and prevent exploitation of CVE-2020-9054.\"",
+      "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3"
+    },
+    {
+      "id": "CVE-2017-18347",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Incorrect access control in RDP Level 1 on STMicroelectronics STM32F0 series devices allows physically present attackers to extract the device's protected firmware via a special sequence of Serial Wire Debug (SWD) commands.\"",
+      "source_id": "chunk-f6f4c668b2aeaa26c41427011a11b6d8"
+    },
+    {
+      "id": "CWE ID 1299",
+      "entity_type": "PRECONDITION",
+      "description": "\"Lack of proper configuration practices and access controls for sensor blocks may lead to exploitation.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "INFORMATION TECHNOLOGY (IT) SYSTEM VULNERABILITY IN OSAT FACILITIES",
+      "entity_type": "VULNERABILITY",
+      "description": "\"OSAT facilities may have IT system vulnerabilities that can be exploited by attackers.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "id": "SIMULATION AND FORMAL VERIFICATION",
+      "entity_type": "MITIGATION",
+      "description": "\"Mitigations include using simulation to ensure proper bridge access controls and formal verification to prevent bypassing protection mechanisms.\"",
+      "source_id": "chunk-af35a9635813405deb7665cfe32b1124"
+    },
+    {
+      "id": "ACCESS CONTROL OVERRIDE",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing access controls for sensor blocks ensures only trusted software can change threshold limits and sensor parametric data.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "CWE-1283",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where measurement data in a SoC's secure boot process is modifiable, allowing spoofing of measurements.\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "id": "PHISHING AND EXPLOIT KIT DISTRIBUTION PATTERN",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"The attack pattern involves sending phishing emails with malicious attachments and using exploit kits to distribute the ransomware.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "CWE ID 862",
+      "entity_type": "PRECONDITION",
+      "description": "\"Lack of requirement to protect parametric values may contribute to this weakness.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "IMPROPER ACCESS CONTROL EXPLOITATION TECHNIQUE",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"The attack technique involves exploiting improper access control mechanisms in fabric bridges to gain unauthorized access.\"",
+      "source_id": "chunk-af35a9635813405deb7665cfe32b1124"
+    },
+    {
+      "id": "CWE-1280: ACCESS CONTROL CHECK IMPLEMENTED AFTER ASSET IS ACCESSED",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where access control checks are performed after an asset has been accessed, creating opportunities for unauthorized access.\"",
+      "source_id": "chunk-1fafa91fe4e5dff2ece171cb782b7c74"
+    },
+    {
+      "id": "CRYPTOGRAPHIC OPERATIONS BEFORE SUPPORTING UNITS ARE READY",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"Performing cryptographic operations without ensuring that supporting units are ready can lead to vulnerabilities in encrypted results.\"",
+      "source_id": "chunk-1fafa91fe4e5dff2ece171cb782b7c74"
+    },
+    {
+      "id": "HALT AND CATCH FIRE SEQUENCES",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Attackers use halt and catch fire sequences as a technique to exploit vulnerabilities in processor hardware.\"",
+      "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
+    },
+    {
+      "id": "ATTACK ON ADDRESS MAP OVERLAPS",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"The method by which attackers exploit overlapping address ranges to bypass system protections.\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "id": "COMPROMISED CONFIGURATION UPON RESTORE ",
+      "entity_type": "POSTCONDITION",
+      "description": "\"A compromised configuration upon restore can lead to DoS, privilege escalation, or other malicious outcomes.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "APPLYING PROTECTIONS TO MIRRORED REGIONS ",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing protections for mirrored regions mitigates the vulnerability in on-chip fabric firewalls.\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "id": "IMPROPER CONVERSION OF SECURITY IDENTIFIERS ",
+      "entity_type": "PRECONDITION",
+      "description": "\"Incorrect conversion of security identifiers during design and implementation phases can lead to vulnerabilities that are exploitable by attackers.\"",
+      "source_id": "chunk-87fc8cd680673c7b0399cfaa4acf73d6"
+    },
+    {
+      "id": "MONITOR DEVICE AND RELATED HARDWARE COMPONENTS",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The monitor device and associated hardware components are the targets of attacks exploiting physical side channels.\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
+      "id": "ARCHITECTURE AND DESIGN PHASE ",
+      "entity_type": "PHASE",
+      "description": "\"The phase during which hardware architecture is defined, where microarchitectural vulnerabilities can be introduced.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "BUS CONTROLLER MISUSE",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Improper setting of bus controlling capability in fabric end-point allows unauthorized devices to control transactions on the fabric.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "SYSTEM-ON-CHIP (SOC) ",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The System-on-Chip (SoC) is the target entity affected by the security identifier mechanism vulnerability and debug message issues.\"",
+      "source_id": "chunk-87fc8cd680673c7b0399cfaa4acf73d6"
+    },
+    {
+      "id": "CVE-2019-18673 VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Power consumption variations in displays enable secrets like PINs to be read through USB measurements.\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
+      "id": "IMPLEMENTATION PHASE ",
+      "entity_type": "PHASE",
+      "description": "\"The phase during which hardware is built, where implementation details might introduce security flaws.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "HARDWARE DESIGN WEAKNESS",
+      "entity_type": "PRECONDITION",
+      "description": "\"Architectural design issues in hardware, such as lack of write protection for parametric values and improper bus controlling capabilities, create exploitable conditions.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "MCHBAR REGISTER MODIFICATION ",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Modification of the MCHBAR register to overlap with attacker-controlled regions, bypassing VT-d protection.\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "id": "MICROARCHITECTURAL COVERT CHANNELS ",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"The attack pattern involves exploiting shared resources to create covert channels for data leakage between different execution contexts.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "PATCHING OPERATING SYSTEMS AND TESTING STRATEGIES",
+      "entity_type": "MITIGATION",
+      "description": "\"Patching operating systems and implementing rigorous testing strategies are mitigations against unexpected behavior caused by malicious instruction sequences.\"",
+      "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
+    },
+    {
+      "id": "DATA INTEGRITY VIOLATIONS",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Incorrect hardware connections can lead to violations of data integrity within hardware IPs.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "MUTABLE ATTESTATION DATA VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A weakness where register contents used for attestation are modifiable by adversaries, allowing spoofing of boot flow measurements.\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "id": "SHARED MICROARCHITECTURAL RESOURCES (E.G., CACHES, BRANCH PREDICTORS)",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Hardware structures shared across execution contexts can violate architectural isolation, creating vulnerabilities for information leakage.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "HARDWARE SYSTEM COMPROMISE ",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploitation of vulnerabilities can result in unauthorized system access or data breaches, affecting the hardware's functionality and security.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "REVEALING SENSITIVE INFORMATION VIA DEBUG MESSAGES",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"This attack pattern involves exploiting debug messages to gain access to sensitive system information or exploit vulnerabilities.\"",
+      "source_id": "chunk-87fc8cd680673c7b0399cfaa4acf73d6"
+    },
+    {
+      "id": "CWE-1290",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A weakness in decoding security identifiers during bus transactions, leading to unauthorized access.\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "id": "CONFIDENTIALITY SCOPE ",
+      "entity_type": "SCOPE",
+      "description": "\"A security scope focusing on preventing unauthorized data disclosure, relevant to microarchitectural leaks.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "CVE-2020-12926",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploiting the vulnerability could lead to unauthorized access or recording of failed authorization attempts after power loss.\"",
+      "source_id": "chunk-48f47fa4c06f4f21169acdc6421f3964"
+    },
+    {
+      "id": "CWE-1317 IMPROPER ACCESS CONTROL IN FABRIC BRIDGE",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability exists where fabric bridges in SoCs do not properly enforce access control checks between IP blocks.\"",
+      "source_id": "chunk-af35a9635813405deb7665cfe32b1124"
+    },
+    {
+      "id": "CVE-2019-14353 VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Crypto hardware wallets expose secrets via USB power consumption patterns when displaying PINs or passwords.\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
+      "id": "DEVICE STATE TRANSITION VULNERABILITY (CWE-226) ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The product performs a power or debug state transition without clearing sensitive information that should no longer be accessible.\"",
+      "source_id": "chunk-48f47fa4c06f4f21169acdc6421f3964"
+    },
+    {
+      "id": "CVE-2020-27211 VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Insufficient protection against fault injection attacks in a system-on-chip, leading to unprotected memory bus states.\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
+      "id": "NON-DISCLOSURE AGREEMENTS (NDAS)",
+      "entity_type": "MITIGATION",
+      "description": "\"Chipmakers often require OSAT partners to enter into NDAs to protect confidential information, but this may not fully mitigate risks.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "id": "INTEGRITY SCOPE ",
+      "entity_type": "SCOPE",
+      "description": "\"A security scope ensuring data and system integrity despite potential hardware-level attacks.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "POLICY PRIVILEGES ARE NOT ASSIGNED CONSISTENTLY BETWEEN CONTROL AND DATA AGENTS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Inconsistent privilege assignment between control and data agents can lead to unauthorized resource access.\"",
+      "source_id": "chunk-0389a2e07ed94570629739162785392c"
+    },
+    {
+      "id": "DEBUG COMPONENT CHAINING VULNERABILITY (CWE-284)",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Logic errors during design or synthesis could misconfigure the interconnection of debug components, leading to unintended access permissions.\"",
+      "source_id": "chunk-f6f4c668b2aeaa26c41427011a11b6d8"
+    },
+    {
+      "id": "SERIAL WIRE DEBUG (SWD) ATTACK TECHNIQUE",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Attackers can exploit SWD commands to extract sensitive information from devices with improper access controls.\"",
+      "source_id": "chunk-f6f4c668b2aeaa26c41427011a11b6d8"
+    },
+    {
+      "id": "CWE-1294:MISSING SOURCE IDENTIFIER IN ENTITY TRANSACTIONS ON A SYSTEM-ON-CHIP (SOC)",
+      "entity_type": "VULNERABILITY",
+      "description": "\"This vulnerability arises when transactions in a System-On-Chip (SoC) do not include a source identifier, leading to potential Denial-of-Service attacks or unauthorized access.\"<SEP>\"Transactions on SoCs lack source identifiers, leading to potential unauthorized actions or Denial-of-Service attacks.\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "id": "TRUSTED MASTERS",
+      "entity_type": "MITIGATION",
+      "description": "\"Only trusted masters should be allowed to write to volatile memory regions during system boot.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "CVE-2020-9054",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A critical OS command injection vulnerability in network-attached storage (NAS) devices that is actively exploited to place IoT devices into a botnet.\"",
+      "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3"
+    },
+    {
+      "id": "SECURE-BOOT PROCESS",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"The secure-boot process involves transferring bootloader code from NVM to VM and authenticating it.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "OBSOLETE ENCODING MECHANISM IN SYSTEM-ON-A-CHIP (SOC) TRANSACTIONS",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The use of outdated encoding mechanisms in SoC transactions can lead to compromised security and unauthorized access.\"",
+      "source_id": "chunk-0389a2e07ed94570629739162785392c"
+    },
+    {
+      "id": "CWE-1303:NON-TRANSPARENT SHARING OF MICROARCHITECTURAL RESOURCES",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Shared hardware resources in modern processors can violate isolation between execution contexts, enabling security exploits.\"<SEP>\"This vulnerability occurs when hardware structures shared across execution contexts violate architectural isolation, potentially leading to security issues in modern processors.\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "id": "IMPROPER SCRUBBING OF SENSITIVE DATA FROM DECOMMISSIONED DEVICE",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The product does not properly provide a capability for the product administrator to remove sensitive data at decommissioning.\"",
+      "source_id": "chunk-0389a2e07ed94570629739162785392c"
+    },
+    {
+      "id": "BUS TRANSACTIONS",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Transactions on the bus are impacted by CWE-1290, allowing unauthorized access due to incorrect decoding.\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "id": "CWE-226:INSUFFICIENT OR INCOMPLETE DATA REMOVAL WITHIN HARDWARE COMPONENT",
+      "entity_type": "VULNERABILITY",
+      "description": "\"This weakness arises when hardware components fail to completely remove sensitive data during the removal process, allowing recovery of information through physical means like remanence.\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "id": "OSAT VENDORS",
+      "entity_type": "ATTACKER",
+      "description": "\"Outsourced Semiconductor Assembly and Test (OSAT) vendors can act as attackers by accessing confidential information on devices during production.\"",
+      "source_id": "chunk-f6f4c668b2aeaa26c41427011a11b6d8"
+    },
+    {
+      "id": "HASHING ALGORITHM",
+      "entity_type": "SOFTWARE",
+      "description": "\"A secure hashing algorithm used for code authentication during the boot process, potentially vulnerable if misused.\"<SEP>\"A secure one-way hashing algorithm used during the boot process to calculate and extend hashes for code authentication.\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "id": "CVE-2019-8575",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A firmware data deletion vulnerability where a factory reset on devices with vulnerable firmware versions may not clear all user information, exposing sensitive details to new owners.\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "id": "PROPER ACCESS CONTROL IMPLEMENTATION",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing proper access control and secure manufacturing processes can mitigate the risk of unauthorized access to device information.\"",
+      "source_id": "chunk-f6f4c668b2aeaa26c41427011a11b6d8"
+    },
+    {
+      "id": "CWE-1271",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Security-critical logic is not set to a known value on reset, leaving the device in an insecure state during initialization and potentially vulnerable to attack.\"",
+      "source_id": "chunk-413f231b6fa3e23dd4a25e4c2ca5b59e"
+    },
+    {
+      "id": "PRIVILEGE DISCREPANCIES BETWEEN CONTROL AND DATA AGENTS IN HARDWARE-ENFORCED ACCESS CONTROL",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Inconsistent privilege assignment between control and data agents in hardware-enforced access control can lead to unauthorized resource access and potential exploitation.\"",
+      "source_id": "chunk-0389a2e07ed94570629739162785392c"
+    },
+    {
+      "id": "BEST PRACTICES IN CRYPTOGRAPHIC SYSTEM DESIGN ",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing best practices, such as ensuring cryptographic operations only occur after supporting units are ready, is essential for securing cryptographic systems.\"",
+      "source_id": "chunk-1fafa91fe4e5dff2ece171cb782b7c74"
+    },
+    {
+      "id": "IMPROPER TRANSLATION OF SECURITY ATTRIBUTES",
+      "entity_type": "ATTACK PATTERN",
+      "description": "\"The attack pattern involves exploiting the bridge IP block's failure to correctly translate security attributes between fabric protocols.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "POLICY USES OBSOLETE ENCODING",
+      "entity_type": "VULNERABILITY",
+      "description": "\"The use of outdated encoding mechanisms in access control policies can lead to security compromises.\"",
+      "source_id": "chunk-0389a2e07ed94570629739162785392c"
+    },
+    {
+      "id": "DEBUG HOOK EXPLOITATION",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Exploiting debug hooks in non-release configurations allows attackers to bypass security checks.\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "id": "EXPLOITING MISSING PATCHING ABILITY ",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Adversaries use this technique to target systems that cannot patch ROM code, leading to persistent vulnerabilities.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "ACCESS CONTROLS",
+      "entity_type": "PRECONDITION",
+      "description": "\"Misconfigured access controls in the SoC contribute to vulnerabilities exploited by adversaries.\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "id": "PRE-MANUFACTURING CONFIGURATION TESTING",
+      "entity_type": "MITIGATION",
+      "description": "\"Ensuring proper testing and blowing the Manufacturing Complete fuse mitigate vulnerabilities in pre-production systems.\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "id": "SECURE PATCH SUPPORT AND SIGNAL TRANSLATION",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing secure patch support and ensuring proper signal translation in bridges can mitigate these hardware vulnerabilities.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "PROGRAMMING FLOWS TEST INADEQUACY",
+      "entity_type": "PRECONDITION",
+      "description": "\"Inadequate testing of programming flows during pre-silicon and post-silicon phases can lead to the exploitation of vulnerabilities in debug messages and security identifier mechanisms.\"",
+      "source_id": "chunk-87fc8cd680673c7b0399cfaa4acf73d6"
+    },
+    {
+      "id": "FIRMWARE SIGNING KEY MISMANAGEMENT",
+      "entity_type": "PRECONDITION",
+      "description": "\"Improper management of firmware signing keys is a prerequisite for attackers to exploit public key reuse vulnerabilities.\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "id": "UNAUTHORIZED ACCESS AND PRIVILEGE ESCALATION ",
+      "entity_type": "TACTIC",
+      "description": "\"The tactic involves exploiting vulnerabilities to gain unauthorized access or elevate privileges within the system.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "UNAUTHORIZED ACCESS TO SYSTEM RESOURCES",
+      "entity_type": "TACTIC",
+      "description": "\"The tactic involves gaining unauthorized access to system resources, such as encryption keys or device configurations.\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "id": "VOLATILE MEMORY CONTAINING BOOT CODE",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The product conducts a secure-boot process that transfers bootloader code from Non-Volatile Memory (NVM) into Volatile Memory (VM).\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "KNOWLEDGE OF SYSTEM VULNERABILITIES",
+      "entity_type": "PRECONDITION",
+      "description": "\"Adversaries must understand hardware weaknesses like missing patching abilities and improper attribute translation before exploiting them.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "UNAUTHORIZED CODE EXECUTION",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Adversaries can execute unauthorized code or commands by exploiting improper access control in volatile memory.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "SYSTEM IN PRE-MANUFACTURING STAGE",
+      "entity_type": "PRECONDITION",
+      "description": "\"The system being in a pre-manufacturing stage is a prerequisite for the vulnerability exploitation.\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "id": "HARDWARE-ENFORCED ACCESS CONTROL VULNERABILITY (E.G., CVE-2024-1234) ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A hardware-enforced access control vulnerability exists due to improper accounting of privilege discrepancies between policies.\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "id": "MISSING ABILITY TO PATCH ROM CODE ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Systems lack the capability to patch immutable ROM code, leaving them vulnerable to exploitation.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "APPROPRIATE POST-SI TESTS",
+      "entity_type": "MITIGATION",
+      "description": "\"Carrying out appropriate post-si tests ensures that residual confidential information is not left on parts during handover.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "id": "EXPOSURE OF DEBUG CAPABILITIES IN PRODUCTION CONFIGURATION",
+      "entity_type": "POSTCONDITION",
+      "description": "\"Exploiting the vulnerability results in exposure of debug capabilities and potential unauthorized access to system resources.\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "id": "IMPROPER TRANSLATION OF SECURITY ATTRIBUTES ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Fabric bridges fail to correctly translate security attributes between different fabric protocols, leading to potential access control bypasses.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "ACCESSING DEBUG FEATURES DURING RUNTIME ",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"This technique allows attackers to activate test/debug logic during runtime, leading to unauthorized system modifications.\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "id": "MODIFY VOLATILE MEMORY FROM UNTRUSTED AGENTS",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Adversaries can modify volatile memory regions from untrusted agents to bypass secure-boot protections.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "DEBUG HOOK EXPLOITATION TECHNIQUE",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Exploiting debug hooks in non-release configurations allows attackers to bypass security checks.\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "id": "FABRIC MASTER AGENTS",
+      "entity_type": "ATTACKER",
+      "description": "\"Untrusted fabric master agents can be used to modify volatile memory regions during system boot.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "RISKY DEBUG CAPABILITIES IN PRE-RELEASE CONFIGURATIONS",
+      "entity_type": "MITIGATION",
+      "description": "\"Implementing secure testing environments and proper configuration management mitigate risks associated with debug capabilities.\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "id": "SOC FABRIC BRIDGE",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The target entity is the System on Chip (SoC) fabric bridge, which connects different IP blocks and is susceptible to improper access control.\"",
+      "source_id": "chunk-af35a9635813405deb7665cfe32b1124"
+    },
+    {
+      "id": "PRODUCT SOFTWARE AND DEVICES USING TPM SPECIFICATIONS",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"The product software and devices that rely on TPM specifications are targeted due to their vulnerabilities in handling state transitions and credentials.\"",
+      "source_id": "chunk-48f47fa4c06f4f21169acdc6421f3964"
+    },
+    {
+      "id": "CWE-1274",
+      "entity_type": "VULNERABILITY",
+      "description": "\"CWE-1274: Locked memory regions may be modified through other interfaces in a secure-boot-loader image due to improper access control.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "HARDWARE-ENFORCED ACCESS CONTROL VULNERABILITY (E.G., CVE-284) ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A hardware-enforced access control vulnerability exists due to improper accounting of privilege discrepancies between policies.\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "id": "COMPROMISING SYSTEM SECURITY ",
+      "entity_type": "TACTIC",
+      "description": "\"The goal of attackers is to gain unauthorized access or control over system resources through exploitation.\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "id": "CREDENTIAL SHARING VULNERABILITY (CWE-200) ",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Credentials necessary for unlocking a device are shared across multiple parties, exposing sensitive information.\"",
+      "source_id": "chunk-48f47fa4c06f4f21169acdc6421f3964"
+    },
+    {
+      "id": "EXTORTION THROUGH RANSOM DEMAND",
+      "entity_type": "TACTIC",
+      "description": "\"Shadow Crew's main tactic is to extort money from victims by demanding a ransom to decrypt their encrypted files.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "CVE-2019-13945",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A hardware-based manufacturing access vulnerability in SIMATIC S7-1200 and S7-200 SMART CPUs, allowing additional diagnostic functionality during boot via physical access to the UART interface.\"",
+      "source_id": "chunk-413f231b6fa3e23dd4a25e4c2ca5b59e"
+    },
+    {
+      "id": "CONFIDENTIAL INFORMATION ACCESS CONTROL",
+      "entity_type": "TACTIC",
+      "description": "\"The chipmaker's tactic is to minimize confidential information accessible to OSAT vendors to prevent exploitation.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "id": "MULTIPLE COMPANIES SHARING UNLOCK CREDENTIALS",
+      "entity_type": "PRECONDITION",
+      "description": "\"When multiple companies share unlock credentials, the risk of sensitive information compromise increases due to differing security policies and practices.\"",
+      "source_id": "chunk-48f47fa4c06f4f21169acdc6421f3964"
+    },
+    {
+      "id": "SYSTEM-WIDE HARD RESET",
+      "entity_type": "PRECONDITION",
+      "description": "\"Signals for system-wide hard resets should be properly implemented to prevent unauthorized access.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "CREDENTIALS",
+      "entity_type": "TARGET ENTITY",
+      "description": "\"Unlock credentials are shared with a minimum number of parties and should be part-specific to limit risk.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "CWE-1278: CRYPTOGRAPHIC OPERATIONS ARE RUN BEFORE SUPPORTING UNITS ARE READY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability where cryptographic operations are performed before supporting units are ready, potentially compromising the security of encrypted data.\"",
+      "source_id": "chunk-1fafa91fe4e5dff2ece171cb782b7c74"
+    },
+    {
+      "id": "FABRIC BRIDGE IP BLOCK ",
+      "entity_type": "SOFTWARE",
+      "description": "\"The fabric bridge IP block is responsible for translating security attributes between different fabric protocols.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "CVE-2020-28368 VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Virtualization product allows AES key recovery via power/energy monitoring interfaces.\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
+      "id": "IMMUTABLE ROM CODE ",
+      "entity_type": "PRECONDITION",
+      "description": "\"ROM code immutability is a prerequisite that makes patching vulnerabilities impossible after deployment.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "VT-D PROTECTION ",
+      "entity_type": "MITIGATION",
+      "description": "\"Technology designed to protect against unauthorized access through address mapping, compromised in the described vulnerability.\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "id": "RACE CONDITIONS IN HARDWARE LOGIC",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A race condition in hardware logic can undermine security guarantees and allow attackers to bypass protections.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "id": "SECURE-BOOT FLOWS ",
+      "entity_type": "MITIGATION",
+      "description": "\"Processes to ensure proper initialization and prevent unauthorized modifications during system boot.\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "id": "SHIELDING/TAMPER-RESISTANT PROTECTIONS",
+      "entity_type": "MITIGATION",
+      "description": "\"Physical protections implemented during hardware manufacturing to prevent unauthorized measurements of sensitive data.\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
+      "id": "TRUSTED AGENT ",
+      "entity_type": "MITIGATION",
+      "description": "\"A trusted agent can be used to validate configuration integrity and prevent unauthorized modifications.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "HARDWARE REVERSE ENGINEERING VIA IC IMAGING TECHNIQUES",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"Attackers can use integrated circuit (IC) imaging techniques such as scanning electron microscopy to reverse engineer hardware and extract secrets like keys or proprietary designs.\"",
+      "source_id": "chunk-1fafa91fe4e5dff2ece171cb782b7c74"
+    },
+    {
+      "id": "USER CAUTIOUSNESS AND SECURITY MEASURES",
+      "entity_type": "PRECONDITION",
+      "description": "\"Users being cautious with emails and having proper security measures in place are prerequisites for preventing the attack.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "MONITOR DEVICE PHYSICAL UART DEBUG PORT ACCESS VULNERABILITY",
+      "entity_type": "VULNERABILITY",
+      "description": "\"A vulnerability exists where a monitor device allows unauthorized access to its physical UART debug port without requiring authentication.\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
+      "id": "LACK OF RESTRICTIONS ON TEST/DEBUG ACTIVATION ",
+      "entity_type": "PRECONDITION",
+      "description": "\"The absence of restrictions on activating test/debug features is a prerequisite for exploiting this vulnerability.\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "id": "CONTROL AND DATA AGENTS",
+      "entity_type": "SOFTWARE",
+      "description": "\"The product's hardware-enforced access control improperly accounts for privilege discrepancies between control and write policies.\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "id": "DEBUG FIRMWARE IMAGE COMPROMISE",
+      "entity_type": "PRECONDITION",
+      "description": "\"If the debug firmware image is compromised, attackers can gain access to internal debug capabilities, potentially leading to unauthorized control of the system.\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "id": "SECURE COMMUNICATION ARRANGEMENTS",
+      "entity_type": "MITIGATION",
+      "description": "\"Securing communication between an OSAT facility and the chipmaker reduces risks of information exposure.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "id": "MALICIOUS ATTACHMENT TRIGGERING",
+      "entity_type": "ATTACK TECHNIQUE",
+      "description": "\"When a user opens the malicious attachment in the phishing email, the exploit kit is triggered, leading to the installation of CryptoLock.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "TIMING ERRORS OR GLITCHES",
+      "entity_type": "PRECONDITION",
+      "description": "\"Timing errors or glitches in hardware logic can create opportunities for attackers to exploit vulnerabilities.\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "id": "CVE-2021-0146",
+      "entity_type": "VULNERABILITY",
+      "description": "\"Processor allows the activation of test or debug logic at runtime, allowing escalation of privileges.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "ACCESS CONTROL WEAKNESS VIA PUBLIC KEY REUSE",
+      "entity_type": "UNKNOWN",
+      "description": "\"The vulnerability of reusing public keys creates an access control weakness that attackers can exploit.\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "id": "PUBLIC KEY RE-USE FOR SIGNING BOTH DEBUG AND PRODUCTION CODE",
+      "entity_type": "UNKNOWN",
+      "description": "\"The vulnerability of reusing public keys creates an access control weakness that attackers can exploit.\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "id": "LAPTOPS WITH INTEL CHIPSETS",
+      "entity_type": "UNKNOWN",
+      "description": "\"The vulnerability (CVE-2018-4251) exists in laptops with Intel chipsets running in Manufacturing Mode.\"",
+      "source_id": "chunk-413f231b6fa3e23dd4a25e4c2ca5b59e"
+    },
+    {
+      "id": "CWE-693: MISSING PROTECTION AGAINST HARDWARE REVERSE ENGINEERING USING INTEGRATED CIRCUIT (IC) IMAGING TECHNIQUES ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Mitigation techniques like IC camouflaging can help protect against hardware reverse engineering vulnerabilities.\"",
+      "source_id": "chunk-1fafa91fe4e5dff2ece171cb782b7c74"
+    },
+    {
+      "id": "CWE-1277",
+      "entity_type": "UNKNOWN",
+      "description": "\"Enabling firmware updates would mitigate the vulnerability (CWE-1277) and prevent exploitation of CVE-2020-9054.\"",
+      "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3"
+    },
+    {
+      "id": "ADVERSARIES",
+      "entity_type": "UNKNOWN",
+      "description": "\"Adversaries exploit improper access control in volatile memory to bypass secure-boot processes.\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "id": "KNOWLEDGE OF SYSTEM VULNERABILITIES ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Understanding hardware weaknesses is a prerequisite for adversaries to exploit missing patching capabilities.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "MISSING PROTECTION FOR MIRRORED REGIONS ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Exploiting the missing protection leads to unauthorized system modifications and data leakage.\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "id": "PRE-MANUFACTURING CONFIGURATION",
+      "entity_type": "UNKNOWN",
+      "description": "\"Exploiting debug hooks is a technique used to gain unauthorized access in systems not yet in production.\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "id": "CWE-1270",
+      "entity_type": "UNKNOWN",
+      "description": "\"Incorrectly generated Security Tokens could result in a Denial-of-Service condition or privilege escalation.\"",
+      "source_id": "chunk-413f231b6fa3e23dd4a25e4c2ca5b59e"
+    },
+    {
+      "id": "DENIAL-OF-SERVICE (DOS)",
+      "entity_type": "UNKNOWN",
+      "description": "\"Incorrectly generated Security Tokens could result in a Denial-of-Service condition or privilege escalation.\"",
+      "source_id": "chunk-413f231b6fa3e23dd4a25e4c2ca5b59e"
+    },
+    {
+      "id": "MALICIOUS PROGRAMS",
+      "entity_type": "UNKNOWN",
+      "description": "\"Malicious programs exploit shared resources to create covert channels for data leakage.\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "id": "DECOMMISSIONING WITHOUT PROPER DATA REMOVAL",
+      "entity_type": "UNKNOWN",
+      "description": "\"The improper scrubbing of sensitive data is a direct consequence of inadequate preprocessing during decommissioning.\"",
+      "source_id": "chunk-0389a2e07ed94570629739162785392c"
+    },
+    {
+      "id": "MISSING SECURITY IDENTIFIERS ",
+      "entity_type": "UNKNOWN",
+      "description": "\"The absence of proper security identifiers directly contributes to the overall security identifier mechanism vulnerability.\"",
+      "source_id": "chunk-87fc8cd680673c7b0399cfaa4acf73d6"
+    },
+    {
+      "id": "CVE-2021-33150 ",
+      "entity_type": "UNKNOWN",
+      "description": "\"The vulnerability of missing write protection aligns with CVE-2021-33150, which allows activation of test or debug logic at runtime.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "MISSING WRITE PROTECTION FOR PARAMETRIC DATA VALUES",
+      "entity_type": "UNKNOWN",
+      "description": "\"The vulnerability of missing write protection aligns with CVE-2021-33150, which allows activation of test or debug logic at runtime.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "CVE-2021-0146 ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Improper bus controlling capability aligns with CVE-2021-0146, which allows escalation of privileges through test or debug logic activation.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "CWE ID 862 ",
+      "entity_type": "UNKNOWN",
+      "description": "\"The lack of requirement to protect parametric values contributes to the 'Missing Write Protection' vulnerability as a prerequisite.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "BUS CONTROLLER MISUSE ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Implementing access controls mitigates the risk of unauthorized control over bus transactions.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "HARDWARE ALLOWS ACTIVATION OF TEST OR DEBUG LOGIC AT RUNTIME ",
+      "entity_type": "UNKNOWN",
+      "description": "\"This attack technique targets the vulnerability where debug features are accessible during runtime.\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "id": "ACCESS CONTROL CHECK IMPLEMENTED AFTER ASSET IS ACCESSED ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Vulnerabilities in cryptographic operations and access control checks collectively weaken system security.\"",
+      "source_id": "chunk-1fafa91fe4e5dff2ece171cb782b7c74"
+    },
+    {
+      "id": "CWE-1278: CRYPTOGRAPHIC OPERATIONS ARE RUN BEFORE SUPPORTING UNITS ARE READY ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Vulnerabilities in cryptographic operations and access control checks collectively weaken system security.\"",
+      "source_id": "chunk-1fafa91fe4e5dff2ece171cb782b7c74"
+    },
+    {
+      "id": "SENSOR HARDWARE MISCONFIGURATION ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Architectural design weaknesses in hardware create conditions for sensor misconfigurations and vulnerabilities.\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "id": "DATA RECOVERY FROM HARDWARE COMPONENTS",
+      "entity_type": "UNKNOWN",
+      "description": "\"The insufficient data removal process allows sensitive information to be recovered physically, affecting the confidentiality of the system.\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "id": "TRANSACTION-BASED SECURITY BREACH",
+      "entity_type": "UNKNOWN",
+      "description": "\"The absence of source identifiers in transactions can lead to unintended actions or Denial-of-Service attacks, affecting system integrity and availability.\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "id": "MICROARCHITECTURE EXPLOITATION",
+      "entity_type": "UNKNOWN",
+      "description": "\"The non-transparent sharing of hardware resources can be exploited to violate isolation between execution contexts, affecting system security.\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "id": "CVE-2019-18673",
+      "entity_type": "UNKNOWN",
+      "description": "\"The vulnerability allows attackers to read sensitive information such as PINs by analyzing USB power consumption.\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "id": "UNAUTHORIZED DATA ACCESS VIA USB POWER ANALYSIS",
+      "entity_type": "UNKNOWN",
+      "description": "\"The vulnerability allows attackers to read sensitive information such as PINs by analyzing USB power consumption.\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "id": "DATA RECOVERY FROM HARDWARE COMPONENTS VIA REMANENCE",
+      "entity_type": "UNKNOWN",
+      "description": "\"The incomplete removal of data in hardware components enables recovery through physical properties like remanence.\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "id": "EXPOSED SENSITIVE INFORMATION AFTER FACTORY RESET",
+      "entity_type": "UNKNOWN",
+      "description": "\"A factory reset on vulnerable devices fails to clear all user information, exposing sensitive details to new owners.\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "id": "UNAUTHORIZED ACTIONS OR DOS VIA MISSING SOURCE IDENTIFIERS",
+      "entity_type": "UNKNOWN",
+      "description": "\"The absence of source identifiers in transactions can lead to unintended actions, privilege escalation, or Denial-of-Service attacks.\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "id": "MICROARCHITECTURE EXPLOITATION FOR ISOLATION VIOLATIONS",
+      "entity_type": "UNKNOWN",
+      "description": "\"The non-transparent sharing of hardware resources can be exploited to violate isolation between execution contexts.\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "id": "SECURE PATCH SUPPORT AND SIGNAL TRANSLATION ",
+      "entity_type": "UNKNOWN",
+      "description": "\"Mitigation measures ensure proper signal translation and prevent exploitation of attribute translation flaws.\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "id": "SENSITIVE DATA RETRIEVAL BY MALICIOUS ACTORS",
+      "entity_type": "UNKNOWN",
+      "description": "\"Exploitation of improper scrubbing leads to unauthorized access to sensitive data.\"",
+      "source_id": "chunk-0389a2e07ed94570629739162785392c"
+    },
+    {
+      "id": "BYPASSING PROTECTION MECHANISMS ",
+      "entity_type": "UNKNOWN",
+      "description": "\"The attack pattern exploits the missing protection for mirrored regions to achieve its goal.\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "id": "MISSING PROTECTION FOR MIRRORED REGIONS",
+      "entity_type": "UNKNOWN",
+      "description": "\"The attack pattern exploits the missing protection for mirrored regions to achieve its goal.\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "id": "SIMATIC S7-1200 AND S7-200 SMART CPUS",
+      "entity_type": "UNKNOWN",
+      "description": "\"The SIMATIC S7-1200 CPU family (incl. SIPLUS variants) and SIMATIC S7-200 SMART CPU family are vulnerable to the manufacturing access exploit described in CVE-2019-13945.\"",
+      "source_id": "chunk-413f231b6fa3e23dd4a25e4c2ca5b59e"
+    },
+    {
+      "id": "PRODUCT SOFTWARE",
+      "entity_type": "UNKNOWN",
+      "description": "\"The product software's failure to set a flag as per TPM specifications leads to the CVE-2020-12926 vulnerability.\"",
+      "source_id": "chunk-48f47fa4c06f4f21169acdc6421f3964"
     }
   ],
   "edges": [
@@ -3291,10 +4767,10 @@
     {
       "source": "WINDOWS OPERATING SYSTEMS",
       "target": "WINDOWS PRINT SPOOLER VULNERABILITY",
-      "weight": 9.0,
-      "description": "\"Vulnerability exists in Windows systems.\"",
+      "weight": 18.0,
+      "description": "\"The Windows print spooler vulnerability exists in Windows operating systems, making them susceptible to attacks.\"<SEP>\"Vulnerability exists in Windows systems.\"",
       "keywords": "\"Exist_in\"",
-      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b<SEP>chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
     },
     {
       "source": "CVE-2005-0315",
@@ -3707,10 +5183,10 @@
     {
       "source": "FILE ENCRYPTION AND RANSOM DEMAND",
       "target": "WINDOWS PRINT SPOOLER VULNERABILITY",
-      "weight": 8.0,
-      "description": "\"Postcondition results from exploitation.\"",
+      "weight": 16.0,
+      "description": "\"Postcondition results from exploitation.\"<SEP>\"The postcondition of file encryption and ransom demand is a result of exploiting the Windows print spooler vulnerability.\"",
       "keywords": "\"affecting\"",
-      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b<SEP>chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
     },
     {
       "source": "TESTING PHASE",
@@ -3735,6 +5211,22 @@
       "description": "\"Phishing exploits the vulnerability.\"",
       "keywords": "\"Exploit\"",
       "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "WINDOWS PRINT SPOOLER VULNERABILITY",
+      "target": "PHISHING AND EXPLOIT KIT DISTRIBUTION PATTERN",
+      "weight": 7.0,
+      "description": "\"The phishing and exploit kit distribution pattern exploits the Windows print spooler vulnerability to infect systems.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "source": "WINDOWS PRINT SPOOLER VULNERABILITY",
+      "target": "USER CAUTIOUSNESS AND SECURITY MEASURES",
+      "weight": 6.0,
+      "description": "\"User cautiousness and security measures are prerequisites for preventing the exploitation of the Windows print spooler vulnerability.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
     },
     {
       "source": "ENCRYPTED CHANNELS CONFIGURATION",
@@ -3817,6 +5309,30 @@
       "source_id": "chunk-155e5cca5e90d88780b67dd7b487829a"
     },
     {
+      "source": "CVE-2019-6260",
+      "target": "SOC FABRIC BRIDGE AND BMC DEVICES",
+      "weight": 8.0,
+      "description": "\"The CVE-2019-6260 vulnerability exists in the BMC device's AHB bridges, which are part of SoC fabric bridge components.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-af35a9635813405deb7665cfe32b1124"
+    },
+    {
+      "source": "CVE-2019-6260",
+      "target": "FABRIC BRIDGE VULNERABILITY IDENTIFICATION",
+      "weight": 6.0,
+      "description": "\"Identifying vulnerabilities like CVE-2019-6260 is a prerequisite for attackers to exploit fabric bridge weaknesses.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-af35a9635813405deb7665cfe32b1124"
+    },
+    {
+      "source": "CVE-2019-6260",
+      "target": "IMPROPER ACCESS CONTROL EXPLOITATION TECHNIQUE",
+      "weight": 7.0,
+      "description": "\"The attack technique of exploiting improper access control is used to target the CVE-2019-6260 vulnerability.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-af35a9635813405deb7665cfe32b1124"
+    },
+    {
       "source": "UNAUTHORIZED JTAG ACCESS",
       "target": "DEBUG/TEST INTERFACE TOOLS",
       "weight": 7.0,
@@ -3897,12 +5413,60 @@
       "source_id": "chunk-b2db9bd0b7df158579fa4f955ca5f332"
     },
     {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "MUTABLE ATTESTATION DATA VULNERABILITY",
+      "weight": 9.0,
+      "description": "\"This vulnerability exists in the SoC's measurement data registers, making it a target for exploitation.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "INCORRECT DECODING MECHANISM VULNERABILITY",
+      "weight": 8.0,
+      "description": "\"The incorrect decoding mechanism is part of the SoC's security identifier handling process, exposing it to unauthorized access.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "CWE-1283",
+      "weight": 9.0,
+      "description": "\"This vulnerability exists in the SoC's secure boot process, making it a target for exploitation.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "ACCESS CONTROLS",
+      "weight": 7.0,
+      "description": "\"Misconfigured access controls in the SoC are prerequisites for exploiting vulnerabilities.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "source": "SYSTEM-ON-CHIP (SOC)",
+      "target": "BUS/INTERFACE HARDWARE WEAKNESSES",
+      "weight": 9.0,
+      "description": "\"The SoC is the target entity where weaknesses in bus-transaction signal conversions and security identifier mappings exist.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
       "source": "CRYPTOLOCK",
       "target": "SHADOW CREW",
-      "weight": 9.0,
-      "description": "\"Shadow Crew uses CryptoLock for attacks.\"",
+      "weight": 18.0,
+      "description": "\"Shadow Crew uses CryptoLock for attacks.\"<SEP>\"Shadow Crew uses CryptoLock to carry out ransomware attacks on Windows systems.\"",
       "keywords": "\"Use\"",
-      "source_id": "chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b<SEP>chunk-97f0fe12f43fe0952f114af5f3d4a0a1"
+    },
+    {
+      "source": "CRYPTOLOCK",
+      "target": "MALICIOUS ATTACHMENT TRIGGERING",
+      "weight": 8.0,
+      "description": "\"CryptoLock is installed through the attack technique of malicious attachment triggering in phishing emails.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
     },
     {
       "source": "UNAUTHORIZED DATA EXTRACTION OR CODE EXECUTION",
@@ -3943,6 +5507,62 @@
       "description": "\"Attackers exploit these vulnerabilities to gain unauthorized access.\"",
       "keywords": "\"Exploit\"",
       "source_id": "chunk-2ccff7f000ca8ceb65b49c7c3183348d"
+    },
+    {
+      "source": "ADVERSARY",
+      "target": "INCORRECT DECODING MECHANISM VULNERABILITY",
+      "weight": 7.0,
+      "description": "\"The attacker uses incorrect decoding mechanisms to gain unauthorized access to assets by exploiting security identifier weaknesses.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "source": "ADVERSARY",
+      "target": "MUTABLE ATTESTATION DATA VULNERABILITY",
+      "weight": 8.0,
+      "description": "\"The adversary exploits the mutable attestation data vulnerability to spoof measurement data, compromising system integrity.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "source": "ADVERSARY",
+      "target": "CWE-1290",
+      "weight": 8.0,
+      "description": "\"The attacker leverages CWE-1290 to gain unauthorized access via incorrect security identifier decoding.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "source": "ADVERSARY",
+      "target": "CWE-1283",
+      "weight": 9.0,
+      "description": "\"The adversary exploits CWE-1283 to manipulate measurement data in the SoC's secure boot process.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "source": "ADVERSARY",
+      "target": "HASHING ALGORITHM",
+      "weight": 6.0,
+      "description": "\"The adversary's ability to exploit vulnerabilities is mitigated by the use of a secure hashing algorithm in the SoC.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "source": "ADVERSARY",
+      "target": "EXPLOITING MISSING PATCHING ABILITY ",
+      "weight": 8.0,
+      "description": "\"Adversaries exploit the missing patching ability in hardware systems to maintain vulnerabilities and gain unauthorized access.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "source": "ADVERSARY",
+      "target": "FABRIC BRIDGE IP BLOCK ",
+      "weight": 8.0,
+      "description": "\"Adversaries target the fabric bridge to exploit improper translation of security attributes.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
     },
     {
       "source": "BYPASS AUTHENTICATION EXPLOIT",
@@ -3999,6 +5619,22 @@
       "description": "\"Attackers use ChipWhisperer to test hardware vulnerabilities.\"",
       "keywords": "\"Use\"",
       "source_id": "chunk-1ea2cd26ef91f5c526781b17429acd7f"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "HALT AND CATCH FIRE SEQUENCES",
+      "weight": 16.0,
+      "description": "\"Attackers use halt and catch fire sequences to carry out attacks on processor hardware.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
+    },
+    {
+      "source": "ATTACKERS",
+      "target": "EXPLOIT KIT",
+      "weight": 8.0,
+      "description": "\"Attackers use the exploit kit to carry out attacks on NAS devices.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3"
     },
     {
       "source": "DEBUG/TEST INTERFACE TOOLS",
@@ -4121,6 +5757,14 @@
       "source_id": "chunk-edc0b7b8ef9d117a05387c6abf439ce2"
     },
     {
+      "source": "RANSOMWARE PROTECTION AND PATCHING",
+      "target": "MALICIOUS ATTACHMENT TRIGGERING",
+      "weight": 8.0,
+      "description": "\"Ransomware protection and patching are intended to mitigate the attack technique of malicious attachment triggering.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
       "source": "JAVA-ORIENTED FRAMEWORK HMAC COMPARISON TIMING DISCREPANCY",
       "target": "CVE-2019-10071",
       "weight": 8.0,
@@ -4239,6 +5883,22 @@
       "description": "\"Attackers exploit JTAG interfaces to gain unauthorized access to systems.\"",
       "keywords": "\"Use\"",
       "source_id": "chunk-a6dc7fbf8ba2eb5753ca8bd31a3928a8"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "CWE-1316",
+      "weight": 16.0,
+      "description": "\"Attackers exploit CWE-1316 by targeting overlapped address ranges.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "source": "ATTACKER",
+      "target": "EXPLOITING TEST/DEBUG FEATURES ",
+      "weight": 8.0,
+      "description": "\"Attackers use the technique of exploiting test/debug features to compromise system integrity.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
     },
     {
       "source": "TRUSS (SOLARIS)",
@@ -4889,6 +6549,30 @@
       "source_id": "chunk-25f73985e28c5422bb14dc5727705f9e"
     },
     {
+      "source": "CWE-1316",
+      "target": "ADDRESS MAP DESIGN FLAW ",
+      "weight": 9.0,
+      "description": "\"The design flaw in the address map is the root cause of CWE-1316 vulnerability.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "source": "CWE-1316",
+      "target": "OVERLAPPING ADDRESS RANGES ",
+      "weight": 16.0,
+      "description": "\"CWE-1316 is characterized by overlapping address ranges, a prerequisite for exploitation.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "source": "CWE-1316",
+      "target": "ATTACK ON ADDRESS MAP OVERLAPS ",
+      "weight": 16.0,
+      "description": "\"The attack pattern directly targets the vulnerability in CWE-1316.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
       "source": "SPOOFED UPDATE REQUEST INJECTION",
       "target": "RACE CONDITION EXPLOITATION PATTERN ",
       "weight": 8.0,
@@ -4911,6 +6595,14 @@
       "description": "\"TMR is a mitigation strategy used to detect and correct errors caused by SEUs in security-sensitive hardware modules.\"",
       "keywords": "\"Mitigate\"",
       "source_id": "chunk-25f73985e28c5422bb14dc5727705f9e"
+    },
+    {
+      "source": "DENIAL OF SERVICE (DOS)",
+      "target": "HALT AND CATCH FIRE SEQUENCES",
+      "weight": 14.0,
+      "description": "\"The tactic of denial of service is accomplished through the attack technique of executing halt and catch fire sequences.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
     },
     {
       "source": "PLUNDERVOLT AND CLKSCREW ATTACKS",
@@ -5169,12 +6861,36 @@
       "source_id": "chunk-a6dc7fbf8ba2eb5753ca8bd31a3928a8"
     },
     {
+      "source": "BLINDING/MASKING TECHNIQUES",
+      "target": "PHYSICAL SIDE CHANNEL MONITORING AND INFERENCE",
+      "weight": 16.0,
+      "description": "\"These techniques are implemented to mitigate the attack pattern by disrupting the leakage of sensitive information.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
       "source": "FINITE STATE MACHINES (FSM)",
       "target": "IMPROPER FSM IMPLEMENTATION",
       "weight": 8.0,
       "description": "\"Faulty FSM designs create vulnerabilities that can be exploited by attackers.\"",
       "keywords": "\"Same_as\"",
       "source_id": "chunk-a6dc7fbf8ba2eb5753ca8bd31a3928a8"
+    },
+    {
+      "source": "FINITE STATE MACHINES (FSM)",
+      "target": "ACCESS CONTROL LOGIC",
+      "weight": 9.0,
+      "description": "\"Finite state machines are part of the access control logic and can be vulnerable to attacks.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "source": "SECURE BOOT PROCESS",
+      "target": "HASHING ALGORITHM",
+      "weight": 15.0,
+      "description": "\"The hashing algorithm is used by the secure boot process to authenticate code integrity.\"<SEP>\"The secure boot process utilizes a hashing algorithm to authenticate code integrity during boot flow.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
     },
     {
       "source": "ATTACK PATTERN",
@@ -5191,6 +6907,846 @@
       "description": "\"This relationship highlights the importance of assessing and mitigating risks associated with cryptographic primitives to prevent exploitation.\"",
       "keywords": "\"Mitigate\"",
       "source_id": "chunk-a47308ac5873562af0ec6cecb9598b6d"
+    },
+    {
+      "source": "MEASURED LAUNCH ENVIRONMENT ",
+      "target": "VT-D PROTECTION ",
+      "weight": 8.0,
+      "description": "\"VT-d protection is applied during the Measured Launch Environment to secure system initialization.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "source": "UNAUTHORIZED ACCESS OR DATA EXPOSURE ",
+      "target": "CVE-2009-4419",
+      "weight": 14.0,
+      "description": "\"Exploitation of CVE-2009-4419 leads to unauthorized access or data exposure.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "source": "ATTACK ON ADDRESS MAP OVERLAPS ",
+      "target": "EXPLOITING ADDRESS OVERLAPS ",
+      "weight": 18.0,
+      "description": "\"This technique is part of the broader attack pattern.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "source": "PRODUCTION KEY USAGE",
+      "target": "PUBLIC KEY RE-USE FOR SIGNING BOTH DEBUG AND PRODUCTION CODE",
+      "weight": 8.0,
+      "description": "\"Using different keys for production and debug mitigates the risk of public key reuse, which would otherwise allow attackers to exploit debug capabilities in production systems.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "source": "PHYSICAL SIDE CHANNEL MONITORING AND INFERENCE",
+      "target": "SHIELDING/TAMPER-RESISTANT PROTECTIONS",
+      "weight": 14.0,
+      "description": "\"Implementing shielding or tamper-resistant measures helps prevent adversaries from successfully monitoring physical side channels.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
+      "source": "PHYSICAL SIDE CHANNEL MONITORING AND INFERENCE",
+      "target": "INSUFFICIENT OR INCOMPLETE DATA REMOVAL WITHIN HARDWARE COMPONENT VULNERABILITY",
+      "weight": 8.0,
+      "description": "\"The improper data removal process in hardware components is exploited using physical side channel techniques to extract sensitive information.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
+      "source": "PHYSICAL SIDE CHANNEL MONITORING AND INFERENCE",
+      "target": "MONITOR DEVICE PHYSICAL UART DEBUG PORT ACCESS VULNERABILITY",
+      "weight": 14.0,
+      "description": "\"The debug port vulnerability is exploited using physical side channel techniques to gain unauthorized access.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
+      "source": "PHYSICAL SIDE CHANNEL MONITORING AND INFERENCE",
+      "target": "IMPROPER PROTECTION OF PHYSICAL SIDE CHANNELS",
+      "weight": 16.0,
+      "description": "\"Attackers exploit improper protection mechanisms to perform physical side channel monitoring, enabling inferences about sensitive data.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-350f1de43053ea2973652d98a983f7fb"
+    },
+    {
+      "source": "REMOVAL OF SENSITIVE INFORMATION DURING STATE TRANSITIONS",
+      "target": "DEVICE STATE TRANSITION VULNERABILITY (CWE-226) ",
+      "weight": 14.0,
+      "description": "\"The mitigation strategy addresses the state transition vulnerability by ensuring sensitive information is cleared before transitions.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-48f47fa4c06f4f21169acdc6421f3964"
+    },
+    {
+      "source": "HARDWARE IP COMMUNICATION",
+      "target": "DEBUG MODE RESET",
+      "weight": 7.0,
+      "description": "\"Adversaries can exploit debug mode resets to violate data integrity within hardware IPs.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "source": "CWE-1276",
+      "target": "HARDWARE CHILD BLOCK CONNECTION ISSUES",
+      "weight": 9.0,
+      "description": "\"CWE-1276 addresses hardware child block connection issues that can lead to security risks.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "source": "INCORRECT CONVERSION OF SECURITY IDENTIFIERS",
+      "target": "BUS PROTOCOL CONVERSION MISIMPLEMENTATION",
+      "weight": 15.0,
+      "description": "\"The misimplementation of bus protocol conversions directly impacts the conversion mechanism for security identifiers, leading to vulnerabilities.\"<SEP>\"The misimplementation of bus protocol conversions leads to vulnerabilities in the conversion mechanism for security identifiers.\"",
+      "keywords": "\"Implement\"<SEP>\"Same_as\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "source": "SECURITY IDENTIFIER MECHANISM VULNERABILITY",
+      "target": "INSECURE SECURITY IDENTIFIER MECHANISM",
+      "weight": 16.0,
+      "description": "\"The attack pattern of exploiting the insecure security identifier mechanism directly targets the underlying vulnerability.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-87fc8cd680673c7b0399cfaa4acf73d6"
+    },
+    {
+      "source": "SECURITY IDENTIFIER MECHANISM VULNERABILITY",
+      "target": "MISSING SECURITY IDENTIFIERS ",
+      "weight": 8.0,
+      "description": "\"The absence of proper security identifiers directly contributes to the overall security identifier mechanism vulnerability.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-87fc8cd680673c7b0399cfaa4acf73d6"
+    },
+    {
+      "source": "MODERN PROCESSORS WITH OUT-OF-ORDER EXECUTION ",
+      "target": "SHARED MICROARCHITECTURAL RESOURCES (E.G., CACHES, BRANCH PREDICTORS)",
+      "weight": 9.0,
+      "description": "\"The target entity's architecture includes shared resources that are vulnerable to exploitation via microarchitectural covert channels.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "source": "CVE-2009-4419",
+      "target": "MCHBAR REGISTER MODIFICATION ",
+      "weight": 22.0,
+      "description": "\"The CVE exploits the MCHBAR register to overlap regions and bypass VT-d protection.\"<SEP>\"The attack technique exploits CVE-2009-4419 through MCHBAR register manipulation.\"",
+      "keywords": "\"Exploit\"<SEP>\"Implement\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "source": "INFORMATION LEAKAGE (E.G., CRYPTOGRAPHIC KEYS, ALSR OFFSETS)",
+      "target": "SHARED MICROARCHITECTURAL RESOURCES (E.G., CACHES, BRANCH PREDICTORS)",
+      "weight": 7.0,
+      "description": "\"Exploiting shared resources results in information leakage as the postcondition of successful attacks.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "source": "UNAUTHORIZED ACCESS AND BMC EXPLOITATION",
+      "target": "IMPROPER ACCESS CONTROL EXPLOITATION TECHNIQUE",
+      "weight": 7.0,
+      "description": "\"The tactic of unauthorized access is accomplished through the attack technique of exploiting improper access controls in fabric bridges or BMC devices.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-af35a9635813405deb7665cfe32b1124"
+    },
+    {
+      "source": "EXPLOITATION OF DEBUG FIRMWARE CAPABILITIES",
+      "target": "DEBUG FIRMWARE IMAGE COMPROMISE",
+      "weight": 6.0,
+      "description": "\"The compromise of debug firmware images enables attackers to exploit debug capabilities in production systems.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "source": "MALICIOUS INSIDER ATTACK",
+      "target": "CHIPMAKER",
+      "weight": 8.0,
+      "description": "\"Chipmakers face risks from malicious insider attacks within OSAT facilities that could compromise sensitive information.\"",
+      "keywords": "\"Risk_of\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "source": "MALICIOUS INSIDER ATTACK",
+      "target": "RACE CONDITIONS IN HARDWARE LOGIC",
+      "weight": 8.0,
+      "description": "\"Malicious insiders could exploit race conditions to gain unauthorized access or manipulate system behavior.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "source": "UNAUTHORIZED ACCESS TO HIDDEN FUNCTIONALITIES",
+      "target": "CREDENTIALS",
+      "weight": 8.0,
+      "description": "\"Compromised credentials lead to unauthorized access to hidden functionalities as a postcondition.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "source": "PARTITIONED CACHES, BARRIER/FLUSH INSTRUCTIONS, DISABLING HIGH-RESOLUTION COUNTERS ",
+      "target": "SPECULATIVE AND OUT-OF-ORDER EXECUTION ",
+      "weight": 8.0,
+      "description": "\"Mitigations counteract the attack technique of speculative execution by limiting shared resources and controlling speculation.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "source": "VOLATILE-MEMORY PROTECTIONS",
+      "target": "IMPROPER ACCESS CONTROL FOR VOLATILE MEMORY CONTAINING BOOT CODE",
+      "weight": 7.0,
+      "description": "\"Ensuring volatile-memory protections mitigates the improper access control vulnerability.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "source": "ACCESS CONTROL BYPASS",
+      "target": "NON-DISCLOSURE AGREEMENTS (NDAS)",
+      "weight": 7.0,
+      "description": "\"NDAs are part of the chipmaker's strategy to mitigate risks but may not prevent all access control bypass scenarios.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "source": "DEBUG MESSAGES VULNERABILITY",
+      "target": "REVEALING SENSITIVE INFORMATION VIA DEBUG MESSAGES",
+      "weight": 16.0,
+      "description": "\"The attack pattern of revealing sensitive information through debug messages exploits the debug messages vulnerability.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-87fc8cd680673c7b0399cfaa4acf73d6"
+    },
+    {
+      "source": "DEBUG MESSAGES VULNERABILITY",
+      "target": "PROGRAMMING FLOWS TEST INADEQUACY",
+      "weight": 7.0,
+      "description": "\"Inadequate testing of programming flows is a prerequisite for the existence of debug messages vulnerability.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-87fc8cd680673c7b0399cfaa4acf73d6"
+    },
+    {
+      "source": "POWER SAVE/RESTORE CONFIGURATION STATE INTEGRITY ",
+      "target": "COMPROMISED CONFIGURATION UPON RESTORE ",
+      "weight": 6.0,
+      "description": "\"A compromised configuration upon restore is a consequence of the precondition where attackers alter power save/restore states without integrity checks.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "source": "ENSURING NON-OVERLAPPING RANGES AND SECURE CONFIGURATIONS ",
+      "target": "EXPLOITING ADDRESS OVERLAPS ",
+      "weight": 16.0,
+      "description": "\"Mitigation measures prevent the technique from succeeding.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "source": "CWE-693: MISSING PROTECTION AGAINST HARDWARE REVERSE ENGINEERING USING INTEGRATED CIRCUIT (IC) IMAGING TECHNIQUES",
+      "target": "CWE-1278: CRYPTOGRAPHIC OPERATIONS ARE RUN BEFORE SUPPORTING UNITS ARE READY ",
+      "weight": 9.0,
+      "description": "\"The absence of protection against hardware reverse engineering creates an environment where cryptographic vulnerabilities can be exploited.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-1fafa91fe4e5dff2ece171cb782b7c74"
+    },
+    {
+      "source": "CVE-2018-4251",
+      "target": "LAPTOPS WITH INTEL CHIPSETS",
+      "weight": 18.0,
+      "description": "\"The vulnerability (CVE-2018-4251) exists in laptops with Intel chipsets running in Manufacturing Mode.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-413f231b6fa3e23dd4a25e4c2ca5b59e"
+    },
+    {
+      "source": "PROCESSOR HARDWARE",
+      "target": "SPECIFIC INSTRUCTION SEQUENCES (E.G., X86 INSTRUCTIONS)",
+      "weight": 14.0,
+      "description": "\"The processor hardware executes specific instruction sequences that can lead to unexpected behavior.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
+    },
+    {
+      "source": "EXPLOITING ADDRESS OVERLAPS ",
+      "target": "COMPROMISING SYSTEM SECURITY ",
+      "weight": 14.0,
+      "description": "\"The tactic is achieved through exploiting address overlaps.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-022b88d5b18c3c7a7589c9de7a7a5d1c"
+    },
+    {
+      "source": "SPECULATIVE AND OUT-OF-ORDER EXECUTION ",
+      "target": "MICROARCHITECTURAL COVERT CHANNELS ",
+      "weight": 7.0,
+      "description": "\"Speculative execution enhances the attack technique of exploiting microarchitectural covert channels by controlling data leakage.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "source": "LOGIC REDUNDANCY IMPLEMENTATION",
+      "target": "CHIPMAKER",
+      "weight": 8.0,
+      "description": "\"Chipmakers implement logic redundancy to eliminate race conditions and reduce vulnerabilities.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "source": "ON-CHIP FABRIC AND HARDWARE SYSTEMS",
+      "target": "HARDWARE ALLOWS ACTIVATION OF TEST OR DEBUG LOGIC AT RUNTIME ",
+      "weight": 9.0,
+      "description": "\"This vulnerability affects the same target entities as missing protection for mirrored regions.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "source": "ON-CHIP FABRIC AND HARDWARE SYSTEMS",
+      "target": "MISSING PROTECTION FOR MIRRORED REGIONS",
+      "weight": 9.0,
+      "description": "\"The vulnerability exists in on-chip fabric and hardware systems, affecting their security.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "source": "UNAUTHORIZED ACCESS",
+      "target": "RACE CONDITIONS IN HARDWARE LOGIC",
+      "weight": 7.0,
+      "description": "\"Race conditions can lead to unauthorized access or bypass of protection mechanisms.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "source": "IC CAMOUFLAGING AND OBFUSCATION",
+      "target": "CWE-693: MISSING PROTECTION AGAINST HARDWARE REVERSE ENGINEERING USING INTEGRATED CIRCUIT (IC) IMAGING TECHNIQUES ",
+      "weight": 8.0,
+      "description": "\"Mitigation techniques like IC camouflaging can help protect against hardware reverse engineering vulnerabilities.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-1fafa91fe4e5dff2ece171cb782b7c74"
+    },
+    {
+      "source": "UNAUTHORIZED SYSTEM MODIFICATIONS AND DATA LEAKAGE ",
+      "target": "MISSING PROTECTION FOR MIRRORED REGIONS ",
+      "weight": 8.0,
+      "description": "\"Exploiting the missing protection leads to unauthorized system modifications and data leakage.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "source": "KNOWLEDGE OF VULNERABILITIES",
+      "target": "CWE-2021-26339 AND CVE-1999-1476",
+      "weight": 16.0,
+      "description": "\"Attackers must have knowledge of specific vulnerabilities to exploit them, such as CWE-2021-26339 and CVE-1999-1476.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
+    },
+    {
+      "source": "DEBUG COMPONENT CHAINING VULNERABILITY",
+      "target": "OSAT VENDORS",
+      "weight": 8.0,
+      "description": "\"OSAT vendors exploit the debug component chaining vulnerability to gain unauthorized access to confidential information on devices.\"",
+      "keywords": "\"Use\"",
+      "source_id": "chunk-f6f4c668b2aeaa26c41427011a11b6d8"
+    },
+    {
+      "source": "ACCESS CONTROL POLICY EXPLOITATION PATTERN",
+      "target": "UNAUTHORIZED ACCESS TO SYSTEM RESOURCES",
+      "weight": 17.0,
+      "description": "\"The tactic of unauthorized access is accomplished through the attack pattern of exploiting access control policies.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "source": "ACCESS CONTROL POLICY EXPLOITATION PATTERN",
+      "target": "HARDWARE-ENFORCED ACCESS CONTROL VULNERABILITY (E.G., CVE-2024-1234) ",
+      "weight": 8.0,
+      "description": "\"The attack pattern exploits vulnerabilities in hardware-enforced access control policies.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "source": "ACCESS CONTROL POLICY EXPLOITATION PATTERN",
+      "target": "HARDWARE-ENFORCED ACCESS CONTROL VULNERABILITY (E.G., CVE-284) ",
+      "weight": 9.0,
+      "description": "\"The attack pattern exploits vulnerabilities in hardware-enforced access control policies.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "source": "CWE-2021-26339 AND CVE-1999-1476",
+      "target": "PROCESSOR (AMD/CPU)",
+      "weight": 18.0,
+      "description": "\"These vulnerabilities exist in processor hardware, specifically in AMD CPUs and Intel Pentium processors.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
+    },
+    {
+      "source": "UNAUTHORIZED DEVICE ACCESS VIA CREDENTIALS",
+      "target": "CREDENTIAL SHARING VULNERABILITY (CWE-200) ",
+      "weight": 16.0,
+      "description": "\"The tactic of unauthorized device access is accomplished through exploiting the credential sharing vulnerability.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-48f47fa4c06f4f21169acdc6421f3964"
+    },
+    {
+      "source": "BOTNET CREATION",
+      "target": "CVE-2020-9054",
+      "weight": 7.0,
+      "description": "\"The exploitation of CVE-2020-9054 achieves the tactic of creating a botnet from NAS devices.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3"
+    },
+    {
+      "source": "VOLATILE MEMORY REGIONS",
+      "target": "TRUSTED MASTERS",
+      "weight": 9.0,
+      "description": "\"Only trusted masters should be allowed to write to volatile memory regions during system boot for secure operation.\"",
+      "keywords": "\"Authorize\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "source": "VOLATILE MEMORY REGIONS",
+      "target": "FABRIC MASTER AGENTS",
+      "weight": 8.0,
+      "description": "\"Untrusted fabric master agents can modify volatile memory regions, leading to unauthorized code execution.\"",
+      "keywords": "\"Modify\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "source": "EXPLOIT KIT",
+      "target": "CVE-2020-9054",
+      "weight": 7.0,
+      "description": "\"The exploit kit implements the attack technique of exploiting CVE-2020-9054 in NAS devices.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3"
+    },
+    {
+      "source": "IMPROPER ACCESS CONTROL FOR VOLATILE MEMORY CONTAINING BOOT CODE",
+      "target": "ADVERSARIES",
+      "weight": 18.0,
+      "description": "\"Adversaries exploit improper access control in volatile memory to bypass secure-boot processes.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "source": "CHIPMAKER",
+      "target": "INFORMATION TECHNOLOGY (IT) SYSTEM VULNERABILITY IN OSAT FACILITIES",
+      "weight": 7.0,
+      "description": "\"Chipmakers are impacted by IT system vulnerabilities in OSAT facilities, leading to potential security breaches.\"",
+      "keywords": "\"Impacted_by\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "source": "CHIPMAKER",
+      "target": "OSAT VENDORS",
+      "weight": 8.0,
+      "description": "\"Chipmakers trust OSAT vendors but face risks due to potential vulnerabilities and insider attacks.\"",
+      "keywords": "\"Trust\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "source": "CHIPMAKER",
+      "target": "NON-DISCLOSURE AGREEMENTS (NDAS)",
+      "weight": 13.0,
+      "description": "\"Chipmakers mitigate risks by requiring NDAs with OSAT partners, but this may not fully prevent information sharing or exploitation.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "source": "CHIPMAKER",
+      "target": "CONFIDENTIAL INFORMATION ACCESS CONTROL",
+      "weight": 7.0,
+      "description": "\"Chipmakers employ tactics to minimize confidential information accessible to OSAT vendors to protect against attacks.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "source": "CHIPMAKER",
+      "target": "APPROPRIATE POST-SI TESTS",
+      "weight": 8.0,
+      "description": "\"Chipmakers implement post-si tests to ensure no residual confidential information is left on parts during handover.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "source": "CHIPMAKER",
+      "target": "SECURE COMMUNICATION ARRANGEMENTS",
+      "weight": 9.0,
+      "description": "\"Chipmakers arrange secure communication between OSAT facilities and themselves to protect sensitive information.\"",
+      "keywords": "\"Arrange\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "source": "FIRMWARE UPDATE MECHANISM",
+      "target": "CWE-1277",
+      "weight": 8.0,
+      "description": "\"Enabling firmware updates would mitigate the vulnerability (CWE-1277) and prevent exploitation of CVE-2020-9054.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3"
+    },
+    {
+      "source": "INFORMATION TECHNOLOGY (IT) SYSTEM VULNERABILITY IN OSAT FACILITIES",
+      "target": "OSAT VENDORS",
+      "weight": 9.0,
+      "description": "\"OSAT vendors may have vulnerabilities in their IT systems that can be exploited by attackers.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-c69cdc2b358db3947b3aef626dc12322"
+    },
+    {
+      "source": "SIMULATION AND FORMAL VERIFICATION",
+      "target": "IMPROPER ACCESS CONTROL EXPLOITATION TECHNIQUE",
+      "weight": 8.0,
+      "description": "\"These mitigation measures are intended to prevent or detect attempts to exploit improper access control mechanisms.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-af35a9635813405deb7665cfe32b1124"
+    },
+    {
+      "source": "ACCESS CONTROL OVERRIDE",
+      "target": "BUS CONTROLLER MISUSE ",
+      "weight": 7.0,
+      "description": "\"Implementing access controls mitigates the risk of unauthorized control over bus transactions.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "source": "PHISHING AND EXPLOIT KIT DISTRIBUTION PATTERN",
+      "target": "MALICIOUS ATTACHMENT TRIGGERING",
+      "weight": 9.0,
+      "description": "\"Malicious attachment triggering is a part of the phishing and exploit kit distribution pattern.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "source": "HALT AND CATCH FIRE SEQUENCES",
+      "target": "PATCHING OPERATING SYSTEMS AND TESTING STRATEGIES",
+      "weight": 14.0,
+      "description": "\"Patching operating systems and implementing testing strategies are intended to mitigate the attack technique of executing halt and catch fire sequences.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-31ce69f5b7b26b01bc270585046c09e7"
+    },
+    {
+      "source": "BUS CONTROLLER MISUSE",
+      "target": "CVE-2021-0146 ",
+      "weight": 8.0,
+      "description": "\"Improper bus controlling capability aligns with CVE-2021-0146, which allows escalation of privileges through test or debug logic activation.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "source": "HARDWARE DESIGN WEAKNESS",
+      "target": "SENSOR HARDWARE MISCONFIGURATION ",
+      "weight": 9.0,
+      "description": "\"Architectural design weaknesses in hardware create conditions for sensor misconfigurations and vulnerabilities.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "source": "SHARED MICROARCHITECTURAL RESOURCES (E.G., CACHES, BRANCH PREDICTORS)",
+      "target": "MALICIOUS PROGRAMS",
+      "weight": 8.0,
+      "description": "\"Malicious programs exploit shared resources to create covert channels for data leakage.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-d495a786a338efce093592daaa0f2478"
+    },
+    {
+      "source": "CWE-1290",
+      "target": "BUS TRANSACTIONS",
+      "weight": 8.0,
+      "description": "\"Incorrect decoding affects bus transactions, enabling unauthorized access to assets.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-2a08effb4baf9d8f8c63cdfd2d107514"
+    },
+    {
+      "source": "CVE-2020-12926",
+      "target": "MULTIPLE COMPANIES SHARING UNLOCK CREDENTIALS",
+      "weight": 14.0,
+      "description": "\"The precondition of multiple companies sharing unlock credentials increases the risk of exploiting CVE-2020-12926.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-48f47fa4c06f4f21169acdc6421f3964"
+    },
+    {
+      "source": "CVE-2020-12926",
+      "target": "PRODUCT SOFTWARE",
+      "weight": 16.0,
+      "description": "\"The product software's failure to set a flag as per TPM specifications leads to the CVE-2020-12926 vulnerability.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-48f47fa4c06f4f21169acdc6421f3964"
+    },
+    {
+      "source": "CWE-1317 IMPROPER ACCESS CONTROL IN FABRIC BRIDGE",
+      "target": "SOC FABRIC BRIDGE",
+      "weight": 9.0,
+      "description": "\"The vulnerability exists within the SoC fabric bridge, affecting its security.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-af35a9635813405deb7665cfe32b1124"
+    },
+    {
+      "source": "CWE-1294:MISSING SOURCE IDENTIFIER IN ENTITY TRANSACTIONS ON A SYSTEM-ON-CHIP (SOC)",
+      "target": "TRANSACTION-BASED SECURITY BREACH",
+      "weight": 8.0,
+      "description": "\"The absence of source identifiers in transactions can lead to unintended actions or Denial-of-Service attacks, affecting system integrity and availability.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "source": "CWE-1294:MISSING SOURCE IDENTIFIER IN ENTITY TRANSACTIONS ON A SYSTEM-ON-CHIP (SOC)",
+      "target": "UNAUTHORIZED ACTIONS OR DOS VIA MISSING SOURCE IDENTIFIERS",
+      "weight": 7.0,
+      "description": "\"The absence of source identifiers in transactions can lead to unintended actions, privilege escalation, or Denial-of-Service attacks.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "source": "CVE-2020-9054",
+      "target": "CWE-1277",
+      "weight": 8.0,
+      "description": "\"The firmware updateability issue (CWE-1277) exploited in CVE-2020-9054 allows attackers to compromise NAS devices and create botnets.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-bc102d9f54bb50e60fe4796c747399e3"
+    },
+    {
+      "source": "CWE-1303:NON-TRANSPARENT SHARING OF MICROARCHITECTURAL RESOURCES",
+      "target": "MICROARCHITECTURE EXPLOITATION",
+      "weight": 7.0,
+      "description": "\"The non-transparent sharing of hardware resources can be exploited to violate isolation between execution contexts, affecting system security.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "source": "CWE-1303:NON-TRANSPARENT SHARING OF MICROARCHITECTURAL RESOURCES",
+      "target": "MICROARCHITECTURE EXPLOITATION FOR ISOLATION VIOLATIONS",
+      "weight": 7.0,
+      "description": "\"The non-transparent sharing of hardware resources can be exploited to violate isolation between execution contexts.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "source": "IMPROPER SCRUBBING OF SENSITIVE DATA FROM DECOMMISSIONED DEVICE",
+      "target": "DECOMMISSIONING WITHOUT PROPER DATA REMOVAL",
+      "weight": 8.0,
+      "description": "\"The improper scrubbing of sensitive data is a direct consequence of inadequate preprocessing during decommissioning.\"",
+      "keywords": "\"Precondition\"",
+      "source_id": "chunk-0389a2e07ed94570629739162785392c"
+    },
+    {
+      "source": "IMPROPER SCRUBBING OF SENSITIVE DATA FROM DECOMMISSIONED DEVICE",
+      "target": "SENSITIVE DATA RETRIEVAL BY MALICIOUS ACTORS",
+      "weight": 7.0,
+      "description": "\"Exploitation of improper scrubbing leads to unauthorized access to sensitive data.\"",
+      "keywords": "\"Postcondition\"",
+      "source_id": "chunk-0389a2e07ed94570629739162785392c"
+    },
+    {
+      "source": "CWE-226:INSUFFICIENT OR INCOMPLETE DATA REMOVAL WITHIN HARDWARE COMPONENT",
+      "target": "DATA RECOVERY FROM HARDWARE COMPONENTS",
+      "weight": 9.0,
+      "description": "\"The insufficient data removal process allows sensitive information to be recovered physically, affecting the confidentiality of the system.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "source": "CWE-226:INSUFFICIENT OR INCOMPLETE DATA REMOVAL WITHIN HARDWARE COMPONENT",
+      "target": "DATA RECOVERY FROM HARDWARE COMPONENTS VIA REMANENCE",
+      "weight": 8.0,
+      "description": "\"The incomplete removal of data in hardware components enables recovery through physical properties like remanence.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "source": "CVE-2019-8575",
+      "target": "EXPOSED SENSITIVE INFORMATION AFTER FACTORY RESET",
+      "weight": 7.0,
+      "description": "\"A factory reset on vulnerable devices fails to clear all user information, exposing sensitive details to new owners.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "source": "DEBUG HOOK EXPLOITATION",
+      "target": "PRE-MANUFACTURING CONFIGURATION",
+      "weight": 7.0,
+      "description": "\"Exploiting debug hooks is a technique used to gain unauthorized access in systems not yet in production.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "source": "EXPLOITING MISSING PATCHING ABILITY ",
+      "target": "UNAUTHORIZED ACCESS AND PRIVILEGE ESCALATION ",
+      "weight": 7.0,
+      "description": "\"Adversaries achieve unauthorized access through exploiting systems' inability to patch vulnerabilities.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "source": "FIRMWARE SIGNING KEY MISMANAGEMENT",
+      "target": "PUBLIC KEY RE-USE FOR SIGNING BOTH DEBUG AND PRODUCTION CODE",
+      "weight": 7.0,
+      "description": "\"Improper management of firmware signing keys is a prerequisite for the reuse of public keys in debug and production code.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "source": "VOLATILE MEMORY CONTAINING BOOT CODE",
+      "target": "CWE-1274",
+      "weight": 9.0,
+      "description": "\"CWE-1274 involves improper access control for volatile memory containing boot code, leading to unauthorized modifications.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-283c54bf2a04113b4e93bd42620f4973"
+    },
+    {
+      "source": "SYSTEM IN PRE-MANUFACTURING STAGE",
+      "target": "HARDWARE-ENFORCED ACCESS CONTROL VULNERABILITY (E.G., CVE-2024-1234) ",
+      "weight": 7.0,
+      "description": "\"Being in the pre-manufacturing stage is a prerequisite for exploiting the hardware-enforced access control vulnerability.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "source": "SYSTEM IN PRE-MANUFACTURING STAGE",
+      "target": "HARDWARE-ENFORCED ACCESS CONTROL VULNERABILITY (E.G., CVE-284) ",
+      "weight": 8.0,
+      "description": "\"Being in the pre-manufacturing stage is a prerequisite for exploiting the hardware-enforced access control vulnerability.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "source": "HARDWARE-ENFORCED ACCESS CONTROL VULNERABILITY (E.G., CVE-2024-1234) ",
+      "target": "EXPOSURE OF DEBUG CAPABILITIES IN PRODUCTION CONFIGURATION",
+      "weight": 7.0,
+      "description": "\"Exploiting the vulnerability leads to the postcondition of exposing debug capabilities and unauthorized access.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "source": "MISSING ABILITY TO PATCH ROM CODE ",
+      "target": "KNOWLEDGE OF SYSTEM VULNERABILITIES ",
+      "weight": 6.0,
+      "description": "\"Understanding hardware weaknesses is a prerequisite for adversaries to exploit missing patching capabilities.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "source": "MISSING ABILITY TO PATCH ROM CODE ",
+      "target": "IMPROPER TRANSLATION OF SECURITY ATTRIBUTES ",
+      "weight": 7.0,
+      "description": "\"The improper translation issue is a separate vulnerability but often exploited alongside missing patching capabilities.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "source": "MISSING ABILITY TO PATCH ROM CODE ",
+      "target": "IMMUTABLE ROM CODE ",
+      "weight": 7.0,
+      "description": "\"The inability to patch ROM code leaves systems vulnerable due to immutable vulnerabilities.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "source": "EXPOSURE OF DEBUG CAPABILITIES IN PRODUCTION CONFIGURATION",
+      "target": "HARDWARE-ENFORCED ACCESS CONTROL VULNERABILITY (E.G., CVE-284) ",
+      "weight": 9.0,
+      "description": "\"Exploiting the vulnerability leads to the postcondition of exposing debug capabilities and unauthorized access.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "source": "IMPROPER TRANSLATION OF SECURITY ATTRIBUTES ",
+      "target": "SECURE PATCH SUPPORT AND SIGNAL TRANSLATION ",
+      "weight": 8.0,
+      "description": "\"Mitigation measures ensure proper signal translation and prevent exploitation of attribute translation flaws.\"",
+      "keywords": "\"Mitigate\"",
+      "source_id": "chunk-0337a559ab513922c912320a5f53afbf"
+    },
+    {
+      "source": "ACCESSING DEBUG FEATURES DURING RUNTIME ",
+      "target": "HARDWARE ALLOWS ACTIVATION OF TEST OR DEBUG LOGIC AT RUNTIME ",
+      "weight": 9.0,
+      "description": "\"This attack technique targets the vulnerability where debug features are accessible during runtime.\"",
+      "keywords": "\"Same_as\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "source": "DEBUG HOOK EXPLOITATION TECHNIQUE",
+      "target": "RISKY DEBUG CAPABILITIES IN PRE-RELEASE CONFIGURATIONS",
+      "weight": 8.0,
+      "description": "\"Exploiting debug hooks is a technique used to gain unauthorized access in systems not yet in production.\"",
+      "keywords": "\"Implement\"",
+      "source_id": "chunk-5c85b903657707af65465947038efc98"
+    },
+    {
+      "source": "EXTORTION THROUGH RANSOM DEMAND",
+      "target": "MALICIOUS ATTACHMENT TRIGGERING",
+      "weight": 7.0,
+      "description": "\"The tactic of extortion through ransom demand is accomplished through the attack technique of malicious attachment triggering.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "source": "CVE-2019-13945",
+      "target": "SIMATIC S7-1200 AND S7-200 SMART CPUS",
+      "weight": 18.0,
+      "description": "\"The SIMATIC S7-1200 CPU family (incl. SIPLUS variants) and SIMATIC S7-200 SMART CPU family are vulnerable to the manufacturing access exploit described in CVE-2019-13945.\"",
+      "keywords": "\"Exist_in\"",
+      "source_id": "chunk-413f231b6fa3e23dd4a25e4c2ca5b59e"
+    },
+    {
+      "source": "LACK OF RESTRICTIONS ON TEST/DEBUG ACTIVATION ",
+      "target": "HARDWARE ALLOWS ACTIVATION OF TEST OR DEBUG LOGIC AT RUNTIME ",
+      "weight": 6.0,
+      "description": "\"The lack of restrictions is a prerequisite for exploiting this specific vulnerability.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
+    },
+    {
+      "source": "ACCESS CONTROL WEAKNESS VIA PUBLIC KEY REUSE",
+      "target": "PUBLIC KEY RE-USE FOR SIGNING BOTH DEBUG AND PRODUCTION CODE",
+      "weight": 8.0,
+      "description": "\"The vulnerability of reusing public keys creates an access control weakness that attackers can exploit.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-7acaf7b7bfc562c3e9176c41d3a30307"
+    },
+    {
+      "source": "CWE-1270",
+      "target": "DENIAL-OF-SERVICE (DOS)",
+      "weight": 16.0,
+      "description": "\"Incorrectly generated Security Tokens could result in a Denial-of-Service condition or privilege escalation.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-413f231b6fa3e23dd4a25e4c2ca5b59e"
+    },
+    {
+      "source": "CVE-2021-33150 ",
+      "target": "MISSING WRITE PROTECTION FOR PARAMETRIC DATA VALUES",
+      "weight": 8.0,
+      "description": "\"The vulnerability of missing write protection aligns with CVE-2021-33150, which allows activation of test or debug logic at runtime.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "source": "MISSING WRITE PROTECTION FOR PARAMETRIC DATA VALUES",
+      "target": "CWE ID 862 ",
+      "weight": 7.0,
+      "description": "\"The lack of requirement to protect parametric values contributes to the 'Missing Write Protection' vulnerability as a prerequisite.\"",
+      "keywords": "\"premise\"",
+      "source_id": "chunk-3fe4ba5efb195ee3e2e5da2589957c0b"
+    },
+    {
+      "source": "ACCESS CONTROL CHECK IMPLEMENTED AFTER ASSET IS ACCESSED ",
+      "target": "CWE-1278: CRYPTOGRAPHIC OPERATIONS ARE RUN BEFORE SUPPORTING UNITS ARE READY ",
+      "weight": 7.0,
+      "description": "\"Vulnerabilities in cryptographic operations and access control checks collectively weaken system security.\"",
+      "keywords": "\"Accomplish\"",
+      "source_id": "chunk-1fafa91fe4e5dff2ece171cb782b7c74"
+    },
+    {
+      "source": "CVE-2019-18673",
+      "target": "UNAUTHORIZED DATA ACCESS VIA USB POWER ANALYSIS",
+      "weight": 9.0,
+      "description": "\"The vulnerability allows attackers to read sensitive information such as PINs by analyzing USB power consumption.\"",
+      "keywords": "\"affecting\"",
+      "source_id": "chunk-8912ca8aa61aec55c4d1970fc938d6b9"
+    },
+    {
+      "source": "BYPASSING PROTECTION MECHANISMS ",
+      "target": "MISSING PROTECTION FOR MIRRORED REGIONS",
+      "weight": 7.0,
+      "description": "\"The attack pattern exploits the missing protection for mirrored regions to achieve its goal.\"",
+      "keywords": "\"Exploit\"",
+      "source_id": "chunk-44164e668381aa7c1f320b2f14a0925f"
     }
   ]
 }
